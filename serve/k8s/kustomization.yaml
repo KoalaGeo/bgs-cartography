@@ -1,0 +1,9 @@
+# kubectl apply -k serve/k8s
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: bgs-symbology                          # change me
+resources: [deployment.yaml, service.yaml, ingress.yaml]
+images:
+  - name: ghcr.io/koalageo/bgs-cartography
+    newName: ghcr.io/koalageo/bgs-cartography   # change me
+    newTag: latest

@@ -1,0 +1,2345 @@
+[
+ {
+  "ref": "AGGLOM",
+  "description": "Agglomerate",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   38.49,
+   27.593
+  ],
+  "period_pt": [
+   38.49,
+   27.593
+  ],
+  "mismatch": [
+   0.043,
+   0.041
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   51,
+   37
+  ]
+ },
+ {
+  "ref": "ANHY",
+  "description": "Anhydrite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.698,
+   6.101
+  ],
+  "period_pt": [
+   25.698,
+   6.101
+  ],
+  "mismatch": [
+   0.015,
+   0.012
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   34,
+   8
+  ]
+ },
+ {
+  "ref": "ARE_ST",
+  "description": "Arenaceous seatearth",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.409,
+   18.316
+  ],
+  "period_pt": [
+   6.409,
+   18.316
+  ],
+  "mismatch": [
+   0.039,
+   0.032
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   24
+  ]
+ },
+ {
+  "ref": "BLSND",
+  "description": "Blown sand",
+  "colours": [
+   "#c38957"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.697,
+   12.201
+  ],
+  "period_pt": [
+   25.697,
+   12.201
+  ],
+  "mismatch": [
+   0.006,
+   0.004
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   34,
+   16
+  ]
+ },
+ {
+  "ref": "BCLAY",
+  "description": "Boulder clay",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   39.086,
+   34.244
+  ],
+  "period_pt": [
+   39.086,
+   34.244
+  ],
+  "mismatch": [
+   0.058,
+   0.121
+  ],
+  "swatch_pt": [
+   79.07,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   52,
+   46
+  ]
+ },
+ {
+  "ref": "BREC",
+  "description": "Breccia",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   68.26,
+   35.892
+  ],
+  "period_pt": [
+   null,
+   35.892
+  ],
+  "mismatch": [
+   0.036,
+   0.037
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   91,
+   48
+  ]
+ },
+ {
+  "ref": "CALTUF",
+  "description": "Calcareous tufa",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.697,
+   12.202
+  ],
+  "period_pt": [
+   25.697,
+   12.202
+  ],
+  "mismatch": [
+   0.006,
+   0.005
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   34,
+   16
+  ]
+ },
+ {
+  "ref": "CAT",
+  "description": "Cataclastic rock",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.62,
+   6.1
+  ],
+  "period_pt": [
+   9.62,
+   6.1
+  ],
+  "mismatch": [
+   0.009,
+   0.0
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   13,
+   8
+  ]
+ },
+ {
+  "ref": "CHLK",
+  "description": "Chalk",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   20.8,
+   20.132
+  ],
+  "period_pt": [
+   20.8,
+   20.132
+  ],
+  "mismatch": [
+   0.0,
+   0.1
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   28,
+   27
+  ]
+ },
+ {
+  "ref": "CLST",
+  "description": "Claystone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   68.24,
+   22.802
+  ],
+  "period_pt": [
+   null,
+   22.802
+  ],
+  "mismatch": [
+   0.263,
+   0.013
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   91,
+   30
+  ]
+ },
+ {
+  "ref": "CONG",
+  "description": "Conglomerate",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   23.587,
+   39.892
+  ],
+  "period_pt": [
+   23.587,
+   39.892
+  ],
+  "mismatch": [
+   0.05,
+   0.037
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   31,
+   53
+  ]
+ },
+ {
+  "ref": "CRSRB",
+  "description": "Coursed rubble",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "tile_pt": [
+   69.7,
+   70.7
+  ],
+  "period_pt": [
+   null,
+   null
+  ],
+  "mismatch": [
+   0.567,
+   0.755
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "cropped swatch (not seamless; irregular tessellation)",
+  "sprite_px": [
+   93,
+   94
+  ]
+ },
+ {
+  "ref": "CR_RCK",
+  "description": "Crushed rock",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.409,
+   6.1
+  ],
+  "period_pt": [
+   6.409,
+   6.1
+  ],
+  "mismatch": [
+   0.037,
+   0.0
+  ],
+  "swatch_pt": [
+   79.06,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   8
+  ]
+ },
+ {
+  "ref": "DIST",
+  "description": "Disturbed ground",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   22.703,
+   22.702
+  ],
+  "period_pt": [
+   22.703,
+   22.702
+  ],
+  "mismatch": [
+   0.192,
+   0.19
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   30,
+   30
+  ]
+ },
+ {
+  "ref": "DOLOM",
+  "description": "Dolomite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   68.24,
+   36.601
+  ],
+  "period_pt": [
+   null,
+   36.601
+  ],
+  "mismatch": [
+   0.999,
+   0.006
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   91,
+   49
+  ]
+ },
+ {
+  "ref": "FOUND",
+  "description": "Foundered strata",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.4,
+   6.41
+  ],
+  "period_pt": [
+   6.4,
+   6.41
+  ],
+  "mismatch": [
+   0.0,
+   0.041
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   9
+  ]
+ },
+ {
+  "ref": "STIPP",
+  "description": "General overprint stipple",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   23.587,
+   20.998
+  ],
+  "period_pt": [
+   23.587,
+   20.998
+  ],
+  "mismatch": [
+   0.025,
+   0.005
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   31,
+   28
+  ]
+ },
+ {
+  "ref": "GNEISS",
+  "description": "Gneiss",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.704,
+   61.13
+  ],
+  "period_pt": [
+   25.704,
+   null
+  ],
+  "mismatch": [
+   0.035,
+   0.802
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   34,
+   82
+  ]
+ },
+ {
+  "ref": "GRAN",
+  "description": "Granite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   19.277,
+   18.306
+  ],
+  "period_pt": [
+   19.277,
+   18.306
+  ],
+  "mismatch": [
+   0.057,
+   0.02
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   26,
+   24
+  ]
+ },
+ {
+  "ref": "GRAN_V",
+  "description": "Granite veining",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   64.49,
+   67.21
+  ],
+  "period_pt": [
+   null,
+   null
+  ],
+  "mismatch": [
+   0.297,
+   0.244
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   86,
+   90
+  ]
+ },
+ {
+  "ref": "GR_SCH",
+  "description": "Graphitic schist",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   17.677,
+   18.303
+  ],
+  "period_pt": [
+   17.677,
+   18.303
+  ],
+  "mismatch": [
+   0.122,
+   0.032
+  ],
+  "swatch_pt": [
+   79.06,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   24,
+   24
+  ]
+ },
+ {
+  "ref": "GRAV",
+  "description": "Gravel",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.413,
+   23.421
+  ],
+  "period_pt": [
+   25.413,
+   23.421
+  ],
+  "mismatch": [
+   0.053,
+   0.083
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   34,
+   31
+  ]
+ },
+ {
+  "ref": "GWACKE",
+  "description": "Greywacke",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   67.28,
+   68.3
+  ],
+  "period_pt": [
+   null,
+   null
+  ],
+  "mismatch": [
+   0.83,
+   0.678
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   90,
+   91
+  ]
+ },
+ {
+  "ref": "GYPS",
+  "description": "Gypsum",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.699,
+   6.101
+  ],
+  "period_pt": [
+   25.699,
+   6.101
+  ],
+  "mismatch": [
+   0.012,
+   0.014
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 47
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   34,
+   8
+  ]
+ },
+ {
+  "ref": "IG",
+  "description": "Igneous",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   67.32,
+   30.825
+  ],
+  "period_pt": [
+   null,
+   30.825
+  ],
+  "mismatch": [
+   0.895,
+   0.073
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   90,
+   41
+  ]
+ },
+ {
+  "ref": "INFILL",
+  "description": "Infilled ground",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.091,
+   9.091
+  ],
+  "period_pt": [
+   9.091,
+   9.091
+  ],
+  "mismatch": [
+   0.039,
+   0.039
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   12,
+   12
+  ]
+ },
+ {
+  "ref": "LASC",
+  "description": "Landscaped ground",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   22.702,
+   22.703
+  ],
+  "period_pt": [
+   22.702,
+   22.703
+  ],
+  "mismatch": [
+   0.192,
+   0.194
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   30,
+   30
+  ]
+ },
+ {
+  "ref": "LAND",
+  "description": "Landslip",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.41,
+   6.4
+  ],
+  "period_pt": [
+   6.41,
+   6.4
+  ],
+  "mismatch": [
+   0.041,
+   0.0
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   9
+  ]
+ },
+ {
+  "ref": "LAVA",
+  "description": "Lava",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   64.4,
+   28.397
+  ],
+  "period_pt": [
+   null,
+   28.397
+  ],
+  "mismatch": [
+   0.915,
+   0.014
+  ],
+  "swatch_pt": [
+   79.07,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   86,
+   38
+  ]
+ },
+ {
+  "ref": "LAV_TU",
+  "description": "Lava and tuff",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   38.777,
+   28.039
+  ],
+  "period_pt": [
+   38.777,
+   28.039
+  ],
+  "mismatch": [
+   0.135,
+   0.16
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   52,
+   37
+  ]
+ },
+ {
+  "ref": "LMST",
+  "description": "Limestone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   18.202,
+   12.813
+  ],
+  "period_pt": [
+   18.202,
+   12.813
+  ],
+  "mismatch": [
+   0.002,
+   0.061
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   24,
+   17
+  ]
+ },
+ {
+  "ref": "LMST_D",
+  "description": "Limestone bands",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   22.485,
+   20.5
+  ],
+  "period_pt": [
+   22.485,
+   20.5
+  ],
+  "mismatch": [
+   0.095,
+   0.0
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   30,
+   27
+  ]
+ },
+ {
+  "ref": "LMST_B",
+  "description": "Limestone beds",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   18.2,
+   9.604
+  ],
+  "period_pt": [
+   18.2,
+   9.604
+  ],
+  "mismatch": [
+   0.0,
+   0.025
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   24,
+   13
+  ]
+ },
+ {
+  "ref": "LMST_T",
+  "description": "Limestone thin bed partings",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   22.773,
+   40.496
+  ],
+  "period_pt": [
+   22.773,
+   40.496
+  ],
+  "mismatch": [
+   0.136,
+   0.029
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   30,
+   54
+  ]
+ },
+ {
+  "ref": "MADE",
+  "description": "Made ground",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.091,
+   9.092
+  ],
+  "period_pt": [
+   9.091,
+   9.092
+  ],
+  "mismatch": [
+   0.043,
+   0.041
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   12,
+   12
+  ]
+ },
+ {
+  "ref": "MARBLE",
+  "description": "Marble",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "tile_pt": [
+   69.8,
+   70.7
+  ],
+  "period_pt": [
+   null,
+   25.716
+  ],
+  "mismatch": [
+   0.542,
+   0.083
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "cropped swatch (not seamless; irregular tessellation)",
+  "sprite_px": [
+   93,
+   94
+  ]
+ },
+ {
+  "ref": "MARINE",
+  "description": "Marine overprint (white)",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.803,
+   6.191
+  ],
+  "period_pt": [
+   6.803,
+   6.191
+  ],
+  "mismatch": [
+   0.006,
+   0.014
+  ],
+  "swatch_pt": [
+   79.06,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   8
+  ]
+ },
+ {
+  "ref": "LMST_M",
+  "description": "Massive limestone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   30.018,
+   21.168
+  ],
+  "period_pt": [
+   30.018,
+   21.168
+  ],
+  "mismatch": [
+   0.093,
+   0.113
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   40,
+   28
+  ]
+ },
+ {
+  "ref": "METASD",
+  "description": "Metasediment",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   27.92,
+   19.899
+  ],
+  "period_pt": [
+   27.92,
+   19.899
+  ],
+  "mismatch": [
+   0.032,
+   0.006
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   37,
+   27
+  ]
+ },
+ {
+  "ref": "MIGM",
+  "description": "Migmatisation",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   13.418,
+   12.53
+  ],
+  "period_pt": [
+   13.418,
+   12.53
+  ],
+  "mismatch": [
+   0.058,
+   0.1
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   18,
+   17
+  ]
+ },
+ {
+  "ref": "LMST_G",
+  "description": "Mixed group with calc-schist/ limestone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   19.803,
+   9.493
+  ],
+  "period_pt": [
+   19.803,
+   9.493
+  ],
+  "mismatch": [
+   0.018,
+   0.031
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   26,
+   13
+  ]
+ },
+ {
+  "ref": "MDST",
+  "description": "Mudstone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.4,
+   6.103
+  ],
+  "period_pt": [
+   6.4,
+   6.103
+  ],
+  "mismatch": [
+   0.0,
+   0.02
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   8
+  ]
+ },
+ {
+  "ref": "LMST_O",
+  "description": "Ooidal limestone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   18.211,
+   12.806
+  ],
+  "period_pt": [
+   18.211,
+   12.806
+  ],
+  "mismatch": [
+   0.055,
+   0.034
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   24,
+   17
+  ]
+ },
+ {
+  "ref": "ST_BLK",
+  "description": "Overprint stipple for various rock types Black",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   12.844,
+   12.847
+  ],
+  "period_pt": [
+   12.844,
+   12.847
+  ],
+  "mismatch": [
+   0.047,
+   0.049
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   17,
+   17
+  ]
+ },
+ {
+  "ref": "ST_CYN",
+  "description": "Overprint stipple for various rock types Cyan",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   12.834,
+   12.837
+  ],
+  "period_pt": [
+   12.834,
+   12.837
+  ],
+  "mismatch": [
+   0.042,
+   0.044
+  ],
+  "swatch_pt": [
+   79.06,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   17,
+   17
+  ]
+ },
+ {
+  "ref": "ST_MAG",
+  "description": "Overprint stipple for various rock types Magenta",
+  "colours": [
+   "#ec008c"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   12.845,
+   12.846
+  ],
+  "period_pt": [
+   12.845,
+   12.846
+  ],
+  "mismatch": [
+   0.048,
+   0.049
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   17,
+   17
+  ]
+ },
+ {
+  "ref": "ST_OR",
+  "description": "Overprint stipple for various rock types Orange",
+  "colours": [
+   "#f36f51"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   12.846,
+   12.839
+  ],
+  "period_pt": [
+   12.846,
+   12.839
+  ],
+  "mismatch": [
+   0.049,
+   0.046
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   17,
+   17
+  ]
+ },
+ {
+  "ref": "ST_YEL",
+  "description": "Overprint stipple for various rock types Yellow",
+  "colours": [
+   "#ffe800"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   12.843,
+   12.85
+  ],
+  "period_pt": [
+   12.843,
+   12.85
+  ],
+  "mismatch": [
+   0.049,
+   0.052
+  ],
+  "swatch_pt": [
+   79.06,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 48
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   17,
+   17
+  ]
+ },
+ {
+  "ref": "PEBBLE",
+  "description": "Pebbles",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   40.633,
+   40.404
+  ],
+  "period_pt": [
+   40.633,
+   40.404
+  ],
+  "mismatch": [
+   0.074,
+   0.018
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   54,
+   54
+  ]
+ },
+ {
+  "ref": "PEG",
+  "description": "Pegmatite or vein complexes",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   12.885,
+   13.503
+  ],
+  "period_pt": [
+   12.885,
+   13.503
+  ],
+  "mismatch": [
+   0.115,
+   0.009
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   17,
+   18
+  ]
+ },
+ {
+  "ref": "PELITE",
+  "description": "Pelite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   8.0,
+   7.611
+  ],
+  "period_pt": [
+   8.0,
+   7.611
+  ],
+  "mismatch": [
+   0.0,
+   0.045
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   11,
+   10
+  ]
+ },
+ {
+  "ref": "LMST_P",
+  "description": "Pisoidal limestone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   18.203,
+   12.803
+  ],
+  "period_pt": [
+   18.203,
+   12.803
+  ],
+  "mismatch": [
+   0.023,
+   0.022
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   24,
+   17
+  ]
+ },
+ {
+  "ref": "PSAMM",
+  "description": "Psammite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   16.501,
+   67.23
+  ],
+  "period_pt": [
+   16.501,
+   null
+  ],
+  "mismatch": [
+   0.012,
+   0.201
+  ],
+  "swatch_pt": [
+   79.07,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   22,
+   90
+  ]
+ },
+ {
+  "ref": "QUART",
+  "description": "Quartzite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   22.001,
+   14.022
+  ],
+  "period_pt": [
+   22.001,
+   14.022
+  ],
+  "mismatch": [
+   0.008,
+   0.172
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   29,
+   19
+  ]
+ },
+ {
+  "ref": "RNRBL",
+  "description": "Random rubble",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "tile_pt": [
+   69.8,
+   70.8
+  ],
+  "period_pt": [
+   null,
+   39.674
+  ],
+  "mismatch": [
+   0.698,
+   0.098
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "cropped swatch (not seamless; irregular tessellation)",
+  "sprite_px": [
+   93,
+   94
+  ]
+ },
+ {
+  "ref": "RECL",
+  "description": "Reclaimed ground",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   7.7,
+   25.698
+  ],
+  "period_pt": [
+   7.7,
+   25.698
+  ],
+  "mismatch": [
+   0.013,
+   0.016
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   10,
+   34
+  ]
+ },
+ {
+  "ref": "GNE_RW",
+  "description": "Reworked gneisses",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   10.287,
+   6.101
+  ],
+  "period_pt": [
+   10.287,
+   6.101
+  ],
+  "mismatch": [
+   0.05,
+   0.007
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   14,
+   8
+  ]
+ },
+ {
+  "ref": "LMST_R",
+  "description": "Rubbly limestone; poorly bedded",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   68.24,
+   25.6
+  ],
+  "period_pt": [
+   null,
+   25.6
+  ],
+  "mismatch": [
+   0.231,
+   0.001
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   91,
+   34
+  ]
+ },
+ {
+  "ref": "SAND",
+  "description": "Sand",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   68.24,
+   69.23
+  ],
+  "period_pt": [
+   null,
+   null
+  ],
+  "mismatch": [
+   0.824,
+   0.964
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   91,
+   92
+  ]
+ },
+ {
+  "ref": "SNDST",
+  "description": "Sandstone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   28.903,
+   18.303
+  ],
+  "period_pt": [
+   28.903,
+   18.303
+  ],
+  "mismatch": [
+   0.031,
+   0.034
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   39,
+   24
+  ]
+ },
+ {
+  "ref": "LMST_S",
+  "description": "Sandy limestone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   54.606,
+   12.801
+  ],
+  "period_pt": [
+   null,
+   12.801
+  ],
+  "mismatch": [
+   0.374,
+   0.006
+  ],
+  "swatch_pt": [
+   79.07,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges) with width snapped to LMST brick period",
+  "sprite_px": [
+   73,
+   17
+  ]
+ },
+ {
+  "ref": "SHALE",
+  "description": "Shale",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   6.4,
+   8.794
+  ],
+  "period_pt": [
+   6.4,
+   8.794
+  ],
+  "mismatch": [
+   0.0,
+   0.048
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   9,
+   12
+  ]
+ },
+ {
+  "ref": "SHMRL",
+  "description": "Shell marl",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   25.698,
+   12.202
+  ],
+  "period_pt": [
+   25.698,
+   12.202
+  ],
+  "mismatch": [
+   0.004,
+   0.004
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   34,
+   16
+  ]
+ },
+ {
+  "ref": "SLTST",
+  "description": "Siltstone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.628,
+   12.2
+  ],
+  "period_pt": [
+   9.628,
+   12.2
+  ],
+  "mismatch": [
+   0.012,
+   0.0
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   13,
+   16
+  ]
+ },
+ {
+  "ref": "SLTMD",
+  "description": "Silty mudstone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.576,
+   6.1
+  ],
+  "period_pt": [
+   9.576,
+   6.1
+  ],
+  "mismatch": [
+   0.026,
+   0.0
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   13,
+   8
+  ]
+ },
+ {
+  "ref": "SLTSND",
+  "description": "Silty sandstone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.651,
+   12.2
+  ],
+  "period_pt": [
+   9.651,
+   12.2
+  ],
+  "mismatch": [
+   0.059,
+   0.001
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   13,
+   16
+  ]
+ },
+ {
+  "ref": "SALT",
+  "description": "Sodium salt",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   11.9,
+   22.709
+  ],
+  "period_pt": [
+   11.9,
+   22.709
+  ],
+  "mismatch": [
+   0.0,
+   0.033
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   16,
+   30
+  ]
+ },
+ {
+  "ref": "TUFF",
+  "description": "Tuff",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   34.414,
+   23.935
+  ],
+  "period_pt": [
+   34.414,
+   23.935
+  ],
+  "mismatch": [
+   0.134,
+   0.09
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   46,
+   32
+  ]
+ },
+ {
+  "ref": "TURB",
+  "description": "Turbidite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   67.11,
+   31.579
+  ],
+  "period_pt": [
+   null,
+   31.579
+  ],
+  "mismatch": [
+   0.913,
+   0.12
+  ],
+  "swatch_pt": [
+   79.07,
+   90.34
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "wrapped marks (seamless; irregular marks re-arranged at tile edges)",
+  "sprite_px": [
+   89,
+   42
+  ]
+ },
+ {
+  "ref": "WORK",
+  "description": "Worked ground",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   9.092,
+   9.092
+  ],
+  "period_pt": [
+   9.092,
+   9.092
+  ],
+  "mismatch": [
+   0.042,
+   0.042
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   12,
+   12
+  ]
+ },
+ {
+  "ref": "XENO",
+  "description": "Xenoliths",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "tile_pt": [
+   23.34,
+   21.679
+  ],
+  "period_pt": [
+   23.34,
+   21.679
+  ],
+  "mismatch": [
+   0.097,
+   0.086
+  ],
+  "swatch_pt": [
+   79.07,
+   90.33
+  ],
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 49
+  },
+  "tile_method": "exact repeat (period detected)",
+  "sprite_px": [
+   31,
+   29
+  ]
+ }
+]

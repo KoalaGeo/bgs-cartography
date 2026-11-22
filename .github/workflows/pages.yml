@@ -1,0 +1,37 @@
+# Publishes the MapLibre demo (docs/) plus the sprite and SVG assets to GitHub Pages.
+# Enable once: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Deploy demo to GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Point SLDs and manifest at the Pages URL, then assemble
+        run: |
+          OWNER="${GITHUB_REPOSITORY_OWNER,,}"; REPO="${GITHUB_REPOSITORY#*/}"
+          python3 scripts/make_web_styles.py . --base-url "https://${OWNER}.github.io/${REPO}/v3"
+          scripts/assemble_site.sh _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

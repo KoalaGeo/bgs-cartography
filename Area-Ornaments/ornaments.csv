@@ -1,0 +1,72 @@
+ref,description,colours,seamless,tile_method,tile_width_pt,tile_height_pt,swatch_svg,tile_svg,sprite_name
+AGGLOM,Agglomerate,#000000,True,exact repeat (period detected),38.49,27.593,swatch/AGGLOM.svg,tile/AGGLOM.svg,orn-AGGLOM
+ANHY,Anhydrite,#000000,True,exact repeat (period detected),25.698,6.101,swatch/ANHY.svg,tile/ANHY.svg,orn-ANHY
+ARE_ST,Arenaceous seatearth,#000000,True,exact repeat (period detected),6.409,18.316,swatch/ARE_ST.svg,tile/ARE_ST.svg,orn-ARE_ST
+BLSND,Blown sand,#c38957,True,exact repeat (period detected),25.697,12.201,swatch/BLSND.svg,tile/BLSND.svg,orn-BLSND
+BCLAY,Boulder clay,#000000,True,exact repeat (period detected),39.086,34.244,swatch/BCLAY.svg,tile/BCLAY.svg,orn-BCLAY
+BREC,Breccia,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),68.26,35.892,swatch/BREC.svg,tile/BREC.svg,orn-BREC
+CALTUF,Calcareous tufa,#0091d6,True,exact repeat (period detected),25.697,12.202,swatch/CALTUF.svg,tile/CALTUF.svg,orn-CALTUF
+CAT,Cataclastic rock,#000000,True,exact repeat (period detected),9.62,6.1,swatch/CAT.svg,tile/CAT.svg,orn-CAT
+CHLK,Chalk,#000000,True,exact repeat (period detected),20.8,20.132,swatch/CHLK.svg,tile/CHLK.svg,orn-CHLK
+CLST,Claystone,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),68.24,22.802,swatch/CLST.svg,tile/CLST.svg,orn-CLST
+CONG,Conglomerate,#000000,True,exact repeat (period detected),23.587,39.892,swatch/CONG.svg,tile/CONG.svg,orn-CONG
+CRSRB,Coursed rubble,#000000,False,cropped swatch (not seamless; irregular tessellation),69.7,70.7,swatch/CRSRB.svg,tile/CRSRB.svg,orn-CRSRB
+CR_RCK,Crushed rock,#000000,True,exact repeat (period detected),6.409,6.1,swatch/CR_RCK.svg,tile/CR_RCK.svg,orn-CR_RCK
+DIST,Disturbed ground,#000000,True,exact repeat (period detected),22.703,22.702,swatch/DIST.svg,tile/DIST.svg,orn-DIST
+DOLOM,Dolomite,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),68.24,36.601,swatch/DOLOM.svg,tile/DOLOM.svg,orn-DOLOM
+FOUND,Foundered strata,#000000,True,exact repeat (period detected),6.4,6.41,swatch/FOUND.svg,tile/FOUND.svg,orn-FOUND
+STIPP,General overprint stipple,#000000,True,exact repeat (period detected),23.587,20.998,swatch/STIPP.svg,tile/STIPP.svg,orn-STIPP
+GNEISS,Gneiss,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),25.704,61.13,swatch/GNEISS.svg,tile/GNEISS.svg,orn-GNEISS
+GRAN,Granite,#000000,True,exact repeat (period detected),19.277,18.306,swatch/GRAN.svg,tile/GRAN.svg,orn-GRAN
+GRAN_V,Granite veining,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),64.49,67.21,swatch/GRAN_V.svg,tile/GRAN_V.svg,orn-GRAN_V
+GR_SCH,Graphitic schist,#000000,True,exact repeat (period detected),17.677,18.303,swatch/GR_SCH.svg,tile/GR_SCH.svg,orn-GR_SCH
+GRAV,Gravel,#000000,True,exact repeat (period detected),25.413,23.421,swatch/GRAV.svg,tile/GRAV.svg,orn-GRAV
+GWACKE,Greywacke,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),67.28,68.3,swatch/GWACKE.svg,tile/GWACKE.svg,orn-GWACKE
+GYPS,Gypsum,#000000,True,exact repeat (period detected),25.699,6.101,swatch/GYPS.svg,tile/GYPS.svg,orn-GYPS
+IG,Igneous,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),67.32,30.825,swatch/IG.svg,tile/IG.svg,orn-IG
+INFILL,Infilled ground,#000000,True,exact repeat (period detected),9.091,9.091,swatch/INFILL.svg,tile/INFILL.svg,orn-INFILL
+LASC,Landscaped ground,#000000,True,exact repeat (period detected),22.702,22.703,swatch/LASC.svg,tile/LASC.svg,orn-LASC
+LAND,Landslip,#000000,True,exact repeat (period detected),6.41,6.4,swatch/LAND.svg,tile/LAND.svg,orn-LAND
+LAVA,Lava,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),64.4,28.397,swatch/LAVA.svg,tile/LAVA.svg,orn-LAVA
+LAV_TU,Lava and tuff,#000000,True,exact repeat (period detected),38.777,28.039,swatch/LAV_TU.svg,tile/LAV_TU.svg,orn-LAV_TU
+LMST,Limestone,#000000,True,exact repeat (period detected),18.202,12.813,swatch/LMST.svg,tile/LMST.svg,orn-LMST
+LMST_D,Limestone bands,#000000,True,exact repeat (period detected),22.485,20.5,swatch/LMST_D.svg,tile/LMST_D.svg,orn-LMST_D
+LMST_B,Limestone beds,#000000,True,exact repeat (period detected),18.2,9.604,swatch/LMST_B.svg,tile/LMST_B.svg,orn-LMST_B
+LMST_T,Limestone thin bed partings,#000000,True,exact repeat (period detected),22.773,40.496,swatch/LMST_T.svg,tile/LMST_T.svg,orn-LMST_T
+MADE,Made ground,#000000,True,exact repeat (period detected),9.091,9.092,swatch/MADE.svg,tile/MADE.svg,orn-MADE
+MARBLE,Marble,#000000,False,cropped swatch (not seamless; irregular tessellation),69.8,70.7,swatch/MARBLE.svg,tile/MARBLE.svg,orn-MARBLE
+MARINE,Marine overprint (white),#000000,True,exact repeat (period detected),6.803,6.191,swatch/MARINE.svg,tile/MARINE.svg,orn-MARINE
+LMST_M,Massive limestone,#000000,True,exact repeat (period detected),30.018,21.168,swatch/LMST_M.svg,tile/LMST_M.svg,orn-LMST_M
+METASD,Metasediment,#000000,True,exact repeat (period detected),27.92,19.899,swatch/METASD.svg,tile/METASD.svg,orn-METASD
+MIGM,Migmatisation,#000000,True,exact repeat (period detected),13.418,12.53,swatch/MIGM.svg,tile/MIGM.svg,orn-MIGM
+LMST_G,Mixed group with calc-schist/ limestone,#000000,True,exact repeat (period detected),19.803,9.493,swatch/LMST_G.svg,tile/LMST_G.svg,orn-LMST_G
+MDST,Mudstone,#000000,True,exact repeat (period detected),6.4,6.103,swatch/MDST.svg,tile/MDST.svg,orn-MDST
+LMST_O,Ooidal limestone,#000000,True,exact repeat (period detected),18.211,12.806,swatch/LMST_O.svg,tile/LMST_O.svg,orn-LMST_O
+ST_BLK,Overprint stipple for various rock types Black,#000000,True,exact repeat (period detected),12.844,12.847,swatch/ST_BLK.svg,tile/ST_BLK.svg,orn-ST_BLK
+ST_CYN,Overprint stipple for various rock types Cyan,#0091d6,True,exact repeat (period detected),12.834,12.837,swatch/ST_CYN.svg,tile/ST_CYN.svg,orn-ST_CYN
+ST_MAG,Overprint stipple for various rock types Magenta,#ec008c,True,exact repeat (period detected),12.845,12.846,swatch/ST_MAG.svg,tile/ST_MAG.svg,orn-ST_MAG
+ST_OR,Overprint stipple for various rock types Orange,#f36f51,True,exact repeat (period detected),12.846,12.839,swatch/ST_OR.svg,tile/ST_OR.svg,orn-ST_OR
+ST_YEL,Overprint stipple for various rock types Yellow,#ffe800,True,exact repeat (period detected),12.843,12.85,swatch/ST_YEL.svg,tile/ST_YEL.svg,orn-ST_YEL
+PEBBLE,Pebbles,#000000,True,exact repeat (period detected),40.633,40.404,swatch/PEBBLE.svg,tile/PEBBLE.svg,orn-PEBBLE
+PEG,Pegmatite or vein complexes,#000000,True,exact repeat (period detected),12.885,13.503,swatch/PEG.svg,tile/PEG.svg,orn-PEG
+PELITE,Pelite,#000000,True,exact repeat (period detected),8.0,7.611,swatch/PELITE.svg,tile/PELITE.svg,orn-PELITE
+LMST_P,Pisoidal limestone,#000000,True,exact repeat (period detected),18.203,12.803,swatch/LMST_P.svg,tile/LMST_P.svg,orn-LMST_P
+PSAMM,Psammite,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),16.501,67.23,swatch/PSAMM.svg,tile/PSAMM.svg,orn-PSAMM
+QUART,Quartzite,#000000,True,exact repeat (period detected),22.001,14.022,swatch/QUART.svg,tile/QUART.svg,orn-QUART
+RNRBL,Random rubble,#000000,False,cropped swatch (not seamless; irregular tessellation),69.8,70.8,swatch/RNRBL.svg,tile/RNRBL.svg,orn-RNRBL
+RECL,Reclaimed ground,#000000,True,exact repeat (period detected),7.7,25.698,swatch/RECL.svg,tile/RECL.svg,orn-RECL
+GNE_RW,Reworked gneisses,#000000,True,exact repeat (period detected),10.287,6.101,swatch/GNE_RW.svg,tile/GNE_RW.svg,orn-GNE_RW
+LMST_R,Rubbly limestone; poorly bedded,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),68.24,25.6,swatch/LMST_R.svg,tile/LMST_R.svg,orn-LMST_R
+SAND,Sand,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),68.24,69.23,swatch/SAND.svg,tile/SAND.svg,orn-SAND
+SNDST,Sandstone,#000000,True,exact repeat (period detected),28.903,18.303,swatch/SNDST.svg,tile/SNDST.svg,orn-SNDST
+LMST_S,Sandy limestone,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges) with width snapped to LMST brick period,54.606,12.801,swatch/LMST_S.svg,tile/LMST_S.svg,orn-LMST_S
+SHALE,Shale,#000000,True,exact repeat (period detected),6.4,8.794,swatch/SHALE.svg,tile/SHALE.svg,orn-SHALE
+SHMRL,Shell marl,#0091d6,True,exact repeat (period detected),25.698,12.202,swatch/SHMRL.svg,tile/SHMRL.svg,orn-SHMRL
+SLTST,Siltstone,#000000,True,exact repeat (period detected),9.628,12.2,swatch/SLTST.svg,tile/SLTST.svg,orn-SLTST
+SLTMD,Silty mudstone,#000000,True,exact repeat (period detected),9.576,6.1,swatch/SLTMD.svg,tile/SLTMD.svg,orn-SLTMD
+SLTSND,Silty sandstone,#000000,True,exact repeat (period detected),9.651,12.2,swatch/SLTSND.svg,tile/SLTSND.svg,orn-SLTSND
+SALT,Sodium salt,#000000,True,exact repeat (period detected),11.9,22.709,swatch/SALT.svg,tile/SALT.svg,orn-SALT
+TUFF,Tuff,#000000,True,exact repeat (period detected),34.414,23.935,swatch/TUFF.svg,tile/TUFF.svg,orn-TUFF
+TURB,Turbidite,#000000,True,wrapped marks (seamless; irregular marks re-arranged at tile edges),67.11,31.579,swatch/TURB.svg,tile/TURB.svg,orn-TURB
+WORK,Worked ground,#000000,True,exact repeat (period detected),9.092,9.092,swatch/WORK.svg,tile/WORK.svg,orn-WORK
+XENO,Xenoliths,#000000,True,exact repeat (period detected),23.34,21.679,swatch/XENO.svg,tile/XENO.svg,orn-XENO

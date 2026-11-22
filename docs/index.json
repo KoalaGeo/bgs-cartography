@@ -1,0 +1,52 @@
+{
+ "name": "BGS cartographic standard geological symbology",
+ "edition": "RR/01/01 version 3 (2002)",
+ "base_url": "https://koalageo.github.io/bgs-cartography/v3",
+ "counts": {
+  "symbols": 451,
+  "ornaments": 71,
+  "line_styles": 96
+ },
+ "maplibre": {
+  "sprite": "https://koalageo.github.io/bgs-cartography/v3/sprites/bgs-symbology",
+  "image_names": {
+   "symbol": "sym-{REF}",
+   "ornament": "orn-{REF}",
+   "line": "line-{id}"
+  }
+ },
+ "templates": {
+  "symbol_svg": "https://koalageo.github.io/bgs-cartography/v3/symbols/svg/{REF}.svg",
+  "symbol_svg_24px": "https://koalageo.github.io/bgs-cartography/v3/symbols/svg-24px/{REF}_24px.svg",
+  "symbol_svg_48px": "https://koalageo.github.io/bgs-cartography/v3/symbols/svg-48px/{REF}_48px.svg",
+  "ornament_tile_svg": "https://koalageo.github.io/bgs-cartography/v3/ornaments/tile/{REF}.svg",
+  "ornament_swatch_svg": "https://koalageo.github.io/bgs-cartography/v3/ornaments/swatch/{REF}.svg",
+  "line_tile_svg": "https://koalageo.github.io/bgs-cartography/v3/lines/tile/{id}.svg",
+  "line_tile_png_4x": "https://koalageo.github.io/bgs-cartography/v3/lines/png/{id}.png",
+  "line_swatch_svg": "https://koalageo.github.io/bgs-cartography/v3/lines/swatch/{id}.svg"
+ },
+ "catalogues": {
+  "symbols_json": "https://koalageo.github.io/bgs-cartography/v3/symbols/symbols.json",
+  "symbols_csv": "https://koalageo.github.io/bgs-cartography/v3/symbols/symbols.csv",
+  "ornaments_json": "https://koalageo.github.io/bgs-cartography/v3/ornaments/ornaments.json",
+  "ornaments_csv": "https://koalageo.github.io/bgs-cartography/v3/ornaments/ornaments.csv",
+  "lines_json": "https://koalageo.github.io/bgs-cartography/v3/lines/lines.json",
+  "lines_csv": "https://koalageo.github.io/bgs-cartography/v3/lines/lines.csv"
+ },
+ "styles": {
+  "geoserver_symbols_sld": "https://koalageo.github.io/bgs-cartography/v3/styles/geoserver/bgs_symbols.sld",
+  "geoserver_ornaments_sld": "https://koalageo.github.io/bgs-cartography/v3/styles/geoserver/bgs_ornaments.sld",
+  "geoserver_line_styles_sld": "https://koalageo.github.io/bgs-cartography/v3/styles/geoserver/bgs_line_styles.sld",
+  "qgis_library_embedded": "https://koalageo.github.io/bgs-cartography/v3/styles/qgis/bgs-symbology-embedded.xml",
+  "qgis_library_linked": "https://koalageo.github.io/bgs-cartography/v3/styles/qgis/bgs-symbology-linked.xml",
+  "qgis_symbols_qml": "https://koalageo.github.io/bgs-cartography/v3/styles/qgis/bgs_symbols.qml",
+  "qgis_ornaments_qml": "https://koalageo.github.io/bgs-cartography/v3/styles/qgis/bgs_ornaments.qml",
+  "qgis_line_styles_qml": "https://koalageo.github.io/bgs-cartography/v3/styles/qgis/bgs_line_styles.qml"
+ },
+ "attributes": {
+  "symbol": "ref",
+  "rotation": "rotation",
+  "ornament": "ref",
+  "line": "id"
+ }
+}

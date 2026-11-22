@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bgs-symbology
+  labels: { app.kubernetes.io/name: bgs-symbology }
+spec:
+  selector: { app.kubernetes.io/name: bgs-symbology }
+  ports: [{ name: http, port: 80, targetPort: http }]

@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: bgs-symbology
+  labels: { app.kubernetes.io/name: bgs-symbology }
+  # annotations:                                  # e.g. cert-manager
+  #   cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: symbology.example.org                 # change me
+      http:
+        paths:
+          - path: /symbology
+            pathType: Prefix
+            backend: { service: { name: bgs-symbology, port: { name: http } } }
+  # tls:
+  #   - hosts: [symbology.example.org]
+  #     secretName: bgs-symbology-tls
