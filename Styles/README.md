@@ -7,7 +7,7 @@ Ready-made styles for desktop GIS and map servers, all generated from the same c
 | File | What it is |
 |---|---|
 | `bgs-symbology-embedded.xml` | **Symbol library** with all 618 symbols (451 markers, 71 fills, 96 lines). The graphics are embedded, so it works offline and does not depend on any URL. **Style Manager → Import/Export → Import Items**. Tagged `BGS symbols`, `BGS ornaments`, `BGS line styles` and by classification. |
-| `bgs-symbology-linked.xml` | The same library, with graphics referenced by URL from the published site. Smaller, but needs network access. |
+| `bgs-symbology-linked.xml` | The same library, with graphics referenced by URL from the published site. Smaller, but needs network access. Download it from the published site (`<site>/v3/styles/qgis/`): the copy in this folder has relative paths (see below). |
 | `bgs_symbols.qml` | Categorised **layer style** for point layers with a `ref` attribute (e.g. `ALV`). Structural symbols rotate by the `rotation` attribute. |
 | `bgs_ornaments.qml` | Categorised style for polygon layers with a `ref` attribute (e.g. `LMST`). Pattern only: add a coloured fill underneath (duplicate the layer, or add a simple fill symbol layer). |
 | `bgs_line_styles.qml` | Categorised style for line layers with an `id` attribute (e.g. `fault_thrust_observed`). |
@@ -25,7 +25,7 @@ To use different attribute names, regenerate:
 | `bgs_ornaments.sld` | `PolygonSymbolizer` + `GraphicFill` with the seamless tile |
 | `bgs_line_styles.sld` | `LineSymbolizer` + `GraphicStroke` with the line tile |
 
-SLD 1.0, graphics referenced by absolute URL (GeoServer fetches and caches them). The URLs are regenerated for wherever the site is published (see [`../serve`](../serve)). To keep GeoServer self-contained instead, copy the SVG folders into the GeoServer data directory and regenerate with a relative base, e.g. `--base-url bgs` so that `bgs/symbols/svg/ALV.svg` resolves next to the style.
+SLD 1.0. **The copies in this folder use paths relative to where they are published** (`../../symbols/svg/ALV.svg` from `v3/styles/geoserver/`), so the repository names no host and survives being transferred. The copies on the published site (`<site>/v3/styles/geoserver/`) have absolute URLs, written by the Pages workflow or the Docker build; use those with GeoServer, which fetches and caches the graphics. To make absolute copies for another host: `python3 scripts/make_web_styles.py . --base-url https://your.host/symbology/v3`. To keep GeoServer self-contained instead, copy the published `v3` tree into the GeoServer data directory and use the relative SLDs, which then find the SVGs next to them.
 
 **Status:** QGIS 3.34 loads all three SLDs and renders the point and fill rules with graphics fetched over HTTP. QGIS's SLD importer does not support `GraphicStroke` with an external graphic, so it draws the line rules as plain lines. **These SLDs have not been tested in GeoServer itself.** Check them on a test layer before using them in production WMS.
 

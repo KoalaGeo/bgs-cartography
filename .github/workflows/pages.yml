@@ -1,5 +1,9 @@
-# Publishes the MapLibre demo (docs/) plus the sprite and SVG assets to GitHub Pages.
+# Publishes the MapLibre demo (docs/) plus the sprite, SVG and style assets to GitHub Pages.
 # Enable once: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+#
+# Nothing here names the repository owner: the site URL comes from GitHub (configure-pages),
+# so the workflow keeps working after the repository is transferred or renamed, or given a
+# custom domain.
 name: Deploy demo to GitHub Pages
 
 on:
@@ -21,15 +25,17 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}   # the site root redirects to v3/
     steps:
       - uses: actions/checkout@v4
-      - name: Point SLDs and manifest at the Pages URL, then assemble
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Point SLDs, QGIS linked library and manifest at this site, then assemble
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
-          OWNER="${GITHUB_REPOSITORY_OWNER,,}"; REPO="${GITHUB_REPOSITORY#*/}"
-          python3 scripts/make_web_styles.py . --base-url "https://${OWNER}.github.io/${REPO}/v3"
+          python3 scripts/make_web_styles.py . --base-url "${SITE_URL%/}/v3"
           scripts/assemble_site.sh _site
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

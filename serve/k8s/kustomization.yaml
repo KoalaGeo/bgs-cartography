@@ -4,6 +4,6 @@ kind: Kustomization
 namespace: bgs-symbology                          # change me
 resources: [deployment.yaml, service.yaml, ingress.yaml]
 images:
-  - name: ghcr.io/koalageo/bgs-cartography
-    newName: ghcr.io/koalageo/bgs-cartography   # change me
+  - name: ghcr.io/OWNER/REPO
+    newName: ghcr.io/OWNER/REPO   # change me
     newTag: latest

@@ -8,19 +8,24 @@
 
 Needs PyQGIS (run with the Python that QGIS was built for, e.g. /usr/bin/python3.12):
     QT_QPA_PLATFORM=offscreen python3.12 scripts/make_qgis_styles.py . [--base-url URL]
+
+The linked library's paths default to relative (../../symbols/svg/ALV.svg, i.e. relative to
+v3/styles/qgis/ where it is published), so the committed file names no host. Publishing makes
+them absolute with scripts/make_web_styles.py --base-url, which needs no QGIS.
 """
-import argparse, base64, json, os
+import argparse, base64, itertools, json, os, re, uuid
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
+os.environ.setdefault("QT_HASH_SEED", "0")   # fixed XML attribute order, so rebuilds diff cleanly
 from qgis.core import (QgsApplication, QgsStyle, QgsMarkerSymbol, QgsFillSymbol, QgsLineSymbol,
                        QgsSvgMarkerSymbolLayer, QgsSVGFillSymbolLayer, QgsRasterLineSymbolLayer,
                        QgsSimpleLineSymbolLayer, QgsSymbolLayer, QgsProperty, QgsUnitTypes,
-                       QgsVectorLayer, QgsCategorizedSymbolRenderer, QgsRendererCategory)
+                       QgsVectorLayer, QgsCategorizedSymbolRenderer, QgsRendererCategory, QgsMapLayer)
 from qgis.PyQt.QtCore import Qt
 from qgis.PyQt.QtGui import QColor
 
 ap = argparse.ArgumentParser()
 ap.add_argument("root")
-ap.add_argument("--base-url", default="https://koalageo.github.io/bgs-cartography/v3")
+ap.add_argument("--base-url", default="../..", help="public URL of the v3 folder (default: relative paths)")
 ap.add_argument("--symbol-field", default="ref"); ap.add_argument("--rotation-field", default="rotation")
 ap.add_argument("--ornament-field", default="ref"); ap.add_argument("--line-field", default="id")
 a = ap.parse_args()
@@ -51,6 +56,7 @@ def ornament_fill(o, embed):
                                 o["tile_pt"][0] * PT_MM, 0)
     lyr.setPatternWidthUnit(MM)
     outline = QgsSimpleLineSymbolLayer(); outline.setPenStyle(Qt.NoPen)
+    outline.setColor(QColor(0, 0, 0))                       # otherwise QGIS picks a random colour
     lyr.setSubSymbol(QgsLineSymbol([outline]))             # pattern only, no polygon outline
     return QgsFillSymbol([lyr])
 
@@ -59,6 +65,19 @@ def line_symbol(l, embed):
     lyr.setWidth(l["sprite_px"][1] * 0.75 * PT_MM); lyr.setWidthUnit(MM)   # tile height at printed size
     lyr.setPenCapStyle(Qt.FlatCap); lyr.setPenJoinStyle(Qt.RoundJoin)
     return QgsLineSymbol([lyr])
+
+def stable_ids(path):
+    """QGIS gives every symbol layer and renderer category a random UUID. Replace each distinct
+    one with a name-based UUID (same original -> same replacement, so any cross-reference still
+    matches), so that rebuilding gives byte-identical files."""
+    xml = open(path, encoding="utf-8").read()
+    new, n = {}, itertools.count()
+    def sub(m):
+        if m.group(2) not in new:
+            new[m.group(2)] = str(uuid.uuid5(uuid.NAMESPACE_URL, f"bgs-symbology/{os.path.basename(path)}/{next(n)}"))
+        return f'{m.group(1)}{{{new[m.group(2)]}}}"'
+    xml = re.sub(r'(\b(?:id|uuid)=")\{([0-9a-f-]{36})\}"', sub, xml)
+    open(path, "w", encoding="utf-8").write(xml)
 
 # ---- symbol libraries ----
 for embed in (True, False):
@@ -77,6 +96,12 @@ for embed in (True, False):
         st.tagSymbol(QgsStyle.SymbolEntity, n, ["BGS", "BGS line styles"])
     f = f"{R}/Styles/QGIS/bgs-symbology-{'embedded' if embed else 'linked'}.xml"
     assert st.exportXml(f), f
+    if not embed:   # QGIS may rewrite relative paths on export: put back exactly BASE/<folder>/<file>
+        xml = open(f, encoding="utf-8").read()
+        xml = re.sub(r'(\bvalue=")[^"]*?((?:symbols|ornaments|lines)/(?:svg|tile|png)/[^"/]+)"',
+                     lambda m: f'{m.group(1)}{BASE}/{m.group(2)}"', xml)
+        open(f, "w", encoding="utf-8").write(xml)
+    stable_ids(f)
     print("wrote", f, st.symbolCount(), "symbols")
 
 # ---- categorised layer styles (QML, embedded) ----
@@ -84,8 +109,10 @@ def qml(geom, field, cats, path):
     vl = QgsVectorLayer(f"{geom}?field={field}:string", "tmp", "memory")
     r = QgsCategorizedSymbolRenderer(field, [QgsRendererCategory(v, sym, label) for v, sym, label in cats])
     vl.setRenderer(r)
-    msg, ok = vl.saveNamedStyle(path)
+    # Symbology only: applying the style should not also reset the user's labels, scale limits etc.
+    msg, ok = vl.saveNamedStyle(path, QgsMapLayer.Symbology)
     assert ok, msg
+    stable_ids(path)
     print("wrote", path, len(cats), "categories")
 qml("Point", a.symbol_field, [(s["ref"], symbol_marker(s, True), f"{s['ref']} {s['description']}") for s in syms], f"{R}/Styles/QGIS/bgs_symbols.qml")
 qml("Polygon", a.ornament_field, [(o["ref"], ornament_fill(o, True), f"{o['ref']} {o['description']}") for o in orns], f"{R}/Styles/QGIS/bgs_ornaments.qml")

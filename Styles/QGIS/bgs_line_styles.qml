@@ -1,250 +1,106 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis minScale="100000000" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyAlgorithm="0" version="3.34.4-Prizren" maxScale="0" labelsEnabled="0" simplifyLocal="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" symbologyReferenceScale="-1" readOnly="0">
-  <flags>
-    <Identifiable>1</Identifiable>
-    <Removable>1</Removable>
-    <Searchable>1</Searchable>
-    <Private>0</Private>
-  </flags>
-  <temporal mode="0" startField="" endExpression="" enabled="0" startExpression="" limitMode="0" fixedDuration="0" durationUnit="min" endField="" accumulate="0" durationField="">
-    <fixedRange>
-      <start></start>
-      <end></end>
-    </fixedRange>
-  </temporal>
-  <elevation type="IndividualFeatures" extrusionEnabled="0" binding="Centroid" showMarkerSymbolInSurfacePlots="0" clamping="Terrain" extrusion="0" symbology="Line" respectLayerSymbol="1" zoffset="0" zscale="1">
-    <data-defined-properties>
-      <Option type="Map">
-        <Option type="QString" name="name" value=""/>
-        <Option name="properties"/>
-        <Option type="QString" name="type" value="collection"/>
-      </Option>
-    </data-defined-properties>
-    <profileLineSymbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="" clip_to_extent="1" alpha="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleLine" id="{1582d9b6-8ad5-4705-be53-c970de70137e}" pass="0">
-          <Option type="Map">
-            <Option type="QString" name="align_dash_pattern" value="0"/>
-            <Option type="QString" name="capstyle" value="square"/>
-            <Option type="QString" name="customdash" value="5;2"/>
-            <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="customdash_unit" value="MM"/>
-            <Option type="QString" name="dash_pattern_offset" value="0"/>
-            <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
-            <Option type="QString" name="draw_inside_polygon" value="0"/>
-            <Option type="QString" name="joinstyle" value="bevel"/>
-            <Option type="QString" name="line_color" value="201,195,82,255"/>
-            <Option type="QString" name="line_style" value="solid"/>
-            <Option type="QString" name="line_width" value="0.6"/>
-            <Option type="QString" name="line_width_unit" value="MM"/>
-            <Option type="QString" name="offset" value="0"/>
-            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="offset_unit" value="MM"/>
-            <Option type="QString" name="ring_filter" value="0"/>
-            <Option type="QString" name="trim_distance_end" value="0"/>
-            <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="trim_distance_end_unit" value="MM"/>
-            <Option type="QString" name="trim_distance_start" value="0"/>
-            <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="trim_distance_start_unit" value="MM"/>
-            <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
-            <Option type="QString" name="use_custom_dash" value="0"/>
-            <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </profileLineSymbol>
-    <profileFillSymbol>
-      <symbol force_rhr="0" type="fill" is_animated="0" frame_rate="10" name="" clip_to_extent="1" alpha="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleFill" id="{3da14c7f-8ec6-46ab-a4a9-78b9c09705e3}" pass="0">
-          <Option type="Map">
-            <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="color" value="201,195,82,255"/>
-            <Option type="QString" name="joinstyle" value="bevel"/>
-            <Option type="QString" name="offset" value="0,0"/>
-            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="offset_unit" value="MM"/>
-            <Option type="QString" name="outline_color" value="144,139,59,255"/>
-            <Option type="QString" name="outline_style" value="solid"/>
-            <Option type="QString" name="outline_width" value="0.2"/>
-            <Option type="QString" name="outline_width_unit" value="MM"/>
-            <Option type="QString" name="style" value="solid"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </profileFillSymbol>
-    <profileMarkerSymbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="" clip_to_extent="1" alpha="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleMarker" id="{95615a32-cb47-4c13-940b-a7a63675c218}" pass="0">
-          <Option type="Map">
-            <Option type="QString" name="angle" value="0"/>
-            <Option type="QString" name="cap_style" value="square"/>
-            <Option type="QString" name="color" value="201,195,82,255"/>
-            <Option type="QString" name="horizontal_anchor_point" value="1"/>
-            <Option type="QString" name="joinstyle" value="bevel"/>
-            <Option type="QString" name="name" value="diamond"/>
-            <Option type="QString" name="offset" value="0,0"/>
-            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="offset_unit" value="MM"/>
-            <Option type="QString" name="outline_color" value="144,139,59,255"/>
-            <Option type="QString" name="outline_style" value="solid"/>
-            <Option type="QString" name="outline_width" value="0.2"/>
-            <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="outline_width_unit" value="MM"/>
-            <Option type="QString" name="scale_method" value="diameter"/>
-            <Option type="QString" name="size" value="3"/>
-            <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="size_unit" value="MM"/>
-            <Option type="QString" name="vertical_anchor_point" value="1"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </profileMarkerSymbol>
-  </elevation>
-  <renderer-v2 type="categorizedSymbol" forceraster="0" symbollevels="0" enableorderby="0" referencescale="-1" attr="id">
+<qgis version="3.34.4-Prizren" styleCategories="Symbology">
+  <renderer-v2 type="categorizedSymbol" referencescale="-1" enableorderby="0" attr="id" forceraster="0" symbollevels="0">
     <categories>
-      <category label="Aeromagnetic/Bouguer anomaly" type="string" render="true" uuid="{c5e1ff70-d786-4160-a994-afcadaf0776a}" symbol="0" value="aeromagnetic_bouguer_anomaly"/>
-      <category label="Axial plane trace of major anticline" type="string" render="true" uuid="{c1dc435e-7686-4e72-baac-a926339cacf6}" symbol="1" value="axial_plane_trace_of_major_anticline"/>
-      <category label="Axial plane traces of closely spaced anticline/ syncline pair" type="string" render="true" uuid="{e767e75a-c314-4412-9480-7cc0cef7a71f}" symbol="2" value="axial_plane_traces_of_closely_spaced_anticline_syncline_pair"/>
-      <category label="Axial plane trace of major antiform" type="string" render="true" uuid="{0f43e788-e30e-43b2-ab60-aa30a0a76d18}" symbol="3" value="axial_plane_trace_of_major_antiform"/>
-      <category label="Axial plane traces of closely spaced major antiform/ synform pair" type="string" render="true" uuid="{b3e9b790-7128-4ede-84a8-9f27fe7154e3}" symbol="4" value="axial_plane_traces_of_closely_spaced_major_antiform_synform_pair"/>
-      <category label="Axial plane trace of major reclined or vertical fold" type="string" render="true" uuid="{df4d7321-05d7-42ec-a11e-4229eccff8a4}" symbol="5" value="axial_plane_trace_of_major_reclined_or_vertical_fold"/>
-      <category label="Axial plane trace of major recumbant fold" type="string" render="true" uuid="{9dd5f625-548d-444e-bcb6-8ebd00a3f823}" symbol="6" value="axial_plane_trace_of_major_recumbant_fold"/>
-      <category label="Axial plane trace of major syncline" type="string" render="true" uuid="{e1cfd6c4-a5af-4656-8835-659a7f36e764}" symbol="7" value="axial_plane_trace_of_major_syncline"/>
-      <category label="Axial plane trace of major synform" type="string" render="true" uuid="{ea13fa6b-fc21-4ef5-ba59-1c4a01f34450}" symbol="8" value="axial_plane_trace_of_major_synform"/>
-      <category label="Axis of large-scale glacial flute" type="string" render="true" uuid="{8f87d178-3ab4-4f16-b1cb-9f9fc68a54f1}" symbol="9" value="axis_of_large_scale_glacial_flute"/>
-      <category label="Axis of large-scale glacial gouge" type="string" render="true" uuid="{50d54db3-5643-41c2-8f1a-1ca010d52e9b}" symbol="10" value="axis_of_large_scale_glacial_gouge"/>
-      <category label="Backfeature marking former coastline, arrowheads denote uphill side" type="string" render="true" uuid="{1284f44d-714e-47ab-b8d9-a2e77980331c}" symbol="11" value="backfeature_marking_former_coastline_arrowheads_denote_uphill_side"/>
-      <category label="Backfeature marking former lake margin, arrowheads denote uphill side" type="string" render="true" uuid="{e105012b-5876-4b32-851f-df425f815342}" symbol="12" value="backfeature_marking_former_lake_margin_arrowheads_denote_uphill_side"/>
-      <category label="Backfeature of terrace margin, arrowheads denote uphill side" type="string" render="true" uuid="{a5fa1891-c79a-4b94-a8ce-96b1ae0eea1f}" symbol="13" value="backfeature_of_terrace_margin_arrowheads_denote_uphill_side"/>
-      <category label="Base of lava flow" type="string" render="true" uuid="{1ab2507a-4c9b-41ae-a030-869990bd5944}" symbol="14" value="base_of_lava_flow"/>
-      <category label="Buried channel or valley margin" type="string" render="true" uuid="{74a12e39-8e76-48bb-9640-6f3d2c862c72}" symbol="15" value="buried_channel_or_valley_margin"/>
-      <category label="Buried cliffline, crossmarks on beach side" type="string" render="true" uuid="{76236020-13f6-4573-8d4e-cd43989ced91}" symbol="16" value="buried_cliffline_crossmarks_on_beach_side"/>
-      <category label="Cliffline, crossmarks on beach side" type="string" render="true" uuid="{07848eca-21dd-4667-a7aa-68bddd47d76d}" symbol="17" value="cliffline_crossmarks_on_beach_side"/>
-      <category label="Cementstone" type="string" render="true" uuid="{49275a55-89d9-493a-a74d-04d0abaea73d}" symbol="18" value="cementstone"/>
-      <category label="Coal, inferred" type="string" render="true" uuid="{e22a45d6-fc8e-44df-8a83-2c9b60d10eff}" symbol="19" value="coal_inferred"/>
-      <category label="Coal, observed" type="string" render="true" uuid="{026073ab-8779-493b-9ff6-91c786c5ca38}" symbol="20" value="coal_observed"/>
-      <category label="Coal, sub-Triassic" type="string" render="true" uuid="{f5c569f4-c5e2-4bb4-b11e-62ed11760a6a}" symbol="21" value="coal_sub_triassic"/>
-      <category label="Coal seam contour" type="string" render="true" uuid="{8bf0b555-34d2-450a-8bb0-f69d2e06c5c8}" symbol="22" value="coal_seam_contour"/>
-      <category label="Coal seam, washout" type="string" render="true" uuid="{fa9d728f-ec12-4b01-90a9-56026839935b}" symbol="23" value="coal_seam_washout"/>
-      <category label="Crestline of elongate mound" type="string" render="true" uuid="{3321eb15-8cb1-43fc-8d84-5269d137b801}" symbol="24" value="crestline_of_elongate_mound"/>
-      <category label="Crestline of esker (blue, orange or magenta)" type="string" render="true" uuid="{063a3f31-c9b7-4df7-a269-1c96663b8622}" symbol="25" value="crestline_of_esker_blue_orange_or_magenta"/>
-      <category label="Crestline of linear feature" type="string" render="true" uuid="{ff606d58-e376-4893-b50e-fb2daebd50ca}" symbol="26" value="crestline_of_linear_feature"/>
-      <category label="Drumlin or dune line at base of mound" type="string" render="true" uuid="{702d90b9-f67a-473f-99ff-080a44315baf}" symbol="27" value="drumlin_or_dune_line_at_base_of_mound"/>
-      <category label="Fault brecciation zone, inferred" type="string" render="true" uuid="{644992eb-62ad-4ffb-b799-31519d3da7dc}" symbol="28" value="fault_brecciation_zone_inferred"/>
-      <category label="Fault brecciation zone, observed" type="string" render="true" uuid="{cc3d91e2-f1fa-4944-9c0d-2c6a04bb768a}" symbol="29" value="fault_brecciation_zone_observed"/>
-      <category label="Fault, thrust conjectural" type="string" render="true" uuid="{116a4c69-6c71-401b-a06b-91f97aa25d37}" symbol="30" value="fault_thrust_conjectural"/>
-      <category label="Fault, thrust observed" type="string" render="true" uuid="{99b8c8bf-2364-4f31-8fa8-210ecdbcd942}" symbol="31" value="fault_thrust_observed"/>
-      <category label="Incrop of fault at unconformity (sub-Triassic)" type="string" render="true" uuid="{fa169e15-2663-4c22-af0c-e03ef4c4ab6d}" symbol="32" value="incrop_of_fault_at_unconformity_sub_triassic"/>
-      <category label="Fault, normal inferred" type="string" render="true" uuid="{9612266f-e88f-49e5-b6c5-37803a9e840f}" symbol="33" value="fault_normal_inferred"/>
-      <category label="Fault, normal observed" type="string" render="true" uuid="{8bfc74bb-496b-41b1-b467-8c3069824731}" symbol="34" value="fault_normal_observed"/>
-      <category label="Fault, reverse" type="string" render="true" uuid="{b627e569-f0a6-467a-aba2-0354981b6cd2}" symbol="35" value="fault_reverse"/>
-      <category label="Fault shearing zone, inferred" type="string" render="true" uuid="{cb256813-5ffa-445f-8537-e08e8becff67}" symbol="36" value="fault_shearing_zone_inferred"/>
-      <category label="Fault shearing zone, observed" type="string" render="true" uuid="{69e69f1b-4f69-4fb8-b892-16b32a778ce0}" symbol="37" value="fault_shearing_zone_observed"/>
-      <category label="Fault, strike-slip" type="string" render="true" uuid="{2aa360a8-0a1f-4605-9c2e-000ab27e4a6e}" symbol="38" value="fault_strike_slip"/>
-      <category label="Fault, thrust or slide, inferred" type="string" render="true" uuid="{5e164b38-8643-4ab9-9530-2f32470a76f0}" symbol="39" value="fault_thrust_or_slide_inferred"/>
-      <category label="Fossil horizon, algal band" type="string" render="true" uuid="{cbfa00c5-eba6-42d0-9347-dfb484adc457}" symbol="40" value="fossil_horizon_algal_band"/>
-      <category label="Fossil horizon, brachiopod band" type="string" render="true" uuid="{da76338e-a306-4b0b-904c-b7e45c9ab0a8}" symbol="41" value="fossil_horizon_brachiopod_band"/>
-      <category label="Fossil horizon, coral band" type="string" render="true" uuid="{fda74514-a750-46b3-8e85-a77e9179fe1b}" symbol="42" value="fossil_horizon_coral_band"/>
-      <category label="Fossil horizon, eustheria band" type="string" render="true" uuid="{d3f3f40b-e883-4fbd-a66b-ccb150ff14e5}" symbol="43" value="fossil_horizon_eustheria_band"/>
-      <category label="Fossil horizon, lingula band" type="string" render="true" uuid="{3a470275-434d-4b52-a724-b5900ee52d17}" symbol="44" value="fossil_horizon_lingula_band"/>
-      <category label="Fossil horizon, planolites band" type="string" render="true" uuid="{111ea8ac-b409-4c56-b933-576b7f94368b}" symbol="45" value="fossil_horizon_planolites_band"/>
-      <category label="Geological boundary, artificial" type="string" render="true" uuid="{2b7ff491-10f7-491d-94ac-43cd2938a837}" symbol="46" value="geological_boundary_artificial"/>
-      <category label="Geological boundary, drift" type="string" render="true" uuid="{b02a1e7c-847a-404b-aabc-67bf80043314}" symbol="47" value="geological_boundary_drift"/>
-      <category label="Geological boundary, mass movement" type="string" render="true" uuid="{016d59da-85fe-4cfa-98e4-6933a3a68cbe}" symbol="48" value="geological_boundary_mass_movement"/>
-      <category label="Geological boundary, solid inferred" type="string" render="true" uuid="{dda0b05a-4503-44c8-8791-d309659e778a}" symbol="49" value="geological_boundary_solid_inferred"/>
-      <category label="Geological boundary, solid intrusive" type="string" render="true" uuid="{fa384072-bc8a-487e-bb7b-536d1d322539}" symbol="50" value="geological_boundary_solid_intrusive"/>
-      <category label="Geological boundary, solid intrusive observed" type="string" render="true" uuid="{6267ed05-ad76-4049-9051-016e3f8771c7}" symbol="51" value="geological_boundary_solid_intrusive_observed"/>
-      <category label="Geological boundary, solid observed" type="string" render="true" uuid="{8a8da6b5-f857-4317-983c-512d1bde1c3c}" symbol="52" value="geological_boundary_solid_observed"/>
-      <category label="Glacial meltwater or overflow channel, centre line" type="string" render="true" uuid="{5652e21a-efbb-4e6f-ac20-2377d88b1223}" symbol="53" value="glacial_meltwater_or_overflow_channel_centre_line"/>
-      <category label="Glacial meltwater channel margins" type="string" render="true" uuid="{811b98b3-c1ee-4f1f-92ce-238102b74bb0}" symbol="54" value="glacial_meltwater_channel_margins"/>
-      <category label="Hydrothermal" type="string" render="true" uuid="{849134df-6b2e-4e67-8460-d586aca9c17f}" symbol="55" value="hydrothermal"/>
-      <category label="Igneous cutting margin, crossmarks on side of younger rock, inferred" type="string" render="true" uuid="{131ad6a7-b7db-4f8a-ad54-37a2900ce105}" symbol="56" value="igneous_cutting_margin_crossmarks_on_side_of_younger_rock_inferred"/>
-      <category label="Igneous cutting margin, observed" type="string" render="true" uuid="{ea01933d-3faf-4e44-98ef-dec7a211b967}" symbol="57" value="igneous_cutting_margin_observed"/>
-      <category label="Igneous plutons" type="string" render="true" uuid="{7d5f6e88-de30-448a-971d-d9a434c6d989}" symbol="58" value="igneous_plutons"/>
-      <category label="Incrop of coal" type="string" render="true" uuid="{663e4605-2500-40cf-9fb6-618fb6adbc41}" symbol="59" value="incrop_of_coal"/>
-      <category label="Incrop of marine band" type="string" render="true" uuid="{e3c8e2b6-9a02-437b-9a2a-8e3b39dcb000}" symbol="60" value="incrop_of_marine_band"/>
-      <category label="Ironstone, inferred" type="string" render="true" uuid="{5c18a3c3-f1da-4caa-ae91-359435af765f}" symbol="61" value="ironstone_inferred"/>
-      <category label="Ironstone, observed" type="string" render="true" uuid="{14d6dae8-796d-42ca-bfe9-11bb722619e0}" symbol="62" value="ironstone_observed"/>
-      <category label="Kettle hole" type="string" render="true" uuid="{525afb20-7614-4d2f-bb6e-bcc02dcd139f}" symbol="63" value="kettle_hole"/>
-      <category label="Limit of diorite / grandiorite" type="string" render="true" uuid="{c3cd85be-5773-4cb6-99aa-ec80a2aa0d5c}" symbol="64" value="limit_of_diorite_grandiorite"/>
-      <category label="Limit of glacial advance, Gosforth oscillation limit" type="string" render="true" uuid="{dd0d4069-e7f6-43a0-acb4-6f8836fab7af}" symbol="65" value="limit_of_glacial_advance_gosforth_oscillation_limit"/>
-      <category label="Limit of glacial advance, Scottish readvance limit" type="string" render="true" uuid="{ccb4bff6-0636-4239-b96e-4ce440335734}" symbol="66" value="limit_of_glacial_advance_scottish_readvance_limit"/>
-      <category label="Limit of granite / pegmatite vein complex, x π within area of veining" type="string" render="true" uuid="{1672fc4f-6fa5-4e7a-809c-da161140f6f7}" symbol="67" value="limit_of_granite_pegmatite_vein_complex_within_area_of_veining"/>
-      <category label="Limit of granite vein complex" type="string" render="true" uuid="{e1f86b26-0f78-443e-a902-bce048b6e1fd}" symbol="68" value="limit_of_granite_vein_complex"/>
-      <category label="Limit of migmatisation, ∧ towards migmatites" type="string" render="true" uuid="{262df949-a69d-4e7e-818e-c53bd0947994}" symbol="69" value="limit_of_migmatisation_towards_migmatites"/>
-      <category label="Limit of transgressive pegmatite veins, π within areas of veins" type="string" render="true" uuid="{a5ad3c79-f3d9-41e7-88a2-377b51eb8dc9}" symbol="70" value="limit_of_transgressive_pegmatite_veins_within_areas_of_veins"/>
-      <category label="Lineament, probably fracture related" type="string" render="true" uuid="{a0225abe-4b00-45b4-a9c3-55b8edefa8e6}" symbol="71" value="lineament_probably_fracture_related"/>
-      <category label="Line of split coal seam, ornament on split side" type="string" render="true" uuid="{b29bddf0-acc0-4b1c-ae01-f515b0170f09}" symbol="72" value="line_of_split_coal_seam_ornament_on_split_side"/>
-      <category label="Magnetic layer or boundary" type="string" render="true" uuid="{54b9a38c-cef1-4929-a8c4-cea83c6caceb}" symbol="73" value="magnetic_layer_or_boundary"/>
-      <category label="Man made deposit boundary" type="string" render="true" uuid="{d65158c0-f238-47fa-93cd-2476fe851b0c}" symbol="74" value="man_made_deposit_boundary"/>
-      <category label="Marine band" type="string" render="true" uuid="{96bd9c75-4672-4742-8616-c11efd11ea76}" symbol="75" value="marine_band"/>
-      <category label="Marked break in slope, arrowheads denote uphill side" type="string" render="true" uuid="{bdd012a6-fe58-4d26-88aa-6367b516cd6c}" symbol="76" value="marked_break_in_slope_arrowheads_denote_uphill_side"/>
-      <category label="Mass Movement boundary" type="string" render="true" uuid="{524646c2-e2d3-44dc-8e0c-d8677b8eac2d}" symbol="77" value="mass_movement_boundary"/>
-      <category label="Metamorphic aureole, + towards intrusion" type="string" render="true" uuid="{4d686267-3320-4b57-a388-e09589220932}" symbol="78" value="metamorphic_aureole_towards_intrusion"/>
-      <category label="Metamorphic zone boundary with mineral or zone number" type="string" render="true" uuid="{6323f947-c461-402f-aecc-869d872431e6}" symbol="79" value="metamorphic_zone_boundary_with_mineral_or_zone_number"/>
-      <category label="Mineral vein, with name of mineral" type="string" render="true" uuid="{0288ee45-f0be-4cbc-8c84-e0e4ba3913e2}" symbol="80" value="mineral_vein_with_name_of_mineral"/>
-      <category label="Mining area, subsurface" type="string" render="true" uuid="{6553e743-e7a3-41a1-880e-b1a6097f2a8e}" symbol="81" value="mining_area_subsurface"/>
-      <category label="Mussel band" type="string" render="true" uuid="{f04a1f24-4d70-44be-bade-bbb40ed0cb59}" symbol="82" value="mussel_band"/>
-      <category label="Oil-shale, inferred" type="string" render="true" uuid="{00645664-4730-48ea-9d94-e2d396eb39f3}" symbol="83" value="oil_shale_inferred"/>
-      <category label="Oil-shale, observed" type="string" render="true" uuid="{d74f56a4-29b8-4a05-ad3d-36eaad325364}" symbol="84" value="oil_shale_observed"/>
-      <category label="Outer edge of terrace" type="string" render="true" uuid="{3c96471a-a46a-4320-b721-a6dff251844b}" symbol="85" value="outer_edge_of_terrace"/>
-      <category label="Quarry" type="string" render="true" uuid="{28d25a00-2ee3-406f-b78e-f0439c45c6d5}" symbol="86" value="quarry"/>
-      <category label="Sandstone bed" type="string" render="true" uuid="{652c2159-9202-448b-90bd-77fbc02071c3}" symbol="87" value="sandstone_bed"/>
-      <category label="Subsidence hollow, drift (not corresponding)" type="string" render="true" uuid="{bb140dd5-01cd-4c95-ad13-20a52f72717e}" symbol="88" value="subsidence_hollow_drift_not_corresponding"/>
-      <category label="Subsidence hollow, corresponding to drift boundary" type="string" render="true" uuid="{42977a02-c7ad-4b03-b964-e1c5e45cefff}" symbol="89" value="subsidence_hollow_corresponding_to_drift_boundary"/>
-      <category label="Subsidence hollow, solid (not corresponding)" type="string" render="true" uuid="{30eb69ad-5e35-410e-88d7-fe6239e5fd53}" symbol="90" value="subsidence_hollow_solid_not_corresponding"/>
-      <category label="Subsidence hollow, corresponding to solid boundary" type="string" render="true" uuid="{75fea61f-1691-4615-9b42-8e1dd28a2ce1}" symbol="91" value="subsidence_hollow_corresponding_to_solid_boundary"/>
-      <category label="Tonstein" type="string" render="true" uuid="{ca137e97-843c-4160-9a39-ff44e98bc897}" symbol="92" value="tonstein"/>
-      <category label="Trace of lower hinge of major monocline" type="string" render="true" uuid="{3b814219-6eba-41a4-aac4-5f49c997e167}" symbol="93" value="trace_of_lower_hinge_of_major_monocline"/>
-      <category label="Trace of upper hinge of major monocline" type="string" render="true" uuid="{0d40da6d-df40-4789-b840-dcf764a334a6}" symbol="94" value="trace_of_upper_hinge_of_major_monocline"/>
-      <category label="Unconformity ( marginalia only )" type="string" render="true" uuid="{337c15be-fa87-4216-862d-fa3abb70c7cf}" symbol="95" value="unconformity_marginalia_only"/>
+      <category type="string" symbol="0" uuid="{1cbd158d-b8e1-54b8-b17b-f7ecdfb72423}" value="aeromagnetic_bouguer_anomaly" render="true" label="Aeromagnetic/Bouguer anomaly"/>
+      <category type="string" symbol="1" uuid="{201362b1-d6ac-50f4-a08e-7f00392d86ab}" value="axial_plane_trace_of_major_anticline" render="true" label="Axial plane trace of major anticline"/>
+      <category type="string" symbol="2" uuid="{3292152e-eeff-51f6-a839-43229cf4d787}" value="axial_plane_traces_of_closely_spaced_anticline_syncline_pair" render="true" label="Axial plane traces of closely spaced anticline/ syncline pair"/>
+      <category type="string" symbol="3" uuid="{fe7c7ac1-c155-5ac0-8098-1f696060eec8}" value="axial_plane_trace_of_major_antiform" render="true" label="Axial plane trace of major antiform"/>
+      <category type="string" symbol="4" uuid="{bf483ea9-3391-56b1-808a-4df4cdc20b31}" value="axial_plane_traces_of_closely_spaced_major_antiform_synform_pair" render="true" label="Axial plane traces of closely spaced major antiform/ synform pair"/>
+      <category type="string" symbol="5" uuid="{49d55533-defe-58cd-b4e8-de6fa7af7055}" value="axial_plane_trace_of_major_reclined_or_vertical_fold" render="true" label="Axial plane trace of major reclined or vertical fold"/>
+      <category type="string" symbol="6" uuid="{2e9815ac-67e1-5019-8b2e-fc0bed461c51}" value="axial_plane_trace_of_major_recumbant_fold" render="true" label="Axial plane trace of major recumbant fold"/>
+      <category type="string" symbol="7" uuid="{5269f167-f885-5221-8b93-5777e9f56fe7}" value="axial_plane_trace_of_major_syncline" render="true" label="Axial plane trace of major syncline"/>
+      <category type="string" symbol="8" uuid="{e40f3274-625d-5dec-9c4f-27b9cb174150}" value="axial_plane_trace_of_major_synform" render="true" label="Axial plane trace of major synform"/>
+      <category type="string" symbol="9" uuid="{9a005c96-ed40-5dca-9adc-8aafb4705f70}" value="axis_of_large_scale_glacial_flute" render="true" label="Axis of large-scale glacial flute"/>
+      <category type="string" symbol="10" uuid="{ff0dc767-f907-5298-adee-dabcc5fd6f4b}" value="axis_of_large_scale_glacial_gouge" render="true" label="Axis of large-scale glacial gouge"/>
+      <category type="string" symbol="11" uuid="{32448b68-8d51-523d-b191-d8abf17c042c}" value="backfeature_marking_former_coastline_arrowheads_denote_uphill_side" render="true" label="Backfeature marking former coastline, arrowheads denote uphill side"/>
+      <category type="string" symbol="12" uuid="{23883ab8-7bac-5b32-bc35-75642c629bf7}" value="backfeature_marking_former_lake_margin_arrowheads_denote_uphill_side" render="true" label="Backfeature marking former lake margin, arrowheads denote uphill side"/>
+      <category type="string" symbol="13" uuid="{a166e8b6-dc92-5103-b5ca-19ca051dc0c4}" value="backfeature_of_terrace_margin_arrowheads_denote_uphill_side" render="true" label="Backfeature of terrace margin, arrowheads denote uphill side"/>
+      <category type="string" symbol="14" uuid="{2342d6eb-6a0a-54da-bf80-afcd3d1bacfa}" value="base_of_lava_flow" render="true" label="Base of lava flow"/>
+      <category type="string" symbol="15" uuid="{72504b13-3c69-5352-9820-dfa376622ddb}" value="buried_channel_or_valley_margin" render="true" label="Buried channel or valley margin"/>
+      <category type="string" symbol="16" uuid="{4bbb9abf-fdf7-519b-a221-3c86ae3ab637}" value="buried_cliffline_crossmarks_on_beach_side" render="true" label="Buried cliffline, crossmarks on beach side"/>
+      <category type="string" symbol="17" uuid="{7770024e-0c28-5f69-ace3-e39fd3552f09}" value="cliffline_crossmarks_on_beach_side" render="true" label="Cliffline, crossmarks on beach side"/>
+      <category type="string" symbol="18" uuid="{9fb5c569-387b-5e3d-b683-9daeb9e5939f}" value="cementstone" render="true" label="Cementstone"/>
+      <category type="string" symbol="19" uuid="{25eb517d-c84d-5cde-a304-09f6589fc4eb}" value="coal_inferred" render="true" label="Coal, inferred"/>
+      <category type="string" symbol="20" uuid="{cdc2ef81-aa2f-5c87-88ba-3b9cb24b26e4}" value="coal_observed" render="true" label="Coal, observed"/>
+      <category type="string" symbol="21" uuid="{b9e6c287-343e-56da-9126-225e49335ae4}" value="coal_sub_triassic" render="true" label="Coal, sub-Triassic"/>
+      <category type="string" symbol="22" uuid="{bdabebda-79e1-5ae8-a036-6229e2fd6594}" value="coal_seam_contour" render="true" label="Coal seam contour"/>
+      <category type="string" symbol="23" uuid="{84efb09a-9182-5c8b-8ff4-e8fa7ffce703}" value="coal_seam_washout" render="true" label="Coal seam, washout"/>
+      <category type="string" symbol="24" uuid="{5a2b1e55-c9bf-5cab-85f5-1e7f71aa5e4c}" value="crestline_of_elongate_mound" render="true" label="Crestline of elongate mound"/>
+      <category type="string" symbol="25" uuid="{a89aa21e-6701-50c6-b455-bf9a7be11339}" value="crestline_of_esker_blue_orange_or_magenta" render="true" label="Crestline of esker (blue, orange or magenta)"/>
+      <category type="string" symbol="26" uuid="{64eedd03-eee6-51cc-8771-7c9b21209d90}" value="crestline_of_linear_feature" render="true" label="Crestline of linear feature"/>
+      <category type="string" symbol="27" uuid="{55bf9455-2de2-5449-ae16-e9d091b24d5b}" value="drumlin_or_dune_line_at_base_of_mound" render="true" label="Drumlin or dune line at base of mound"/>
+      <category type="string" symbol="28" uuid="{091a59b5-e33a-5cb2-919b-c1576175394d}" value="fault_brecciation_zone_inferred" render="true" label="Fault brecciation zone, inferred"/>
+      <category type="string" symbol="29" uuid="{87b84ca1-e594-59cb-943f-7e75b9c74e54}" value="fault_brecciation_zone_observed" render="true" label="Fault brecciation zone, observed"/>
+      <category type="string" symbol="30" uuid="{2885530e-e811-5cb3-a859-33a36987a239}" value="fault_thrust_conjectural" render="true" label="Fault, thrust conjectural"/>
+      <category type="string" symbol="31" uuid="{faf20eb7-709c-5092-9097-0fbb7ee6d04c}" value="fault_thrust_observed" render="true" label="Fault, thrust observed"/>
+      <category type="string" symbol="32" uuid="{0a76bd41-4a0b-5d94-8b71-0f9bd2c6172f}" value="incrop_of_fault_at_unconformity_sub_triassic" render="true" label="Incrop of fault at unconformity (sub-Triassic)"/>
+      <category type="string" symbol="33" uuid="{8aba8103-dc4b-5e1a-91a1-f6d5a7f3eb54}" value="fault_normal_inferred" render="true" label="Fault, normal inferred"/>
+      <category type="string" symbol="34" uuid="{af789750-a4c8-5f46-8c1b-c869047aef4b}" value="fault_normal_observed" render="true" label="Fault, normal observed"/>
+      <category type="string" symbol="35" uuid="{db0abc23-dd64-54d5-bb43-06ec1976c782}" value="fault_reverse" render="true" label="Fault, reverse"/>
+      <category type="string" symbol="36" uuid="{dec025d2-31ac-5b04-9a87-bef65630d7f3}" value="fault_shearing_zone_inferred" render="true" label="Fault shearing zone, inferred"/>
+      <category type="string" symbol="37" uuid="{4f4eee9c-6e56-5170-8560-07565597172c}" value="fault_shearing_zone_observed" render="true" label="Fault shearing zone, observed"/>
+      <category type="string" symbol="38" uuid="{7cdf8d80-e8ba-5baa-b8ab-2d78ab6a5233}" value="fault_strike_slip" render="true" label="Fault, strike-slip"/>
+      <category type="string" symbol="39" uuid="{c56160cb-d8e3-5de0-be60-0b444b0dd1e1}" value="fault_thrust_or_slide_inferred" render="true" label="Fault, thrust or slide, inferred"/>
+      <category type="string" symbol="40" uuid="{e340b642-fd79-51d9-aa94-9b9a6f39baef}" value="fossil_horizon_algal_band" render="true" label="Fossil horizon, algal band"/>
+      <category type="string" symbol="41" uuid="{595b8407-7c70-5fed-9d68-035e4196ca8c}" value="fossil_horizon_brachiopod_band" render="true" label="Fossil horizon, brachiopod band"/>
+      <category type="string" symbol="42" uuid="{4f6fe138-5b6f-5da4-b1a3-a12cbe7fd781}" value="fossil_horizon_coral_band" render="true" label="Fossil horizon, coral band"/>
+      <category type="string" symbol="43" uuid="{251ef035-eff2-5221-8cdb-02cd401210df}" value="fossil_horizon_eustheria_band" render="true" label="Fossil horizon, eustheria band"/>
+      <category type="string" symbol="44" uuid="{14c2364e-4d3d-5acf-9dc1-d89ac99f91e0}" value="fossil_horizon_lingula_band" render="true" label="Fossil horizon, lingula band"/>
+      <category type="string" symbol="45" uuid="{6e648908-96b5-5b5a-bfdb-9dd32c121974}" value="fossil_horizon_planolites_band" render="true" label="Fossil horizon, planolites band"/>
+      <category type="string" symbol="46" uuid="{0864466e-d3ca-5d6d-9d7b-8603216970f9}" value="geological_boundary_artificial" render="true" label="Geological boundary, artificial"/>
+      <category type="string" symbol="47" uuid="{9f06a713-7d9b-532c-9b93-18428b8d74cb}" value="geological_boundary_drift" render="true" label="Geological boundary, drift"/>
+      <category type="string" symbol="48" uuid="{b0fe895a-57d7-59fb-86c7-31c4b2d2ec7b}" value="geological_boundary_mass_movement" render="true" label="Geological boundary, mass movement"/>
+      <category type="string" symbol="49" uuid="{01f01f99-b519-51ea-9a88-3d4670941759}" value="geological_boundary_solid_inferred" render="true" label="Geological boundary, solid inferred"/>
+      <category type="string" symbol="50" uuid="{7099ae33-6b15-56e1-9e78-41eb36b4b7ea}" value="geological_boundary_solid_intrusive" render="true" label="Geological boundary, solid intrusive"/>
+      <category type="string" symbol="51" uuid="{bc1f6f0f-7542-5849-95b4-d2c9983aa9ed}" value="geological_boundary_solid_intrusive_observed" render="true" label="Geological boundary, solid intrusive observed"/>
+      <category type="string" symbol="52" uuid="{c850a933-4629-58d6-ad1b-f33d04854792}" value="geological_boundary_solid_observed" render="true" label="Geological boundary, solid observed"/>
+      <category type="string" symbol="53" uuid="{756979cc-ff8c-5906-96ee-3ea3cf17ef10}" value="glacial_meltwater_or_overflow_channel_centre_line" render="true" label="Glacial meltwater or overflow channel, centre line"/>
+      <category type="string" symbol="54" uuid="{6394071d-ab6d-53ba-b1ab-cfc1e2518e3b}" value="glacial_meltwater_channel_margins" render="true" label="Glacial meltwater channel margins"/>
+      <category type="string" symbol="55" uuid="{7eb04433-7c9a-53b4-b67a-8eff7d8ebf37}" value="hydrothermal" render="true" label="Hydrothermal"/>
+      <category type="string" symbol="56" uuid="{8dceac3e-e1d0-583e-ba20-8b94c01fd96b}" value="igneous_cutting_margin_crossmarks_on_side_of_younger_rock_inferred" render="true" label="Igneous cutting margin, crossmarks on side of younger rock, inferred"/>
+      <category type="string" symbol="57" uuid="{8dad3f88-48b7-5dc5-ba6a-d31a5f471201}" value="igneous_cutting_margin_observed" render="true" label="Igneous cutting margin, observed"/>
+      <category type="string" symbol="58" uuid="{dd211f09-27f3-57bd-a02d-e23880f1edb9}" value="igneous_plutons" render="true" label="Igneous plutons"/>
+      <category type="string" symbol="59" uuid="{bd08fe67-efa8-5a3e-9ab2-994879d7829a}" value="incrop_of_coal" render="true" label="Incrop of coal"/>
+      <category type="string" symbol="60" uuid="{9f7b29ca-0ea0-5b0a-9cf3-6966aa051e42}" value="incrop_of_marine_band" render="true" label="Incrop of marine band"/>
+      <category type="string" symbol="61" uuid="{9a275514-099e-5670-8c77-39afc304b08b}" value="ironstone_inferred" render="true" label="Ironstone, inferred"/>
+      <category type="string" symbol="62" uuid="{51cdd08f-dc9d-5089-b4bf-92a97a390e77}" value="ironstone_observed" render="true" label="Ironstone, observed"/>
+      <category type="string" symbol="63" uuid="{13d95bd8-760b-5286-a31d-ff6822feee0a}" value="kettle_hole" render="true" label="Kettle hole"/>
+      <category type="string" symbol="64" uuid="{92eeece1-0308-5daf-b986-f3c545ead04a}" value="limit_of_diorite_grandiorite" render="true" label="Limit of diorite / grandiorite"/>
+      <category type="string" symbol="65" uuid="{74f89db5-c59d-51d0-a1a3-3ad346a8d692}" value="limit_of_glacial_advance_gosforth_oscillation_limit" render="true" label="Limit of glacial advance, Gosforth oscillation limit"/>
+      <category type="string" symbol="66" uuid="{be304158-5247-5ed7-a554-aacf12f87aed}" value="limit_of_glacial_advance_scottish_readvance_limit" render="true" label="Limit of glacial advance, Scottish readvance limit"/>
+      <category type="string" symbol="67" uuid="{5bfcf4b3-22fb-5cb3-aedd-06892dbce701}" value="limit_of_granite_pegmatite_vein_complex_within_area_of_veining" render="true" label="Limit of granite / pegmatite vein complex, x π within area of veining"/>
+      <category type="string" symbol="68" uuid="{2f5d2975-8b54-59cd-9ba4-d5cc482e90c1}" value="limit_of_granite_vein_complex" render="true" label="Limit of granite vein complex"/>
+      <category type="string" symbol="69" uuid="{d5826b82-e132-52cf-8f25-08c0afd7ffbb}" value="limit_of_migmatisation_towards_migmatites" render="true" label="Limit of migmatisation, ∧ towards migmatites"/>
+      <category type="string" symbol="70" uuid="{42c49443-a023-5f44-b208-a716925f0fda}" value="limit_of_transgressive_pegmatite_veins_within_areas_of_veins" render="true" label="Limit of transgressive pegmatite veins, π within areas of veins"/>
+      <category type="string" symbol="71" uuid="{6529b4be-a541-5009-94e3-43d2eab71aeb}" value="lineament_probably_fracture_related" render="true" label="Lineament, probably fracture related"/>
+      <category type="string" symbol="72" uuid="{c52fd90c-050f-5565-899a-8600a9bbd49e}" value="line_of_split_coal_seam_ornament_on_split_side" render="true" label="Line of split coal seam, ornament on split side"/>
+      <category type="string" symbol="73" uuid="{f3f6f4a9-9bb2-5eeb-962c-2ea3b74d1e95}" value="magnetic_layer_or_boundary" render="true" label="Magnetic layer or boundary"/>
+      <category type="string" symbol="74" uuid="{c1d051b2-0e24-56df-bc21-e202199c9e5a}" value="man_made_deposit_boundary" render="true" label="Man made deposit boundary"/>
+      <category type="string" symbol="75" uuid="{d957ec57-e52e-56dd-9282-6f8821cb15ff}" value="marine_band" render="true" label="Marine band"/>
+      <category type="string" symbol="76" uuid="{a8bd681e-3292-5d42-91b5-deeb00bad470}" value="marked_break_in_slope_arrowheads_denote_uphill_side" render="true" label="Marked break in slope, arrowheads denote uphill side"/>
+      <category type="string" symbol="77" uuid="{382e783b-904e-56ab-b6bb-339009b77025}" value="mass_movement_boundary" render="true" label="Mass Movement boundary"/>
+      <category type="string" symbol="78" uuid="{87bcb644-680a-5f4c-8453-3d3fc7573955}" value="metamorphic_aureole_towards_intrusion" render="true" label="Metamorphic aureole, + towards intrusion"/>
+      <category type="string" symbol="79" uuid="{8f9a068e-b006-584f-a7fa-e256d784c02b}" value="metamorphic_zone_boundary_with_mineral_or_zone_number" render="true" label="Metamorphic zone boundary with mineral or zone number"/>
+      <category type="string" symbol="80" uuid="{4bb51d4f-8411-5b89-a735-b4daea834cd4}" value="mineral_vein_with_name_of_mineral" render="true" label="Mineral vein, with name of mineral"/>
+      <category type="string" symbol="81" uuid="{ee251dd3-f4d5-5928-8ae6-731a31dbbfe6}" value="mining_area_subsurface" render="true" label="Mining area, subsurface"/>
+      <category type="string" symbol="82" uuid="{e1cd4922-ac2d-5dd8-b2b1-98578cdc4b6e}" value="mussel_band" render="true" label="Mussel band"/>
+      <category type="string" symbol="83" uuid="{f2fe0626-29c4-51dc-af56-f1a2879453c5}" value="oil_shale_inferred" render="true" label="Oil-shale, inferred"/>
+      <category type="string" symbol="84" uuid="{abbf36ea-8f8f-5f73-aeb2-3ab3d7285b4b}" value="oil_shale_observed" render="true" label="Oil-shale, observed"/>
+      <category type="string" symbol="85" uuid="{21e1cf1b-c406-5eaf-8972-898a26a7ed45}" value="outer_edge_of_terrace" render="true" label="Outer edge of terrace"/>
+      <category type="string" symbol="86" uuid="{36c508f0-11fd-5f6a-9fd8-2a0454f07a80}" value="quarry" render="true" label="Quarry"/>
+      <category type="string" symbol="87" uuid="{9370f8ad-9bc1-5f7c-8cc2-e56e55a6e800}" value="sandstone_bed" render="true" label="Sandstone bed"/>
+      <category type="string" symbol="88" uuid="{175e1d34-65f4-5056-a643-d2896dc4ab22}" value="subsidence_hollow_drift_not_corresponding" render="true" label="Subsidence hollow, drift (not corresponding)"/>
+      <category type="string" symbol="89" uuid="{4429e7cf-1900-58c3-989c-909375ac3156}" value="subsidence_hollow_corresponding_to_drift_boundary" render="true" label="Subsidence hollow, corresponding to drift boundary"/>
+      <category type="string" symbol="90" uuid="{c1fa7c04-bff0-503a-b481-be5bc4230280}" value="subsidence_hollow_solid_not_corresponding" render="true" label="Subsidence hollow, solid (not corresponding)"/>
+      <category type="string" symbol="91" uuid="{dbeeb13a-3318-5e13-8eb5-869ccb796cb8}" value="subsidence_hollow_corresponding_to_solid_boundary" render="true" label="Subsidence hollow, corresponding to solid boundary"/>
+      <category type="string" symbol="92" uuid="{c749e3dd-106a-5ca2-9c84-8a89ec471a28}" value="tonstein" render="true" label="Tonstein"/>
+      <category type="string" symbol="93" uuid="{49f0f512-8e04-5256-8e77-813718ac7be6}" value="trace_of_lower_hinge_of_major_monocline" render="true" label="Trace of lower hinge of major monocline"/>
+      <category type="string" symbol="94" uuid="{322acd59-b9ad-5ab9-b412-45fcd4d391f8}" value="trace_of_upper_hinge_of_major_monocline" render="true" label="Trace of upper hinge of major monocline"/>
+      <category type="string" symbol="95" uuid="{fcac21e3-4f84-51e4-a6cb-aec2f219a317}" value="unconformity_marginalia_only" render="true" label="Unconformity ( marginalia only )"/>
     </categories>
     <symbols>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="0" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -252,7 +108,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{5e8c7be8-89f9-488f-a934-2a66f97c8973}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{67b9a4c4-20ca-5bca-92a7-c8bb3894909c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -274,7 +130,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="1" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -282,7 +138,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{a3d74a17-9471-4f2b-bd02-c93705c8d289}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{a748082d-d763-55c1-bffe-453711f5258b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -304,7 +160,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="10" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="10">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -312,7 +168,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{211e129d-c2c6-4580-9049-6b28f35834ac}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{dec0b3b7-1e4a-5f35-a41e-4283e59a48d2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -334,7 +190,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="11" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="11">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -342,7 +198,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{bfdf9782-15df-42ed-a741-458dcf67bc2e}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{cad0ec91-e270-510a-bf0d-505a1d731aac}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -364,7 +220,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="12" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="12">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -372,7 +228,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{bab0c6ef-f296-494b-841f-b7b31b0e8d34}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{019b64d6-f579-5caa-909f-b5b45a18caa8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -394,7 +250,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="13" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="13">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -402,7 +258,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{02c1b307-4db3-4f2c-ac56-77dc3626775f}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{686a1069-4473-55e4-8bf7-d27823ed294f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -424,7 +280,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="14" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="14">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -432,7 +288,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{4d0022aa-dc2d-4898-893b-1a618d541432}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6e7442f3-114b-5b00-a7ae-7d99522b0dd9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -454,7 +310,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="15" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="15">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -462,7 +318,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{d7477a51-fa3b-4e56-b93f-9826c4e81e7b}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{31b17f6d-a248-5097-aa43-6374f8d78ad5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -484,7 +340,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="16" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="16">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -492,7 +348,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{9ed0cd99-9a71-4cb2-b9e2-860e0de0afd1}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6521335a-7d0b-55e0-8336-e54e5467544e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -514,7 +370,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="17" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="17">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -522,7 +378,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{5b8cb51a-4721-409d-a4e1-f9838d7409e7}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{369ff6c3-98d8-57e9-b368-34119fc81231}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -544,7 +400,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="18" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="18">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -552,7 +408,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{8416dc1e-fba2-4135-98b7-e10bb006ff0d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{9635f0ed-c8c3-5bab-8cdd-4fa8b42c9091}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -574,7 +430,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="19" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="19">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -582,7 +438,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{a7156a4c-bca0-4266-aead-10dd88d656a8}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{c23ec142-1602-5089-ada7-bcbd25a3beeb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -604,7 +460,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="2" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="2">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -612,7 +468,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{df34d761-bb8b-422a-a31e-ca59bff19ba5}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{393f193a-bdf0-5b38-9879-5f7354bd79d9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -634,7 +490,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="20" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="20">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -642,7 +498,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{8d2ee389-12c9-46d3-8e91-8c6e79e32f50}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{063d2c39-890f-5638-b6e8-66d99cabdf4c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -664,7 +520,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="21" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="21">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -672,7 +528,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{7d5fb84c-5bc2-44b3-be7e-26d8299d37a0}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{c8b14dc0-4418-5f9d-876a-d9fa80f70391}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -694,7 +550,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="22" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="22">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -702,7 +558,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{2bd5cc88-fd1b-4ddc-8655-69383b08a087}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{5c22e6ce-4117-532e-9c25-26b3a11b2549}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -724,7 +580,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="23" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="23">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -732,7 +588,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{770399d8-168e-4691-aa53-7a234e22d496}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{79f6acb0-487a-572d-bbfd-242334f30176}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -754,7 +610,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="24" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="24">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -762,7 +618,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{a139ca97-d94d-4a10-abe7-af509cc0509d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6c469009-36a5-5abf-9baa-fa05e57c6e4c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -784,7 +640,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="25" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="25">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -792,7 +648,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{6bcd6898-c67d-4c13-a0a9-3876fe1fd85e}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{5df12240-b9c5-51e1-9dc2-24c0d7ea33f0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -814,7 +670,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="26" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="26">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -822,7 +678,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{d6dc11e8-2bb9-4ee8-a6c3-1ce52ecb05f4}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{e2e977cb-8528-5edf-aeb7-654d470882a1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -844,7 +700,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="27" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="27">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -852,7 +708,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{c0e07ad3-ee70-4e8b-b91f-ee2c8b8e6543}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{3d3807ea-d9cb-5c5c-9c1d-0ebef5a9ed0d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -874,7 +730,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="28" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="28">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -882,7 +738,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{b58b08b5-3c25-49de-9673-5a828291f4e4}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{e90d0aac-8402-5ccf-9a5c-01448f7e9161}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -904,7 +760,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="29" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="29">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -912,7 +768,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{ba72e9b1-5a4b-45a8-aa13-c4e69c4b72c4}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{d5dd2ea4-67a2-5988-b57f-e69e95e5be92}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -934,7 +790,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="3" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="3">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -942,7 +798,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{8fb8e7b7-c614-4dc7-ad61-7e3a0714dd66}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{c6d10ba3-206b-566a-9c0b-d07cd26b0265}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -964,7 +820,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="30" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="30">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -972,7 +828,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{79b1d22a-6161-4871-a3c9-5db97f5aa0a8}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{454a011f-0541-56f8-9063-8d529466bdca}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -994,7 +850,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="31" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="31">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1002,7 +858,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{599c46d5-3ff1-4b36-b6d6-b7d883159fc1}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{ae7f4bfb-82ad-5783-aaf7-af5ac93a17fb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1024,7 +880,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="32" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="32">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1032,7 +888,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{234ffafa-c171-4f16-8452-86ef6b941e6d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{33e316a3-dc49-51e0-a3d0-0e632da63027}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1054,7 +910,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="33" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="33">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1062,7 +918,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{c7f0c672-8fc7-4fa4-a067-5230f6e90b45}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{e65326e2-4e9e-5f96-bd5d-0998ad08aaca}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1084,7 +940,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="34" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="34">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1092,7 +948,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{174d84f5-850d-40ba-8617-a11b2d422864}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{759cad19-2593-5280-a291-a22973a58988}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1114,7 +970,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="35" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="35">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1122,7 +978,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{4a1f6480-2a58-4567-ad78-d62286b5414a}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{22934b5e-05c5-575b-996b-c9ec593918e9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1144,7 +1000,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="36" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="36">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1152,7 +1008,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{61d68da4-dfd8-4941-9a25-870f731e021c}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6624f13f-1749-5445-83dd-dd5cc6e21456}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1174,7 +1030,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="37" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="37">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1182,7 +1038,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{736bc688-06b2-4383-96a8-703fd4df92cf}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{0adc4147-2e67-55db-847c-a4a151771700}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1204,7 +1060,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="38" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="38">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1212,7 +1068,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{0b6f460b-4c13-459f-ac08-cc035f8cd008}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{0468eb69-f204-5d6b-bef4-ac9a46b67c28}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1234,7 +1090,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="39" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="39">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1242,7 +1098,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{937ce685-2be0-4241-bb24-780fd4b358d4}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{feb385c9-c5b1-511f-a0be-3435a228a2b5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1264,7 +1120,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="4" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="4">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1272,7 +1128,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{8362f307-37a2-4feb-9bf2-8f1bd4da29a0}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{b64828e9-1a96-5bf2-99cb-43d922f8f1f3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1294,7 +1150,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="40" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="40">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1302,7 +1158,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{2cccba93-8a0c-41dd-954d-85df622f6cd5}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{84f076ae-0f40-5bcf-b7ac-b88862b6e6a9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1324,7 +1180,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="41" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="41">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1332,7 +1188,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{8ba23f72-61f8-4c5f-b8ea-bfcd11eb3cec}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{097b7ddc-ac51-5e0f-82b0-b46df5f49742}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1354,7 +1210,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="42" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="42">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1362,7 +1218,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{5d269f45-df52-4a8c-95c3-0204da7ee12f}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{5ad61793-7715-5412-ac5e-826bbb2400c2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1384,7 +1240,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="43" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="43">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1392,7 +1248,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{ff31c21f-ac09-4a6d-a9f4-be19c2a35a56}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{e24dae66-5abd-5a65-9c62-72d7d87438bd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1414,7 +1270,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="44" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="44">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1422,7 +1278,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{59e251d7-8ecf-484c-a848-32e458a3adf9}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{28e2d039-951e-570f-8612-59e9e50d5644}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1444,7 +1300,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="45" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="45">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1452,7 +1308,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{90fc55cc-6795-4e12-ad55-15fdc4eb824b}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{f573ce59-532f-570e-848d-381c0242bd67}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1474,7 +1330,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="46" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="46">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1482,7 +1338,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{064499c5-30c3-4b3c-9765-2bb58b966b52}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{0740a43d-c455-5781-b1c2-00678195ef71}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1504,7 +1360,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="47" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="47">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1512,7 +1368,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{ae944e3e-33b0-4614-afe0-c4eb4e2e4ac3}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6d1032e0-76d8-5d0c-ad72-44a39ee81833}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1534,7 +1390,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="48" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="48">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1542,7 +1398,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{ff76208e-70f1-48c6-8604-4da3569bf826}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{1e714ef2-052c-5058-8f5b-f548f557c7db}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1564,7 +1420,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="49" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="49">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1572,7 +1428,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{f3fcb5c2-d6c6-444f-b7bd-f079d8169ded}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{0cf72dba-02e9-58a5-82e4-7d1d8d24834c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1594,7 +1450,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="5" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="5">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1602,7 +1458,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{f1992f73-e031-435f-8e8b-16d2fb3cec8d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{cf09fe9b-8530-5552-827b-dba4ff44a841}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1624,7 +1480,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="50" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="50">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1632,7 +1488,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{f17edf15-25f1-4d85-acd6-2ea09b4aa2ae}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{22d5d0dc-2c4c-5edc-9b8e-95270492a34f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1654,7 +1510,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="51" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="51">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1662,7 +1518,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{c3345434-69ab-4c67-9f5f-a0d68c55cd7a}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{9c10c89e-e1f9-524e-a055-90823f390c48}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1684,7 +1540,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="52" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="52">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1692,7 +1548,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{78914b51-fc68-42e9-b4b0-0fc4c41026a7}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{1d5d7b56-2908-53a0-a1d5-2bd97ae2ddd3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1714,7 +1570,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="53" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="53">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1722,7 +1578,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{90a2b72c-e508-4af0-8b00-7d6ab9a0b426}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{a91bb4e3-c19e-566b-a481-fd5a4dc1e08a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1744,7 +1600,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="54" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="54">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1752,7 +1608,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{1430c5fd-0546-498e-a8c7-94c1ce87683f}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{f5c7cfde-2a0b-5379-9ac0-91e3dd6cfdb3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1774,7 +1630,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="55" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="55">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1782,7 +1638,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{e93dd0aa-01c5-4c38-9f1e-81f6b03a1d02}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{5d6fdca9-1b57-5287-bc14-0fec3d3bd0c3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1804,7 +1660,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="56" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="56">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1812,7 +1668,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{48e3dba3-2a9c-4a0f-8aaa-9b99840f69fc}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{956e0b34-2ecc-565b-a5d5-f0f113d6aaa8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1834,7 +1690,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="57" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="57">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1842,7 +1698,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{1ac261c2-bc0d-44a4-a403-d7289be568c6}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{c8ac0d87-ddb2-5023-8d11-7dcc17281a21}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1864,7 +1720,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="58" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="58">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1872,7 +1728,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{5461f16c-32cb-4563-b43d-dbeeea220e7a}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{7953d736-ace3-57ba-817f-6ea25f9e673b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1894,7 +1750,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="59" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="59">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1902,7 +1758,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{626dca32-3363-4674-a5f2-9bd47b5a39e1}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{2f57fae7-0bfd-5f71-b92a-9c7cad7df4dd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1924,7 +1780,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="6" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="6">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1932,7 +1788,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{81a740e6-0b56-4be3-8ef1-ed9b3653078f}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{f229c537-45c2-5d68-812a-bbec5138aaa2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1954,7 +1810,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="60" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="60">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1962,7 +1818,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{424cd022-9a38-40cd-8fa3-8be3b26b608c}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6216b181-4b33-52b8-bd0a-c7ceff916b87}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -1984,7 +1840,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="61" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="61">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1992,7 +1848,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{7045d365-298c-41dd-b11e-c72bddea8292}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{71b42752-c180-5212-9004-2a26ae187d2d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2014,7 +1870,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="62" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="62">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2022,7 +1878,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{7b82a36b-9c1c-4269-ae43-e444deb5f805}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{5152a73b-df14-54f1-b136-1e0921dc602e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2044,7 +1900,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="63" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="63">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2052,7 +1908,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{af2cb1cb-8f9c-4a9b-b1d0-a3190a0c2647}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{a480e0eb-c0ce-5f60-b014-a3bef3a1d98a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2074,7 +1930,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="64" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="64">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2082,7 +1938,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{cb988a4e-a657-414e-bb45-c489c822ed47}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{cec2f47d-3c1b-5f66-9c15-15e210511143}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2104,7 +1960,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="65" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="65">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2112,7 +1968,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{3cf98872-be81-4354-86c5-e89bf1f722b3}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{d7b02f45-feb9-50b1-8b71-3dfeb0092f69}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2134,7 +1990,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="66" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="66">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2142,7 +1998,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{e0fae1e4-6343-42e2-819f-ccfb442c120b}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{47ea1fe1-7ce8-54c9-9eb7-90aba913ecb2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2164,7 +2020,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="67" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="67">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2172,7 +2028,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{42a0dc3f-740c-427d-9cc5-80042c120821}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{2b31e7d0-472d-5ee0-8ac0-08564cbe6297}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2194,7 +2050,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="68" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="68">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2202,7 +2058,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{21515183-df2a-454a-981d-f12a54e55d8d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{c3c3f8d3-e53a-5c60-b618-c1eb433db275}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2224,7 +2080,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="69" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="69">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2232,7 +2088,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{55652de1-56bd-4fc8-a723-5e0d82efef81}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{41095daf-fbd0-5f69-baa5-14c0bd70cd46}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2254,7 +2110,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="7" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="7">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2262,7 +2118,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{9941db00-623a-4151-8413-c3ce8e0541b9}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{e24cb1b7-4fee-5f16-a001-dab2c0ba8ad4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2284,7 +2140,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="70" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="70">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2292,7 +2148,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{c582e74a-17af-4bbb-bb4f-c3d123fdcf65}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{9e68555a-bf5d-5a59-b2a6-3e2c41e484be}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2314,7 +2170,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="71" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="71">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2322,7 +2178,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{07aaa057-082b-40b9-9cd9-5ffe007ba20d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{c7bbc108-77cc-5996-8cf3-11f45b4dbf79}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2344,7 +2200,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="72" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="72">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2352,7 +2208,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{71163b17-f333-4c92-81a6-a707d413721c}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{b6d8fe21-524e-543c-8e53-b9151a47227e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2374,7 +2230,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="73" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="73">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2382,7 +2238,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{cae5e064-964c-4680-89b7-15d8171221f2}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{8b3a8133-ee0c-5055-b891-b19e19d0dac5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2404,7 +2260,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="74" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="74">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2412,7 +2268,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{1a123424-3279-4f74-af7b-aa3a85cf8262}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{d9d81c6e-efca-5156-967d-bc4cbddfb889}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2434,7 +2290,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="75" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="75">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2442,7 +2298,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{44d53464-9bce-4566-ac46-82d89004e7fe}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{cd8d91a4-a28c-5c7b-a364-d4b5a5db09ba}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2464,7 +2320,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="76" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="76">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2472,7 +2328,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{42d89566-4e5c-4a37-be60-b924adb4d089}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{71055d4b-ad64-57fd-90b5-69ecca0b40a5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2494,7 +2350,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="77" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="77">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2502,7 +2358,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{3f1534db-56b9-4876-937b-8c62eed75d6c}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{1e9e9b93-4e20-50a5-94ca-9968db83e95c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2524,7 +2380,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="78" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="78">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2532,7 +2388,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{983a9dc3-7734-40bc-be85-02ed61d72b30}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{00173df5-4018-5463-b87b-77730c616d3a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2554,7 +2410,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="79" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="79">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2562,7 +2418,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{0b6259b3-03ef-4ee7-aa9d-aa0d7281534b}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{e8bbad12-b7e5-53cf-88fc-d903287fa979}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2584,7 +2440,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="8" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="8">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2592,7 +2448,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{25571086-debc-4d25-acc5-ed31cad8a8d9}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{052a40cf-012a-5cc0-bd3a-7f94281a2ee8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2614,7 +2470,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="80" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="80">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2622,7 +2478,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{9a9c55ff-4ff9-4f97-a005-b05699bb498d}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{aa17f963-bc2b-5ad4-a56c-a420ad357c78}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2644,7 +2500,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="81" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="81">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2652,7 +2508,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{1a5b5a80-04fe-4dc4-8d45-594002856bfa}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{1b1e45e7-32ba-5002-8e41-493cae583c82}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2674,7 +2530,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="82" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="82">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2682,7 +2538,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{f62c752e-4db6-4460-b505-111dc469c7b3}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{6965a2c3-1bfe-541e-aa4c-e4da734a70df}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2704,7 +2560,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="83" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="83">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2712,7 +2568,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{d6905ca1-0ed2-48d9-9e01-1e94a16cda1e}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{b1f9483b-4a13-5108-93e5-3452240cd60f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2734,7 +2590,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="84" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="84">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2742,7 +2598,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{bd6e345d-9ef2-4ff1-bbc7-55bef1d27bb9}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{2617c831-c2ed-5f69-ac3e-3a8dce0494b2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2764,7 +2620,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="85" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="85">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2772,7 +2628,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{fa9162a8-779d-4c66-9afc-0f746b3ca08c}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{2a31fc3f-4fa9-568d-9f40-1736787b257c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2794,7 +2650,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="86" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="86">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2802,7 +2658,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{f717d895-beab-49d4-bb9f-6295ce0428ff}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{2356f419-9825-5661-a88b-eb90273cb89b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2824,7 +2680,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="87" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="87">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2832,7 +2688,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{ed48abc3-975d-43b2-8e61-b50f616c72cf}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{1f0ac0a7-fb9c-505a-b408-3a8f4a721ec6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2854,7 +2710,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="88" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="88">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2862,7 +2718,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{23caeb6b-c71c-4e7d-86ee-14ca43f8c990}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{8261e848-f607-5d16-bc82-bfe120353611}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2884,7 +2740,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="89" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="89">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2892,7 +2748,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{7642309d-47a4-4f4f-b12a-19370f76ee11}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{47b6ccf8-d8a0-51ef-9e2d-a2bfd504ec79}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2914,7 +2770,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="9" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="9">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2922,7 +2778,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{9fc09090-1228-4b40-8cce-c56c4f840cd3}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{9be8d17f-cbae-5f90-97cd-3cc039a57984}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2944,7 +2800,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="90" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="90">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2952,7 +2808,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{e79ea780-6287-4d28-a0ed-447cc20c93fa}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{f9cf4d80-575d-5114-bf7c-db0f6968b6bb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -2974,7 +2830,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="91" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="91">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2982,7 +2838,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{d61a51bf-b095-4e37-98a3-df95f33ee53a}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{a6a87fa1-3f41-56c1-9a85-17a034db8bdb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -3004,7 +2860,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="92" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="92">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3012,7 +2868,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{9c52c693-ae9f-4dd9-b9c6-eb9e77b4fca9}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{76b1274c-bd39-55ef-add2-0b470b5fb295}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -3034,7 +2890,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="93" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="93">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3042,7 +2898,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{c47952de-d27b-4840-bba4-a5c49bf0084e}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{805d1535-d6dc-5d27-9952-ba2b597eb5f8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -3064,7 +2920,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="94" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="94">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3072,7 +2928,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{0ec59bb0-c6e8-4d63-886b-d32e9c86f527}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{19b12b14-2ec7-56a6-85e2-ca2401a9ad1b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -3094,7 +2950,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="95" clip_to_extent="1" alpha="1">
+      <symbol type="line" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="95">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3102,7 +2958,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="RasterLine" id="{74cab4d8-7c7b-45e7-8a34-76daa13906a1}" pass="0">
+        <layer class="RasterLine" enabled="1" id="{2f74805e-b76e-5801-b453-161898a14392}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="alpha" value="1"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -3131,67 +2987,7 @@
   <selection mode="Default">
     <selectionColor invalid="1"/>
   </selection>
-  <customproperties>
-    <Option/>
-  </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
-  <layerOpacity>1</layerOpacity>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-    <activeChecks type="StringList">
-      <Option type="QString" value=""/>
-    </activeChecks>
-    <checkConfiguration/>
-  </geometryOptions>
-  <legend type="default-vector" showLabelLegend="0"/>
-  <referencedLayers/>
-  <fieldConfiguration>
-    <field name="id" configurationFlags="NoFlag">
-      <editWidget type="">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-  </fieldConfiguration>
-  <aliases>
-    <alias field="id" name="" index="0"/>
-  </aliases>
-  <splitPolicies>
-    <policy field="id" policy="Duplicate"/>
-  </splitPolicies>
-  <defaults>
-    <default field="id" expression="" applyOnUpdate="0"/>
-  </defaults>
-  <constraints>
-    <constraint unique_strength="0" notnull_strength="0" field="id" constraints="0" exp_strength="0"/>
-  </constraints>
-  <constraintExpressions>
-    <constraint desc="" exp="" field="id"/>
-  </constraintExpressions>
-  <expressionfields/>
-  <attributeactions/>
-  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-    <columns/>
-  </attributetableconfig>
-  <conditionalstyles>
-    <rowstyles/>
-    <fieldstyles/>
-  </conditionalstyles>
-  <storedexpressions/>
-  <editform tolerant="1"></editform>
-  <editforminit/>
-  <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[]]></editforminitcode>
-  <featformsuppress>0</featformsuppress>
-  <editorlayout>generatedlayout</editorlayout>
-  <editable/>
-  <labelOnTop/>
-  <reuseLastValue/>
-  <dataDefinedFieldProperties/>
-  <widgets/>
-  <previewExpression></previewExpression>
-  <mapTip enabled="1"></mapTip>
   <layerGeometryType>1</layerGeometryType>
 </qgis>

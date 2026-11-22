@@ -8,7 +8,7 @@ Everything here was extracted programmatically from:
 
 The source PDF is in [`source/`](source).
 
-**[▶ Live MapLibre demo](https://koalageo.github.io/bgs-cartography/v3/)**: every symbol, ornament and line style drawn on a made-up island (*Isle of Mawer*, in the Celtic Sea).
+**▶ Live MapLibre demo**: every symbol, ornament and line style drawn on a made-up island (*Isle of Mawer*, in the Celtic Sea). GitHub Pages publishes it at `https://<owner>.github.io/<repo>/v3/`. Open it from **Deployments → github-pages** in this repository's sidebar, which always points at the current address, even after the repository is transferred or renamed.
 
 ![MapLibre demo: BGS ornaments, line styles and symbols on a fictional island](img/demo.jpg)
 
@@ -43,7 +43,7 @@ _[Line styles catalogue →](Line-Styles)_
 
 ## Using them in other applications
 
-Everything is published as static files under one versioned URL, with a machine-readable manifest at [`v3/index.json`](https://koalageo.github.io/bgs-cartography/v3/index.json):
+Everything is published as static files under one versioned URL, `<site>/v3/`, with a machine-readable manifest at `<site>/v3/index.json` (source: [`docs/index.json`](docs/index.json)):
 
 ```
 …/v3/sprites/bgs-symbology            MapLibre sprite   (icon-image 'sym-ALV', fill-pattern 'orn-LMST', line-pattern 'line-fault_thrust_observed')
@@ -62,10 +62,12 @@ See [Sprites](Sprites) for a minimal MapLibre style, and [`docs/index.html`](doc
 pip install pymupdf fonttools cairosvg pillow numpy shapely scipy   # + PyQGIS for Styles/QGIS (Ubuntu 24.04: apt install python3-qgis)
 scripts/build_all.sh                      # regenerate every asset from source/RR01001.pdf
 scripts/assemble_site.sh && python3 -m http.server -d _site 8000   # preview at http://localhost:8000/v3/
-BASE_URL=https://your.host/symbology/v3 scripts/build_all.sh           # point SLDs/manifest at another host
+BASE_URL=https://your.host/symbology/v3 scripts/build_all.sh           # absolute URLs for another host (don't commit these)
 ```
 
 GitHub Pages deploys from `.github/workflows/pages.yml` on every push to `main`. To enable it: **Settings → Pages → Build and deployment → Source: GitHub Actions**. The container image (`.github/workflows/image.yml`) is built only when you push a `v*` tag or run the workflow by hand.
+
+**Nothing in the repository names its owner or host.** The SLDs, the QGIS linked library and `index.json` are committed with relative paths. On deploy, the Pages workflow asks GitHub for the site's address (`actions/configure-pages`) and writes absolute URLs into the published copies only. A transfer (for example to the BGS organisation), a rename or a custom domain therefore needs no code change: re-enable Pages in the new repository's settings if GitHub has turned it off, and the next deploy uses the new address. The demo page loads everything relative to itself.
 
 | Script | Purpose |
 |---|---|

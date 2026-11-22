@@ -33,8 +33,8 @@ Everything is static files. No tile server is needed. `scripts/assemble_site.sh`
 - **CORS**: `Access-Control-Allow-Origin: *`. Browser map clients on other domains fetch the sprite JSON/PNG and SVGs with `fetch()`, and fail without it. GitHub Pages sends this header already.
 - **Content types**: `image/svg+xml`, `application/json`, `application/geo+json`, `text/csv`. QGIS and browsers refuse SVG served as `text/plain` or `application/octet-stream`.
 - **Stable versioned URLs**: SLDs, QGIS "linked" libraries and other people's styles hard-code these URLs.
-- **Base URL**: the SLDs, `index.json` and the QGIS linked library contain absolute URLs. Regenerate them for your host:
-  `python3 scripts/make_web_styles.py . --base-url https://your.host/symbology/v3`. The Docker build and the Pages workflow do this automatically.
+- **Base URL**: in the repository, the SLDs, `index.json` and the QGIS linked library hold relative paths, so the repository names no host. The published copies need absolute URLs; the Pages workflow (from the address GitHub reports) and the Docker build (from `BASE_URL`) write them automatically. For any other host:
+  `python3 scripts/make_web_styles.py . --base-url https://your.host/symbology/v3`, then `scripts/assemble_site.sh`.
 
 ## Option 1: GitHub Pages
 

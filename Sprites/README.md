@@ -26,7 +26,7 @@ A single [MapLibre](https://maplibre.org/maplibre-style-spec/sprite/) (and Mapbo
 ```js
 const style = {
   version: 8,
-  sprite: 'https://koalageo.github.io/bgs-cartography/v3/sprites/bgs-symbology', // must be an absolute URL
+  sprite: 'https://<owner>.github.io/<repo>/v3/sprites/bgs-symbology', // must be an absolute URL; or new URL('sprites/bgs-symbology', <v3 URL>).href
   sources: { geo: { type: 'geojson', data: 'my-geology.geojson' } },
   layers: [
     // colour fill, then the ornament on top (tiles are transparent)

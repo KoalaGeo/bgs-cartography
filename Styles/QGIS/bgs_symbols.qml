@@ -1,605 +1,461 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis minScale="100000000" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyAlgorithm="0" version="3.34.4-Prizren" maxScale="0" labelsEnabled="0" simplifyLocal="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" symbologyReferenceScale="-1" readOnly="0">
-  <flags>
-    <Identifiable>1</Identifiable>
-    <Removable>1</Removable>
-    <Searchable>1</Searchable>
-    <Private>0</Private>
-  </flags>
-  <temporal mode="0" startField="" endExpression="" enabled="0" startExpression="" limitMode="0" fixedDuration="0" durationUnit="min" endField="" accumulate="0" durationField="">
-    <fixedRange>
-      <start></start>
-      <end></end>
-    </fixedRange>
-  </temporal>
-  <elevation type="IndividualFeatures" extrusionEnabled="0" binding="Centroid" showMarkerSymbolInSurfacePlots="0" clamping="Terrain" extrusion="0" symbology="Line" respectLayerSymbol="1" zoffset="0" zscale="1">
-    <data-defined-properties>
-      <Option type="Map">
-        <Option type="QString" name="name" value=""/>
-        <Option name="properties"/>
-        <Option type="QString" name="type" value="collection"/>
-      </Option>
-    </data-defined-properties>
-    <profileLineSymbol>
-      <symbol force_rhr="0" type="line" is_animated="0" frame_rate="10" name="" clip_to_extent="1" alpha="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleLine" id="{2a0a1a26-c135-4033-a8c0-a3778d4bef25}" pass="0">
-          <Option type="Map">
-            <Option type="QString" name="align_dash_pattern" value="0"/>
-            <Option type="QString" name="capstyle" value="square"/>
-            <Option type="QString" name="customdash" value="5;2"/>
-            <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="customdash_unit" value="MM"/>
-            <Option type="QString" name="dash_pattern_offset" value="0"/>
-            <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
-            <Option type="QString" name="draw_inside_polygon" value="0"/>
-            <Option type="QString" name="joinstyle" value="bevel"/>
-            <Option type="QString" name="line_color" value="44,182,251,255"/>
-            <Option type="QString" name="line_style" value="solid"/>
-            <Option type="QString" name="line_width" value="0.6"/>
-            <Option type="QString" name="line_width_unit" value="MM"/>
-            <Option type="QString" name="offset" value="0"/>
-            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="offset_unit" value="MM"/>
-            <Option type="QString" name="ring_filter" value="0"/>
-            <Option type="QString" name="trim_distance_end" value="0"/>
-            <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="trim_distance_end_unit" value="MM"/>
-            <Option type="QString" name="trim_distance_start" value="0"/>
-            <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="trim_distance_start_unit" value="MM"/>
-            <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
-            <Option type="QString" name="use_custom_dash" value="0"/>
-            <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </profileLineSymbol>
-    <profileFillSymbol>
-      <symbol force_rhr="0" type="fill" is_animated="0" frame_rate="10" name="" clip_to_extent="1" alpha="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleFill" id="{162aa7de-13f2-459d-981c-34e38f91239b}" pass="0">
-          <Option type="Map">
-            <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="color" value="44,182,251,255"/>
-            <Option type="QString" name="joinstyle" value="bevel"/>
-            <Option type="QString" name="offset" value="0,0"/>
-            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="offset_unit" value="MM"/>
-            <Option type="QString" name="outline_color" value="32,130,179,255"/>
-            <Option type="QString" name="outline_style" value="solid"/>
-            <Option type="QString" name="outline_width" value="0.2"/>
-            <Option type="QString" name="outline_width_unit" value="MM"/>
-            <Option type="QString" name="style" value="solid"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </profileFillSymbol>
-    <profileMarkerSymbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="" clip_to_extent="1" alpha="1">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </data_defined_properties>
-        <layer enabled="1" locked="0" class="SimpleMarker" id="{e200a3b0-f856-4c2f-9dd9-91c9318ce544}" pass="0">
-          <Option type="Map">
-            <Option type="QString" name="angle" value="0"/>
-            <Option type="QString" name="cap_style" value="square"/>
-            <Option type="QString" name="color" value="44,182,251,255"/>
-            <Option type="QString" name="horizontal_anchor_point" value="1"/>
-            <Option type="QString" name="joinstyle" value="bevel"/>
-            <Option type="QString" name="name" value="diamond"/>
-            <Option type="QString" name="offset" value="0,0"/>
-            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="offset_unit" value="MM"/>
-            <Option type="QString" name="outline_color" value="32,130,179,255"/>
-            <Option type="QString" name="outline_style" value="solid"/>
-            <Option type="QString" name="outline_width" value="0.2"/>
-            <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="outline_width_unit" value="MM"/>
-            <Option type="QString" name="scale_method" value="diameter"/>
-            <Option type="QString" name="size" value="3"/>
-            <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-            <Option type="QString" name="size_unit" value="MM"/>
-            <Option type="QString" name="vertical_anchor_point" value="1"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </profileMarkerSymbol>
-  </elevation>
-  <renderer-v2 type="categorizedSymbol" forceraster="0" symbollevels="0" enableorderby="0" referencescale="-1" attr="ref">
+<qgis version="3.34.4-Prizren" styleCategories="Symbology">
+  <renderer-v2 type="categorizedSymbol" referencescale="-1" enableorderby="0" attr="ref" forceraster="0" symbollevels="0">
     <categories>
-      <category label="ART_BP Small area of made ground, backfilled pit" type="string" render="true" uuid="{b48fcfa6-eba3-48dc-8970-446ba7844c27}" symbol="0" value="ART_BP"/>
-      <category label="ART_AS Small area of made ground, above surface" type="string" render="true" uuid="{e45a5165-898e-4bc4-9dee-17c097a4fd3a}" symbol="1" value="ART_AS"/>
-      <category label="ART_WG Small area of worked ground" type="string" render="true" uuid="{4384ec48-9723-4c2e-a4db-50665ab64b2b}" symbol="2" value="ART_WG"/>
-      <category label="MSM_L Small area of landslip" type="string" render="true" uuid="{b261b583-d7b9-435a-9c29-275998af3711}" symbol="3" value="MSM_L"/>
-      <category label="BLOC Blockfield" type="string" render="true" uuid="{78a92781-b5e4-41f2-baf5-39fc8cb7e8dc}" symbol="4" value="BLOC"/>
-      <category label="COD Coombe deposits" type="string" render="true" uuid="{b8bd63b5-b653-45f0-bc52-83be2b66724b}" symbol="5" value="COD"/>
-      <category label="CWF Clay-with-flints" type="string" render="true" uuid="{d551acdb-7ea2-428f-9359-5626ff110632}" symbol="6" value="CWF"/>
-      <category label="CWF_S Sand in clay-with-flints" type="string" render="true" uuid="{ec215e7e-a10a-446e-995c-69aaa8016862}" symbol="7" value="CWF_S"/>
-      <category label="DCON Debris cone" type="string" render="true" uuid="{6e1a4992-875b-4458-b16a-b805440829c3}" symbol="8" value="DCON"/>
-      <category label="HEAD Head or hillwash" type="string" render="true" uuid="{ed597ace-6b20-404e-b80f-de8f6544e434}" symbol="9" value="HEAD"/>
-      <category label="HEAD1 Head 1" type="string" render="true" uuid="{2826030a-6614-47f1-9b38-f06935285156}" symbol="10" value="HEAD1"/>
-      <category label="HEAD2 Head 2" type="string" render="true" uuid="{7f266bba-682a-4a0f-b2bb-50365db8873f}" symbol="11" value="HEAD2"/>
-      <category label="HEAD_R Blanket head / regolith" type="string" render="true" uuid="{75874637-3728-44b8-8cff-cfa83b7d71f6}" symbol="12" value="HEAD_R"/>
-      <category label="HEADBL Head, Burton Lazars" type="string" render="true" uuid="{be6642b6-e158-454f-b9d7-2575dc755fad}" symbol="13" value="HEADBL"/>
-      <category label="HEAD_C Head, Colluvium" type="string" render="true" uuid="{29e07a2c-c0db-4175-b4fc-7406e50cea79}" symbol="14" value="HEAD_C"/>
-      <category label="HEAD_G Gravelly head" type="string" render="true" uuid="{7c71086b-2a06-4fc7-b669-fc2014e7dc32}" symbol="15" value="HEAD_G"/>
-      <category label="HEADLD Head, Little Dalby" type="string" render="true" uuid="{1a8ee441-4ab5-4b8f-a1a2-72f00c056de0}" symbol="16" value="HEADLD"/>
-      <category label="HEADPH Head, Pen Hill" type="string" render="true" uuid="{7fa0fd5c-a3bc-4980-bc03-71f50a31aa2d}" symbol="17" value="HEADPH"/>
-      <category label="HEAD_S Sandy head" type="string" render="true" uuid="{80d25d17-3f91-4d32-af97-c4a302402968}" symbol="18" value="HEAD_S"/>
-      <category label="HEAD_V Valley bottom head" type="string" render="true" uuid="{9e7d1e65-7858-4c9a-8322-bb50a94a8043}" symbol="19" value="HEAD_V"/>
-      <category label="PBS Pebbly clay and sand" type="string" render="true" uuid="{81772801-b241-4e31-bb1e-8a2b869e0a95}" symbol="20" value="PBS"/>
-      <category label="SCRE Scree / talus" type="string" render="true" uuid="{afa088d7-ed55-4a40-9367-e33d566aeb7f}" symbol="21" value="SCRE"/>
-      <category label="SCRE_I Inactive scree / talus" type="string" render="true" uuid="{0c60edfa-6dde-49a1-9528-65268c8deb33}" symbol="22" value="SCRE_I"/>
-      <category label="BLS Blown sand" type="string" render="true" uuid="{1f3ece08-2cc1-41aa-a573-19b6b1590c86}" symbol="23" value="BLS"/>
-      <category label="BLS_1 Blown sand, 1" type="string" render="true" uuid="{88093215-195e-4038-ac1c-73bc9dc7a967}" symbol="24" value="BLS_1"/>
-      <category label="BRK_ Brickearth" type="string" render="true" uuid="{aadc775a-bdbe-4e91-9a07-5f94aa140896}" symbol="25" value="BRK_"/>
-      <category label="BRK_DA Brickearth, Dartford Silt" type="string" render="true" uuid="{31856c9c-1707-45ff-88c3-b9eb0f674f55}" symbol="26" value="BRK_DA"/>
-      <category label="BRK_ES Brickearth, Enfield Silt" type="string" render="true" uuid="{7ea48a7b-c553-4d60-9667-9607103a8255}" symbol="27" value="BRK_ES"/>
-      <category label="BRK_IL Brickearth, Ilford Silt" type="string" render="true" uuid="{8ef382a1-3a4a-4649-8497-81223d51a359}" symbol="28" value="BRK_IL"/>
-      <category label="BRK_LS Brickearth, Langley Silt" type="string" render="true" uuid="{bdb27ed3-3fe7-4a10-b888-371e22498186}" symbol="29" value="BRK_LS"/>
-      <category label="BRK_WC Brickearth, Wolston Clay" type="string" render="true" uuid="{0c2936c7-e0f3-42c9-b16a-ab64b6d52bac}" symbol="30" value="BRK_WC"/>
-      <category label="LOESS Loess" type="string" render="true" uuid="{bdacdddd-00f3-418f-b28d-72ae1641bda3}" symbol="31" value="LOESS"/>
-      <category label="PEAT Peat" type="string" render="true" uuid="{a3c475e0-fa1a-487a-8bce-d7dabd32f40b}" symbol="32" value="PEAT"/>
-      <category label="PEA_BA Basin peat" type="string" render="true" uuid="{7f7ff373-6691-4357-b2eb-1d83462a02d9}" symbol="33" value="PEA_BA"/>
-      <category label="PEA_BL Blanket peat" type="string" render="true" uuid="{8f711b42-c40f-494f-87e6-aa1ffc51dd54}" symbol="34" value="PEA_BL"/>
-      <category label="PEA_FN Fen peat" type="string" render="true" uuid="{d0cf5073-b055-43bc-adc3-50309ae40f76}" symbol="35" value="PEA_FN"/>
-      <category label="PEA_H Hill peat" type="string" render="true" uuid="{ca71346a-49ad-4519-9332-13b333db94b1}" symbol="36" value="PEA_H"/>
-      <category label="PEAT_N Nordelph peat" type="string" render="true" uuid="{653a69f1-78bf-461e-99d9-6007d1cc4173}" symbol="37" value="PEAT_N"/>
-      <category label="PEAT_F Peat flow" type="string" render="true" uuid="{b03f15f0-b98e-4a5e-9f84-aae67a8d4bd7}" symbol="38" value="PEAT_F"/>
-      <category label="PET_SF Submerged forest" type="string" render="true" uuid="{2244a2eb-1a51-490b-af29-1d2fcdc2e5a5}" symbol="39" value="PET_SF"/>
-      <category label="DIAT Diatomite" type="string" render="true" uuid="{5dbc0ddb-1da2-4d33-9fbc-86f7e5eae4c7}" symbol="40" value="DIAT"/>
-      <category label="DIAT_F Diatomite, fluvial" type="string" render="true" uuid="{994f318f-2882-4918-be7d-2d8b2058a955}" symbol="41" value="DIAT_F"/>
-      <category label="SLM Shell marl" type="string" render="true" uuid="{ebb4663a-9c7f-4e54-a1e1-c6dca885513b}" symbol="42" value="SLM"/>
-      <category label="ORE Bog iron ore" type="string" render="true" uuid="{0c666479-09a0-4d09-b92e-80b6d1d4efab}" symbol="43" value="ORE"/>
-      <category label="TUFA_C Calcareous tufa" type="string" render="true" uuid="{4ea91393-8f6f-489f-ae83-0459dce3b6d8}" symbol="44" value="TUFA_C"/>
-      <category label="TUFA Tufa" type="string" render="true" uuid="{a76c6c6d-d1ec-4cdd-9476-891e15968298}" symbol="45" value="TUFA"/>
-      <category label="ALV_FN Alluvial fan deposits" type="string" render="true" uuid="{0721171c-a46f-483c-a9b5-c6500f961714}" symbol="46" value="ALV_FN"/>
-      <category label="ALV_FG Alluvial fan deposits, gravel" type="string" render="true" uuid="{fb579858-5ec7-4b5b-bded-f135c1fd7fc9}" symbol="47" value="ALV_FG"/>
-      <category label="ALV Alluvium" type="string" render="true" uuid="{8d2e5f99-012c-48a6-9614-e162054a36a1}" symbol="48" value="ALV"/>
-      <category label="ALV_1 Alluvium, 1" type="string" render="true" uuid="{37ba1ff0-5837-4795-8335-bcfc862371fa}" symbol="49" value="ALV_1"/>
-      <category label="ALV_C Alluvium, clay" type="string" render="true" uuid="{b00d352f-f887-4494-b379-64dde062fa40}" symbol="50" value="ALV_C"/>
-      <category label="ALV_SG Alluvium, sand and gravel" type="string" render="true" uuid="{572d4877-dcf2-43b3-a795-3d34ddad2279}" symbol="51" value="ALV_SG"/>
-      <category label="RT_A1 Arun Terrace Deposits, 1st" type="string" render="true" uuid="{dc21745c-be07-4c66-b945-41595d99b5bc}" symbol="52" value="RT_A1"/>
-      <category label="RT_A2 Arun Terrace Deposits, 2nd" type="string" render="true" uuid="{9c5b7220-fe9d-4d04-98b4-d25cd5dbc5e2}" symbol="53" value="RT_A2"/>
-      <category label="RT_A3 Arun Terrace Deposits, 3rd" type="string" render="true" uuid="{7b0d0767-7e63-4e36-9647-3c6c359415f2}" symbol="54" value="RT_A3"/>
-      <category label="RT_A4 Arun Terrace Deposits, 4th" type="string" render="true" uuid="{784df81d-8892-449c-a634-beddec729a4d}" symbol="55" value="RT_A4"/>
-      <category label="RT_A5 Arun Terrace Deposits, 5th" type="string" render="true" uuid="{cc4ae187-a726-4165-a0c8-0fc8d9f41b28}" symbol="56" value="RT_A5"/>
-      <category label="RT_A6 Arun Terrace Deposits, 6th" type="string" render="true" uuid="{190b8cf1-da8c-4577-824e-3791faf429f6}" symbol="57" value="RT_A6"/>
-      <category label="RT_A7 Arun Terrace Deposits, 7th" type="string" render="true" uuid="{e2b1e344-2741-4ce1-a4d7-1df48819359e}" symbol="58" value="RT_A7"/>
-      <category label="RT_BDN Balderton Sand and Gravel" type="string" render="true" uuid="{fcc85d53-4760-48dd-8229-28775c4140bd}" symbol="59" value="RT_BDN"/>
-      <category label="RT_B Bank Farm Terrace" type="string" render="true" uuid="{73a279dd-874c-4b74-8f03-6a4320b3df35}" symbol="60" value="RT_B"/>
-      <category label="RT_BS Bassingfield Sand and Gravel" type="string" render="true" uuid="{a08511d9-02b3-449c-8ba4-bb27be67592a}" symbol="61" value="RT_BS"/>
-      <category label="RT_BC9 Beaconsfield Gravel" type="string" render="true" uuid="{d268fabf-b2b8-47e2-b931-5175be2eb88b}" symbol="62" value="RT_BC9"/>
-      <category label="RT_BG2 Beenham Grange Gravel" type="string" render="true" uuid="{744c49f8-4a7e-46e9-a4c7-a8a70aa8e8fe}" symbol="63" value="RT_BG2"/>
-      <category label="RT_BS7 Beenham Stocks Gravel" type="string" render="true" uuid="{b8bd0656-e984-49ae-88cc-15df61fd086c}" symbol="64" value="RT_BS7"/>
-      <category label="RT_BEE Beeston Sand and Gravel" type="string" render="true" uuid="{98b79f08-7d0c-45c9-bd77-9d759d5f657e}" symbol="65" value="RT_BEE"/>
-      <category label="RT_BEL Belton Sand and Gravel" type="string" render="true" uuid="{9ea21bf1-df6c-46cd-af3f-186ac5e5364c}" symbol="66" value="RT_BEL"/>
-      <category label="RT_BIR Birstall Sand and Gravel" type="string" render="true" uuid="{f8ffad67-6f9e-4cdb-9a2f-06ab3319aa68}" symbol="67" value="RT_BIR"/>
-      <category label="RT_BPG Black Park Gravel" type="string" render="true" uuid="{f08d9812-4c5d-4a24-b2ff-4e27a8daafc8}" symbol="68" value="RT_BPG"/>
-      <category label="RT_B3 Blackwater Terrace Deposits, 3rd" type="string" render="true" uuid="{a7412833-5de4-463f-b606-82050e5c86ce}" symbol="69" value="RT_B3"/>
-      <category label="RT_B4 Blackwater Terrace Deposits, 4th" type="string" render="true" uuid="{db9a9fb0-2482-4eaf-9ec7-ae3eac78c492}" symbol="70" value="RT_B4"/>
-      <category label="RT_BH Boyn Hill Gravel" type="string" render="true" uuid="{736ffdf5-52c9-4291-b5b4-7b49674e9d38}" symbol="71" value="RT_BH"/>
-      <category label="RT_BW2 Bramley Wey Terrace Deposits, 2nd" type="string" render="true" uuid="{2a7af9b2-7c9c-4035-b516-6d01d6c99316}" symbol="72" value="RT_BW2"/>
-      <category label="RT_BK8 Bucklebury Gravel" type="string" render="true" uuid="{da6628c1-2845-4406-b771-ad0ee2f84c75}" symbol="73" value="RT_BK8"/>
-      <category label="RT_BKY Brooksby Sand and Gravel" type="string" render="true" uuid="{9dd088e7-8820-4201-8bd9-1c411076a888}" symbol="74" value="RT_BKY"/>
-      <category label="RT_BN Bunny Sand and Gravel" type="string" render="true" uuid="{caef1648-9dff-4536-866a-a9a5f1b25db5}" symbol="75" value="RT_BN"/>
-      <category label="RT_BTH Bytham Sand and Gravel" type="string" render="true" uuid="{c75c6e8a-f0e7-4387-ab9d-708cf3f054ab}" symbol="76" value="RT_BTH"/>
-      <category label="RT_CCG Caesar's Camp Gravel" type="string" render="true" uuid="{bb3c8149-9c73-46e3-a28a-f22903da4e0a}" symbol="77" value="RT_CCG"/>
-      <category label="ALV_CH Cheltenham Sand and Gravel" type="string" render="true" uuid="{2d435fc5-f1de-408e-b414-80d81165202b}" symbol="78" value="ALV_CH"/>
-      <category label="RT_CM Combe Member" type="string" render="true" uuid="{cc733aba-46ab-499c-8137-b6e7c17a0e3e}" symbol="79" value="RT_CM"/>
-      <category label="RT_CY Corbets Tey Gravel" type="string" render="true" uuid="{a2700093-0ac3-4b18-98c1-62b4488b61e3}" symbol="80" value="RT_CY"/>
-      <category label="RT_DM1 Daylesford Member, 1st" type="string" render="true" uuid="{95213131-3d07-46ff-bac4-07903cb51420}" symbol="81" value="RT_DM1"/>
-      <category label="RT_DH Dollis Hill Gravel" type="string" render="true" uuid="{f658b634-3133-4584-a145-18eb64a59cf6}" symbol="82" value="RT_DH"/>
-      <category label="ALV_DV Dry valley deposits" type="string" render="true" uuid="{125539e6-8ab4-46dc-be35-7b0082c4f589}" symbol="83" value="ALV_DV"/>
-      <category label="RT_EM Eagle Moor Sand and Gravel" type="string" render="true" uuid="{b6a2467e-6b5e-420a-a52c-e4de902a0a7d}" symbol="84" value="RT_EM"/>
-      <category label="RT_EC Eggington Common Sand and Gravel" type="string" render="true" uuid="{f3d2699c-f921-4077-a4ea-8ea482d44ea1}" symbol="85" value="RT_EC"/>
-      <category label="RT_ET Etwall Sand and Gravel" type="string" render="true" uuid="{86da7527-a142-4e98-8b43-5e447bb6eb14}" symbol="86" value="RT_ET"/>
-      <category label="RT_FG Fen Sand and Gravel" type="string" render="true" uuid="{8d270b87-dd22-4bad-ab40-534f465fc8bd}" symbol="87" value="RT_FG"/>
-      <category label="RT_FIN Finsbury Gravel" type="string" render="true" uuid="{76b8823b-5a01-4ca4-bdfe-d99882403ee2}" symbol="88" value="RT_FIN"/>
-      <category label="RT_FSG Fluvial Sand and Gravel" type="string" render="true" uuid="{d8c51b0f-368e-4925-a46a-0249a791aac0}" symbol="89" value="RT_FSG"/>
-      <category label="RT_FR Freeland Member" type="string" render="true" uuid="{0790c8b9-10a4-402b-a6a3-262926973cca}" symbol="90" value="RT_FR"/>
-      <category label="RT_FUL Fulbeck Sand and Gravel" type="string" render="true" uuid="{2b42cc32-c4a0-4ab1-9a36-ece5087c7858}" symbol="91" value="RT_FUL"/>
-      <category label="RT_GC Gerrards Cross Gravel" type="string" render="true" uuid="{438a6d60-17af-4680-8dca-735235cf7352}" symbol="92" value="RT_GC"/>
-      <category label="RT_GW1 Godalming Wey Deposits, 1st" type="string" render="true" uuid="{182c55df-5111-4aa6-a652-82a7cc7fb725}" symbol="93" value="RT_GW1"/>
-      <category label="RT_G1A Godalming Wey Deposits, 1a" type="string" render="true" uuid="{cb2939a7-dbd9-4f24-8549-af0fa308fa14}" symbol="94" value="RT_G1A"/>
-      <category label="RT_G1B Godalming Wey Deposits, 1b" type="string" render="true" uuid="{51d98080-d625-4043-8dc5-851b1c7db249}" symbol="95" value="RT_G1B"/>
-      <category label="RT_GW2 Godalming Wey Deposits, 2nd" type="string" render="true" uuid="{a0f88787-d673-4d69-818d-0648dc2f84c5}" symbol="96" value="RT_GW2"/>
-      <category label="RT_GW3 Godalming Wey Deposits, 3rd" type="string" render="true" uuid="{9d0636d3-8095-4a5c-a5b7-863a08f4dce8}" symbol="97" value="RT_GW3"/>
-      <category label="RT_HA Hackney Gravel" type="string" render="true" uuid="{5450ea97-f80c-4741-bd5e-c6e14b02ade6}" symbol="98" value="RT_HA"/>
-      <category label="RT_H4 Hanborough Member" type="string" render="true" uuid="{e65716e8-dcba-4086-a8e1-5d90f1ba030a}" symbol="99" value="RT_H4"/>
-      <category label="RT_HP Holme Pierrepont Sand and Gravel" type="string" render="true" uuid="{4a9b6d74-e419-4429-aa80-b744f78604b1}" symbol="100" value="RT_HP"/>
-      <category label="RT_KP Kempton Park Gravel" type="string" render="true" uuid="{ca49cf8a-97aa-41d0-8752-a4ef5b61ab52}" symbol="101" value="RT_KP"/>
-      <category label="RT_KN Knighton Sand and Gravel" type="string" render="true" uuid="{a3f4ccf3-4f1d-4e98-9977-650202d4241c}" symbol="102" value="RT_KN"/>
-      <category label="RT_LG Leaves Green Gravel" type="string" render="true" uuid="{d5f5ce20-47cd-4163-af5d-49aa6a42106e}" symbol="103" value="RT_LG"/>
-      <category label="RT_LN Leen Sand and Gravel" type="string" render="true" uuid="{d23ed1a6-e215-4710-aefa-57eb8fc81146}" symbol="104" value="RT_LN"/>
-      <category label="RT_H Little Hereford River Terrace" type="string" render="true" uuid="{eb98c27c-36c7-402b-9b06-8a1ec6767751}" symbol="105" value="RT_H"/>
-      <category label="RT_LH Lynch Hill Gravel" type="string" render="true" uuid="{8d409175-8116-4d3d-9b3a-bed1d38773bc}" symbol="106" value="RT_LH"/>
-      <category label="RT_N1 Northmoor Member" type="string" render="true" uuid="{fc9eaa53-9c3b-46f1-a3f9-89e3f2c71b36}" symbol="107" value="RT_N1"/>
-      <category label="RT_OcK Ockbrook Sand and Gravel" type="string" render="true" uuid="{b0e52b2d-cbfc-4949-8d80-5e5a1f001a69}" symbol="108" value="RT_OcK"/>
-      <category label="RT_RM1 Rissington Member" type="string" render="true" uuid="{99d05e3c-eccb-4fec-9102-1842ef9044c9}" symbol="109" value="RT_RM1"/>
-      <category label="RT_AV1 River Avon Deposits, 1st" type="string" render="true" uuid="{9113b4eb-d3fd-4f05-bf20-0fad1f90c60b}" symbol="110" value="RT_AV1"/>
-      <category label="RT_AV2 River Avon Deposits, 2nd" type="string" render="true" uuid="{465697b6-850b-4a69-99a9-cf05b163742b}" symbol="111" value="RT_AV2"/>
-      <category label="RT_S1 River Severn Deposits, 1st" type="string" render="true" uuid="{2786508f-88d5-4476-844b-8bc34cbeb75b}" symbol="112" value="RT_S1"/>
-      <category label="RT_S2 River Severn Deposits, 2nd" type="string" render="true" uuid="{7fc46b7a-a451-47cc-b1f1-23f2cd78ab14}" symbol="113" value="RT_S2"/>
-      <category label="RT_S3 River Severn Deposits, 3rd" type="string" render="true" uuid="{9f5bfda8-b3fa-48c8-9e1a-621b7e4b42cd}" symbol="114" value="RT_S3"/>
-      <category label="RT01 River terrace deposits, 1st" type="string" render="true" uuid="{6181622e-ccbe-4c47-b776-3dd9caf5e48b}" symbol="115" value="RT01"/>
-      <category label="RT01A River terrace deposits,1a" type="string" render="true" uuid="{9c647279-93fc-4655-b536-7e3633ac37fd}" symbol="116" value="RT01A"/>
-      <category label="RT01B River terrace deposits,1b" type="string" render="true" uuid="{0d6221eb-dbda-4e42-acaf-1a9b8a169fa8}" symbol="117" value="RT01B"/>
-      <category label="RT01C River terrace deposits,1c" type="string" render="true" uuid="{62fa0dbf-c522-4de8-9f60-0f4c2cad0cc4}" symbol="118" value="RT01C"/>
-      <category label="RT01-2 River terrace deposits, 1st - 2nd" type="string" render="true" uuid="{e9064bbd-f857-4632-a26e-1c2dc8eeb52b}" symbol="119" value="RT01-2"/>
-      <category label="RT02 River terrace deposits, 2nd" type="string" render="true" uuid="{47e5980a-2fe5-49c8-beec-3b131cf54597}" symbol="120" value="RT02"/>
-      <category label="RT02-3 River terrace deposits, 2nd - 3rd" type="string" render="true" uuid="{a7632bd4-3864-4143-832e-2a68443082d1}" symbol="121" value="RT02-3"/>
-      <category label="RT03 River terrace deposits, 3rd" type="string" render="true" uuid="{db8d24b9-eb62-4982-bf2d-0e113da92b23}" symbol="122" value="RT03"/>
-      <category label="RT04 River terrace deposits, 4th" type="string" render="true" uuid="{fe164a85-1b73-4999-b07b-24d0f70d7f73}" symbol="123" value="RT04"/>
-      <category label="RT05 River terrace deposits, 5th" type="string" render="true" uuid="{fedfd3e9-c223-4e05-8cc1-66df22509815}" symbol="124" value="RT05"/>
-      <category label="RT05-6 River terrace deposits, 5th - 6th" type="string" render="true" uuid="{5191c4c9-644c-4b26-8438-6c6d0b541881}" symbol="125" value="RT05-6"/>
-      <category label="RT06 River terrace deposits, 6th" type="string" render="true" uuid="{aca4a2c1-70eb-4eed-9d86-ea15e753d02f}" symbol="126" value="RT06"/>
-      <category label="RT07 River terrace deposits, 7th" type="string" render="true" uuid="{c04a98b1-eedc-48a7-abe8-2a479d45c1eb}" symbol="127" value="RT07"/>
-      <category label="RT08 River terrace deposits, 8th" type="string" render="true" uuid="{d1d854b7-17d6-478c-bba3-ced76ff59ec8}" symbol="128" value="RT08"/>
-      <category label="RT09 River terrace deposits, 9th" type="string" render="true" uuid="{bd82f1d7-7e1a-49b0-817d-3085f4868b2e}" symbol="129" value="RT09"/>
-      <category label="RT10 River terrace deposits 10th" type="string" render="true" uuid="{4dd604ee-bcb0-40c4-b8f4-5f19c7528c57}" symbol="130" value="RT10"/>
-      <category label="RT11 River terrace deposits, 11th" type="string" render="true" uuid="{b23ade90-cf63-4e87-8cae-57daf1ecc4f8}" symbol="131" value="RT11"/>
-      <category label="RT12 River terrace deposits, 12th" type="string" render="true" uuid="{1772e7a4-92f3-4807-9bba-77566207a145}" symbol="132" value="RT12"/>
-      <category label="RT13 River terrace deposits, 13th" type="string" render="true" uuid="{4636754e-d37c-4fc5-8e0b-180721568246}" symbol="133" value="RT13"/>
-      <category label="RT14 River terrace deposits, 14th" type="string" render="true" uuid="{9249d5d9-cb60-40bb-942d-2a99cda8e4e7}" symbol="134" value="RT14"/>
-      <category label="RT15 River terrace deposits, 15th" type="string" render="true" uuid="{61142f54-9bf8-40da-ad40-c74fc2ac6162}" symbol="135" value="RT15"/>
-      <category label="RT_U River terrace deposits, undifferentiated" type="string" render="true" uuid="{6e9ec1f3-227f-4864-96e6-529c365d00fd}" symbol="136" value="RT_U"/>
-      <category label="RT_WF River Worfe Deposits, undifferentiated" type="string" render="true" uuid="{62c44167-382c-40b0-86be-9392e0fc4e63}" symbol="137" value="RT_WF"/>
-      <category label="RT_WF1 River Worfe Terrace Deposits, 1st" type="string" render="true" uuid="{8bc4dd61-0520-4cb6-b124-eae742c9e84c}" symbol="138" value="RT_WF1"/>
-      <category label="RT_WF2 River Worfe Terrace Deposits, 2nd" type="string" render="true" uuid="{e43d2c8f-23f9-4593-b598-4d1417988bda}" symbol="139" value="RT_WF2"/>
-      <category label="RT_WY1 River Wye Terrace Deposits, 1st" type="string" render="true" uuid="{796ca5e0-74af-4c0b-bb99-ff88f281b514}" symbol="140" value="RT_WY1"/>
-      <category label="RT_WY2 River Wye Terrace Deposits, 2nd" type="string" render="true" uuid="{b7d02e5a-4a60-4cce-aa6d-474ce9cd4093}" symbol="141" value="RT_WY2"/>
-      <category label="RT_RO1 Rother Terrace Deposits, 1st" type="string" render="true" uuid="{d1342afb-5b3a-4f1b-bdde-4fb023924ce9}" symbol="142" value="RT_RO1"/>
-      <category label="RT_RO2 Rother Terrace Deposits, 2nd" type="string" render="true" uuid="{44b35c51-8cce-49ed-8743-6aa13f059d46}" symbol="143" value="RT_RO2"/>
-      <category label="RT_RO3 Rother Terrace Deposits, 3rd" type="string" render="true" uuid="{8bac7ff3-b79f-46bd-a5d9-6f04a90f652d}" symbol="144" value="RT_RO3"/>
-      <category label="RT_RO4 Rother Terrace Deposits, 4th" type="string" render="true" uuid="{26094700-8a23-4b3c-9b4c-90c86a9c6a44}" symbol="145" value="RT_RO4"/>
-      <category label="RT_RO5 Rother Terrace Deposits, 5th" type="string" render="true" uuid="{876dd40d-8023-4011-9a33-e54e13bd3453}" symbol="146" value="RT_RO5"/>
-      <category label="RT_ROU Rother Terrace Deposits, undifferentiated" type="string" render="true" uuid="{5dbb09f3-8cb9-4505-8205-2feb0b6af039}" symbol="147" value="RT_ROU"/>
-      <category label="RT_S Shakenhurst Terrace" type="string" render="true" uuid="{6e277c00-93a2-4677-84e0-687b62ec3fa9}" symbol="148" value="RT_S"/>
-      <category label="RT_SH Shepperton Gravel" type="string" render="true" uuid="{21fc5ca0-215d-4624-8803-59d515e976da}" symbol="149" value="RT_SH"/>
-      <category label="RT_SM1 Sherborne Member, 1st terrace" type="string" render="true" uuid="{dae1968e-538b-426c-8480-cf634d4acc0a}" symbol="150" value="RT_SM1"/>
-      <category label="RT_SM2 Sherborne Member, 2nd terrace" type="string" render="true" uuid="{8c7d10fc-40ff-4b0e-a458-e7fb69f9d590}" symbol="151" value="RT_SM2"/>
-      <category label="RT_SL6 Silchester Gravel" type="string" render="true" uuid="{2c4fda4c-c659-4151-850e-a70b28f7a525}" symbol="152" value="RT_SL6"/>
-      <category label="RT_SR2 Summertown Radley Member, 2nd terrace" type="string" render="true" uuid="{59f9f8c9-64ac-43e6-98a4-d5a797da1585}" symbol="153" value="RT_SR2"/>
-      <category label="RT_SHG Surrey Hill Gravel" type="string" render="true" uuid="{e2bd85a0-19ba-4b73-87a4-4c8f1d3bdd14}" symbol="154" value="RT_SHG"/>
-      <category label="RT_SYS Syston Sand and Gravel" type="string" render="true" uuid="{f917bfa4-c35e-4702-90c1-d8702930b69c}" symbol="155" value="RT_SYS"/>
-      <category label="RT_TAP Taplow Gravel" type="string" render="true" uuid="{8ca9fa7d-746a-4fdd-acb6-605d2fb1b2db}" symbol="156" value="RT_TAP"/>
-      <category label="RT_TH3 Thatcham Gravel" type="string" render="true" uuid="{bd311e49-e286-4c34-b79a-30cef285c533}" symbol="157" value="RT_TH3"/>
-      <category label="RT_WAN Wanlip Sand and Gravel" type="string" render="true" uuid="{b9528805-3c4f-4674-8c6f-16568acebfd7}" symbol="158" value="RT_WAN"/>
-      <category label="ALV_W Warp" type="string" render="true" uuid="{4866bc40-9335-4d24-8b72-8c49f1b72e54}" symbol="159" value="ALV_W"/>
-      <category label="RT_WG Westland Green Gravel" type="string" render="true" uuid="{eac99ee2-ad16-4e63-987b-a6c6d8978e66}" symbol="160" value="RT_WG"/>
-      <category label="RT_WM Westmill Lower Gravel" type="string" render="true" uuid="{38a5f1aa-ba3f-4e5e-bea3-76a01b7819f0}" symbol="161" value="RT_WM"/>
-      <category label="RT_WH Whatton Sand and Gravel" type="string" render="true" uuid="{99eb1328-3e1b-48de-8590-a43f5bf989ec}" symbol="162" value="RT_WH"/>
-      <category label="RT_WH7 Winter Hill Gravel" type="string" render="true" uuid="{35212bd9-7620-4a19-8c70-05989467b6f4}" symbol="163" value="RT_WH7"/>
-      <category label="RT_WO3 Wolvercote Member" type="string" render="true" uuid="{27e52562-8800-4231-a987-8c341ecc4cdd}" symbol="164" value="RT_WO3"/>
-      <category label="RT_WD Woodford Gravel" type="string" render="true" uuid="{bccfe367-3022-490d-baf5-6916286531c0}" symbol="165" value="RT_WD"/>
-      <category label="LAC Lacustrine deposits" type="string" render="true" uuid="{75b214e7-736c-447e-be3b-7d81e859cfb4}" symbol="166" value="LAC"/>
-      <category label="LAC1 Lacustrine deposits 1" type="string" render="true" uuid="{640bae51-eeab-4e93-b0af-00b43eb282e4}" symbol="167" value="LAC1"/>
-      <category label="LAC2 Lacustrine deposits 2" type="string" render="true" uuid="{61dd5254-8d2b-4c2b-b127-a856e9c7ed52}" symbol="168" value="LAC2"/>
-      <category label="LAC3 Lacustrine deposits 3" type="string" render="true" uuid="{a8831730-f536-4499-9dda-15de25d5c701}" symbol="169" value="LAC3"/>
-      <category label="LAC_D Lacustrine delta deposits" type="string" render="true" uuid="{b0d22011-a4ab-4782-9a7f-93d9376464fc}" symbol="170" value="LAC_D"/>
-      <category label="LAC_SB Lacustrine shoreface and beach deposits" type="string" render="true" uuid="{044dc23d-20b9-414f-bbe4-aaa60a99fe84}" symbol="171" value="LAC_SB"/>
-      <category label="LAC_S5 Lacustrine shoreface and beach deposits 5" type="string" render="true" uuid="{c3e258ca-5271-4ee6-aa74-fa1713b13d2b}" symbol="172" value="LAC_S5"/>
-      <category label="MA_B Bank deposits" type="string" render="true" uuid="{987c71f3-321a-441d-b449-e0bf496a74d3}" symbol="173" value="MA_B"/>
-      <category label="MA_BS Bank deposits, sand" type="string" render="true" uuid="{2ef330e6-d75f-4edd-ab21-a3d17c94b15d}" symbol="174" value="MA_BS"/>
-      <category label="MA_BDB Barroway Drove Beds" type="string" render="true" uuid="{b499210e-f293-4038-b172-d6089097fb29}" symbol="175" value="MA_BDB"/>
-      <category label="MA_CH Chenier deposits" type="string" render="true" uuid="{42832d24-b359-4245-a6b9-70f95e1b3a51}" symbol="176" value="MA_CH"/>
-      <category label="MA_NET Netley Heath Deposits" type="string" render="true" uuid="{56c70abc-cb7c-4cdb-a28d-8c6c23f680bc}" symbol="177" value="MA_NET"/>
-      <category label="MA_CB Coastal barrier deposits" type="string" render="true" uuid="{66c8644b-b352-41e0-ad9c-c9fa4247f8f8}" symbol="178" value="MA_CB"/>
-      <category label="MA_SGC Coastal barrier, sand and gravel" type="string" render="true" uuid="{11fb3fee-dc72-4102-9a58-2af5a1e8a320}" symbol="179" value="MA_SGC"/>
-      <category label="MA_CZ Coastal zone deposits, undifferentiated" type="string" render="true" uuid="{5ec45863-ee59-45eb-980d-5035c3efb20d}" symbol="180" value="MA_CZ"/>
-      <category label="MA_I Intertidal deposits, undifferentiated" type="string" render="true" uuid="{2a038ca0-7eda-4065-b451-0316d5f41d27}" symbol="181" value="MA_I"/>
-      <category label="MA_MB Marine band" type="string" render="true" uuid="{932422e6-7cf1-400f-abc3-503b97af4c26}" symbol="182" value="MA_MB"/>
-      <category label="MA_BE Marine beach deposits" type="string" render="true" uuid="{a5a10a4f-7534-463c-9e59-510e0161ba66}" symbol="183" value="MA_BE"/>
-      <category label="MA_MA Marine deposits, undifferentiated" type="string" render="true" uuid="{dd757f6f-011b-4151-96d5-8218ef25787a}" symbol="184" value="MA_MA"/>
-      <category label="MA_SG Marine deposits, sand and gravel" type="string" render="true" uuid="{36056ab9-e020-4007-aa7d-91f1eacefa9f}" symbol="185" value="MA_SG"/>
-      <category label="MA_M Mud deposits" type="string" render="true" uuid="{5edeab30-390f-40ba-992b-214c005c158f}" symbol="186" value="MA_M"/>
-      <category label="MA_SM Saltmarsh deposits" type="string" render="true" uuid="{9ec6f64b-6c64-4c34-8e5a-9222eb00ac16}" symbol="187" value="MA_SM"/>
-      <category label="MA_SSI Sand and silt deposits" type="string" render="true" uuid="{0151fbdd-9a09-4b3e-8d4a-37faf8139866}" symbol="188" value="MA_SSI"/>
-      <category label="MA_S Sand deposits" type="string" render="true" uuid="{d41f7b4a-2ce6-4c79-a245-a654f23f8136}" symbol="189" value="MA_S"/>
-      <category label="MA_SST Sand, tabular or sheet deposits" type="string" render="true" uuid="{5f2a8dcd-5d90-4d68-8246-b9b130172318}" symbol="190" value="MA_SST"/>
-      <category label="MA_SHB Shell bank (mussel band)" type="string" render="true" uuid="{92c25861-5c40-45d3-8c62-f45030026231}" symbol="191" value="MA_SHB"/>
-      <category label="MA_SF Shoreface deposits" type="string" render="true" uuid="{04f4b106-b969-4782-930f-8661758e396e}" symbol="192" value="MA_SF"/>
-      <category label="MA_SFS Shoreface deposits, sand" type="string" render="true" uuid="{0d5d40fc-24b6-4d7a-bc00-85c7b7e6ac7c}" symbol="193" value="MA_SFS"/>
-      <category label="MA_SSG Shoreface deposits, sand and gravel" type="string" render="true" uuid="{1a3c9e47-43e9-45ad-8156-b3e39d45b1fe}" symbol="194" value="MA_SSG"/>
-      <category label="MA_SI Silt deposits" type="string" render="true" uuid="{3368497f-4453-4482-9119-b9355a1e711f}" symbol="195" value="MA_SI"/>
-      <category label="MA_SB Storm beach deposits" type="string" render="true" uuid="{ea9e2400-a520-41c0-8af9-1a7c58b26d8e}" symbol="196" value="MA_SB"/>
-      <category label="MA_SB1 Storm beach deposits, 1" type="string" render="true" uuid="{ec5a3501-5ba2-4568-97b9-b21b46e97b70}" symbol="197" value="MA_SB1"/>
-      <category label="MA_SBG Storm beach deposits, gravel" type="string" render="true" uuid="{3a62e89a-3252-4f35-8693-d664cf91edce}" symbol="198" value="MA_SBG"/>
-      <category label="MA_SU Supratidal deposits undifferentiated" type="string" render="true" uuid="{923f27fa-c124-4ff2-82b3-6f99e8d47a33}" symbol="199" value="MA_SU"/>
-      <category label="MA_ST Tabular or sheet deposits" type="string" render="true" uuid="{ae0aeee9-3cd9-4bb6-a463-25e8cdf8cab3}" symbol="200" value="MA_ST"/>
-      <category label="MA_TF Tidal flat deposits" type="string" render="true" uuid="{6cf3e0c8-8c48-41b7-a61c-15faf4f27358}" symbol="201" value="MA_TF"/>
-      <category label="MA_TF1 Tidal flat deposits, 1" type="string" render="true" uuid="{b0d503cb-0070-4db4-87a0-1ec475106f54}" symbol="202" value="MA_TF1"/>
-      <category label="MA_TR Tidal, river or creek deposits" type="string" render="true" uuid="{6223a632-b559-44b5-baca-309def7b23be}" symbol="203" value="MA_TR"/>
-      <category label="MA_TRM Tidal, river or creek deposits, mud" type="string" render="true" uuid="{8819b57a-4a34-4c60-94cd-87bef3e697c0}" symbol="204" value="MA_TRM"/>
-      <category label="MA_TMG Tidal, river or creek deposits, mud and gravel" type="string" render="true" uuid="{00dd3c9d-2b1d-4ae7-a439-6646cdeebb80}" symbol="205" value="MA_TMG"/>
-      <category label="MA_WO Washover deposits" type="string" render="true" uuid="{81cdcc53-32ba-4a22-bf71-4791d28272c6}" symbol="206" value="MA_WO"/>
-      <category label="RM_SB2 Beach deposits" type="string" render="true" uuid="{4ead834a-6a9f-4c9e-bbf9-e7c2039512ac}" symbol="207" value="RM_SB2"/>
-      <category label="RM_BL Brackish lagoon" type="string" render="true" uuid="{59b066f9-61a3-4df9-a7d1-910ec6456eed}" symbol="208" value="RM_BL"/>
-      <category label="RM_DS Delta deposits, sand and gravel" type="string" render="true" uuid="{320fd284-f856-42ff-a42f-79109dd0c228}" symbol="209" value="RM_DS"/>
-      <category label="RM_FL Flandrian deposits" type="string" render="true" uuid="{4c7b78f7-f0ba-4e6a-b2ea-9027cb8235de}" symbol="210" value="RM_FL"/>
-      <category label="RM_IN Intertidal" type="string" render="true" uuid="{0a7625bf-d494-4b59-883d-57fe63dee8e9}" symbol="211" value="RM_IN"/>
-      <category label="RM_LG Late glacial" type="string" render="true" uuid="{e7974e3b-4480-4159-884c-7be1c87ff214}" symbol="212" value="RM_LG"/>
-      <category label="RM_PG Post glacial" type="string" render="true" uuid="{5796de70-2732-485f-82ac-29e89c616a97}" symbol="213" value="RM_PG"/>
-      <category label="RM_D Raised marine delta deposits" type="string" render="true" uuid="{7328c3e8-fa91-4b18-a42f-acdcc77fe1de}" symbol="214" value="RM_D"/>
-      <category label="RM Raised marine deposits" type="string" render="true" uuid="{5102ad2d-82df-4c1a-987c-270844982962}" symbol="215" value="RM"/>
-      <category label="RM_C Raised marine deposits, clay" type="string" render="true" uuid="{efac1475-daa4-442c-8604-943a46b3b9ab}" symbol="216" value="RM_C"/>
-      <category label="RM_2 Raised marine deposits, high" type="string" render="true" uuid="{731d1663-539f-4d22-9395-04845a63a51c}" symbol="217" value="RM_2"/>
-      <category label="RM_3 Raised marine deposits, highest" type="string" render="true" uuid="{78c71d76-6ea3-47d8-92b2-2d00859083cb}" symbol="218" value="RM_3"/>
-      <category label="RM_1 Raised marine deposits, low" type="string" render="true" uuid="{8b3571bb-889c-4c47-810b-992ac62b072f}" symbol="219" value="RM_1"/>
-      <category label="RM_MG Raised marine deposits, March Gravels" type="string" render="true" uuid="{109e3ebd-e4ce-4403-a315-6ce458152a25}" symbol="220" value="RM_MG"/>
-      <category label="RM_M Raised marine deposits, mud" type="string" render="true" uuid="{9716120e-9d65-4ddc-91c9-0b6739e8e001}" symbol="221" value="RM_M"/>
-      <category label="RM_NV Raised marine deposits, Nor Valley Clay" type="string" render="true" uuid="{f36a7c65-cfea-45eb-afbd-771c63833cae}" symbol="222" value="RM_NV"/>
-      <category label="RM_SG Raised marine deposits, sand and gravel" type="string" render="true" uuid="{42f3e4b0-13e4-494c-8adf-1171b6423e1b}" symbol="223" value="RM_SG"/>
-      <category label="RM_SC Raised marine deposits, silt and clay" type="string" render="true" uuid="{6f4ce867-c51e-4af3-aaa9-11371ba6458e}" symbol="224" value="RM_SC"/>
-      <category label="RM_TB Raised marine deposits, Terrington Beds" type="string" render="true" uuid="{9742d4d5-a65b-4f91-9836-9633f44b56f1}" symbol="225" value="RM_TB"/>
-      <category label="RM_TO Raised marine deposits, Tottenhill Gravels" type="string" render="true" uuid="{4366db55-7119-4bf8-bc0c-be420aa7e260}" symbol="226" value="RM_TO"/>
-      <category label="RM_TF Raised marine, tidal, river or creek deposits" type="string" render="true" uuid="{e175ee9e-0d32-414e-b34b-fe0f3cf004a9}" symbol="227" value="RM_TF"/>
-      <category label="RM_TRF Raised tidal flat deposits of Flandrian age" type="string" render="true" uuid="{c35a966f-8d24-4d4f-b213-987256d535a9}" symbol="228" value="RM_TRF"/>
-      <category label="RM_SBF Shore beach deposits of Flandrian age" type="string" render="true" uuid="{773c3186-3378-48e3-aafd-cfc16e165480}" symbol="229" value="RM_SBF"/>
-      <category label="RM_SU Subtidal" type="string" render="true" uuid="{a1b90257-3063-4485-88e6-2f9ae9af44b5}" symbol="230" value="RM_SU"/>
-      <category label="IGL_LA Interglacial lacustrine deposits" type="string" render="true" uuid="{802a90d7-dfd9-4511-accc-f4fd60af770c}" symbol="231" value="IGL_LA"/>
-      <category label="IGL Interglacial deposits, undifferentiated" type="string" render="true" uuid="{da265006-4294-465a-816b-50422c723e78}" symbol="232" value="IGL"/>
-      <category label="IGL_FL Interglacial fluvial deposits" type="string" render="true" uuid="{159a6a6f-8b9e-4b71-a7f6-ad7b9f50ebde}" symbol="233" value="IGL_FL"/>
-      <category label="IGL_MA Interglacial marine deposits, undifferentiated" type="string" render="true" uuid="{18830524-5565-4413-8458-2199f6443118}" symbol="234" value="IGL_MA"/>
-      <category label="IGL_MS Interglacial marine shore beach deposits" type="string" render="true" uuid="{b08204c8-48cb-4b63-b38a-a56c5e6fb1a9}" symbol="235" value="IGL_MS"/>
-      <category label="DM Diamicton" type="string" render="true" uuid="{b68199bc-66e7-4fdc-a4b4-8571748fe540}" symbol="236" value="DM"/>
-      <category label="GL Glacial deposits" type="string" render="true" uuid="{0174bc5f-0a5e-47de-a331-0baed070bda7}" symbol="237" value="GL"/>
-      <category label="GL_CG Crag with tail" type="string" render="true" uuid="{3624b27e-a15d-4f12-b021-0cd3049efe8a}" symbol="238" value="GL_CG"/>
-      <category label="GL_HMC Hummocky glacial and morainic deposits" type="string" render="true" uuid="{517d36f9-7b77-4d17-ae4a-c6809760b7f9}" symbol="239" value="GL_HMC"/>
-      <category label="GL_MSG Muddy sand and gravel" type="string" render="true" uuid="{d7cdf5c6-9ce9-4cdb-a5d7-cfbda22d583b}" symbol="240" value="GL_MSG"/>
-      <category label="GFL Glaciofluvial deposits, undifferentiated" type="string" render="true" uuid="{3f7f5816-197b-447e-a203-6ad5170ee2a2}" symbol="241" value="GFL"/>
-      <category label="GFL_B Baginton Sand and Gravel" type="string" render="true" uuid="{d450d993-de0f-4b9e-a267-f992cff470f2}" symbol="242" value="GFL_B"/>
-      <category label="GFL_BU Burtle Beds" type="string" render="true" uuid="{45d7a95a-2f59-4704-a75b-17e625aaed5d}" symbol="243" value="GFL_BU"/>
-      <category label="GFL_CO Corton Formation" type="string" render="true" uuid="{0e960def-36cc-482c-8ac8-d87b431ea84b}" symbol="244" value="GFL_CO"/>
-      <category label="GFL_D Deltaic and / or fan deposits" type="string" render="true" uuid="{c6905573-6958-47c7-a4fa-955ed9f59b4d}" symbol="245" value="GFL_D"/>
-      <category label="GFL_EG Lochton Sand and Gravel Formation (East Grampian Drift Group)" type="string" render="true" uuid="{88507b91-745d-40e1-a348-296c5b5dc008}" symbol="246" value="GFL_EG"/>
-      <category label="GFL_EM Eagle Moor Sand and Gravel" type="string" render="true" uuid="{315d6fb2-d806-43ee-bcc4-2ebbabe805e8}" symbol="247" value="GFL_EM"/>
-      <category label="GFL_HO Holderness Formation" type="string" render="true" uuid="{0b2a5002-e4fd-498d-94d6-a04267e5359b}" symbol="248" value="GFL_HO"/>
-      <category label="GFL_IC Ice-contact" type="string" render="true" uuid="{437d9a1c-3a82-4547-970b-7b2946feb11f}" symbol="249" value="GFL_IC"/>
-      <category label="GFL_IT Irish Sea Ice Sheet (sheet deposits)" type="string" render="true" uuid="{0f6801ab-58a5-48b1-9d64-2d9cd575408e}" symbol="250" value="GFL_IT"/>
-      <category label="GFL_I Irish Sea Ice Sheet, undifferentiated" type="string" render="true" uuid="{56b476e8-3945-4f88-a968-86d2e0185426}" symbol="251" value="GFL_I"/>
-      <category label="GFL_L Lowestoft Formation" type="string" render="true" uuid="{d730a918-061c-4c34-b039-059049ca1d3a}" symbol="252" value="GFL_L"/>
-      <category label="GFL_MD Drumlithie Sand and Gravel (Mearns Drift Group)" type="string" render="true" uuid="{deb01234-9fd7-4707-b142-be58ba346b11}" symbol="253" value="GFL_MD"/>
-      <category label="GFL_MT Moreton Member" type="string" render="true" uuid="{d1dca04d-0681-477b-be06-36ba991e7a49}" symbol="254" value="GFL_MT"/>
-      <category label="GFL_O Overstrand Formation" type="string" render="true" uuid="{451e23b5-1d3a-4090-bb75-adb73757460b}" symbol="255" value="GFL_O"/>
-      <category label="GFL_OD Oadby Member" type="string" render="true" uuid="{45269a80-4e95-4025-9c06-76ed1c9dac6d}" symbol="256" value="GFL_OD"/>
-      <category label="GFL_PD Pre-Devensian" type="string" render="true" uuid="{474eeda9-10d8-4962-8a59-d0b7c2bef3fb}" symbol="257" value="GFL_PD"/>
-      <category label="GFL_S1 Sheet deposits, 1st" type="string" render="true" uuid="{27fcd35a-b69a-490d-a182-16865ab188d4}" symbol="258" value="GFL_S1"/>
-      <category label="GFL_S2 Sheet deposits, 2nd" type="string" render="true" uuid="{7d478923-aa8e-4110-b109-139221932164}" symbol="259" value="GFL_S2"/>
-      <category label="GFL_S3 Sheet deposits, 3rd" type="string" render="true" uuid="{61062aaa-7312-4694-ac1f-49f1e16f7369}" symbol="260" value="GFL_S3"/>
-      <category label="GFL_SG Sand and gravel" type="string" render="true" uuid="{a8c55d52-1361-49fc-85b7-2ab8f5a432c4}" symbol="261" value="GFL_SG"/>
-      <category label="GFL_SH Sheet deposits" type="string" render="true" uuid="{bc338fc6-8550-4f5f-972e-59971892ed3c}" symbol="262" value="GFL_SH"/>
-      <category label="GFL_WI Wigston Sand and Gravel" type="string" render="true" uuid="{8ed26d59-eb52-4099-a780-ca7afe6a66ac}" symbol="263" value="GFL_WI"/>
-      <category label="GFL_WL Woolford Heath Member" type="string" render="true" uuid="{380ea6f4-f493-4490-8e79-59bb258602cc}" symbol="264" value="GFL_WL"/>
-      <category label="GFL_WO Wolston Sand and Gravel" type="string" render="true" uuid="{7030d744-c507-41e6-a0f7-0bca026a718b}" symbol="265" value="GFL_WO"/>
-      <category label="GLA Glaciolacustrine deposits" type="string" render="true" uuid="{412b6b3e-ef57-4698-988f-f135238f184b}" symbol="266" value="GLA"/>
-      <category label="GLA1 Glaciolacustrine deposits 1" type="string" render="true" uuid="{64c417bb-3863-4cd3-85fd-ce0f5f9e0a90}" symbol="267" value="GLA1"/>
-      <category label="GLA2 Glaciolacustrine deposits 2" type="string" render="true" uuid="{d18fd448-c3bd-4c47-be34-6a66a69ddeeb}" symbol="268" value="GLA2"/>
-      <category label="GLA_C Clay" type="string" render="true" uuid="{e84a3a0d-2363-4167-9cac-74d0c87f2fd0}" symbol="269" value="GLA_C"/>
-      <category label="GLA_DG Delta deposits, sand and gravel" type="string" render="true" uuid="{43f87b07-ece2-45c1-89a3-834ee6ee1f9a}" symbol="270" value="GLA_DG"/>
-      <category label="GLA_DL Delta deposits" type="string" render="true" uuid="{1387d3f9-de12-4b3d-8f67-1ac8ae30ecc4}" symbol="271" value="GLA_DL"/>
-      <category label="GLA_DS Delta deposits, sand" type="string" render="true" uuid="{9334bffe-47ce-4ec1-908d-1e24d72fdb84}" symbol="272" value="GLA_DS"/>
-      <category label="GLA_EG Glen Dye Silts Formation (East Grampian Drift Group)" type="string" render="true" uuid="{341814e1-c42f-4daa-8936-c1f359d4ee46}" symbol="273" value="GLA_EG"/>
-      <category label="GLA_FC Findern Clay" type="string" render="true" uuid="{ebb19ed9-f638-4674-8471-250b6ab7af7b}" symbol="274" value="GLA_FC"/>
-      <category label="GLA_M Silt and clay" type="string" render="true" uuid="{91ae7b9a-0b67-4330-9931-7f02b010c61b}" symbol="275" value="GLA_M"/>
-      <category label="GLA_MD Ury Silts Formation (Mearns Drift Group)" type="string" render="true" uuid="{06afadbe-9e4b-4801-9ec6-8cf821a71089}" symbol="276" value="GLA_MD"/>
-      <category label="GLA_M1 Silt and clay, 1st" type="string" render="true" uuid="{5f353097-dc5d-42ea-a7a6-7fd132a121be}" symbol="277" value="GLA_M1"/>
-      <category label="GLA_RO Rotherby clay" type="string" render="true" uuid="{53f9f786-92bd-4e5b-88d2-138f857bccdb}" symbol="278" value="GLA_RO"/>
-      <category label="GLA_S Sand" type="string" render="true" uuid="{fcbe6cc0-13c1-42fe-910b-c98b5b305630}" symbol="279" value="GLA_S"/>
-      <category label="GLA_SG Sand and gravel" type="string" render="true" uuid="{eb25f199-f1b9-42cd-ad32-8952f1f71525}" symbol="280" value="GLA_SG"/>
-      <category label="GLM Glaciomarine deposits" type="string" render="true" uuid="{5591bede-b401-4895-af32-575843dba0ae}" symbol="281" value="GLM"/>
-      <category label="GLM_A Ardersier Silts Formation" type="string" render="true" uuid="{e71b5435-5a73-4232-a05a-3a1ae4ef0d71}" symbol="282" value="GLM_A"/>
-      <category label="TIL Till or boulder clay" type="string" render="true" uuid="{9a936a96-c1c1-4543-b803-a6517a249cef}" symbol="283" value="TIL"/>
-      <category label="TIL_BB Benholm Clay Formation" type="string" render="true" uuid="{67cdf2ee-75da-454b-b775-135bd26144b3}" symbol="284" value="TIL_BB"/>
-      <category label="TIL_C Wragby, Calcethorpe &amp; Belmont" type="string" render="true" uuid="{2aa51086-8858-4c4a-9b68-f7dd5503b4fd}" symbol="285" value="TIL_C"/>
-      <category label="TIL_CO Corton Formation" type="string" render="true" uuid="{3cf798f1-7c47-4abe-8c01-5286093709ae}" symbol="286" value="TIL_CO"/>
-      <category label="TIL_EG Banchory Till Formation (east Grampian Drift Group)" type="string" render="true" uuid="{b62fbeef-8ce7-40f9-985f-5106ca84e669}" symbol="287" value="TIL_EG"/>
-      <category label="TIL_HO Holderness Formation" type="string" render="true" uuid="{b50e2cf9-be76-4d52-8932-c5840436a1e9}" symbol="288" value="TIL_HO"/>
-      <category label="TIL_I Irish Sea Ice Sheet" type="string" render="true" uuid="{54e6e5c9-a9c2-42eb-90d5-8c3ba9ca5f20}" symbol="289" value="TIL_I"/>
-      <category label="TIL_L Lowestoft Formation" type="string" render="true" uuid="{c0020d3d-1a9d-4833-a962-15115e5cdd40}" symbol="290" value="TIL_L"/>
-      <category label="TIL_M Marsh Till" type="string" render="true" uuid="{bdf10219-528d-499e-929e-1fbdd0677f89}" symbol="291" value="TIL_M"/>
-      <category label="TIL_MD Mill of Forest Formation (Mearns Drift Group)" type="string" render="true" uuid="{530e99e5-f244-4ef6-9679-81f1358d0cb6}" symbol="292" value="TIL_MD"/>
-      <category label="TIL_MT Moreton Member" type="string" render="true" uuid="{5b889638-08f9-46b7-824d-a6c62b8f243a}" symbol="293" value="TIL_MT"/>
-      <category label="TIL_O Overstrand Formation" type="string" render="true" uuid="{37a75a93-e64e-418a-bb23-f54a9e2ebc04}" symbol="294" value="TIL_O"/>
-      <category label="TIL_OD Oadby Till" type="string" render="true" uuid="{7c1b05a2-8dcd-4f37-b5b4-c39b88ce0e11}" symbol="295" value="TIL_OD"/>
-      <category label="TIL_OL Oadby Till (Lias-rich)" type="string" render="true" uuid="{f8213536-fa8c-444f-a4e0-88ae1b6a47e8}" symbol="296" value="TIL_OL"/>
-      <category label="TIL_OT Oadby Till (Trias-rich)" type="string" render="true" uuid="{dc26fa85-beda-42c0-a752-534eba97df80}" symbol="297" value="TIL_OT"/>
-      <category label="TIL_RM Ruddington Moor Till" type="string" render="true" uuid="{813ca131-dbb6-4d72-bef6-d7fde72627c5}" symbol="298" value="TIL_RM"/>
-      <category label="TIL_TH Thrussington Till" type="string" render="true" uuid="{db867950-306e-4899-9cdc-2810bbc0d4fc}" symbol="299" value="TIL_TH"/>
-      <category label="SG_A Anker Sand and Gravel" type="string" render="true" uuid="{f2543c8f-cbaf-4778-aad1-3cb822a4740e}" symbol="300" value="SG_A"/>
-      <category label="SG_CH Chelsfield Gravel" type="string" render="true" uuid="{9aac036a-a393-45c1-8244-4ca273383acb}" symbol="301" value="SG_CH"/>
-      <category label="SG_DG Dunsmore Gravel" type="string" render="true" uuid="{f3e5bf6c-be88-428f-82b2-e8282ce6f035}" symbol="302" value="SG_DG"/>
-      <category label="ERRAT Erratic" type="string" render="true" uuid="{41c4daff-10f8-4405-9665-c1cb96ff0bf4}" symbol="303" value="ERRAT"/>
-      <category label="SG_HAT Hathern Gravel" type="string" render="true" uuid="{c1fd9ffc-1b91-4397-b884-485af98e5b84}" symbol="304" value="SG_HAT"/>
-      <category label="SG_U Sand and gravel, age uncertain" type="string" render="true" uuid="{2f2a8c5f-8302-4ed6-ab04-65edc77e0a1c}" symbol="305" value="SG_U"/>
-      <category label="SG_ST Stanmore Gravel" type="string" render="true" uuid="{8e7f5144-b9cf-4ecc-bd35-7b2d80dbbfef}" symbol="306" value="SG_ST"/>
-      <category label="SG_UP Upton Sand and Gravel" type="string" render="true" uuid="{d8eeedeb-8431-4c4c-b70e-556ba6834f4e}" symbol="307" value="SG_UP"/>
-      <category label="SG_WH Well Hill Gravel" type="string" render="true" uuid="{e048028b-40e6-4511-b10a-625b460f9dee}" symbol="308" value="SG_WH"/>
-      <category label="GDC_FA Fall of glacial drainage channel" type="string" render="true" uuid="{e62d7e9e-d748-47ea-b7c6-5a6a34bb127b}" symbol="309" value="GDC_FA"/>
-      <category label="GDC_F Glacial drainage channel, front" type="string" render="true" uuid="{cf2455df-8131-460a-99b8-171583651ae0}" symbol="310" value="GDC_F"/>
-      <category label="GLST Glacial striae" type="string" render="true" uuid="{b4902188-7346-4536-9891-7486b832fd11}" symbol="311" value="GLST"/>
-      <category label="GLSTI Glacial striae direction of ice flow" type="string" render="true" uuid="{e1565548-4faa-4baa-a6b7-122c38583a85}" symbol="312" value="GLSTI"/>
-      <category label="KH Kettle hollow" type="string" render="true" uuid="{646cdffb-7ce1-41ac-977b-2592a1e6fedf}" symbol="313" value="KH"/>
-      <category label="GL_RM Roche moutonnée" type="string" render="true" uuid="{3b9bbf2f-ba69-4898-a4fd-8f1846be7bf7}" symbol="314" value="GL_RM"/>
-      <category label="GL_RMS Roche moutonnée with striae" type="string" render="true" uuid="{82dce098-f727-4b68-be84-05cacf769cd8}" symbol="315" value="GL_RMS"/>
-      <category label="ROCK Rockhead or bedrock" type="string" render="true" uuid="{4f9e755e-4e33-4e7f-8034-1e735a9108ac}" symbol="316" value="ROCK"/>
-      <category label="GDC_S Single sided glacial drainage channel" type="string" render="true" uuid="{06b8c174-bc70-460f-9ee0-3f799568b585}" symbol="317" value="GDC_S"/>
-      <category label="RS_ATF Acid tuff" type="string" render="true" uuid="{056b9a9f-eed5-4ee2-94ed-f0f94f750e75}" symbol="318" value="RS_ATF"/>
-      <category label="RS_ATT Acid tuffite" type="string" render="true" uuid="{d67a4d31-e966-40e5-b348-0a58c89026f7}" symbol="319" value="RS_ATT"/>
-      <category label="RS_APL Aplite" type="string" render="true" uuid="{4909d3be-2e6e-410e-a917-5373eab35153}" symbol="320" value="RS_APL"/>
-      <category label="RS_BTF Basic tuff" type="string" render="true" uuid="{d30eb300-65bd-4080-95b5-2a3721260083}" symbol="321" value="RS_BTF"/>
-      <category label="RS_BTT Basic tuffite" type="string" render="true" uuid="{2b4aab86-00e1-446d-a498-43fe1b457ee5}" symbol="322" value="RS_BTT"/>
-      <category label="RS_BEM Cataclastic (Metamorphic)" type="string" render="true" uuid="{6ab8dcee-5725-4fd3-af3c-b8b3945c1d9e}" symbol="323" value="RS_BEM"/>
-      <category label="RS_BET Cataclastic rocks" type="string" render="true" uuid="{980dea34-3c02-45ec-89f7-cea1b51533a8}" symbol="324" value="RS_BET"/>
-      <category label="RS_FOL Foliated" type="string" render="true" uuid="{2decf3aa-0974-474d-8508-881ea30ca2c8}" symbol="325" value="RS_FOL"/>
-      <category label="RS_GRX Grandiorite X" type="string" render="true" uuid="{3323a433-811f-4486-91d5-9cc49b86f517}" symbol="326" value="RS_GRX"/>
-      <category label="RS_P Microdiorite" type="string" render="true" uuid="{6f1a1e6f-dc26-4811-ab95-d7f58f22b423}" symbol="327" value="RS_P"/>
-      <category label="RS_FG Microgranite" type="string" render="true" uuid="{8e7f58f2-ed6e-4a62-bdad-52e42ff53b6d}" symbol="328" value="RS_FG"/>
-      <category label="RS_MU1 Mylonitic (metamorphic)" type="string" render="true" uuid="{623f6b27-90da-4998-9dec-f5fe7f0af3ef}" symbol="329" value="RS_MU1"/>
-      <category label="RS_MU Mylonitic rocks" type="string" render="true" uuid="{acf16bb8-f741-4584-af27-542fd975d73c}" symbol="330" value="RS_MU"/>
-      <category label="RS_PEG Pegmatite" type="string" render="true" uuid="{b9731234-d8fc-435b-bd95-276744bad223}" symbol="331" value="RS_PEG"/>
-      <category label="RS_KAP Pseudotachylitic" type="string" render="true" uuid="{86fbd33f-762c-4cee-bc2f-9b52a54e2851}" symbol="332" value="RS_KAP"/>
-      <category label="RS_R Rhyolite" type="string" render="true" uuid="{97d6d837-daec-4e74-a420-af379c5aa975}" symbol="333" value="RS_R"/>
-      <category label="RS_SH Sheared rock (igneous and metamorphic)" type="string" render="true" uuid="{e4fab95d-f626-4de7-920f-867516ceb6e4}" symbol="334" value="RS_SH"/>
-      <category label="S_ISCL Corrugated strata, low dip" type="string" render="true" uuid="{9d136b22-fac6-47ec-883b-699505fc4c1d}" symbol="335" value="S_ISCL"/>
-      <category label="S_ISCF Corrugated foliation" type="string" render="true" uuid="{dd578e88-a32b-4911-be91-1222f89fc287}" symbol="336" value="S_ISCF"/>
-      <category label="S_CBF Cross-bedding of foresets" type="string" render="true" uuid="{8009b6b4-941c-4394-b585-cf3f51f378bb}" symbol="337" value="S_CBF"/>
-      <category label="S_DY Direction of younging" type="string" render="true" uuid="{cff14ec6-df17-435e-b577-bac146ba1b08}" symbol="338" value="S_DY"/>
-      <category label="S_DB Dune-bedding" type="string" render="true" uuid="{f6a65da2-675f-4b4d-a3a9-50041b2ed249}" symbol="339" value="S_DB"/>
-      <category label="S_GDIP General dip" type="string" render="true" uuid="{02acce2c-1002-440a-b493-6fd151a6e260}" symbol="340" value="S_GDIP"/>
-      <category label="S_GDUP General dip, underground" type="string" render="true" uuid="{08cab90e-b47d-45dc-9537-c9eab380baf2}" symbol="341" value="S_GDUP"/>
-      <category label="S_GIS Gently inclined strata" type="string" render="true" uuid="{33843bda-ac82-4eed-84ec-7238e484e4c9}" symbol="342" value="S_GIS"/>
-      <category label="S_GUS Gently undulating strata" type="string" render="true" uuid="{1ae7f2fc-dc88-49d8-8504-ca26803dfe67}" symbol="343" value="S_GUS"/>
-      <category label="S_ISH Highly inclined strata" type="string" render="true" uuid="{d7223e30-ccb4-4ce3-9276-ad7c71b07f8a}" symbol="344" value="S_ISH"/>
-      <category label="S_HOS Horizontal overturned strata" type="string" render="true" uuid="{e0a70863-dc9f-466c-bd00-bba4ef8c2f55}" symbol="345" value="S_HOS"/>
-      <category label="S_HS Horizontal strata" type="string" render="true" uuid="{5346a20f-3524-404d-afcb-68443c5db95b}" symbol="346" value="S_HS"/>
-      <category label="S_IS1 Inclined strata 1" type="string" render="true" uuid="{a2f710b5-096e-4711-bc8c-3dd18e40c8ba}" symbol="347" value="S_IS1"/>
-      <category label="S_IS2 Inclined strata 2" type="string" render="true" uuid="{7cbdd5d4-0e96-451a-b128-d395e264f562}" symbol="348" value="S_IS2"/>
-      <category label="S_ISO Inclined strata, overturned" type="string" render="true" uuid="{c7ebb60e-501e-4e04-94ad-29088a8a3bb7}" symbol="349" value="S_ISO"/>
-      <category label="S_ISU Inclined strata, uncertain" type="string" render="true" uuid="{da44e8a7-d31d-4bc8-9666-c43b6976d2a7}" symbol="350" value="S_ISU"/>
-      <category label="S_ISUD Inclined strata, underground" type="string" render="true" uuid="{369b2704-a6af-43ff-b005-6be76a02425d}" symbol="351" value="S_ISUD"/>
-      <category label="S_STS Strike of strata" type="string" render="true" uuid="{74080603-0b7e-4653-bd67-695dcf132217}" symbol="352" value="S_STS"/>
-      <category label="S_UIS Undulating bed, inclined" type="string" render="true" uuid="{7d34ac67-a091-4e1b-be6c-bc9784f2800c}" symbol="353" value="S_UIS"/>
-      <category label="S_UVS Undulating vertical strata" type="string" render="true" uuid="{3c661a74-24ae-448a-a2fc-6f9a3daf2076}" symbol="354" value="S_UVS"/>
-      <category label="S_VS Vertical strata" type="string" render="true" uuid="{d2804c6c-ed78-479f-8d1d-812f10e8e419}" symbol="355" value="S_VS"/>
-      <category label="S_HF Horizontal foliation" type="string" render="true" uuid="{e503310d-cbb5-4df4-b47a-111aedf3b608}" symbol="356" value="S_HF"/>
-      <category label="S_IF Inclined foliation" type="string" render="true" uuid="{9f2a4e33-234d-4f8b-8787-e94695c8af1b}" symbol="357" value="S_IF"/>
-      <category label="S_STF Strike of foliation" type="string" render="true" uuid="{92854a5e-83c2-4cdf-a139-35a6cf5b501c}" symbol="358" value="S_STF"/>
-      <category label="S_UF Undulating foliation" type="string" render="true" uuid="{f269a8b2-28a7-4b0c-9dbd-9a688d08bb63}" symbol="359" value="S_UF"/>
-      <category label="S_VF Vertical foliation" type="string" render="true" uuid="{ef0e8fb7-10f9-46f6-aca5-b517ef60f021}" symbol="360" value="S_VF"/>
-      <category label="S_VFC Vertical foliation, general corrugated strike" type="string" render="true" uuid="{dc6ad611-dc11-4eb4-b834-40568c198376}" symbol="361" value="S_VFC"/>
-      <category label="S_DC Direction of cleavage" type="string" render="true" uuid="{3218acc8-d330-449d-9cf0-632f4498fbfb}" symbol="362" value="S_DC"/>
-      <category label="S_HC Horizontal cleavage" type="string" render="true" uuid="{9afd33f1-db12-44f6-8d1c-876c86fac856}" symbol="363" value="S_HC"/>
-      <category label="S_IC Inclined cleavage" type="string" render="true" uuid="{f05809b8-1945-4b24-8011-c7a79fe04662}" symbol="364" value="S_IC"/>
-      <category label="S_ICS Inclined cleavage, sandstone" type="string" render="true" uuid="{241ee226-dcd8-45d3-b667-3de5c561107b}" symbol="365" value="S_ICS"/>
-      <category label="S_SR Sheared rock" type="string" render="true" uuid="{3cb0c783-5f59-4fd8-aef0-0bb9cb1846d9}" symbol="366" value="S_SR"/>
-      <category label="S_STC Strike of cleavage" type="string" render="true" uuid="{c43db624-1db6-4c42-8fcc-d7d1ee81a3ef}" symbol="367" value="S_STC"/>
-      <category label="S_UCI Undulating cleavage, inclined" type="string" render="true" uuid="{5d9b5e48-3cef-405e-9bb2-80ea93de2a8f}" symbol="368" value="S_UCI"/>
-      <category label="S_VC Vertical cleavage" type="string" render="true" uuid="{23dcad98-e873-4368-ab5f-74d425e1ea20}" symbol="369" value="S_VC"/>
-      <category label="S_VCS Vertical cleavage in sandstone" type="string" render="true" uuid="{fd87822d-62e8-43ad-9d55-efd9a405bb3f}" symbol="370" value="S_VCS"/>
-      <category label="S_HJ Horizontal joint" type="string" render="true" uuid="{57c96f19-a205-4a8f-a642-43fe087fd222}" symbol="371" value="S_HJ"/>
-      <category label="S_IJ Inclined joint" type="string" render="true" uuid="{561a75c8-aba5-41b8-8502-040e764145f0}" symbol="372" value="S_IJ"/>
-      <category label="S_VJ Vertical joint" type="string" render="true" uuid="{5240354d-4a97-4870-82eb-18cb4af3bed8}" symbol="373" value="S_VJ"/>
-      <category label="S_HLI Horizontal lineation" type="string" render="true" uuid="{b5b8d283-25bf-48f0-8770-b31f94489593}" symbol="374" value="S_HLI"/>
-      <category label="S_PLI Plunging lineation" type="string" render="true" uuid="{802c43b1-3557-439b-9168-cade1ccfa7e7}" symbol="375" value="S_PLI"/>
-      <category label="S_VLI Vertical lineation" type="string" render="true" uuid="{7fe9717e-570a-4697-84ab-2dfd44462c67}" symbol="376" value="S_VLI"/>
-      <category label="S_HFJ Horizontal flow jointing" type="string" render="true" uuid="{38523932-a2eb-46ed-aebc-80ba1763198f}" symbol="377" value="S_HFJ"/>
-      <category label="S_HPCA Horizontal primary crystal alignment" type="string" render="true" uuid="{ec0f757d-eb45-4483-8e93-96630221398a}" symbol="378" value="S_HPCA"/>
-      <category label="S_HPPF Horizontal primary planar fabric in igneous rocks" type="string" render="true" uuid="{fb102595-08fd-4b74-b826-ba3e7e5ad758}" symbol="379" value="S_HPPF"/>
-      <category label="S_HR Horizontal relict, planar fabric in plutonic rocks" type="string" render="true" uuid="{9c4839ce-a69b-4506-9b99-c1f380e95093}" symbol="380" value="S_HR"/>
-      <category label="S_HWF Horizontal welding foliation" type="string" render="true" uuid="{a7bbde41-deca-4f46-90b7-f152d3ad4302}" symbol="381" value="S_HWF"/>
-      <category label="S_IFJ Inclined flow jointing" type="string" render="true" uuid="{dd01ce1b-6f24-4c21-9e53-0fa46535ae98}" symbol="382" value="S_IFJ"/>
-      <category label="S_IPCA Inclined primary crystal alignment" type="string" render="true" uuid="{0f90ab1e-90b4-429f-97d7-3f7a0e334322}" symbol="383" value="S_IPCA"/>
-      <category label="S_IPP Inclined primary planar fabric" type="string" render="true" uuid="{141512f6-614b-4e58-a249-99595cbf359c}" symbol="384" value="S_IPP"/>
-      <category label="S_IPPO Inclined primary planar fabric, overturned" type="string" render="true" uuid="{4837a11e-2ba7-4c85-ac2c-afb43407f459}" symbol="385" value="S_IPPO"/>
-      <category label="S_IR Inclined relict, planar fabric in plutonic rocks" type="string" render="true" uuid="{cc932062-b780-40dd-937b-8e83d157045f}" symbol="386" value="S_IR"/>
-      <category label="S_IWF Inclined welding foliation" type="string" render="true" uuid="{44a5c6bc-1232-475f-8548-948c65a248bb}" symbol="387" value="S_IWF"/>
-      <category label="S_STPP Strike of primary planar fabric" type="string" render="true" uuid="{c7208914-9378-4ebb-907c-2481d0d51332}" symbol="388" value="S_STPP"/>
-      <category label="S_STWF Strike of welding foliation" type="string" render="true" uuid="{470d5114-dee6-4238-9348-01d74083abb8}" symbol="389" value="S_STWF"/>
-      <category label="S_VFJ Vertical flow jointing" type="string" render="true" uuid="{8053eb63-6d13-4712-ae43-cf1feab80c1c}" symbol="390" value="S_VFJ"/>
-      <category label="S_VPCA Vertical primary crystal alignment" type="string" render="true" uuid="{97949dcd-f456-48c7-9bcc-32cbd0ebc5bb}" symbol="391" value="S_VPCA"/>
-      <category label="S_VPP Vertical primary planar fabric" type="string" render="true" uuid="{e4da508c-294a-4033-a4a0-d2e59d652074}" symbol="392" value="S_VPP"/>
-      <category label="S_VR Vertical relict, planar fabric in plutonic rocks" type="string" render="true" uuid="{36cd8d84-c6e2-46cc-96dd-620ba9861c6c}" symbol="393" value="S_VR"/>
-      <category label="S_VWF Vertical welding foliation" type="string" render="true" uuid="{9012a884-ecff-4455-96e3-ceaa1d5d2b88}" symbol="394" value="S_VWF"/>
-      <category label="S_ACAP Anticline axial plane" type="string" render="true" uuid="{3de13e01-88f3-4feb-8a17-7db34d1ef2f4}" symbol="395" value="S_ACAP"/>
-      <category label="S_SCAP Synclinal axial plane" type="string" render="true" uuid="{96f8e263-c1d9-472e-b134-1c46c9f44e58}" symbol="396" value="S_SCAP"/>
-      <category label="S_SFAP Synform axial plane" type="string" render="true" uuid="{93518ccc-1e8e-4e56-8f1a-524f9bb1e0a0}" symbol="397" value="S_SFAP"/>
-      <category label="S_AMA Axis of minor anticline" type="string" render="true" uuid="{c1b2f420-0467-4007-8e4b-7f4abf71596a}" symbol="398" value="S_AMA"/>
-      <category label="S_AMF Axis of minor fold" type="string" render="true" uuid="{0b72cf30-eb7c-4a97-a22e-0f5454a96821}" symbol="399" value="S_AMF"/>
-      <category label="S_AMS Axis of minor syncline" type="string" render="true" uuid="{f47b0fe3-c0fb-4f56-8b0d-72652203e514}" symbol="400" value="S_AMS"/>
-      <category label="S_HAPM Horizontal axial plane of minor fold" type="string" render="true" uuid="{1ba39325-084e-47d4-8978-c216709dcd97}" symbol="401" value="S_HAPM"/>
-      <category label="S_HAMA Horizontal axis of minor anticline" type="string" render="true" uuid="{62068959-1dac-4600-9b78-783b811b2056}" symbol="402" value="S_HAMA"/>
-      <category label="S_HAMF Horizontal axis of minor fold" type="string" render="true" uuid="{3ea1253b-e076-49cc-9def-7401a961c2ce}" symbol="403" value="S_HAMF"/>
-      <category label="S_HAM1 Horizontal axis of minor fold, phase 1" type="string" render="true" uuid="{e5163cf9-22c4-43fe-9d94-6ceeaeb19b62}" symbol="404" value="S_HAM1"/>
-      <category label="S_HAMM Horizontal axis of minor monocline" type="string" render="true" uuid="{6c9314b0-f57e-443c-91d9-02e0d28626c4}" symbol="405" value="S_HAMM"/>
-      <category label="S_HAMS Horizontal axis of minor syncline" type="string" render="true" uuid="{3dc5b36a-932e-404c-988a-73c96713b84a}" symbol="406" value="S_HAMS"/>
-      <category label="S_IAPM Inclined axial plane of minor fold" type="string" render="true" uuid="{cdd1596b-4f41-4dc9-94ea-405a92d62e31}" symbol="407" value="S_IAPM"/>
-      <category label="S_LOC Locality with refolded minor folds" type="string" render="true" uuid="{009124b5-0f30-41c3-ae1c-24cbd43c8c43}" symbol="408" value="S_LOC"/>
-      <category label="S_MFLA Minor fold, low angle of plunge" type="string" render="true" uuid="{4185a0e8-da32-42f5-ba00-6e71e01909c4}" symbol="409" value="S_MFLA"/>
-      <category label="S_ANO Overturned anticline" type="string" render="true" uuid="{2c5d7476-1eb2-4923-aff0-b75332004666}" symbol="410" value="S_ANO"/>
-      <category label="S_SYNO Overturned syncline" type="string" render="true" uuid="{1c058d35-6212-41a6-a8e1-85374eacbf9c}" symbol="411" value="S_SYNO"/>
-      <category label="S_PMF Plunge axis of minor fold" type="string" render="true" uuid="{3203711f-ad24-4734-943f-a5f1e564edfd}" symbol="412" value="S_PMF"/>
-      <category label="S_STAM Strike axial plane minor fold" type="string" render="true" uuid="{52bb514f-23e9-4818-ac76-54bfae4af952}" symbol="413" value="S_STAM"/>
-      <category label="S_VAPM Vertical axial plane of minor fold" type="string" render="true" uuid="{809b0689-cf4c-4ba3-9973-81262d1c5171}" symbol="414" value="S_VAPM"/>
-      <category label="S_VAMF Vertical axis of minor fold" type="string" render="true" uuid="{cb6014ab-692a-44c1-8506-c237a372f067}" symbol="415" value="S_VAMF"/>
-      <category label="S_AMFV Axis of minor fold showing direction of vergence" type="string" render="true" uuid="{a1167abc-a38f-470d-8464-a1534d67f565}" symbol="416" value="S_AMFV"/>
-      <category label="S_DXVM Dextral vergence of minor fold" type="string" render="true" uuid="{adba1c77-0dae-4d93-82bb-4e10a78306e7}" symbol="417" value="S_DXVM"/>
-      <category label="S_DVMF Direction of vergence of minor fold" type="string" render="true" uuid="{f2e2c873-d980-4f46-9ba9-c7f747a3ee11}" symbol="418" value="S_DVMF"/>
-      <category label="S_NVMF Neutral vergence of minor fold" type="string" render="true" uuid="{95f6fc2c-e309-4359-9d91-25f1b8d358bc}" symbol="419" value="S_NVMF"/>
-      <category label="S_SVMF Sinistral vergence of minor fold" type="string" render="true" uuid="{8403f1a9-c684-4398-88d0-954a27a84867}" symbol="420" value="S_SVMF"/>
-      <category label="FLT_MV Fault movement" type="string" render="true" uuid="{f5eb8bb5-358b-49f1-936c-b05ac89b53af}" symbol="421" value="FLT_MV"/>
-      <category label="FLT_TR Fault terminator" type="string" render="true" uuid="{d99996b3-9b2e-499c-adfc-25e89ae07549}" symbol="422" value="FLT_TR"/>
-      <category label="S_MVFD Mineral vein dip" type="string" render="true" uuid="{96da8659-9f53-44f3-a1ad-7897fe976563}" symbol="423" value="S_MVFD"/>
-      <category label="FLT_S Strike slip fault" type="string" render="true" uuid="{46baa6ea-c405-4f31-ac25-9b2f7a3ec0a2}" symbol="424" value="FLT_S"/>
-      <category label="TBARB Thrust barb" type="string" render="true" uuid="{7e84baed-62da-4a7d-9bb3-d0d2b959abab}" symbol="425" value="TBARB"/>
-      <category label="ADIT Adit" type="string" render="true" uuid="{955d2325-fbb7-48d2-be04-abd7af245926}" symbol="426" value="ADIT"/>
-      <category label="ADIT_A Adit, abandoned" type="string" render="true" uuid="{eff16af2-58f1-49f1-aa9b-4c5ef4026476}" symbol="427" value="ADIT_A"/>
-      <category label="ADIT_U Adit, unknown orientation" type="string" render="true" uuid="{c40a8dfb-03db-4317-9499-e6a338ed0781}" symbol="428" value="ADIT_U"/>
-      <category label="BH Borehole" type="string" render="true" uuid="{778e19f5-800e-4c4f-88cc-44d022c743e2}" symbol="429" value="BH"/>
-      <category label="BH_UN Borehole, uncertain" type="string" render="true" uuid="{30958b41-59d8-460e-97ce-e8b7a6902fbe}" symbol="430" value="BH_UN"/>
-      <category label="BH_UD Borehole, underground" type="string" render="true" uuid="{088dc69d-d039-4720-b0a5-3ad761c51712}" symbol="431" value="BH_UD"/>
-      <category label="S_DIP Dip of igneous contact" type="string" render="true" uuid="{71f94fa2-1ea9-4fd9-881b-83226c6eddcf}" symbol="432" value="S_DIP"/>
-      <category label="FOSSL Fossil locality" type="string" render="true" uuid="{a57df1d6-b226-49c4-b78b-fb5fe156308b}" symbol="433" value="FOSSL"/>
-      <category label="S_IDY Inclination of dyke" type="string" render="true" uuid="{fe8b82d7-36eb-4ab3-86e5-0a57f7e89695}" symbol="434" value="S_IDY"/>
-      <category label="SPNT Location, with specific note" type="string" render="true" uuid="{b8b8ce56-6fd8-46ed-b27c-765aa70d900c}" symbol="435" value="SPNT"/>
-      <category label="MLOC Mineral locality" type="string" render="true" uuid="{7f959061-8a7b-4c7b-bca7-01d3f7f21eae}" symbol="436" value="MLOC"/>
-      <category label="PHOTO Photo in BGS collection" type="string" render="true" uuid="{13445174-4770-4368-ba20-13cbea7f42b6}" symbol="437" value="PHOTO"/>
-      <category label="PIT Pit or mine shaft" type="string" render="true" uuid="{9857b315-60cd-43fb-ba8e-aa1dd979525d}" symbol="438" value="PIT"/>
-      <category label="PIT_A Pit or mine shaft, abandoned, or denehole" type="string" render="true" uuid="{be4dcd4a-4b6c-4ceb-84b8-1a175c92d7bb}" symbol="439" value="PIT_A"/>
-      <category label="PIT_U Pit or mine shaft, abandoned, site uncertain" type="string" render="true" uuid="{aa409eac-d6c9-4fdb-8db9-be43eebd7673}" symbol="440" value="PIT_U"/>
-      <category label="PIT_UD Pit shaft, underground" type="string" render="true" uuid="{8137a6af-c05f-49c0-b74e-c1d849843e39}" symbol="441" value="PIT_UD"/>
-      <category label="SLICE Rock slice, petrographic" type="string" render="true" uuid="{56bb2396-7836-4e0d-b118-ac1914d8e91c}" symbol="442" value="SLICE"/>
-      <category label="SFM Site of former mine" type="string" render="true" uuid="{47a3f288-7fba-4ca2-a1f5-d9820a88fc16}" symbol="443" value="SFM"/>
-      <category label="EXP Small isolated exposure" type="string" render="true" uuid="{b637522a-7f8a-4b64-b597-e1fd19b97a7e}" symbol="444" value="EXP"/>
-      <category label="SPRING Spring or group of springs" type="string" render="true" uuid="{74c8885c-4990-442a-8cbd-d2c38c46f98f}" symbol="445" value="SPRING"/>
-      <category label="SURF_S Surface section" type="string" render="true" uuid="{1b9a0b72-71c0-4175-9ff0-71f6dc2232ff}" symbol="446" value="SURF_S"/>
-      <category label="SWH Swallow hole" type="string" render="true" uuid="{987b4cf3-7277-407b-a577-5f6eaffd0733}" symbol="447" value="SWH"/>
-      <category label="TRE Trench" type="string" render="true" uuid="{f687675e-9c05-49e9-acfe-b7c267c9fb54}" symbol="448" value="TRE"/>
-      <category label="UDSPOT Underground spot level" type="string" render="true" uuid="{66c24823-739c-4908-873f-b6475c76a1b2}" symbol="449" value="UDSPOT"/>
-      <category label="BH_WL Well" type="string" render="true" uuid="{76128689-1f0a-436f-8ddd-37b3869ce195}" symbol="450" value="BH_WL"/>
+      <category type="string" symbol="0" uuid="{d95b125d-3fee-5505-a3c4-1e5387205616}" value="ART_BP" render="true" label="ART_BP Small area of made ground, backfilled pit"/>
+      <category type="string" symbol="1" uuid="{179aacd6-2e89-563c-8a0d-1cbdf3200887}" value="ART_AS" render="true" label="ART_AS Small area of made ground, above surface"/>
+      <category type="string" symbol="2" uuid="{ed0684bc-4afc-57e6-865b-0e09788d4040}" value="ART_WG" render="true" label="ART_WG Small area of worked ground"/>
+      <category type="string" symbol="3" uuid="{06369079-59d7-566e-b8cf-3f6fd3762c89}" value="MSM_L" render="true" label="MSM_L Small area of landslip"/>
+      <category type="string" symbol="4" uuid="{82f2fb3c-33a2-5808-9c02-c4343c768c35}" value="BLOC" render="true" label="BLOC Blockfield"/>
+      <category type="string" symbol="5" uuid="{5e5c67ff-c62e-5e7a-bdd1-5888ba695f15}" value="COD" render="true" label="COD Coombe deposits"/>
+      <category type="string" symbol="6" uuid="{a1d52dd8-3da1-529e-80eb-d1af065cfae1}" value="CWF" render="true" label="CWF Clay-with-flints"/>
+      <category type="string" symbol="7" uuid="{cc9a96f5-cf5e-57dc-9b20-feb277eca812}" value="CWF_S" render="true" label="CWF_S Sand in clay-with-flints"/>
+      <category type="string" symbol="8" uuid="{cc14d715-63b9-5aad-b83e-9aca91a6554b}" value="DCON" render="true" label="DCON Debris cone"/>
+      <category type="string" symbol="9" uuid="{e37d5522-daff-5530-9f2f-f1a00de436b0}" value="HEAD" render="true" label="HEAD Head or hillwash"/>
+      <category type="string" symbol="10" uuid="{482ccc18-4d6c-587b-b49c-cc8c7cfde0c5}" value="HEAD1" render="true" label="HEAD1 Head 1"/>
+      <category type="string" symbol="11" uuid="{c7d54c26-1e14-56e9-b970-1b4ac62fd947}" value="HEAD2" render="true" label="HEAD2 Head 2"/>
+      <category type="string" symbol="12" uuid="{f0165fb1-b5dc-5211-8583-2e883135e852}" value="HEAD_R" render="true" label="HEAD_R Blanket head / regolith"/>
+      <category type="string" symbol="13" uuid="{87d7613d-4100-5267-a211-b148fb4560b2}" value="HEADBL" render="true" label="HEADBL Head, Burton Lazars"/>
+      <category type="string" symbol="14" uuid="{d0e82ccb-bd92-5952-a0ae-8fe9726a39d8}" value="HEAD_C" render="true" label="HEAD_C Head, Colluvium"/>
+      <category type="string" symbol="15" uuid="{286f055f-a7f3-51f0-a708-902488d08c78}" value="HEAD_G" render="true" label="HEAD_G Gravelly head"/>
+      <category type="string" symbol="16" uuid="{798ae5ab-b21b-52d2-a989-e8fc52c538a7}" value="HEADLD" render="true" label="HEADLD Head, Little Dalby"/>
+      <category type="string" symbol="17" uuid="{6a58eb1f-3b26-5295-8523-78c2aae929d8}" value="HEADPH" render="true" label="HEADPH Head, Pen Hill"/>
+      <category type="string" symbol="18" uuid="{f905c040-2cac-53f0-bdf9-b46447c6c6f0}" value="HEAD_S" render="true" label="HEAD_S Sandy head"/>
+      <category type="string" symbol="19" uuid="{e9f6566c-a9a9-5f45-b971-a4d38cfa0c6c}" value="HEAD_V" render="true" label="HEAD_V Valley bottom head"/>
+      <category type="string" symbol="20" uuid="{5281ea52-291e-55c3-9d2f-06d3d24721ea}" value="PBS" render="true" label="PBS Pebbly clay and sand"/>
+      <category type="string" symbol="21" uuid="{7486b552-7eb8-5f4d-9261-1983f3dd9826}" value="SCRE" render="true" label="SCRE Scree / talus"/>
+      <category type="string" symbol="22" uuid="{e8bd34c5-d8bd-5d62-b2c5-5ad74c206b12}" value="SCRE_I" render="true" label="SCRE_I Inactive scree / talus"/>
+      <category type="string" symbol="23" uuid="{00dec77b-256d-5804-bc0e-410b1a0bf8d1}" value="BLS" render="true" label="BLS Blown sand"/>
+      <category type="string" symbol="24" uuid="{10647dc1-a18a-571a-8531-6cc8c76e7412}" value="BLS_1" render="true" label="BLS_1 Blown sand, 1"/>
+      <category type="string" symbol="25" uuid="{8ef18e84-5054-5e12-bd10-b2fc7f7d7ff6}" value="BRK_" render="true" label="BRK_ Brickearth"/>
+      <category type="string" symbol="26" uuid="{4bc3088f-9f53-5f5e-932e-ce37bd3e10ab}" value="BRK_DA" render="true" label="BRK_DA Brickearth, Dartford Silt"/>
+      <category type="string" symbol="27" uuid="{8fbad4a4-dc2a-5cc6-813a-96bc2e4b86e4}" value="BRK_ES" render="true" label="BRK_ES Brickearth, Enfield Silt"/>
+      <category type="string" symbol="28" uuid="{a044f93e-b7a3-5f9a-b8b0-349c0ecadb6a}" value="BRK_IL" render="true" label="BRK_IL Brickearth, Ilford Silt"/>
+      <category type="string" symbol="29" uuid="{4b2c32d1-a8cd-5f2e-a642-bf2f58cc2827}" value="BRK_LS" render="true" label="BRK_LS Brickearth, Langley Silt"/>
+      <category type="string" symbol="30" uuid="{9eae1e75-4846-51f2-b7c0-f2a240736e93}" value="BRK_WC" render="true" label="BRK_WC Brickearth, Wolston Clay"/>
+      <category type="string" symbol="31" uuid="{65b66d9b-e2b4-510c-840e-371610a553ad}" value="LOESS" render="true" label="LOESS Loess"/>
+      <category type="string" symbol="32" uuid="{ee56c0d8-d987-55ce-bd26-17bd513c98ce}" value="PEAT" render="true" label="PEAT Peat"/>
+      <category type="string" symbol="33" uuid="{89f30cfa-580d-53df-9550-f3adde49c501}" value="PEA_BA" render="true" label="PEA_BA Basin peat"/>
+      <category type="string" symbol="34" uuid="{f1619cdb-7b39-5047-9b6f-7f03ddae892a}" value="PEA_BL" render="true" label="PEA_BL Blanket peat"/>
+      <category type="string" symbol="35" uuid="{7644da5b-d31b-5da9-bc5d-9631e5d37345}" value="PEA_FN" render="true" label="PEA_FN Fen peat"/>
+      <category type="string" symbol="36" uuid="{43b188a1-4b5f-55d1-add7-c9436b628ee5}" value="PEA_H" render="true" label="PEA_H Hill peat"/>
+      <category type="string" symbol="37" uuid="{efae83ac-9bc5-5104-900f-6d39dccd0e72}" value="PEAT_N" render="true" label="PEAT_N Nordelph peat"/>
+      <category type="string" symbol="38" uuid="{c7bd21e7-22b9-5db3-8049-f833e9e1bbbb}" value="PEAT_F" render="true" label="PEAT_F Peat flow"/>
+      <category type="string" symbol="39" uuid="{515827db-5ff9-5509-848a-7d1d26bfb74e}" value="PET_SF" render="true" label="PET_SF Submerged forest"/>
+      <category type="string" symbol="40" uuid="{a0fbe4b7-deb5-5ecd-87e6-694ee4dca2a0}" value="DIAT" render="true" label="DIAT Diatomite"/>
+      <category type="string" symbol="41" uuid="{af7b2d28-297d-5451-b121-d8e6fab13b00}" value="DIAT_F" render="true" label="DIAT_F Diatomite, fluvial"/>
+      <category type="string" symbol="42" uuid="{2c120166-395a-57f1-9c89-e4d6eb4cd656}" value="SLM" render="true" label="SLM Shell marl"/>
+      <category type="string" symbol="43" uuid="{08f64055-0d0d-5fde-b325-de74f9567129}" value="ORE" render="true" label="ORE Bog iron ore"/>
+      <category type="string" symbol="44" uuid="{85aba40a-2eb9-5ca8-8138-4a1dd1472915}" value="TUFA_C" render="true" label="TUFA_C Calcareous tufa"/>
+      <category type="string" symbol="45" uuid="{6434a767-7cd0-5708-a280-516a4394623f}" value="TUFA" render="true" label="TUFA Tufa"/>
+      <category type="string" symbol="46" uuid="{799a5279-f797-52af-86d0-a30fb3b26823}" value="ALV_FN" render="true" label="ALV_FN Alluvial fan deposits"/>
+      <category type="string" symbol="47" uuid="{31f51002-93ef-5d29-8760-02de5e06cd16}" value="ALV_FG" render="true" label="ALV_FG Alluvial fan deposits, gravel"/>
+      <category type="string" symbol="48" uuid="{7588ba18-72fe-53e7-a5fb-924916620908}" value="ALV" render="true" label="ALV Alluvium"/>
+      <category type="string" symbol="49" uuid="{75b143a3-3f42-55b5-9be7-c956086ef6f3}" value="ALV_1" render="true" label="ALV_1 Alluvium, 1"/>
+      <category type="string" symbol="50" uuid="{00b030f3-17ec-58f9-a6a6-999470aba1b1}" value="ALV_C" render="true" label="ALV_C Alluvium, clay"/>
+      <category type="string" symbol="51" uuid="{5e220614-0412-5af9-b779-1b140f7c1aba}" value="ALV_SG" render="true" label="ALV_SG Alluvium, sand and gravel"/>
+      <category type="string" symbol="52" uuid="{2cd091f9-0e5c-5920-9146-56bdb3e35e32}" value="RT_A1" render="true" label="RT_A1 Arun Terrace Deposits, 1st"/>
+      <category type="string" symbol="53" uuid="{b992714c-16af-5e7b-a89c-4cab999d931f}" value="RT_A2" render="true" label="RT_A2 Arun Terrace Deposits, 2nd"/>
+      <category type="string" symbol="54" uuid="{441bdc9f-ff60-56de-a660-ecea6d9177c3}" value="RT_A3" render="true" label="RT_A3 Arun Terrace Deposits, 3rd"/>
+      <category type="string" symbol="55" uuid="{0c43ef11-8936-574e-bf95-1c8a80ee0ce2}" value="RT_A4" render="true" label="RT_A4 Arun Terrace Deposits, 4th"/>
+      <category type="string" symbol="56" uuid="{ae70392d-8c48-5a00-bce2-d3c972c3dfb6}" value="RT_A5" render="true" label="RT_A5 Arun Terrace Deposits, 5th"/>
+      <category type="string" symbol="57" uuid="{4afd4452-f0e9-5a54-aa89-0ca8c0e29207}" value="RT_A6" render="true" label="RT_A6 Arun Terrace Deposits, 6th"/>
+      <category type="string" symbol="58" uuid="{d9c7ba74-aa1a-54f2-a693-ddd02f319f2e}" value="RT_A7" render="true" label="RT_A7 Arun Terrace Deposits, 7th"/>
+      <category type="string" symbol="59" uuid="{0ed3268c-3712-536d-9f87-ab92780176b0}" value="RT_BDN" render="true" label="RT_BDN Balderton Sand and Gravel"/>
+      <category type="string" symbol="60" uuid="{5c2783fc-df8b-5dcc-86b0-753657c42583}" value="RT_B" render="true" label="RT_B Bank Farm Terrace"/>
+      <category type="string" symbol="61" uuid="{627e349e-8cc8-5cf0-837f-a1e8de20ea39}" value="RT_BS" render="true" label="RT_BS Bassingfield Sand and Gravel"/>
+      <category type="string" symbol="62" uuid="{f7cd1ac7-4441-5ce3-8095-8bbfbd6c0693}" value="RT_BC9" render="true" label="RT_BC9 Beaconsfield Gravel"/>
+      <category type="string" symbol="63" uuid="{d6c5de3c-0ed8-53ab-b35b-f7ce42f52767}" value="RT_BG2" render="true" label="RT_BG2 Beenham Grange Gravel"/>
+      <category type="string" symbol="64" uuid="{b5dcb476-7ca1-574f-935a-7e1b54a9c1c5}" value="RT_BS7" render="true" label="RT_BS7 Beenham Stocks Gravel"/>
+      <category type="string" symbol="65" uuid="{01866d7f-d4ed-538a-bf3e-8f8bbbc8cf59}" value="RT_BEE" render="true" label="RT_BEE Beeston Sand and Gravel"/>
+      <category type="string" symbol="66" uuid="{669ee348-5318-5f16-87b8-51f0a37e12d3}" value="RT_BEL" render="true" label="RT_BEL Belton Sand and Gravel"/>
+      <category type="string" symbol="67" uuid="{8152e129-33e3-5d10-9c6f-8bcf1a0d2cc3}" value="RT_BIR" render="true" label="RT_BIR Birstall Sand and Gravel"/>
+      <category type="string" symbol="68" uuid="{afbbe443-8cf0-5258-866e-c4b8557fc87b}" value="RT_BPG" render="true" label="RT_BPG Black Park Gravel"/>
+      <category type="string" symbol="69" uuid="{8fbbf300-a7a6-5ea3-8614-616539053e62}" value="RT_B3" render="true" label="RT_B3 Blackwater Terrace Deposits, 3rd"/>
+      <category type="string" symbol="70" uuid="{65df940c-a22d-5722-9c1b-ad39b899f553}" value="RT_B4" render="true" label="RT_B4 Blackwater Terrace Deposits, 4th"/>
+      <category type="string" symbol="71" uuid="{6a6aadc2-4c05-583b-8af4-4512eee62a08}" value="RT_BH" render="true" label="RT_BH Boyn Hill Gravel"/>
+      <category type="string" symbol="72" uuid="{d40a3db4-2855-5604-b0bd-551c3a9e275a}" value="RT_BW2" render="true" label="RT_BW2 Bramley Wey Terrace Deposits, 2nd"/>
+      <category type="string" symbol="73" uuid="{162283d2-6e11-5086-8e48-62f9cd31f808}" value="RT_BK8" render="true" label="RT_BK8 Bucklebury Gravel"/>
+      <category type="string" symbol="74" uuid="{116b7032-369f-5e0a-ac13-54797df4d667}" value="RT_BKY" render="true" label="RT_BKY Brooksby Sand and Gravel"/>
+      <category type="string" symbol="75" uuid="{2dda4271-3300-5cfa-bcbe-16f1d9b3991c}" value="RT_BN" render="true" label="RT_BN Bunny Sand and Gravel"/>
+      <category type="string" symbol="76" uuid="{4bb22bbe-36d6-5ade-bff1-d998533737b5}" value="RT_BTH" render="true" label="RT_BTH Bytham Sand and Gravel"/>
+      <category type="string" symbol="77" uuid="{a565408c-3e7c-56ff-a1a2-b1d54378c313}" value="RT_CCG" render="true" label="RT_CCG Caesar's Camp Gravel"/>
+      <category type="string" symbol="78" uuid="{6be1cbac-2fe6-56bb-9969-fdb16f0ce104}" value="ALV_CH" render="true" label="ALV_CH Cheltenham Sand and Gravel"/>
+      <category type="string" symbol="79" uuid="{be69ee2f-c8c8-5842-ad64-27e1c74a51b0}" value="RT_CM" render="true" label="RT_CM Combe Member"/>
+      <category type="string" symbol="80" uuid="{7858f635-33e0-5111-be99-21bf8c5fc15b}" value="RT_CY" render="true" label="RT_CY Corbets Tey Gravel"/>
+      <category type="string" symbol="81" uuid="{b6edb083-0682-538f-a638-4872564db6c4}" value="RT_DM1" render="true" label="RT_DM1 Daylesford Member, 1st"/>
+      <category type="string" symbol="82" uuid="{6fcc79fc-7b52-58ea-b425-19a625cc3bf4}" value="RT_DH" render="true" label="RT_DH Dollis Hill Gravel"/>
+      <category type="string" symbol="83" uuid="{29d077c0-378a-5162-832d-8f256c238503}" value="ALV_DV" render="true" label="ALV_DV Dry valley deposits"/>
+      <category type="string" symbol="84" uuid="{1bd73e53-68cd-5353-8cf7-e53715118fcb}" value="RT_EM" render="true" label="RT_EM Eagle Moor Sand and Gravel"/>
+      <category type="string" symbol="85" uuid="{159128b0-f0d7-59b3-9e90-927b90713345}" value="RT_EC" render="true" label="RT_EC Eggington Common Sand and Gravel"/>
+      <category type="string" symbol="86" uuid="{bb90bcaa-1ed7-58bb-83ac-472ba8db7619}" value="RT_ET" render="true" label="RT_ET Etwall Sand and Gravel"/>
+      <category type="string" symbol="87" uuid="{bce8bd64-24e4-5333-bc7a-0948514f8299}" value="RT_FG" render="true" label="RT_FG Fen Sand and Gravel"/>
+      <category type="string" symbol="88" uuid="{311971f5-2692-57ce-bd53-18e55e5350e7}" value="RT_FIN" render="true" label="RT_FIN Finsbury Gravel"/>
+      <category type="string" symbol="89" uuid="{802b1683-737d-5d11-9298-6f3fa15be982}" value="RT_FSG" render="true" label="RT_FSG Fluvial Sand and Gravel"/>
+      <category type="string" symbol="90" uuid="{f5e2ed66-1561-55a7-a131-bb2cde7913e5}" value="RT_FR" render="true" label="RT_FR Freeland Member"/>
+      <category type="string" symbol="91" uuid="{02f0327e-c6c4-5582-85e9-77f5bab67b26}" value="RT_FUL" render="true" label="RT_FUL Fulbeck Sand and Gravel"/>
+      <category type="string" symbol="92" uuid="{edfe8bc9-c06f-5445-b688-b8ff6e905a5f}" value="RT_GC" render="true" label="RT_GC Gerrards Cross Gravel"/>
+      <category type="string" symbol="93" uuid="{4007e1a4-5e07-5a26-9ed0-5e5c423828aa}" value="RT_GW1" render="true" label="RT_GW1 Godalming Wey Deposits, 1st"/>
+      <category type="string" symbol="94" uuid="{46bcc498-2fae-503f-97d2-4241ddbfe49a}" value="RT_G1A" render="true" label="RT_G1A Godalming Wey Deposits, 1a"/>
+      <category type="string" symbol="95" uuid="{bc839e70-27a5-56ff-9aad-799fb2646747}" value="RT_G1B" render="true" label="RT_G1B Godalming Wey Deposits, 1b"/>
+      <category type="string" symbol="96" uuid="{746cc2a2-86bf-573f-b4a5-001ed6ad541a}" value="RT_GW2" render="true" label="RT_GW2 Godalming Wey Deposits, 2nd"/>
+      <category type="string" symbol="97" uuid="{b13511e2-d1f0-5b85-9841-14f545d417b3}" value="RT_GW3" render="true" label="RT_GW3 Godalming Wey Deposits, 3rd"/>
+      <category type="string" symbol="98" uuid="{42d3769e-a9b0-5a18-b9f5-ea2e4fe841d7}" value="RT_HA" render="true" label="RT_HA Hackney Gravel"/>
+      <category type="string" symbol="99" uuid="{8e3480a9-0020-5e23-be55-46dd77bb128c}" value="RT_H4" render="true" label="RT_H4 Hanborough Member"/>
+      <category type="string" symbol="100" uuid="{b4b11f01-b8d8-5340-b194-a3d23d5e5e43}" value="RT_HP" render="true" label="RT_HP Holme Pierrepont Sand and Gravel"/>
+      <category type="string" symbol="101" uuid="{667bf36e-8641-5341-8037-9dc736df7026}" value="RT_KP" render="true" label="RT_KP Kempton Park Gravel"/>
+      <category type="string" symbol="102" uuid="{c417f7d0-c128-5d57-8c17-69552b09b558}" value="RT_KN" render="true" label="RT_KN Knighton Sand and Gravel"/>
+      <category type="string" symbol="103" uuid="{92f730dc-3d47-5411-967d-cf2acaa707b5}" value="RT_LG" render="true" label="RT_LG Leaves Green Gravel"/>
+      <category type="string" symbol="104" uuid="{bc0b2b1e-ad83-5ef2-b55f-61c6a780c6c1}" value="RT_LN" render="true" label="RT_LN Leen Sand and Gravel"/>
+      <category type="string" symbol="105" uuid="{d4e6df98-1660-5370-9158-194ce1ac70a7}" value="RT_H" render="true" label="RT_H Little Hereford River Terrace"/>
+      <category type="string" symbol="106" uuid="{20f65f27-f8de-51e6-a1d2-c64ba3a35439}" value="RT_LH" render="true" label="RT_LH Lynch Hill Gravel"/>
+      <category type="string" symbol="107" uuid="{ea0c8a17-c923-5615-b680-9055cf9b8b6f}" value="RT_N1" render="true" label="RT_N1 Northmoor Member"/>
+      <category type="string" symbol="108" uuid="{685e1e8c-7a00-530b-a3df-a9459efd6ea5}" value="RT_OcK" render="true" label="RT_OcK Ockbrook Sand and Gravel"/>
+      <category type="string" symbol="109" uuid="{f031ee39-2d94-5624-b130-72e436be66ff}" value="RT_RM1" render="true" label="RT_RM1 Rissington Member"/>
+      <category type="string" symbol="110" uuid="{00675f6b-606d-57af-b249-d003391b23dd}" value="RT_AV1" render="true" label="RT_AV1 River Avon Deposits, 1st"/>
+      <category type="string" symbol="111" uuid="{5fc3db2c-4faa-5663-8df1-e3a6596c3c23}" value="RT_AV2" render="true" label="RT_AV2 River Avon Deposits, 2nd"/>
+      <category type="string" symbol="112" uuid="{f525b3be-9900-576d-a5fc-d50e81f3f913}" value="RT_S1" render="true" label="RT_S1 River Severn Deposits, 1st"/>
+      <category type="string" symbol="113" uuid="{15c02a06-1d0a-5dec-bbc9-31a7b75186a1}" value="RT_S2" render="true" label="RT_S2 River Severn Deposits, 2nd"/>
+      <category type="string" symbol="114" uuid="{f418eb2b-2eb5-5786-a7e4-56c187694840}" value="RT_S3" render="true" label="RT_S3 River Severn Deposits, 3rd"/>
+      <category type="string" symbol="115" uuid="{5ba0ff47-d4d9-51bb-8c5f-9cf52ce8562b}" value="RT01" render="true" label="RT01 River terrace deposits, 1st"/>
+      <category type="string" symbol="116" uuid="{7c66565b-73af-5463-b187-704957149120}" value="RT01A" render="true" label="RT01A River terrace deposits,1a"/>
+      <category type="string" symbol="117" uuid="{dff26fef-5901-5f41-a57f-35b2ad8064a5}" value="RT01B" render="true" label="RT01B River terrace deposits,1b"/>
+      <category type="string" symbol="118" uuid="{1094dd40-65dc-53a3-9e14-2e2f0e55ddf9}" value="RT01C" render="true" label="RT01C River terrace deposits,1c"/>
+      <category type="string" symbol="119" uuid="{f482250e-d6bb-527b-aa63-ca4660175aca}" value="RT01-2" render="true" label="RT01-2 River terrace deposits, 1st - 2nd"/>
+      <category type="string" symbol="120" uuid="{59647011-6d22-5201-b9f6-4e33411d033d}" value="RT02" render="true" label="RT02 River terrace deposits, 2nd"/>
+      <category type="string" symbol="121" uuid="{9cf42918-66f5-5b64-b140-bc582aca9830}" value="RT02-3" render="true" label="RT02-3 River terrace deposits, 2nd - 3rd"/>
+      <category type="string" symbol="122" uuid="{e7975cb9-14e0-55ba-afe5-cbfbb8e11ec0}" value="RT03" render="true" label="RT03 River terrace deposits, 3rd"/>
+      <category type="string" symbol="123" uuid="{3808e869-3736-5c72-b25e-81216af18d63}" value="RT04" render="true" label="RT04 River terrace deposits, 4th"/>
+      <category type="string" symbol="124" uuid="{aed49230-b59a-5657-907e-d5fa231d1ecb}" value="RT05" render="true" label="RT05 River terrace deposits, 5th"/>
+      <category type="string" symbol="125" uuid="{7f005ce1-a47c-5292-ba77-82520246c580}" value="RT05-6" render="true" label="RT05-6 River terrace deposits, 5th - 6th"/>
+      <category type="string" symbol="126" uuid="{9eecb4ce-46d2-5371-87c8-ca9e24ffd28f}" value="RT06" render="true" label="RT06 River terrace deposits, 6th"/>
+      <category type="string" symbol="127" uuid="{5bba7a99-fe8e-53ea-9695-73f7b92f6a15}" value="RT07" render="true" label="RT07 River terrace deposits, 7th"/>
+      <category type="string" symbol="128" uuid="{ebcad85e-1d82-58d9-82cf-255375c1f747}" value="RT08" render="true" label="RT08 River terrace deposits, 8th"/>
+      <category type="string" symbol="129" uuid="{b3b53f59-a739-5b74-8bd1-8fcb6388eaff}" value="RT09" render="true" label="RT09 River terrace deposits, 9th"/>
+      <category type="string" symbol="130" uuid="{11a6354a-39af-5fef-81b0-ff90054e76a5}" value="RT10" render="true" label="RT10 River terrace deposits 10th"/>
+      <category type="string" symbol="131" uuid="{4aecf598-8494-5ded-9dba-f7eaf6443604}" value="RT11" render="true" label="RT11 River terrace deposits, 11th"/>
+      <category type="string" symbol="132" uuid="{9c2bff5b-d4da-5341-8dab-ebc4d5d81d5b}" value="RT12" render="true" label="RT12 River terrace deposits, 12th"/>
+      <category type="string" symbol="133" uuid="{cc3d94b8-8d2d-58fe-80fd-6f5f49419d87}" value="RT13" render="true" label="RT13 River terrace deposits, 13th"/>
+      <category type="string" symbol="134" uuid="{47dca272-392b-5ff1-acee-a52dd14fb7ea}" value="RT14" render="true" label="RT14 River terrace deposits, 14th"/>
+      <category type="string" symbol="135" uuid="{977889df-3157-5499-9f5c-3da618756892}" value="RT15" render="true" label="RT15 River terrace deposits, 15th"/>
+      <category type="string" symbol="136" uuid="{9bffde60-13f4-5d89-a0e5-869df3406188}" value="RT_U" render="true" label="RT_U River terrace deposits, undifferentiated"/>
+      <category type="string" symbol="137" uuid="{8c2ad987-e14f-51eb-93a3-480e301093a6}" value="RT_WF" render="true" label="RT_WF River Worfe Deposits, undifferentiated"/>
+      <category type="string" symbol="138" uuid="{9084e372-8a7b-5348-abd8-4d7c6dca8c4f}" value="RT_WF1" render="true" label="RT_WF1 River Worfe Terrace Deposits, 1st"/>
+      <category type="string" symbol="139" uuid="{56fe07ac-423e-513f-b55f-1a65b203d27a}" value="RT_WF2" render="true" label="RT_WF2 River Worfe Terrace Deposits, 2nd"/>
+      <category type="string" symbol="140" uuid="{27d295d8-44fb-53de-8407-87b2a6bf931c}" value="RT_WY1" render="true" label="RT_WY1 River Wye Terrace Deposits, 1st"/>
+      <category type="string" symbol="141" uuid="{a9ae5e65-d5de-5a9e-b0a5-9479eb7ef692}" value="RT_WY2" render="true" label="RT_WY2 River Wye Terrace Deposits, 2nd"/>
+      <category type="string" symbol="142" uuid="{40acc946-13a4-5fed-b413-d984ff61a9ce}" value="RT_RO1" render="true" label="RT_RO1 Rother Terrace Deposits, 1st"/>
+      <category type="string" symbol="143" uuid="{c61ea161-d411-5b96-b1e0-61d5bd0c3e36}" value="RT_RO2" render="true" label="RT_RO2 Rother Terrace Deposits, 2nd"/>
+      <category type="string" symbol="144" uuid="{f2c8f8bf-311b-5173-9109-35bdb25a3af6}" value="RT_RO3" render="true" label="RT_RO3 Rother Terrace Deposits, 3rd"/>
+      <category type="string" symbol="145" uuid="{87162c46-fedc-560d-b1c6-7641372c2912}" value="RT_RO4" render="true" label="RT_RO4 Rother Terrace Deposits, 4th"/>
+      <category type="string" symbol="146" uuid="{f4ee4ead-5993-52b6-8b2b-895495168fcf}" value="RT_RO5" render="true" label="RT_RO5 Rother Terrace Deposits, 5th"/>
+      <category type="string" symbol="147" uuid="{76263f99-6d45-5358-8bec-6b262c7a25b8}" value="RT_ROU" render="true" label="RT_ROU Rother Terrace Deposits, undifferentiated"/>
+      <category type="string" symbol="148" uuid="{c1be3827-49f7-5d8b-840a-4d5721520dc6}" value="RT_S" render="true" label="RT_S Shakenhurst Terrace"/>
+      <category type="string" symbol="149" uuid="{3b6565d8-154f-51c5-be4c-304acf100c2d}" value="RT_SH" render="true" label="RT_SH Shepperton Gravel"/>
+      <category type="string" symbol="150" uuid="{d8ebc0e9-22b4-5ee8-a08e-d38ed2a584f0}" value="RT_SM1" render="true" label="RT_SM1 Sherborne Member, 1st terrace"/>
+      <category type="string" symbol="151" uuid="{d5592500-2cd8-50bf-8107-817806fbdc89}" value="RT_SM2" render="true" label="RT_SM2 Sherborne Member, 2nd terrace"/>
+      <category type="string" symbol="152" uuid="{4b7e49c2-38ea-51cd-9ccf-c01ce2d269ef}" value="RT_SL6" render="true" label="RT_SL6 Silchester Gravel"/>
+      <category type="string" symbol="153" uuid="{32f03e58-dfd0-59d8-af68-c1185242962a}" value="RT_SR2" render="true" label="RT_SR2 Summertown Radley Member, 2nd terrace"/>
+      <category type="string" symbol="154" uuid="{67d895eb-f6f3-5ee6-bf0a-22129bda4718}" value="RT_SHG" render="true" label="RT_SHG Surrey Hill Gravel"/>
+      <category type="string" symbol="155" uuid="{0740601b-c1d9-5044-83e3-cc6936f06393}" value="RT_SYS" render="true" label="RT_SYS Syston Sand and Gravel"/>
+      <category type="string" symbol="156" uuid="{93a1a781-9dda-5786-b43b-14588e78db35}" value="RT_TAP" render="true" label="RT_TAP Taplow Gravel"/>
+      <category type="string" symbol="157" uuid="{8eef432d-bb96-541d-a812-e23f9d2cb0b8}" value="RT_TH3" render="true" label="RT_TH3 Thatcham Gravel"/>
+      <category type="string" symbol="158" uuid="{a3dceb6d-6360-5a3f-8ea7-102cd7bf579b}" value="RT_WAN" render="true" label="RT_WAN Wanlip Sand and Gravel"/>
+      <category type="string" symbol="159" uuid="{632833c1-e193-5171-9526-008b840d2921}" value="ALV_W" render="true" label="ALV_W Warp"/>
+      <category type="string" symbol="160" uuid="{ae636c9a-2c8b-57dc-a46a-c8e7cc854793}" value="RT_WG" render="true" label="RT_WG Westland Green Gravel"/>
+      <category type="string" symbol="161" uuid="{643db552-5a5e-53be-a934-05707b9eb80c}" value="RT_WM" render="true" label="RT_WM Westmill Lower Gravel"/>
+      <category type="string" symbol="162" uuid="{88574853-3733-5dc2-b0e4-7766a8673b73}" value="RT_WH" render="true" label="RT_WH Whatton Sand and Gravel"/>
+      <category type="string" symbol="163" uuid="{68964e9b-0547-53a8-8aad-44f62b4aab03}" value="RT_WH7" render="true" label="RT_WH7 Winter Hill Gravel"/>
+      <category type="string" symbol="164" uuid="{70ce03aa-68fd-55c6-9b3f-0540666599bf}" value="RT_WO3" render="true" label="RT_WO3 Wolvercote Member"/>
+      <category type="string" symbol="165" uuid="{9f86a5a0-a6d2-5d94-94fd-488a66396d24}" value="RT_WD" render="true" label="RT_WD Woodford Gravel"/>
+      <category type="string" symbol="166" uuid="{6fb18c20-9d37-536f-ab98-411ac6c75102}" value="LAC" render="true" label="LAC Lacustrine deposits"/>
+      <category type="string" symbol="167" uuid="{b43ee169-d7ed-589a-876f-1c7db2708b48}" value="LAC1" render="true" label="LAC1 Lacustrine deposits 1"/>
+      <category type="string" symbol="168" uuid="{1aa6e9ee-3de0-5a10-9c85-df5d959706c7}" value="LAC2" render="true" label="LAC2 Lacustrine deposits 2"/>
+      <category type="string" symbol="169" uuid="{06924beb-73f4-56d9-ba05-9fe6d5007264}" value="LAC3" render="true" label="LAC3 Lacustrine deposits 3"/>
+      <category type="string" symbol="170" uuid="{a3b1272f-c72b-5ed4-a37a-d650cb30db2b}" value="LAC_D" render="true" label="LAC_D Lacustrine delta deposits"/>
+      <category type="string" symbol="171" uuid="{dc54ad7b-585a-53d3-ad93-1a4d8c2096df}" value="LAC_SB" render="true" label="LAC_SB Lacustrine shoreface and beach deposits"/>
+      <category type="string" symbol="172" uuid="{41072cd1-3911-5c61-9d39-20dd331440d5}" value="LAC_S5" render="true" label="LAC_S5 Lacustrine shoreface and beach deposits 5"/>
+      <category type="string" symbol="173" uuid="{edf14bc4-9b37-5bed-9960-96a85b3476d3}" value="MA_B" render="true" label="MA_B Bank deposits"/>
+      <category type="string" symbol="174" uuid="{170a613b-7576-533d-904c-b204f34a2874}" value="MA_BS" render="true" label="MA_BS Bank deposits, sand"/>
+      <category type="string" symbol="175" uuid="{2bba8dc7-d7d4-5e41-9cac-aef2c6b1f6a5}" value="MA_BDB" render="true" label="MA_BDB Barroway Drove Beds"/>
+      <category type="string" symbol="176" uuid="{7ae11312-4d36-52db-b679-a5238328364e}" value="MA_CH" render="true" label="MA_CH Chenier deposits"/>
+      <category type="string" symbol="177" uuid="{a42140e4-bb5f-569a-a72a-1e1b2d225b01}" value="MA_NET" render="true" label="MA_NET Netley Heath Deposits"/>
+      <category type="string" symbol="178" uuid="{20a6cae9-fc69-5ca9-857b-70059878b914}" value="MA_CB" render="true" label="MA_CB Coastal barrier deposits"/>
+      <category type="string" symbol="179" uuid="{73674cd2-b076-5f95-890c-b8517e86f5fa}" value="MA_SGC" render="true" label="MA_SGC Coastal barrier, sand and gravel"/>
+      <category type="string" symbol="180" uuid="{3de55630-4dad-549f-984c-ed709a050a2f}" value="MA_CZ" render="true" label="MA_CZ Coastal zone deposits, undifferentiated"/>
+      <category type="string" symbol="181" uuid="{307f8c91-d0f6-509f-a73f-2ae1ffaea1ed}" value="MA_I" render="true" label="MA_I Intertidal deposits, undifferentiated"/>
+      <category type="string" symbol="182" uuid="{3efcc496-fc3c-54a4-b7e4-017703ba6ccf}" value="MA_MB" render="true" label="MA_MB Marine band"/>
+      <category type="string" symbol="183" uuid="{8a28af72-c964-5977-8590-0bd6e5966f6c}" value="MA_BE" render="true" label="MA_BE Marine beach deposits"/>
+      <category type="string" symbol="184" uuid="{d0bdd0fd-abd1-5bb3-a174-fd09a791ad2e}" value="MA_MA" render="true" label="MA_MA Marine deposits, undifferentiated"/>
+      <category type="string" symbol="185" uuid="{c8746abb-8e46-5a54-af83-a5a7cc6d27fd}" value="MA_SG" render="true" label="MA_SG Marine deposits, sand and gravel"/>
+      <category type="string" symbol="186" uuid="{5be6597c-355e-5b69-8d1b-f333e0173266}" value="MA_M" render="true" label="MA_M Mud deposits"/>
+      <category type="string" symbol="187" uuid="{99149b1c-7954-58db-a6b6-a5a2ad03f40b}" value="MA_SM" render="true" label="MA_SM Saltmarsh deposits"/>
+      <category type="string" symbol="188" uuid="{a999d387-4bf4-5d54-9c9b-ec5f2fd2faaf}" value="MA_SSI" render="true" label="MA_SSI Sand and silt deposits"/>
+      <category type="string" symbol="189" uuid="{f12af349-2693-55f3-b730-b47ae0518505}" value="MA_S" render="true" label="MA_S Sand deposits"/>
+      <category type="string" symbol="190" uuid="{8375815e-996c-5218-b4a1-0e8e140b3ce0}" value="MA_SST" render="true" label="MA_SST Sand, tabular or sheet deposits"/>
+      <category type="string" symbol="191" uuid="{d05a44ec-0b7a-5c11-8a9d-1ef092778316}" value="MA_SHB" render="true" label="MA_SHB Shell bank (mussel band)"/>
+      <category type="string" symbol="192" uuid="{e2de0ea8-42f0-51ca-9655-b5a8f80c9f41}" value="MA_SF" render="true" label="MA_SF Shoreface deposits"/>
+      <category type="string" symbol="193" uuid="{0482eac5-ba27-5757-b54c-801ef3812cd9}" value="MA_SFS" render="true" label="MA_SFS Shoreface deposits, sand"/>
+      <category type="string" symbol="194" uuid="{0593020b-84c6-5aee-a9d9-d7f111bb3a0b}" value="MA_SSG" render="true" label="MA_SSG Shoreface deposits, sand and gravel"/>
+      <category type="string" symbol="195" uuid="{d7e6dae2-b79a-5ab5-ae5d-73c712ac66ae}" value="MA_SI" render="true" label="MA_SI Silt deposits"/>
+      <category type="string" symbol="196" uuid="{6f01ffc2-69d8-5a98-bb13-415837ab0b26}" value="MA_SB" render="true" label="MA_SB Storm beach deposits"/>
+      <category type="string" symbol="197" uuid="{b5ddce8a-9b2f-54eb-b023-02d9b9071896}" value="MA_SB1" render="true" label="MA_SB1 Storm beach deposits, 1"/>
+      <category type="string" symbol="198" uuid="{99bb551b-17fc-57da-b156-a4fafc450e98}" value="MA_SBG" render="true" label="MA_SBG Storm beach deposits, gravel"/>
+      <category type="string" symbol="199" uuid="{98a739a5-bca0-5df5-83f9-5544ed26c297}" value="MA_SU" render="true" label="MA_SU Supratidal deposits undifferentiated"/>
+      <category type="string" symbol="200" uuid="{b7531ac8-1d92-597a-9ec8-7c4883e25320}" value="MA_ST" render="true" label="MA_ST Tabular or sheet deposits"/>
+      <category type="string" symbol="201" uuid="{b8e5f96a-5f5d-5db8-a744-bbe9813781be}" value="MA_TF" render="true" label="MA_TF Tidal flat deposits"/>
+      <category type="string" symbol="202" uuid="{ef6a600b-4e92-5bbe-9cf3-216e2ebed51d}" value="MA_TF1" render="true" label="MA_TF1 Tidal flat deposits, 1"/>
+      <category type="string" symbol="203" uuid="{babbeb05-2643-59a6-a536-cfbfc54af3bc}" value="MA_TR" render="true" label="MA_TR Tidal, river or creek deposits"/>
+      <category type="string" symbol="204" uuid="{5e1a11cb-4b74-5c10-9db6-c2a3a8b46891}" value="MA_TRM" render="true" label="MA_TRM Tidal, river or creek deposits, mud"/>
+      <category type="string" symbol="205" uuid="{ff72806e-e451-5cde-9b1c-c1237c655557}" value="MA_TMG" render="true" label="MA_TMG Tidal, river or creek deposits, mud and gravel"/>
+      <category type="string" symbol="206" uuid="{d31f28e5-d24d-58bf-8d54-96b177168f64}" value="MA_WO" render="true" label="MA_WO Washover deposits"/>
+      <category type="string" symbol="207" uuid="{ce9d7b4a-8720-5a23-9983-2b8098196254}" value="RM_SB2" render="true" label="RM_SB2 Beach deposits"/>
+      <category type="string" symbol="208" uuid="{46f507d9-d5b9-533f-95ce-56846c799f6e}" value="RM_BL" render="true" label="RM_BL Brackish lagoon"/>
+      <category type="string" symbol="209" uuid="{724203ca-4fbb-5bde-ac54-d8972641a088}" value="RM_DS" render="true" label="RM_DS Delta deposits, sand and gravel"/>
+      <category type="string" symbol="210" uuid="{ae810a0f-535e-5c1f-9857-87c7090e1ffa}" value="RM_FL" render="true" label="RM_FL Flandrian deposits"/>
+      <category type="string" symbol="211" uuid="{b0242599-ca1c-5864-9761-653dbfde08c0}" value="RM_IN" render="true" label="RM_IN Intertidal"/>
+      <category type="string" symbol="212" uuid="{ee58d7d6-d106-5bc0-ad17-3ca3225116e9}" value="RM_LG" render="true" label="RM_LG Late glacial"/>
+      <category type="string" symbol="213" uuid="{4a8fa314-8972-5908-954c-c726418bd77f}" value="RM_PG" render="true" label="RM_PG Post glacial"/>
+      <category type="string" symbol="214" uuid="{ac8fd001-151e-5c9f-b0b1-7aa79ef6e5c8}" value="RM_D" render="true" label="RM_D Raised marine delta deposits"/>
+      <category type="string" symbol="215" uuid="{9f62395c-48fd-5398-a014-9bf407435ed6}" value="RM" render="true" label="RM Raised marine deposits"/>
+      <category type="string" symbol="216" uuid="{b73fab79-5afd-54ff-add2-5fd1dc2d363c}" value="RM_C" render="true" label="RM_C Raised marine deposits, clay"/>
+      <category type="string" symbol="217" uuid="{d7531754-4006-5020-94a6-b528d7a13f70}" value="RM_2" render="true" label="RM_2 Raised marine deposits, high"/>
+      <category type="string" symbol="218" uuid="{6462c0ec-76ca-5c62-b231-b82a822693a1}" value="RM_3" render="true" label="RM_3 Raised marine deposits, highest"/>
+      <category type="string" symbol="219" uuid="{589a7839-8a41-5d79-8f5c-c0b83ad16c63}" value="RM_1" render="true" label="RM_1 Raised marine deposits, low"/>
+      <category type="string" symbol="220" uuid="{aaf0a4f6-2dc0-543e-b546-1bae881d0371}" value="RM_MG" render="true" label="RM_MG Raised marine deposits, March Gravels"/>
+      <category type="string" symbol="221" uuid="{9aa53d90-5214-548d-8809-5e1be6c75e05}" value="RM_M" render="true" label="RM_M Raised marine deposits, mud"/>
+      <category type="string" symbol="222" uuid="{8a1c78e6-dd0f-58a7-a0e8-a24cb6815b0e}" value="RM_NV" render="true" label="RM_NV Raised marine deposits, Nor Valley Clay"/>
+      <category type="string" symbol="223" uuid="{a7957749-2cfd-51cb-acde-4e1b1aa1a21d}" value="RM_SG" render="true" label="RM_SG Raised marine deposits, sand and gravel"/>
+      <category type="string" symbol="224" uuid="{329dc770-1147-5ac9-8353-38217f15a767}" value="RM_SC" render="true" label="RM_SC Raised marine deposits, silt and clay"/>
+      <category type="string" symbol="225" uuid="{f9fccdb6-0d34-5ff5-8f36-3a49c72aebb7}" value="RM_TB" render="true" label="RM_TB Raised marine deposits, Terrington Beds"/>
+      <category type="string" symbol="226" uuid="{0e64bda3-587c-5f31-a381-e4d0bf9d3497}" value="RM_TO" render="true" label="RM_TO Raised marine deposits, Tottenhill Gravels"/>
+      <category type="string" symbol="227" uuid="{157a7e6a-b39f-52ba-954f-26f7e885c211}" value="RM_TF" render="true" label="RM_TF Raised marine, tidal, river or creek deposits"/>
+      <category type="string" symbol="228" uuid="{538b6bc0-7c0f-5b9b-884b-682c37681a99}" value="RM_TRF" render="true" label="RM_TRF Raised tidal flat deposits of Flandrian age"/>
+      <category type="string" symbol="229" uuid="{f39f7f6d-187d-5074-9803-3bd9ec92a9d4}" value="RM_SBF" render="true" label="RM_SBF Shore beach deposits of Flandrian age"/>
+      <category type="string" symbol="230" uuid="{67eda38f-e8ef-5948-b3d4-f0e1f819ad47}" value="RM_SU" render="true" label="RM_SU Subtidal"/>
+      <category type="string" symbol="231" uuid="{0912ff68-7b1f-5178-a7b7-3861e6c465a2}" value="IGL_LA" render="true" label="IGL_LA Interglacial lacustrine deposits"/>
+      <category type="string" symbol="232" uuid="{54028a49-a71f-5918-82ac-c6f02e3c9d7b}" value="IGL" render="true" label="IGL Interglacial deposits, undifferentiated"/>
+      <category type="string" symbol="233" uuid="{3edd0566-ca85-50f4-9da6-107f4cc2e0d6}" value="IGL_FL" render="true" label="IGL_FL Interglacial fluvial deposits"/>
+      <category type="string" symbol="234" uuid="{52b6fd65-dc28-5960-bfb5-f9abddf554e2}" value="IGL_MA" render="true" label="IGL_MA Interglacial marine deposits, undifferentiated"/>
+      <category type="string" symbol="235" uuid="{598c1731-3b12-5c6d-a0b9-b0adb01302d4}" value="IGL_MS" render="true" label="IGL_MS Interglacial marine shore beach deposits"/>
+      <category type="string" symbol="236" uuid="{8d3a3b35-03e2-5b7b-8484-bc2b22ce8db5}" value="DM" render="true" label="DM Diamicton"/>
+      <category type="string" symbol="237" uuid="{9b70ef87-412d-52c7-9b2b-5af6b983b93d}" value="GL" render="true" label="GL Glacial deposits"/>
+      <category type="string" symbol="238" uuid="{0f4c225f-eaa1-5dd7-babd-efcb10ab0357}" value="GL_CG" render="true" label="GL_CG Crag with tail"/>
+      <category type="string" symbol="239" uuid="{bcb8d563-1b14-54fd-8f19-b6f32af6cd7e}" value="GL_HMC" render="true" label="GL_HMC Hummocky glacial and morainic deposits"/>
+      <category type="string" symbol="240" uuid="{bc495c8e-4f4c-59c9-87e9-7c34659d185e}" value="GL_MSG" render="true" label="GL_MSG Muddy sand and gravel"/>
+      <category type="string" symbol="241" uuid="{3084005d-795c-599c-b8d2-edcf885a022e}" value="GFL" render="true" label="GFL Glaciofluvial deposits, undifferentiated"/>
+      <category type="string" symbol="242" uuid="{a6cc8015-0a73-5367-aadb-2a0b3891c740}" value="GFL_B" render="true" label="GFL_B Baginton Sand and Gravel"/>
+      <category type="string" symbol="243" uuid="{aa12a063-b299-5c88-bd1f-32acd3740227}" value="GFL_BU" render="true" label="GFL_BU Burtle Beds"/>
+      <category type="string" symbol="244" uuid="{83a4127c-459b-539a-982f-959b6c4b7044}" value="GFL_CO" render="true" label="GFL_CO Corton Formation"/>
+      <category type="string" symbol="245" uuid="{f263fc30-1308-5081-bbd4-3868b88d2387}" value="GFL_D" render="true" label="GFL_D Deltaic and / or fan deposits"/>
+      <category type="string" symbol="246" uuid="{a7488ca6-43ad-5b23-b5fc-cf669966dabb}" value="GFL_EG" render="true" label="GFL_EG Lochton Sand and Gravel Formation (East Grampian Drift Group)"/>
+      <category type="string" symbol="247" uuid="{408b6515-1d3a-57a4-8473-a6ce99361a8c}" value="GFL_EM" render="true" label="GFL_EM Eagle Moor Sand and Gravel"/>
+      <category type="string" symbol="248" uuid="{1756ec00-b6e3-5039-8b07-5a570402515b}" value="GFL_HO" render="true" label="GFL_HO Holderness Formation"/>
+      <category type="string" symbol="249" uuid="{4a461706-546c-5c63-83ef-edb33d95bbb1}" value="GFL_IC" render="true" label="GFL_IC Ice-contact"/>
+      <category type="string" symbol="250" uuid="{d70b1785-955f-5e59-8888-6d09d6a083c3}" value="GFL_IT" render="true" label="GFL_IT Irish Sea Ice Sheet (sheet deposits)"/>
+      <category type="string" symbol="251" uuid="{762b4824-5383-5840-87a2-35fc4f057e9a}" value="GFL_I" render="true" label="GFL_I Irish Sea Ice Sheet, undifferentiated"/>
+      <category type="string" symbol="252" uuid="{cd58efd5-c1e7-5ca5-b9e0-4c514c483e71}" value="GFL_L" render="true" label="GFL_L Lowestoft Formation"/>
+      <category type="string" symbol="253" uuid="{0cf5d5d8-1dee-5736-b3be-101bbf7ce8be}" value="GFL_MD" render="true" label="GFL_MD Drumlithie Sand and Gravel (Mearns Drift Group)"/>
+      <category type="string" symbol="254" uuid="{d7539746-5c7d-5ccb-bb3f-3719069e06ee}" value="GFL_MT" render="true" label="GFL_MT Moreton Member"/>
+      <category type="string" symbol="255" uuid="{d03f01e0-5a0e-5977-8cd2-21e631440f91}" value="GFL_O" render="true" label="GFL_O Overstrand Formation"/>
+      <category type="string" symbol="256" uuid="{1e58b4b4-535d-5772-82b0-778cd45f3a5e}" value="GFL_OD" render="true" label="GFL_OD Oadby Member"/>
+      <category type="string" symbol="257" uuid="{47e3ec34-2f91-59ad-b9f5-ae0b2ac91832}" value="GFL_PD" render="true" label="GFL_PD Pre-Devensian"/>
+      <category type="string" symbol="258" uuid="{8697f801-3af7-5a7a-a2e1-2f9dbdf02fd5}" value="GFL_S1" render="true" label="GFL_S1 Sheet deposits, 1st"/>
+      <category type="string" symbol="259" uuid="{a679be4b-61f5-55a6-b903-8fcb53ec8850}" value="GFL_S2" render="true" label="GFL_S2 Sheet deposits, 2nd"/>
+      <category type="string" symbol="260" uuid="{3a34b716-0b3d-53d6-b8e2-acb16e85136a}" value="GFL_S3" render="true" label="GFL_S3 Sheet deposits, 3rd"/>
+      <category type="string" symbol="261" uuid="{1b2db672-ad82-5c73-bef4-31713f11169a}" value="GFL_SG" render="true" label="GFL_SG Sand and gravel"/>
+      <category type="string" symbol="262" uuid="{7922ba39-1b82-5112-8026-58b1940b3ef7}" value="GFL_SH" render="true" label="GFL_SH Sheet deposits"/>
+      <category type="string" symbol="263" uuid="{e5da428e-3e96-5cb0-b9dc-84943c3a8550}" value="GFL_WI" render="true" label="GFL_WI Wigston Sand and Gravel"/>
+      <category type="string" symbol="264" uuid="{1ab73a61-8d45-51d1-8d8d-e4513da937a5}" value="GFL_WL" render="true" label="GFL_WL Woolford Heath Member"/>
+      <category type="string" symbol="265" uuid="{fe4a9ab3-dea8-5bba-8b73-f7f4d10317bf}" value="GFL_WO" render="true" label="GFL_WO Wolston Sand and Gravel"/>
+      <category type="string" symbol="266" uuid="{64e2cfc3-70bf-5128-9452-12bcdaa4b81b}" value="GLA" render="true" label="GLA Glaciolacustrine deposits"/>
+      <category type="string" symbol="267" uuid="{d69669b3-c027-5552-bfbb-a9c8feb4e666}" value="GLA1" render="true" label="GLA1 Glaciolacustrine deposits 1"/>
+      <category type="string" symbol="268" uuid="{a3d1f2de-cf45-5124-bd32-5bfdee09b9de}" value="GLA2" render="true" label="GLA2 Glaciolacustrine deposits 2"/>
+      <category type="string" symbol="269" uuid="{8b93f87a-4a59-507c-ab6f-abd8570ea221}" value="GLA_C" render="true" label="GLA_C Clay"/>
+      <category type="string" symbol="270" uuid="{fa1ffffb-1336-52dd-853a-0e274e662e3a}" value="GLA_DG" render="true" label="GLA_DG Delta deposits, sand and gravel"/>
+      <category type="string" symbol="271" uuid="{7a3f395f-1f7c-59de-a234-a2b6c22869b2}" value="GLA_DL" render="true" label="GLA_DL Delta deposits"/>
+      <category type="string" symbol="272" uuid="{1103397d-6743-5e9c-bec5-e10905d2a0c0}" value="GLA_DS" render="true" label="GLA_DS Delta deposits, sand"/>
+      <category type="string" symbol="273" uuid="{629d2dab-7916-5fab-a901-eab81c0a530a}" value="GLA_EG" render="true" label="GLA_EG Glen Dye Silts Formation (East Grampian Drift Group)"/>
+      <category type="string" symbol="274" uuid="{cf395a96-c2e2-5f46-930b-8cd9961e28dd}" value="GLA_FC" render="true" label="GLA_FC Findern Clay"/>
+      <category type="string" symbol="275" uuid="{9ab2d8d5-57ce-571a-b91f-b8d6c1235094}" value="GLA_M" render="true" label="GLA_M Silt and clay"/>
+      <category type="string" symbol="276" uuid="{1ac01158-bb72-5f27-8331-e66bb9811632}" value="GLA_MD" render="true" label="GLA_MD Ury Silts Formation (Mearns Drift Group)"/>
+      <category type="string" symbol="277" uuid="{77075fa7-7dc3-5a29-8b21-7f2dd817fb7f}" value="GLA_M1" render="true" label="GLA_M1 Silt and clay, 1st"/>
+      <category type="string" symbol="278" uuid="{8f8f81b4-25ed-5975-be1a-de6961759811}" value="GLA_RO" render="true" label="GLA_RO Rotherby clay"/>
+      <category type="string" symbol="279" uuid="{a96d3965-2241-5655-abd4-323883e3c1ae}" value="GLA_S" render="true" label="GLA_S Sand"/>
+      <category type="string" symbol="280" uuid="{362d73d3-41c3-5959-a0a4-c97d3186b4ee}" value="GLA_SG" render="true" label="GLA_SG Sand and gravel"/>
+      <category type="string" symbol="281" uuid="{fc5cad4b-b70b-5d78-89e1-1eede2ef35f0}" value="GLM" render="true" label="GLM Glaciomarine deposits"/>
+      <category type="string" symbol="282" uuid="{cbe8621e-6665-5ca0-8ab8-2ba7e5b2fa02}" value="GLM_A" render="true" label="GLM_A Ardersier Silts Formation"/>
+      <category type="string" symbol="283" uuid="{b8b7c8ff-904a-519e-a71e-bc6e30c5c13d}" value="TIL" render="true" label="TIL Till or boulder clay"/>
+      <category type="string" symbol="284" uuid="{29769dd9-019a-5ced-8151-bfc4567eb95c}" value="TIL_BB" render="true" label="TIL_BB Benholm Clay Formation"/>
+      <category type="string" symbol="285" uuid="{96121d68-bd7b-5e38-96ad-cb7ad0726edf}" value="TIL_C" render="true" label="TIL_C Wragby, Calcethorpe &amp; Belmont"/>
+      <category type="string" symbol="286" uuid="{c49d4979-0890-5ac8-b02f-f35e55c139e7}" value="TIL_CO" render="true" label="TIL_CO Corton Formation"/>
+      <category type="string" symbol="287" uuid="{9ef761fd-bec6-5aa5-b712-94dbddb4e49d}" value="TIL_EG" render="true" label="TIL_EG Banchory Till Formation (east Grampian Drift Group)"/>
+      <category type="string" symbol="288" uuid="{cc2cf996-aa08-521c-9928-60973b740742}" value="TIL_HO" render="true" label="TIL_HO Holderness Formation"/>
+      <category type="string" symbol="289" uuid="{d3f06d1c-c543-5452-bea1-a4cc1e59cd71}" value="TIL_I" render="true" label="TIL_I Irish Sea Ice Sheet"/>
+      <category type="string" symbol="290" uuid="{300334d0-0f2a-5dcf-8e48-0416616c487a}" value="TIL_L" render="true" label="TIL_L Lowestoft Formation"/>
+      <category type="string" symbol="291" uuid="{00b3b8a5-509a-5884-ae73-f8c51235adc1}" value="TIL_M" render="true" label="TIL_M Marsh Till"/>
+      <category type="string" symbol="292" uuid="{ef0e8a68-a5d4-5dd2-8605-f7022e724caa}" value="TIL_MD" render="true" label="TIL_MD Mill of Forest Formation (Mearns Drift Group)"/>
+      <category type="string" symbol="293" uuid="{68f4b1be-d2b2-599c-bb98-e8913a082711}" value="TIL_MT" render="true" label="TIL_MT Moreton Member"/>
+      <category type="string" symbol="294" uuid="{7d15e741-218f-5e50-8c80-9cb030373629}" value="TIL_O" render="true" label="TIL_O Overstrand Formation"/>
+      <category type="string" symbol="295" uuid="{91f9a01a-35ea-54a1-ae3c-2378249012e9}" value="TIL_OD" render="true" label="TIL_OD Oadby Till"/>
+      <category type="string" symbol="296" uuid="{f2f7f531-470a-5297-9669-e41a1f447aee}" value="TIL_OL" render="true" label="TIL_OL Oadby Till (Lias-rich)"/>
+      <category type="string" symbol="297" uuid="{64f78e4d-1e11-5685-9330-9b9439d4fcfa}" value="TIL_OT" render="true" label="TIL_OT Oadby Till (Trias-rich)"/>
+      <category type="string" symbol="298" uuid="{6836bb59-d54f-554e-b0fb-02b2ab4cc412}" value="TIL_RM" render="true" label="TIL_RM Ruddington Moor Till"/>
+      <category type="string" symbol="299" uuid="{97a2fa3f-1769-56cd-a290-812fadb54111}" value="TIL_TH" render="true" label="TIL_TH Thrussington Till"/>
+      <category type="string" symbol="300" uuid="{5b8927b4-dc68-56d8-a57d-39afedc3bd4f}" value="SG_A" render="true" label="SG_A Anker Sand and Gravel"/>
+      <category type="string" symbol="301" uuid="{63f20b37-9a54-5fcf-89c9-c76c8738c261}" value="SG_CH" render="true" label="SG_CH Chelsfield Gravel"/>
+      <category type="string" symbol="302" uuid="{ab2eb415-56ce-5a16-98cb-fa4726a4a6a9}" value="SG_DG" render="true" label="SG_DG Dunsmore Gravel"/>
+      <category type="string" symbol="303" uuid="{6595f45c-c4b1-5797-9256-aff8f16b1a4c}" value="ERRAT" render="true" label="ERRAT Erratic"/>
+      <category type="string" symbol="304" uuid="{adc4e13e-2b24-511a-b4d5-dc47b896a978}" value="SG_HAT" render="true" label="SG_HAT Hathern Gravel"/>
+      <category type="string" symbol="305" uuid="{2eb5e20f-2392-5745-91fc-5dcb0ddedcb8}" value="SG_U" render="true" label="SG_U Sand and gravel, age uncertain"/>
+      <category type="string" symbol="306" uuid="{c39fb125-bf28-5060-bab1-46cd57dd0797}" value="SG_ST" render="true" label="SG_ST Stanmore Gravel"/>
+      <category type="string" symbol="307" uuid="{60f18131-dfb5-5def-babc-f810b091cb04}" value="SG_UP" render="true" label="SG_UP Upton Sand and Gravel"/>
+      <category type="string" symbol="308" uuid="{50f5cc47-4c01-5d74-b704-cdf0ad9fc0ea}" value="SG_WH" render="true" label="SG_WH Well Hill Gravel"/>
+      <category type="string" symbol="309" uuid="{59fbe5fa-45ae-53cd-8773-f5c487d54856}" value="GDC_FA" render="true" label="GDC_FA Fall of glacial drainage channel"/>
+      <category type="string" symbol="310" uuid="{101e0fac-7a62-5b9c-af85-354e0895e816}" value="GDC_F" render="true" label="GDC_F Glacial drainage channel, front"/>
+      <category type="string" symbol="311" uuid="{5b4c22e3-6885-5d3d-aae2-3c33b21a2212}" value="GLST" render="true" label="GLST Glacial striae"/>
+      <category type="string" symbol="312" uuid="{72e9ea2d-d8da-5750-9342-eba98d995e02}" value="GLSTI" render="true" label="GLSTI Glacial striae direction of ice flow"/>
+      <category type="string" symbol="313" uuid="{0e11de75-3eaf-584f-a737-107af21f8f96}" value="KH" render="true" label="KH Kettle hollow"/>
+      <category type="string" symbol="314" uuid="{dff14214-f13e-5387-b02a-3b68ecd8d93b}" value="GL_RM" render="true" label="GL_RM Roche moutonnée"/>
+      <category type="string" symbol="315" uuid="{302a6d88-822a-5f99-874f-f2a9e9cb22bb}" value="GL_RMS" render="true" label="GL_RMS Roche moutonnée with striae"/>
+      <category type="string" symbol="316" uuid="{3f3c2400-654f-51ae-a199-e4021600b435}" value="ROCK" render="true" label="ROCK Rockhead or bedrock"/>
+      <category type="string" symbol="317" uuid="{05533b8f-b15b-5869-93aa-c87a3a04e26b}" value="GDC_S" render="true" label="GDC_S Single sided glacial drainage channel"/>
+      <category type="string" symbol="318" uuid="{2f5d6b0f-3570-5ae6-9406-be6f809d3e24}" value="RS_ATF" render="true" label="RS_ATF Acid tuff"/>
+      <category type="string" symbol="319" uuid="{e2fc2ebf-f752-5c8b-863d-092d25c3f13e}" value="RS_ATT" render="true" label="RS_ATT Acid tuffite"/>
+      <category type="string" symbol="320" uuid="{14bc5990-a743-56a9-9a20-71790291c8a3}" value="RS_APL" render="true" label="RS_APL Aplite"/>
+      <category type="string" symbol="321" uuid="{8be6c94e-989c-5cdd-9f1d-d4671c2edf4b}" value="RS_BTF" render="true" label="RS_BTF Basic tuff"/>
+      <category type="string" symbol="322" uuid="{df70b6a6-894b-5193-911b-669e5b56f780}" value="RS_BTT" render="true" label="RS_BTT Basic tuffite"/>
+      <category type="string" symbol="323" uuid="{cd33cdb8-814d-5ff3-a971-609e1f3b5ef2}" value="RS_BEM" render="true" label="RS_BEM Cataclastic (Metamorphic)"/>
+      <category type="string" symbol="324" uuid="{7f9b0c20-b906-50e6-8cfa-3f76c70566e7}" value="RS_BET" render="true" label="RS_BET Cataclastic rocks"/>
+      <category type="string" symbol="325" uuid="{3b5aa70e-3470-550a-8226-f943b114f3e8}" value="RS_FOL" render="true" label="RS_FOL Foliated"/>
+      <category type="string" symbol="326" uuid="{1df5fb81-a4c5-5324-9ce6-072464264cee}" value="RS_GRX" render="true" label="RS_GRX Grandiorite X"/>
+      <category type="string" symbol="327" uuid="{5962c064-ae2b-5144-9e14-09ae3f7861a2}" value="RS_P" render="true" label="RS_P Microdiorite"/>
+      <category type="string" symbol="328" uuid="{6808d367-9b87-5b8d-9585-f9593845f1c0}" value="RS_FG" render="true" label="RS_FG Microgranite"/>
+      <category type="string" symbol="329" uuid="{0f4dddee-5b22-5942-921e-5592d81c9e68}" value="RS_MU1" render="true" label="RS_MU1 Mylonitic (metamorphic)"/>
+      <category type="string" symbol="330" uuid="{7b5ba8c4-256e-5726-ae56-b426c4b40012}" value="RS_MU" render="true" label="RS_MU Mylonitic rocks"/>
+      <category type="string" symbol="331" uuid="{b48e9ced-c26f-532f-bd26-4352c3ea457d}" value="RS_PEG" render="true" label="RS_PEG Pegmatite"/>
+      <category type="string" symbol="332" uuid="{7fc27a0d-c895-5587-a80a-508e654b8c07}" value="RS_KAP" render="true" label="RS_KAP Pseudotachylitic"/>
+      <category type="string" symbol="333" uuid="{fac28b38-d292-5a84-8a38-41b65d69a184}" value="RS_R" render="true" label="RS_R Rhyolite"/>
+      <category type="string" symbol="334" uuid="{aacc0459-69f5-500d-a8c1-ff36cf91c446}" value="RS_SH" render="true" label="RS_SH Sheared rock (igneous and metamorphic)"/>
+      <category type="string" symbol="335" uuid="{8b5c81ae-087c-5d10-bea0-8b9890256788}" value="S_ISCL" render="true" label="S_ISCL Corrugated strata, low dip"/>
+      <category type="string" symbol="336" uuid="{74cb465a-330f-5f76-a2e5-142fb7479376}" value="S_ISCF" render="true" label="S_ISCF Corrugated foliation"/>
+      <category type="string" symbol="337" uuid="{0c460db0-af55-5a03-8113-c0b6c60c6677}" value="S_CBF" render="true" label="S_CBF Cross-bedding of foresets"/>
+      <category type="string" symbol="338" uuid="{56fc6182-e2b1-5db5-8aa4-c3c4f8fc6c12}" value="S_DY" render="true" label="S_DY Direction of younging"/>
+      <category type="string" symbol="339" uuid="{4c3ad56a-8fc7-5bd4-8f01-f0799072e6ff}" value="S_DB" render="true" label="S_DB Dune-bedding"/>
+      <category type="string" symbol="340" uuid="{1c16feae-406f-54aa-963b-a80628b9446b}" value="S_GDIP" render="true" label="S_GDIP General dip"/>
+      <category type="string" symbol="341" uuid="{a17752de-d772-57c6-a7e8-14ee3d6cf149}" value="S_GDUP" render="true" label="S_GDUP General dip, underground"/>
+      <category type="string" symbol="342" uuid="{282f838b-88e9-5982-8747-4dd02a0fb05f}" value="S_GIS" render="true" label="S_GIS Gently inclined strata"/>
+      <category type="string" symbol="343" uuid="{cddb4895-e8d7-52e5-8069-391e2470ae92}" value="S_GUS" render="true" label="S_GUS Gently undulating strata"/>
+      <category type="string" symbol="344" uuid="{73d0cd38-279a-5f61-b4ec-56406cb90456}" value="S_ISH" render="true" label="S_ISH Highly inclined strata"/>
+      <category type="string" symbol="345" uuid="{c41ee66a-344d-5b6f-8221-38937404333d}" value="S_HOS" render="true" label="S_HOS Horizontal overturned strata"/>
+      <category type="string" symbol="346" uuid="{892072b9-ff71-51b6-a8d0-a45181d7c71a}" value="S_HS" render="true" label="S_HS Horizontal strata"/>
+      <category type="string" symbol="347" uuid="{e9779359-de25-5655-82c3-6b30abf7b8ac}" value="S_IS1" render="true" label="S_IS1 Inclined strata 1"/>
+      <category type="string" symbol="348" uuid="{06da36fa-7750-5e06-8a6c-5aee6928c41d}" value="S_IS2" render="true" label="S_IS2 Inclined strata 2"/>
+      <category type="string" symbol="349" uuid="{364ca881-df30-5758-97ff-759a6c94ede5}" value="S_ISO" render="true" label="S_ISO Inclined strata, overturned"/>
+      <category type="string" symbol="350" uuid="{808ff28a-1b5e-595d-9a5b-76c29a09e3c4}" value="S_ISU" render="true" label="S_ISU Inclined strata, uncertain"/>
+      <category type="string" symbol="351" uuid="{0fce24ca-b8b7-55b4-a0b1-f117e0bd30ad}" value="S_ISUD" render="true" label="S_ISUD Inclined strata, underground"/>
+      <category type="string" symbol="352" uuid="{556f8505-76bb-56d5-a883-8eba2c5e21c8}" value="S_STS" render="true" label="S_STS Strike of strata"/>
+      <category type="string" symbol="353" uuid="{4206661b-f569-55ac-9fe3-33da6618a85e}" value="S_UIS" render="true" label="S_UIS Undulating bed, inclined"/>
+      <category type="string" symbol="354" uuid="{3d377588-cbea-524c-82fd-2a0e60289a66}" value="S_UVS" render="true" label="S_UVS Undulating vertical strata"/>
+      <category type="string" symbol="355" uuid="{e9cc970d-ede7-5cdd-a7e2-bf0ac120df25}" value="S_VS" render="true" label="S_VS Vertical strata"/>
+      <category type="string" symbol="356" uuid="{b7a55d77-1377-5247-90af-729501a327d7}" value="S_HF" render="true" label="S_HF Horizontal foliation"/>
+      <category type="string" symbol="357" uuid="{020a0b1d-7fba-55dc-89f7-b5ea0dcb1f28}" value="S_IF" render="true" label="S_IF Inclined foliation"/>
+      <category type="string" symbol="358" uuid="{d3ab5ab6-a72f-5662-b2ba-70158658398c}" value="S_STF" render="true" label="S_STF Strike of foliation"/>
+      <category type="string" symbol="359" uuid="{559e495a-5130-5284-9c5b-fdecd8f26bb3}" value="S_UF" render="true" label="S_UF Undulating foliation"/>
+      <category type="string" symbol="360" uuid="{f46cba2f-7fcb-5ad6-99d0-319d2152d331}" value="S_VF" render="true" label="S_VF Vertical foliation"/>
+      <category type="string" symbol="361" uuid="{9bd1bde9-3309-56fd-a239-83a7af1e4bc7}" value="S_VFC" render="true" label="S_VFC Vertical foliation, general corrugated strike"/>
+      <category type="string" symbol="362" uuid="{3ad572b8-4af5-55d2-8c0c-c9a4cdb846ed}" value="S_DC" render="true" label="S_DC Direction of cleavage"/>
+      <category type="string" symbol="363" uuid="{6478c738-3d04-5cb9-b660-cac76701241a}" value="S_HC" render="true" label="S_HC Horizontal cleavage"/>
+      <category type="string" symbol="364" uuid="{d0fdffec-2cf2-5af4-b93c-b84fcb608142}" value="S_IC" render="true" label="S_IC Inclined cleavage"/>
+      <category type="string" symbol="365" uuid="{212052ac-6a97-5dee-98d5-e1391efa339a}" value="S_ICS" render="true" label="S_ICS Inclined cleavage, sandstone"/>
+      <category type="string" symbol="366" uuid="{653cbd1a-2277-5f6b-b881-416c4c65b613}" value="S_SR" render="true" label="S_SR Sheared rock"/>
+      <category type="string" symbol="367" uuid="{834fe4d9-b0d8-5171-a62a-6f63f4576b60}" value="S_STC" render="true" label="S_STC Strike of cleavage"/>
+      <category type="string" symbol="368" uuid="{8dbe293d-fa48-55c9-85f6-8467b43c85a8}" value="S_UCI" render="true" label="S_UCI Undulating cleavage, inclined"/>
+      <category type="string" symbol="369" uuid="{94ce1291-80e8-55bc-b2a7-b777583aa247}" value="S_VC" render="true" label="S_VC Vertical cleavage"/>
+      <category type="string" symbol="370" uuid="{258b5d98-bd93-5062-8aa1-6d3ea3306d46}" value="S_VCS" render="true" label="S_VCS Vertical cleavage in sandstone"/>
+      <category type="string" symbol="371" uuid="{bbf74037-a295-5396-94b7-ad461e37f3e3}" value="S_HJ" render="true" label="S_HJ Horizontal joint"/>
+      <category type="string" symbol="372" uuid="{29052d4b-5531-5cc4-886a-d3a4631d7498}" value="S_IJ" render="true" label="S_IJ Inclined joint"/>
+      <category type="string" symbol="373" uuid="{98ea0c83-d975-5a8a-b0df-c05839e5dba5}" value="S_VJ" render="true" label="S_VJ Vertical joint"/>
+      <category type="string" symbol="374" uuid="{453fdf28-3e22-5338-9744-3a12701dfdf9}" value="S_HLI" render="true" label="S_HLI Horizontal lineation"/>
+      <category type="string" symbol="375" uuid="{8b2911d1-c5db-5e55-8e07-bb346dac13b5}" value="S_PLI" render="true" label="S_PLI Plunging lineation"/>
+      <category type="string" symbol="376" uuid="{c86f44f7-dd4e-5c1d-99b6-62b7cdc2b7b1}" value="S_VLI" render="true" label="S_VLI Vertical lineation"/>
+      <category type="string" symbol="377" uuid="{0e89fb41-fff8-5496-9e19-84391f243e4e}" value="S_HFJ" render="true" label="S_HFJ Horizontal flow jointing"/>
+      <category type="string" symbol="378" uuid="{c204f0c2-cdbe-5610-af38-6cc9adb82b00}" value="S_HPCA" render="true" label="S_HPCA Horizontal primary crystal alignment"/>
+      <category type="string" symbol="379" uuid="{711ded61-e635-5de1-beea-e030ed7cae12}" value="S_HPPF" render="true" label="S_HPPF Horizontal primary planar fabric in igneous rocks"/>
+      <category type="string" symbol="380" uuid="{227c459d-7f85-5951-b4ce-9bbcaba07042}" value="S_HR" render="true" label="S_HR Horizontal relict, planar fabric in plutonic rocks"/>
+      <category type="string" symbol="381" uuid="{ff68e0ab-a75d-5f77-8dfa-c6ee1e54d9e6}" value="S_HWF" render="true" label="S_HWF Horizontal welding foliation"/>
+      <category type="string" symbol="382" uuid="{858c3e49-2dcf-5903-8189-40b69b841217}" value="S_IFJ" render="true" label="S_IFJ Inclined flow jointing"/>
+      <category type="string" symbol="383" uuid="{fec2d19e-982b-5112-830e-e7da896d79dd}" value="S_IPCA" render="true" label="S_IPCA Inclined primary crystal alignment"/>
+      <category type="string" symbol="384" uuid="{60b52da4-24b3-5d46-9408-efb0ec647ab9}" value="S_IPP" render="true" label="S_IPP Inclined primary planar fabric"/>
+      <category type="string" symbol="385" uuid="{3a62f235-bb8c-599e-889a-605078744f0f}" value="S_IPPO" render="true" label="S_IPPO Inclined primary planar fabric, overturned"/>
+      <category type="string" symbol="386" uuid="{b2b6334c-9dac-5fbd-86c1-3d939f84d35b}" value="S_IR" render="true" label="S_IR Inclined relict, planar fabric in plutonic rocks"/>
+      <category type="string" symbol="387" uuid="{044c6242-d13f-5aee-a6fc-df04008d43ea}" value="S_IWF" render="true" label="S_IWF Inclined welding foliation"/>
+      <category type="string" symbol="388" uuid="{60a581b1-5423-56eb-8f00-c758ef6397c0}" value="S_STPP" render="true" label="S_STPP Strike of primary planar fabric"/>
+      <category type="string" symbol="389" uuid="{3bab87b9-fb48-5111-87f6-4465b9743a6c}" value="S_STWF" render="true" label="S_STWF Strike of welding foliation"/>
+      <category type="string" symbol="390" uuid="{275a43d4-3717-50e0-a62b-bcdca92c3859}" value="S_VFJ" render="true" label="S_VFJ Vertical flow jointing"/>
+      <category type="string" symbol="391" uuid="{48404ec2-8a47-54b6-90e7-6defb22aef4a}" value="S_VPCA" render="true" label="S_VPCA Vertical primary crystal alignment"/>
+      <category type="string" symbol="392" uuid="{b3b96210-b148-5445-b603-74fc8beabcb7}" value="S_VPP" render="true" label="S_VPP Vertical primary planar fabric"/>
+      <category type="string" symbol="393" uuid="{ffd1de7a-5b9e-585a-af6d-e174ba9e63b9}" value="S_VR" render="true" label="S_VR Vertical relict, planar fabric in plutonic rocks"/>
+      <category type="string" symbol="394" uuid="{cd4b184b-14f6-5d63-91cd-c00c91bb942d}" value="S_VWF" render="true" label="S_VWF Vertical welding foliation"/>
+      <category type="string" symbol="395" uuid="{a3e2ce6b-2771-56e5-bc2b-1881f338aafd}" value="S_ACAP" render="true" label="S_ACAP Anticline axial plane"/>
+      <category type="string" symbol="396" uuid="{8008408f-94ee-51c9-8754-8be047ffbf4d}" value="S_SCAP" render="true" label="S_SCAP Synclinal axial plane"/>
+      <category type="string" symbol="397" uuid="{1446e43d-5df1-55e0-a347-879b0349c352}" value="S_SFAP" render="true" label="S_SFAP Synform axial plane"/>
+      <category type="string" symbol="398" uuid="{aa059084-82b5-5cd5-8f86-84754f035fa2}" value="S_AMA" render="true" label="S_AMA Axis of minor anticline"/>
+      <category type="string" symbol="399" uuid="{84b81b55-71ac-5664-8436-9d5e9665958e}" value="S_AMF" render="true" label="S_AMF Axis of minor fold"/>
+      <category type="string" symbol="400" uuid="{7764a51b-c59a-5de5-8e4b-2fb00286dfa1}" value="S_AMS" render="true" label="S_AMS Axis of minor syncline"/>
+      <category type="string" symbol="401" uuid="{629a0eef-6825-5bb7-9d27-a9fcd63d76d4}" value="S_HAPM" render="true" label="S_HAPM Horizontal axial plane of minor fold"/>
+      <category type="string" symbol="402" uuid="{674dedff-da7c-5498-b93a-11001a627694}" value="S_HAMA" render="true" label="S_HAMA Horizontal axis of minor anticline"/>
+      <category type="string" symbol="403" uuid="{3902d8c8-d396-5642-a3c7-35d001e9c19b}" value="S_HAMF" render="true" label="S_HAMF Horizontal axis of minor fold"/>
+      <category type="string" symbol="404" uuid="{d015fef8-29a8-5491-825a-6fcf522cf91b}" value="S_HAM1" render="true" label="S_HAM1 Horizontal axis of minor fold, phase 1"/>
+      <category type="string" symbol="405" uuid="{58eb327a-3148-5cd8-b6ea-01eb54f0b97d}" value="S_HAMM" render="true" label="S_HAMM Horizontal axis of minor monocline"/>
+      <category type="string" symbol="406" uuid="{b9696aa4-bcb0-5b57-95ed-552aea58c958}" value="S_HAMS" render="true" label="S_HAMS Horizontal axis of minor syncline"/>
+      <category type="string" symbol="407" uuid="{c92f66ef-578a-5c8e-b1a8-5e3c85465ccd}" value="S_IAPM" render="true" label="S_IAPM Inclined axial plane of minor fold"/>
+      <category type="string" symbol="408" uuid="{07c4d3b3-e532-5a56-8658-8d3999c9daf9}" value="S_LOC" render="true" label="S_LOC Locality with refolded minor folds"/>
+      <category type="string" symbol="409" uuid="{d461ae46-57da-574d-99cb-3070fa59bd29}" value="S_MFLA" render="true" label="S_MFLA Minor fold, low angle of plunge"/>
+      <category type="string" symbol="410" uuid="{ad9fe74f-701b-523d-b203-560fe52c184e}" value="S_ANO" render="true" label="S_ANO Overturned anticline"/>
+      <category type="string" symbol="411" uuid="{f990ce44-7ba1-5cea-9eda-57b87128a2d0}" value="S_SYNO" render="true" label="S_SYNO Overturned syncline"/>
+      <category type="string" symbol="412" uuid="{6522ed75-1898-5598-94a4-a923277cf22a}" value="S_PMF" render="true" label="S_PMF Plunge axis of minor fold"/>
+      <category type="string" symbol="413" uuid="{292179dd-9f9e-5a4e-8cfb-54b21283e6de}" value="S_STAM" render="true" label="S_STAM Strike axial plane minor fold"/>
+      <category type="string" symbol="414" uuid="{51def9cb-1862-564f-bea9-566dc9151186}" value="S_VAPM" render="true" label="S_VAPM Vertical axial plane of minor fold"/>
+      <category type="string" symbol="415" uuid="{d8d9e9b6-32a4-550d-8254-184ed436f24c}" value="S_VAMF" render="true" label="S_VAMF Vertical axis of minor fold"/>
+      <category type="string" symbol="416" uuid="{72a4d3aa-643d-5bff-9a79-5d57b1e193f1}" value="S_AMFV" render="true" label="S_AMFV Axis of minor fold showing direction of vergence"/>
+      <category type="string" symbol="417" uuid="{a871f4a4-1e5b-56cd-9563-30cc6b7669e0}" value="S_DXVM" render="true" label="S_DXVM Dextral vergence of minor fold"/>
+      <category type="string" symbol="418" uuid="{74dc2e69-1c58-5209-9130-6d18751bb389}" value="S_DVMF" render="true" label="S_DVMF Direction of vergence of minor fold"/>
+      <category type="string" symbol="419" uuid="{4455b178-72ce-5574-a12e-f3697070f07e}" value="S_NVMF" render="true" label="S_NVMF Neutral vergence of minor fold"/>
+      <category type="string" symbol="420" uuid="{740e2f5d-e0ba-53d3-ae7b-c83d7cd9b110}" value="S_SVMF" render="true" label="S_SVMF Sinistral vergence of minor fold"/>
+      <category type="string" symbol="421" uuid="{83655136-81ec-5daf-8d74-8bcfeee0223c}" value="FLT_MV" render="true" label="FLT_MV Fault movement"/>
+      <category type="string" symbol="422" uuid="{9506dcc3-b958-5894-a23b-08e4c3ac7358}" value="FLT_TR" render="true" label="FLT_TR Fault terminator"/>
+      <category type="string" symbol="423" uuid="{d9de08eb-5fa5-5b1e-81c5-16f02ce2927f}" value="S_MVFD" render="true" label="S_MVFD Mineral vein dip"/>
+      <category type="string" symbol="424" uuid="{c7d95129-0c73-5dc1-8a87-b34b3e7132a6}" value="FLT_S" render="true" label="FLT_S Strike slip fault"/>
+      <category type="string" symbol="425" uuid="{87aea85e-bbf7-512a-91f2-5c7301b84f16}" value="TBARB" render="true" label="TBARB Thrust barb"/>
+      <category type="string" symbol="426" uuid="{10a71f97-2e6f-5e2a-902f-a0206ef5b1af}" value="ADIT" render="true" label="ADIT Adit"/>
+      <category type="string" symbol="427" uuid="{cda2a1d6-600f-58da-b021-bc082b2de816}" value="ADIT_A" render="true" label="ADIT_A Adit, abandoned"/>
+      <category type="string" symbol="428" uuid="{8966b5b1-006d-54fa-a687-2128e94017f8}" value="ADIT_U" render="true" label="ADIT_U Adit, unknown orientation"/>
+      <category type="string" symbol="429" uuid="{9948ac9c-69c5-5bfb-8079-71635a16b4b2}" value="BH" render="true" label="BH Borehole"/>
+      <category type="string" symbol="430" uuid="{7d2e3944-b626-5b22-aa8a-e7fa479f82c6}" value="BH_UN" render="true" label="BH_UN Borehole, uncertain"/>
+      <category type="string" symbol="431" uuid="{c6a22fb5-8ceb-57b1-9c75-ad3a82705b07}" value="BH_UD" render="true" label="BH_UD Borehole, underground"/>
+      <category type="string" symbol="432" uuid="{efd7d23d-2408-5035-aade-c145434d02b5}" value="S_DIP" render="true" label="S_DIP Dip of igneous contact"/>
+      <category type="string" symbol="433" uuid="{1df4c14b-28a0-503e-8757-3707dba2e6de}" value="FOSSL" render="true" label="FOSSL Fossil locality"/>
+      <category type="string" symbol="434" uuid="{c0a05383-f3cf-5e91-a5f1-1d6cefeb4534}" value="S_IDY" render="true" label="S_IDY Inclination of dyke"/>
+      <category type="string" symbol="435" uuid="{1663dd3d-e17e-5ab7-9684-d0616324d1b6}" value="SPNT" render="true" label="SPNT Location, with specific note"/>
+      <category type="string" symbol="436" uuid="{c5f0893c-482e-5784-863a-4d0f3e122c78}" value="MLOC" render="true" label="MLOC Mineral locality"/>
+      <category type="string" symbol="437" uuid="{a59324e1-1874-59e8-b053-c6c7ab257c78}" value="PHOTO" render="true" label="PHOTO Photo in BGS collection"/>
+      <category type="string" symbol="438" uuid="{fd6f0f66-d0d0-50a9-b8fb-2cfab481a411}" value="PIT" render="true" label="PIT Pit or mine shaft"/>
+      <category type="string" symbol="439" uuid="{c75d1be6-b99f-5981-87b0-4709a7a3e6d0}" value="PIT_A" render="true" label="PIT_A Pit or mine shaft, abandoned, or denehole"/>
+      <category type="string" symbol="440" uuid="{5a2761ba-19df-5f3b-920e-6fce588af8c6}" value="PIT_U" render="true" label="PIT_U Pit or mine shaft, abandoned, site uncertain"/>
+      <category type="string" symbol="441" uuid="{c5261c6d-614a-5cb6-a6e4-4e123f40c635}" value="PIT_UD" render="true" label="PIT_UD Pit shaft, underground"/>
+      <category type="string" symbol="442" uuid="{147c2007-3929-5c07-9327-b40d819138f5}" value="SLICE" render="true" label="SLICE Rock slice, petrographic"/>
+      <category type="string" symbol="443" uuid="{f662def7-b663-57ac-bccf-38158793b394}" value="SFM" render="true" label="SFM Site of former mine"/>
+      <category type="string" symbol="444" uuid="{ee38c898-34ea-50df-b591-0243447daada}" value="EXP" render="true" label="EXP Small isolated exposure"/>
+      <category type="string" symbol="445" uuid="{8f89fa0e-8017-5cec-b26c-2c1262def12b}" value="SPRING" render="true" label="SPRING Spring or group of springs"/>
+      <category type="string" symbol="446" uuid="{63124834-9511-56bf-bd56-74f10ba154e1}" value="SURF_S" render="true" label="SURF_S Surface section"/>
+      <category type="string" symbol="447" uuid="{a8213ad8-fb26-5a5f-9cc5-7b60ae1b9bcb}" value="SWH" render="true" label="SWH Swallow hole"/>
+      <category type="string" symbol="448" uuid="{d3c03bfc-8677-5a91-aea6-72508cc189e8}" value="TRE" render="true" label="TRE Trench"/>
+      <category type="string" symbol="449" uuid="{1052c54d-f481-540a-8d88-eb204b5a3a5b}" value="UDSPOT" render="true" label="UDSPOT Underground spot level"/>
+      <category type="string" symbol="450" uuid="{dfc594f3-e330-51f7-a041-3622eb3ce04f}" value="BH_WL" render="true" label="BH_WL Well"/>
     </categories>
     <symbols>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="0" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="0">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -607,7 +463,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3367f6e7-4ae2-49b7-840a-7ad5f46d8680}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{aa26ffbc-a881-5451-a0b6-c9ce579e8fec}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -637,7 +493,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="1" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -645,7 +501,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{84113c42-862d-4585-b832-a6142a56f6b3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d6d2200c-3e4d-567d-966a-cb06cb63a38e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -675,7 +531,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="10" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="10">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -683,7 +539,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a2517a06-d544-4c58-9de6-49c5713ffe3e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a3e1939e-9b57-56b1-8b22-949489a60b87}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -713,7 +569,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="100" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="100">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -721,7 +577,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{66d90cbe-4f8f-41d6-ab5d-acc02cc2e213}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f6ffa662-75ad-5618-81e4-7193ed61e30b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -751,7 +607,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="101" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="101">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -759,7 +615,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{75f4a1e7-7c60-409c-952c-5ff9d500a2be}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ad5f888a-3605-557c-9f9e-5935c2f99b60}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -789,7 +645,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="102" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="102">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -797,7 +653,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b79bc055-8e35-40be-81ab-375fb2be2004}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{750d6ecf-d944-5794-bad6-a2eab8df87c7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -827,7 +683,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="103" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="103">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -835,7 +691,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7df0be54-89dd-4c21-9667-0633274eec6b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9c891808-c2a1-5aa6-a96f-4c962140596c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -865,7 +721,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="104" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="104">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -873,7 +729,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2bbfef77-e75f-4afa-a0ca-3a01555d9c8b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a9d97d87-adae-5b22-98ab-3d94f44b793f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -903,7 +759,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="105" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="105">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -911,7 +767,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a4d333f5-28f4-4e63-ad75-e571dc36c400}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d7749de0-137e-5998-85c4-5b5e15faeebc}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -941,7 +797,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="106" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="106">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -949,7 +805,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9c1b8164-dade-4f00-9842-ca4d19e6a52e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5b964b27-eeba-5f67-8806-0bc25fc62579}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -979,7 +835,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="107" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="107">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -987,7 +843,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2e33cf91-d75f-4cd4-bb07-7f1b4ac8e3e4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{df81b988-a687-5c08-91ad-c1a84ae5c6e3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1017,7 +873,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="108" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="108">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1025,7 +881,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8cff4c4e-ccd7-4965-ae39-fa19b23250b8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{02f6d43e-bb27-5cbf-9b31-a49edde11827}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1055,7 +911,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="109" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="109">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1063,7 +919,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{df17e9b6-f0bc-4a9f-966b-be994fcaa89a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2ca6486b-0610-5c0e-84b8-0c74f035c1e2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1093,7 +949,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="11" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="11">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1101,7 +957,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7bb39291-eed8-40a8-a7d8-8aa7c2e065c3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9d4cd86c-377c-54a0-ae45-ad4394cf1108}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1131,7 +987,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="110" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="110">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1139,7 +995,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c62d4fa1-50d7-4b83-9290-0d04c761f465}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7547d50f-19dd-5254-a47d-57889986a666}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1169,7 +1025,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="111" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="111">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1177,7 +1033,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9739803e-752f-40d4-b08b-8736b9378d2a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{03b51431-51ad-5e93-b497-e057f1b0c44f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1207,7 +1063,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="112" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="112">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1215,7 +1071,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{18aa8e5b-7535-4bea-be70-b138dd5bfb6f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{99faa390-430a-58ae-8f8f-33d1ba5983ef}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1245,7 +1101,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="113" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="113">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1253,7 +1109,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{de58d98b-e2fd-4ba1-a13a-c362cf45b598}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5b8242e5-b0ff-5235-958a-73acc081a31e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1283,7 +1139,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="114" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="114">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1291,7 +1147,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{46a72a51-9d71-4be9-8bbc-f31c37bb7160}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b8751dc7-150d-5a55-b8bb-f043ab04b477}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1321,7 +1177,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="115" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="115">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1329,7 +1185,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{feabe684-c6b5-462f-be8d-4a2f43047c27}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{884ff53b-c1cd-5215-84e8-f065cc7737f7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1359,7 +1215,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="116" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="116">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1367,7 +1223,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{68805340-c277-42b1-b718-853af3cb221b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1cf0a084-fdd0-5d9c-ac27-b4e2bc4c00de}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1397,7 +1253,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="117" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="117">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1405,7 +1261,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{50e53199-7250-439d-81e0-9535e4a762c9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b3ae16e1-8c9b-5ef2-9671-546269f8882c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1435,7 +1291,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="118" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="118">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1443,7 +1299,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7c969a0d-b7b2-457f-9c3b-66cd2e3b090a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fe5a853d-7eee-57a5-8369-9d14cff0af5f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1473,7 +1329,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="119" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="119">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1481,7 +1337,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{01fea1ef-c331-47ac-9e30-4644e3a8dad6}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f9b2a467-cc2c-5da4-852c-63ad3aa8b89c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1511,7 +1367,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="12" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="12">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1519,7 +1375,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5f16dae3-27e5-446c-a2c7-fa939bad153c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7935fca6-edbe-50a4-b268-9e4d7c60d2bc}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1549,7 +1405,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="120" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="120">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1557,7 +1413,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d1d421dd-cc2d-4ab0-a019-a048400c36ed}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ebc9e049-2a5d-5809-98ce-44925a07a56d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1587,7 +1443,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="121" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="121">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1595,7 +1451,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{82d157f7-6a71-428e-9491-edf664e28698}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4ef72d9e-1742-511a-afe7-589abc4e948b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1625,7 +1481,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="122" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="122">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1633,7 +1489,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b6d25c35-8d19-46f4-911d-65026b550f71}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2490d009-0f13-5d3b-9401-26e5f0cefb04}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1663,7 +1519,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="123" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="123">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1671,7 +1527,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ff3eebe8-1f3f-401a-9e26-05916f5c23d5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5ba086a6-9e89-547b-a515-e514bdce0d6e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1701,7 +1557,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="124" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="124">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1709,7 +1565,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0d3b1803-9996-433e-a1e0-a97f233fb01a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b24cd35d-f616-597f-8d0f-204cf31694e7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1739,7 +1595,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="125" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="125">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1747,7 +1603,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e996f03f-9961-4f2f-ba7c-035dfd48eca0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{87c766b4-4b65-51e9-850a-ec51e659c92c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1777,7 +1633,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="126" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="126">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1785,7 +1641,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f2eb7968-a7e5-42d8-b1b9-3a341e8b1fdd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{680fb142-8195-5ae4-9987-3369dc41a50a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1815,7 +1671,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="127" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="127">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1823,7 +1679,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7103ec18-187a-414f-af5a-6a34dfc2343f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3d722afd-d558-51b7-8d14-b0b45554aea1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1853,7 +1709,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="128" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="128">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1861,7 +1717,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{6f997a70-d961-423b-88db-cd433a7a3437}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4b3fa334-6a65-59da-8105-831b54ed1374}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1891,7 +1747,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="129" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="129">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1899,7 +1755,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4e54db47-3ff6-46b3-8d8d-77930a30acd3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cf7e8d45-7768-5bcd-be91-4fb57b34bab5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1929,7 +1785,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="13" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="13">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1937,7 +1793,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ee47aae9-929e-498b-a2af-eaa1db94e617}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b127b33a-6026-56ba-a7d1-530555edf3f3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -1967,7 +1823,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="130" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="130">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -1975,7 +1831,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{002699f6-b177-40d9-883c-c2cc42928d1d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{eeaa3954-ef8e-55ba-af89-b82247e963b1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2005,7 +1861,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="131" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="131">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2013,7 +1869,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{744b19f1-af09-4b2f-a3bd-ea8c59390f88}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c1bb35a9-af20-5439-af3f-43ac9ffcb8d7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2043,7 +1899,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="132" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="132">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2051,7 +1907,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e817f949-abb0-4a4e-9949-fe365de16ab8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ac1efce8-f22f-5ded-a192-8012e5d7196a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2081,7 +1937,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="133" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="133">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2089,7 +1945,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5781a266-1977-476c-9a37-42da15ad9a45}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{46e33325-3e90-5991-90f7-78ef82467dd8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2119,7 +1975,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="134" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="134">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2127,7 +1983,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{eb9c8506-70dd-4a9e-83d6-59eb2665c5e1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cec10447-5d91-5e69-a88a-5acfee303a57}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2157,7 +2013,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="135" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="135">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2165,7 +2021,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c42647d8-417a-46ed-9526-a52711fd550c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dadf8bea-681b-5b21-9cdc-c42f3a5232b9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2195,7 +2051,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="136" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="136">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2203,7 +2059,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{44f479c9-c1aa-47cf-a413-70e3746e5329}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f741486a-3da4-51b1-9fcd-2b0fc3e73110}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2233,7 +2089,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="137" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="137">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2241,7 +2097,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f69fbca0-0670-4b91-85d0-843aa7244a43}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ea9e2538-64bc-56ea-9116-2a04e784a12d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2271,7 +2127,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="138" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="138">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2279,7 +2135,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{76026845-3bf1-4ad6-b496-1a056d825259}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{751ea954-f624-5a4d-a843-7ef71e1fe88b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2309,7 +2165,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="139" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="139">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2317,7 +2173,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{78e07f35-2927-4495-a78b-7aff2b6d1f0c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5507d432-3a15-5a03-93d5-633e84fdabbe}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2347,7 +2203,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="14" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="14">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2355,7 +2211,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c26fd3b6-fa1a-4ce2-afff-905778bde874}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1f2f66f7-94be-5121-883c-4c49d41c2112}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2385,7 +2241,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="140" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="140">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2393,7 +2249,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4299730b-538b-40bf-9c5f-c0d08b69c8b9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b68fcc2f-d8db-5767-92e1-35655a73eda3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2423,7 +2279,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="141" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="141">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2431,7 +2287,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3cce8ce4-baad-41b3-8560-9b2062947447}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cd978697-4d9f-555e-b568-769b3bfdd6ef}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2461,7 +2317,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="142" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="142">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2469,7 +2325,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d3628f7b-d6fa-40ba-9f06-a064d43edf0d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{af2b4add-193a-5ea0-b368-65d392cb5e84}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2499,7 +2355,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="143" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="143">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2507,7 +2363,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e1dad9f2-7944-47a3-9340-0bccc073480c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a465503a-212c-524d-b8c1-c1a276e049f1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2537,7 +2393,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="144" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="144">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2545,7 +2401,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{479b98db-a0b8-4eac-a1f1-bc931358ff1c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{63c95f25-e0a9-5c83-9967-63e410573838}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2575,7 +2431,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="145" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="145">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2583,7 +2439,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a471c337-d29d-4316-b8b7-1a5497e52c7a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f32337ab-4ea7-5637-9838-ac7cf2a0e80c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2613,7 +2469,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="146" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="146">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2621,7 +2477,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{167d0667-c2cd-456b-93eb-63cf6dbdf9c5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{87875cb7-e056-5ed1-9fac-85ca6888c4bc}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2651,7 +2507,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="147" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="147">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2659,7 +2515,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{112eccbf-767b-4c86-9dc0-ca692b559f03}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7f7878b9-badc-50b0-989b-17e127f02eaf}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2689,7 +2545,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="148" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="148">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2697,7 +2553,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{81d1fd36-f5c3-45f0-9b77-63fee736e97f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dd4e599e-076a-57fa-b9da-b764d450d300}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2727,7 +2583,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="149" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="149">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2735,7 +2591,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b824250b-61fb-4c1f-a52f-871c52626956}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7a99c370-bfff-5eb1-b42d-e37235ae4a50}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2765,7 +2621,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="15" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="15">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2773,7 +2629,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{62073582-c6ab-4dbd-9ea2-7dd6e049ebbe}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3960191e-c35a-562b-9a2f-6610c34f3cf9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2803,7 +2659,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="150" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="150">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2811,7 +2667,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2cf12344-9e60-40fa-8df6-0adc4317fd6d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d9d3907b-ee28-50fd-8d27-2c568f169c78}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2841,7 +2697,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="151" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="151">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2849,7 +2705,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ca36e57b-5274-4c4a-8c11-7fd46730a656}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7acd0294-72c1-5e55-9fbc-eceb2a6f2c1d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2879,7 +2735,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="152" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="152">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2887,7 +2743,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{855b5356-a429-427a-a1aa-2ea85d08f122}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7e20f0b3-db66-57bb-82fd-1bfde3973b33}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2917,7 +2773,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="153" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="153">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2925,7 +2781,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d9bcb221-2564-41c6-a374-d306aff28484}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8aa346d9-7ad0-5d6f-9ecd-94159e20d412}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2955,7 +2811,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="154" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="154">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -2963,7 +2819,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2972551f-1099-452e-a0b2-a506bf2106fb}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d698e443-3971-5e5b-bcca-d74806b55475}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -2993,7 +2849,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="155" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="155">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3001,7 +2857,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ffb71653-87e6-4137-90fe-fd5a20c204f2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bb5236ae-1df8-5fb4-ab36-84196e78f6ac}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3031,7 +2887,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="156" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="156">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3039,7 +2895,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9b0f5504-2b56-4dd2-b144-b6958db0a7e6}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e3c87d50-9d9b-5346-8bca-680f660c002f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3069,7 +2925,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="157" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="157">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3077,7 +2933,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{70cce7f2-0842-4313-b47b-fcf42a5c8f5a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fb1f8e04-acf3-5c93-80ec-7081ee707e9a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3107,7 +2963,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="158" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="158">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3115,7 +2971,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c9e1444f-7fa0-4c79-bad6-b9a01507daad}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cb245402-f5bd-5c8d-a07c-f7137fc60128}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3145,7 +3001,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="159" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="159">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3153,7 +3009,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{345a14e1-ee1b-4fc7-8ef4-32400c03abc3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{61d31ea6-e5a2-5db9-835f-f2b170437e87}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3183,7 +3039,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="16" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="16">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3191,7 +3047,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{38c0561e-6b66-4fac-93ae-887836cd9d91}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{95eb1233-3f25-544f-89f4-5ff474299906}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3221,7 +3077,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="160" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="160">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3229,7 +3085,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f6193546-b908-47a5-9e4c-f428494fc23e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a842e1d3-be19-52e3-80a1-b5ee2c1e5bb9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3259,7 +3115,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="161" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="161">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3267,7 +3123,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d10cf21f-b6cd-4ef4-b1e3-17a1d639cbb2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a2c1cc78-074d-536f-973f-fc783488bd9b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3297,7 +3153,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="162" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="162">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3305,7 +3161,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c25f603b-ca49-4c32-b272-78ea4e918fee}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{be5d7a5f-5638-59bd-b289-dc103eada8aa}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3335,7 +3191,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="163" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="163">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3343,7 +3199,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{11f94131-902e-4320-8fef-dfa4035d2952}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4451b6c8-5497-56fc-9509-695172e57288}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3373,7 +3229,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="164" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="164">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3381,7 +3237,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{73ff5bf8-6523-4b94-adf7-3ba2cac54028}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4360ed0a-a05e-5479-bacd-6ddb9562fe34}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3411,7 +3267,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="165" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="165">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3419,7 +3275,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{511e8a80-faa9-412b-b98f-ff5a774b6a42}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{652bbec4-0f05-5716-8c4b-139441419cd6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3449,7 +3305,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="166" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="166">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3457,7 +3313,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{149bb128-ae68-4151-b57e-72bfcfb20dac}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d63929ac-0b35-5268-989c-c1dbf18a9a20}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3487,7 +3343,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="167" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="167">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3495,7 +3351,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{41f6ad13-c462-4617-8474-fa5dc2b9e0fd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{02850915-4300-57ec-a609-fe65a82a88b2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3525,7 +3381,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="168" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="168">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3533,7 +3389,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{08463cc6-288f-4816-b12a-0ec660d545d3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b2d88bbc-88c4-59c5-880e-2e86e2023566}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3563,7 +3419,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="169" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="169">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3571,7 +3427,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f40355d1-1254-41bc-8c14-6324c003da3b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b4c1ca37-bea2-546c-8a9d-33ae8be6f895}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3601,7 +3457,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="17" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="17">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3609,7 +3465,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{083d175b-2b07-4426-afec-a3defdb0a4eb}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{55733241-aaed-5651-931a-5ce60b237834}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3639,7 +3495,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="170" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="170">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3647,7 +3503,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8a43f712-5d53-49bc-8bd0-6ee242992885}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b4c7ff1d-6420-57f9-ab0e-06e91832da83}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3677,7 +3533,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="171" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="171">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3685,7 +3541,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4913fb25-538a-418d-8059-9ae316efbf6e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{84e2a6a4-df58-5feb-b404-52570711afa9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3715,7 +3571,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="172" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="172">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3723,7 +3579,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ce7bef4b-955e-49e0-9854-df5c2f114ac5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d26ac353-8889-556a-ac99-e78bf8f79e95}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3753,7 +3609,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="173" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="173">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3761,7 +3617,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2ffef086-693f-4e9f-8cb2-399f1ccd7f0c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{eee42921-30c3-53fc-83f4-fd5e2d24861e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3791,7 +3647,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="174" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="174">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3799,7 +3655,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{6af15b7b-ccb3-4023-a059-f155296e3458}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{70e9830e-abae-5d14-9c20-443ad27d1c4b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3829,7 +3685,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="175" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="175">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3837,7 +3693,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d642d972-c6d8-4b39-b4ed-de379ffe7f5d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a3b92c34-0c87-5717-a08b-86122634537c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3867,7 +3723,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="176" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="176">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3875,7 +3731,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f55b867d-11b3-4ee2-9452-fff8f6c8f592}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{580b7701-3ac6-562c-b200-8c00671fdf5a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3905,7 +3761,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="177" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="177">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3913,7 +3769,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0d8468da-eb34-419b-a0c7-b15e21daf16b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bf1d2263-03e9-5283-837b-d6c6497c8b23}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3943,7 +3799,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="178" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="178">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3951,7 +3807,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{946c7f2e-0e16-4c47-a849-29d9e56db264}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b779500a-58ac-5e1e-8539-a4b12b0f7b84}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -3981,7 +3837,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="179" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="179">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -3989,7 +3845,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{292a1ce5-a2b8-453c-a6d7-9ec94380264c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4287fa83-4803-542c-9239-3fae235463c1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4019,7 +3875,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="18" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="18">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4027,7 +3883,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{dc2280a5-f912-4e54-9a89-25347ecb49be}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1fd6b31d-3d32-5a96-96a8-9f3368ba2155}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4057,7 +3913,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="180" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="180">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4065,7 +3921,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{92bfa116-2681-4c7c-88a0-9c325eb3539b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d481d4d5-f7ee-581e-80bf-9fede34fa1f5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4095,7 +3951,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="181" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="181">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4103,7 +3959,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{597cf359-84e3-40ce-b8a7-d1dce90662ec}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{96d20708-e206-5ded-bc24-654dcef25de0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4133,7 +3989,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="182" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="182">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4141,7 +3997,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{54c87900-b784-45d0-a90c-b843681832fe}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9fd7775a-8d8a-56b4-a9e8-9eca2b1d9097}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4171,7 +4027,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="183" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="183">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4179,7 +4035,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{42680cdc-c6c0-454a-b47f-28ed70fe60a4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c7d6d948-6bfd-5fbf-8a3c-f3ec097eaf21}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4209,7 +4065,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="184" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="184">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4217,7 +4073,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7b34d320-31ff-4b87-873d-3f1f3761f851}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6a1e10d4-ffa4-5c89-b8bd-9dde642fea09}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4247,7 +4103,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="185" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="185">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4255,7 +4111,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e3c6410e-2b16-4461-8e52-7cf3868bb811}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f6e3858e-b5f5-58dd-9666-57454fac1c07}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4285,7 +4141,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="186" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="186">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4293,7 +4149,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{24e9c256-bd32-4eab-b385-7b309a88bf84}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{99a8eee9-cfe2-5508-b3e7-1b611f91f758}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4323,7 +4179,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="187" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="187">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4331,7 +4187,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cb9db7d0-727f-4184-ae96-853c5a9573ed}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7fecffac-9aee-5939-baa5-c8f5cb7da939}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4361,7 +4217,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="188" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="188">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4369,7 +4225,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ca268489-c940-489c-8edf-fdadaef148a7}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dafaf79c-5c04-5197-b44b-e8127aa72b16}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4399,7 +4255,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="189" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="189">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4407,7 +4263,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{16851a2e-e296-40b3-a9d7-a506af7d5b72}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fc039373-1eed-5710-893c-5f330426a7c6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4437,7 +4293,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="19" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="19">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4445,7 +4301,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9a88c424-f0d6-4429-b7e8-b420c70334dd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{47b67bc1-0367-5054-bc2a-f038d4cedb41}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4475,7 +4331,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="190" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="190">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4483,7 +4339,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{6477d231-7d8f-42b6-8f26-6b5192d1e2ad}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d759fad7-20b4-5da2-807e-98e7d1087837}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4513,7 +4369,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="191" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="191">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4521,7 +4377,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{62af16bf-6a06-4ce1-9d35-2908b4df6c06}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ca324606-b108-5f2d-aaab-2e7d91c884e0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4551,7 +4407,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="192" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="192">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4559,7 +4415,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4520c1b1-0f48-4c3a-939f-d99827c89c8b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{71919d99-8ee8-5edf-9355-78514fdb8d81}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4589,7 +4445,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="193" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="193">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4597,7 +4453,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3e69f3b5-4999-48e4-a6ea-aa89177b983b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{91628a80-70a6-5afe-bcdc-a0e41e73b818}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4627,7 +4483,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="194" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="194">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4635,7 +4491,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{43003584-997d-4186-af90-b91e811e384b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{166b3370-35bd-5356-840f-df35a82a5234}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4665,7 +4521,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="195" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="195">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4673,7 +4529,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{554e44d2-f94a-4bca-864d-510c2275df6e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{19cb49da-2ee3-5ba8-986c-50304427564f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4703,7 +4559,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="196" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="196">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4711,7 +4567,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b79415ba-3148-4c1a-bd56-b781c7b9d126}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e8ee1a48-047e-52fb-b7df-158dbb96fc01}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4741,7 +4597,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="197" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="197">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4749,7 +4605,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e27e3d81-e2dd-46ac-abf0-ac249135b4ab}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e4bf3638-f2f8-5e73-a037-b521307f5e81}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4779,7 +4635,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="198" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="198">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4787,7 +4643,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3d5307f3-781b-4605-885e-151711294ed4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7a0a8c71-d66a-5bc8-b679-931a1e71436f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4817,7 +4673,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="199" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="199">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4825,7 +4681,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d7dea977-f704-4f29-8b8e-242a153c1e63}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c011d8d5-6a8d-581e-b255-c7db17c442ab}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4855,7 +4711,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="2" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="2">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4863,7 +4719,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{40a50f01-7585-4c1f-acb6-6ef14c92ec00}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4fc2bbc2-2617-5e30-a499-3ca75bdf2b24}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4893,7 +4749,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="20" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="20">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4901,7 +4757,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8cd8421c-379f-4db1-a6cb-91430729e9bb}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b55c22ba-eb80-525f-9fd5-a77950de4832}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4931,7 +4787,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="200" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="200">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4939,7 +4795,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f66363ca-771e-4d10-af95-3ce6abf3a829}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8a3469e4-6ef1-5719-9d55-62fc10ec9976}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -4969,7 +4825,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="201" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="201">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -4977,7 +4833,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{744e7f53-3533-41cd-80a8-fa61845bf7a4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e8696f89-bdda-5c05-9efc-c8ea15591b0e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5007,7 +4863,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="202" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="202">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5015,7 +4871,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d40211c0-9c54-46d8-83aa-560914e372c0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b767a510-8b55-5ff7-aa56-958d36582101}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5045,7 +4901,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="203" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="203">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5053,7 +4909,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{dcf7f890-6f15-4ee6-a7d1-e283ed4f7b62}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{784e4d64-9f02-5f2e-abbc-33abeb24a7bd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5083,7 +4939,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="204" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="204">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5091,7 +4947,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5731ed5d-0646-4205-973a-4ff8420ae2d7}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{685f5264-4e7b-597d-a75f-1af5a15d36d4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5121,7 +4977,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="205" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="205">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5129,7 +4985,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{579217f0-dfa8-4692-9036-d192767ed891}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d386a770-69f0-5e26-a39f-f62c024799d9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5159,7 +5015,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="206" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="206">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5167,7 +5023,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e1d72a83-93d5-420a-a583-6bc2e7cb1d59}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{0fbd8a7a-f70b-53ce-939a-435499947619}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5197,7 +5053,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="207" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="207">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5205,7 +5061,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c4c3380f-cc3e-468d-8f1f-34309ed02fa0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{32cb5b1f-efe7-5ad5-95aa-0aedb0b289b1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5235,7 +5091,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="208" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="208">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5243,7 +5099,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{52928641-76c5-4aa5-a782-116d0928f905}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4f64a4be-5a00-59f3-bf6a-4b1412e1ddea}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5273,7 +5129,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="209" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="209">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5281,7 +5137,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a55ddf4d-5b7e-4a99-a409-7ce890310ef9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9b778139-57cc-52d6-88dc-32c01c0b7b32}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5311,7 +5167,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="21" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="21">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5319,7 +5175,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2fbadf04-3d57-487d-a0ab-eba5d56e0e59}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2871bc43-8946-5d33-a38d-7f7712d6b8f5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5349,7 +5205,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="210" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="210">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5357,7 +5213,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{67283707-cdf2-4937-84d1-bcc08ec1904d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6b669416-3c68-5a56-a8f5-67aa8d679a3b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5387,7 +5243,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="211" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="211">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5395,7 +5251,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8027af43-fbec-4d76-bb9c-0816dd646b75}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{072b762a-30fd-5bd0-8f05-8adb66d1c6ae}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5425,7 +5281,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="212" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="212">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5433,7 +5289,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{948030ab-f22d-4763-927f-18bdf9d196c3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{32f0c036-9e88-509f-8030-1a7e3e108404}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5463,7 +5319,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="213" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="213">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5471,7 +5327,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4716766e-d130-4516-8b81-8fe6a8319e3b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d276d2f4-38d6-5771-a3bf-04a154f513b8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5501,7 +5357,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="214" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="214">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5509,7 +5365,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8cb24d80-623b-4fc2-b1d0-739518be6480}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fad5615a-17c1-52f8-9564-ae50c9273ed6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5539,7 +5395,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="215" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="215">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5547,7 +5403,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{56eddd0a-1370-4b64-af8b-cd75d26ac7d8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1d80f991-b047-57b1-b4ba-a8839c3f141e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5577,7 +5433,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="216" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="216">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5585,7 +5441,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3dd5e421-912e-410a-aa27-3739f60524cc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{381528aa-ba6c-5d84-b297-0cd7ac4499d8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5615,7 +5471,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="217" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="217">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5623,7 +5479,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{778e1d90-e7cc-4ee1-af0a-c060464bda89}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fc4cfac4-e26e-5805-b309-9818274c0c80}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5653,7 +5509,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="218" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="218">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5661,7 +5517,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{31072e16-bfe0-4a3d-943c-1d383303a39e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{0b1a45de-1ff9-5fd3-b0be-458bad5cc5c7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5691,7 +5547,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="219" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="219">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5699,7 +5555,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{46886d5d-0325-46f3-8602-efc7a12da949}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{749bf36f-6135-5dc6-aa74-7ecb889ce61c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5729,7 +5585,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="22" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="22">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5737,7 +5593,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7a8ee952-6ca0-4ad6-b09b-c7d79e184923}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f4591ee4-0417-52ec-915f-e6f39b0063e4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5767,7 +5623,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="220" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="220">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5775,7 +5631,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{708fa594-3e5b-46b0-9f19-82d8ce5e66c8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{013e29ea-2807-5dbf-91a8-00cea9eba477}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5805,7 +5661,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="221" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="221">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5813,7 +5669,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8c3d09dd-d8e3-4321-b57f-a5a6e2b6bf9b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f07aef5e-ce0d-5b35-b6db-175e7d1114eb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5843,7 +5699,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="222" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="222">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5851,7 +5707,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5cd4417b-cf2d-4790-9b2c-06f6413aa0d8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2226d618-0acd-5d11-a333-ce5456c8c900}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5881,7 +5737,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="223" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="223">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5889,7 +5745,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{65f703cb-3daf-4dcf-b091-5d6eee3c00a0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{76fdaa65-4742-52f3-bfc6-514e2f8596f1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5919,7 +5775,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="224" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="224">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5927,7 +5783,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{41a2af4a-240c-42d5-8a7a-2b3b65c337ba}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{47e4280a-04fa-50f6-b8d6-10ac5861b519}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5957,7 +5813,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="225" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="225">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -5965,7 +5821,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{180e5208-508e-4850-93b1-35594f5ed324}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3b8317ab-6f8c-505c-8997-504af544a31d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -5995,7 +5851,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="226" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="226">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6003,7 +5859,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{50cfd19d-4bfe-46f3-aa55-165f06896f2d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{220ee788-0a57-5027-a2cd-2c148fff9a03}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6033,7 +5889,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="227" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="227">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6041,7 +5897,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e5694fa7-9cec-415c-a83b-d048f632923b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{258a2098-9036-5115-a797-0de598e7c0b9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6071,7 +5927,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="228" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="228">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6079,7 +5935,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4e5d3922-ea82-4181-b4c6-92d9d4044c0c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ebb6712a-8508-5e3c-a847-2bc8000205db}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6109,7 +5965,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="229" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="229">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6117,7 +5973,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bbf30c94-5e4f-4dbf-b70e-549831c82095}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{11ea8bad-73e5-586d-9a75-82db5974afb6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6147,7 +6003,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="23" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="23">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6155,7 +6011,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b960a184-891e-46e8-961c-084191877cd9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{32939e3c-d365-505c-9a2f-cd2431002dd7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6185,7 +6041,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="230" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="230">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6193,7 +6049,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8fa80758-027c-446d-bcbc-79fb0304b034}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{330861e5-6c01-5c24-a266-80f88d29b6f2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6223,7 +6079,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="231" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="231">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6231,7 +6087,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ab62975c-c4e4-4a7b-bdfe-08ea739b8de2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{836ba3bd-e2b7-5289-b13b-26d6300b2a44}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6261,7 +6117,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="232" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="232">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6269,7 +6125,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{809044e0-db15-487a-9bc8-34402d39dcc1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{62f406d4-6e8d-5e4d-a003-bb83990b37c6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6299,7 +6155,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="233" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="233">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6307,7 +6163,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{402d9d33-73dc-450e-887f-987f88cc24ae}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{21014e74-132a-53f1-8391-3002c382e28b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6337,7 +6193,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="234" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="234">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6345,7 +6201,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{93edb27b-1035-4dd5-928f-72210e348925}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c40d889e-2fb4-5cd5-9ba5-3e672f0e62ac}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6375,7 +6231,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="235" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="235">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6383,7 +6239,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{02bc9c24-bd91-4d4b-8717-1155affe4cf5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5fea0c1a-925f-545b-b137-c4bbe925863d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6413,7 +6269,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="236" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="236">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6421,7 +6277,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{15c96e31-45e3-4683-90a9-612fa0981a11}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9e68f9c1-72bd-5ac4-886a-e11caf4109df}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6451,7 +6307,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="237" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="237">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6459,7 +6315,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7107288f-2483-4f80-9ed6-f2696b008a58}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{25f40195-a1ce-5c85-8b69-ac2a8388662a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6489,7 +6345,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="238" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="238">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6497,7 +6353,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bf1b4beb-661c-40fa-9f73-561c9653f765}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8a6d219f-d3f0-57e4-905c-8547d5cdcdd0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6527,7 +6383,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="239" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="239">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6535,7 +6391,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5a409e5c-cdc2-45da-aada-750fb622a418}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ff4ce044-44e4-5049-b4bd-f9d9af72982a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6565,7 +6421,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="24" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="24">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6573,7 +6429,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{db64f186-4dd8-41c5-8c07-2c39ae428ac3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ce6f0afd-2872-5c78-a2e6-86e9c4afadc9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6603,7 +6459,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="240" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="240">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6611,7 +6467,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b98a9937-9e8f-4716-a480-ab5430f06a8c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{efe4b60b-d1cb-55fa-a3de-d07daddfeea9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6641,7 +6497,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="241" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="241">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6649,7 +6505,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0f2e12e2-92ce-4a78-a737-3fe37c94e385}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{be197d83-c3c9-52d9-b9c2-931426b43251}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6679,7 +6535,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="242" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="242">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6687,7 +6543,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{905a1337-64ef-41ae-a2e8-38a355287907}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cfdb26db-97de-59a3-a343-62756cc07a65}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6717,7 +6573,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="243" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="243">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6725,7 +6581,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cd1d6ea4-38b2-4fbf-bbc5-156c4d0e9fff}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5779bfb1-915a-5f1f-8504-6ebd3e170c8a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6755,7 +6611,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="244" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="244">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6763,7 +6619,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{677e331c-287b-4f10-9cce-deac425b7fcc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ec05b878-cd06-5ecd-9c2e-905e8bb6da64}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6793,7 +6649,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="245" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="245">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6801,7 +6657,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c724f63a-f0f5-43a0-92a7-65b068aa24bc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7df5f6ca-582c-5627-81f3-66093f9cde01}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6831,7 +6687,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="246" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="246">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6839,7 +6695,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ab31ba03-f43f-4a51-8761-a2bb4c314969}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7749fe57-7ec9-56e3-9f62-f7d5277f0776}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6869,7 +6725,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="247" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="247">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6877,7 +6733,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b4f200d8-e6c4-4265-b4d0-a4e279e5704f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3ca7dfbe-e89d-5025-bf18-271ffd2b5b63}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6907,7 +6763,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="248" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="248">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6915,7 +6771,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c657dc18-38db-44bf-a11f-f1731cf9d2da}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4177377d-057d-592f-9a44-06c3ab03a3db}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6945,7 +6801,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="249" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="249">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6953,7 +6809,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{359fb485-0cb1-4227-96b1-32184bfb2205}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a9d2c417-ce14-5185-ac20-364e9ca9874c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -6983,7 +6839,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="25" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="25">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -6991,7 +6847,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{000e28b2-4f0b-493a-9c9e-ea7e3b91f812}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6845e35e-c1ed-5c48-aab9-883a6b08db8a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7021,7 +6877,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="250" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="250">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7029,7 +6885,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{399652ee-bdd2-41cf-b923-7d1886ea49c7}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bba38707-dc85-5bf4-abde-766bc9b1663c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7059,7 +6915,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="251" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="251">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7067,7 +6923,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{17f594c6-7240-42ff-8180-023f9b818b6a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d51cc54f-7804-517e-bd01-c625332d9dc6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7097,7 +6953,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="252" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="252">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7105,7 +6961,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{42861b1d-99c8-462a-95ad-8306be01815a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c79544c6-e2db-5101-82b9-4201e1c28e9f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7135,7 +6991,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="253" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="253">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7143,7 +6999,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2ccdf824-954e-402c-a40a-59b69e8340b9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4baf4a0f-94ee-5543-8e37-adf349e899bd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7173,7 +7029,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="254" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="254">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7181,7 +7037,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9c81e826-8f4f-44fd-94cb-4fee324ba22d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3e5cb344-0ee9-537b-9dd9-b034c08b9652}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7211,7 +7067,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="255" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="255">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7219,7 +7075,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d719aa80-b59e-42e1-9b2f-eba6bbd3370e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3674d18b-ab3b-5026-8826-01f9c05077a1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7249,7 +7105,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="256" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="256">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7257,7 +7113,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e9e4bff7-eca2-46aa-961d-026c0ccaec8d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b4362524-3c4a-56e1-aa6a-9ae7c09bf243}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7287,7 +7143,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="257" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="257">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7295,7 +7151,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{540bed48-c180-4a09-af17-e360e1c0f85d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c6325354-09e5-5b5c-a7b5-49034e92e2aa}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7325,7 +7181,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="258" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="258">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7333,7 +7189,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1a858368-1f8d-4c12-a996-2bb965f7c100}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b6ea9ce1-5275-5561-bf43-5da3b8f5cbe0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7363,7 +7219,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="259" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="259">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7371,7 +7227,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7972a782-e31d-4a0d-b7be-b27710cbe29b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e9cbb9d2-5b44-566c-a14f-f469ff029a23}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7401,7 +7257,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="26" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="26">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7409,7 +7265,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{344d5032-f654-440f-b756-59a3fc2a5699}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d93eec73-f226-5b03-b912-2c1c8c130c09}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7439,7 +7295,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="260" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="260">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7447,7 +7303,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{123a4bad-d503-4a85-8a2b-babc9c552295}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{eaba20ae-ac33-58ed-a0e2-763b4669b108}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7477,7 +7333,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="261" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="261">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7485,7 +7341,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a4538c6f-517a-47c1-8969-8a1bcb027010}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{50065a24-1755-563c-9662-8340efb1dbe1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7515,7 +7371,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="262" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="262">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7523,7 +7379,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8a699c08-9e1c-4fc4-b4b8-00ee8ddb4ce1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f4331832-91c0-5c48-9e5f-61672a423ad5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7553,7 +7409,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="263" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="263">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7561,7 +7417,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{81247506-ea6a-4a5e-a998-28460bfbff80}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7f168f53-69d8-5969-8f9f-84e3df646676}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7591,7 +7447,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="264" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="264">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7599,7 +7455,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{69a40dd2-1aab-4c7b-b309-bb14559d513e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a57fa304-c442-56ce-8dfb-0523a50aabe4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7629,7 +7485,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="265" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="265">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7637,7 +7493,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9aa3ca54-7259-40ac-8282-2f80b1b62e83}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d6a4edf8-e27a-5962-8046-f288a6cfd6bd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7667,7 +7523,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="266" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="266">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7675,7 +7531,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{97caab98-8d66-449e-81af-a52392a1dac9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1480285e-3e9b-5f0b-bd01-92789e3f87d9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7705,7 +7561,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="267" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="267">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7713,7 +7569,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0b88426b-382e-47ee-89cf-9fea77452451}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bfb20c66-d58a-5272-8a33-e7ea6d07a594}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7743,7 +7599,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="268" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="268">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7751,7 +7607,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{617d6b86-e1c4-4a18-bc30-37f3a4c0f4d0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f5328d0e-4ffd-5781-8b82-41047c1b8800}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7781,7 +7637,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="269" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="269">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7789,7 +7645,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c0c167ce-c04c-4892-8521-e3719f96aae7}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b454b3e9-f912-542d-9053-83664844119b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7819,7 +7675,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="27" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="27">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7827,7 +7683,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0d2d1c6e-fd08-4e01-acf0-e58c117bb7a2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b21fd557-2c6c-5204-a5be-5d428892c1fb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7857,7 +7713,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="270" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="270">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7865,7 +7721,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ba85197f-e4c8-4352-88d9-7b8ed55bd1ec}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{27f5871b-fe0c-5e40-999e-9f628e05a4ed}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7895,7 +7751,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="271" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="271">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7903,7 +7759,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{914d2630-2a30-44c3-ae4f-a050d0c12d1b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3c975442-37cc-5c81-a52d-6029d802582a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7933,7 +7789,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="272" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="272">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7941,7 +7797,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{029bc215-244a-4a7f-a4e8-c0986c756385}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{647bfe77-9b27-5407-ad62-210051ea2b95}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -7971,7 +7827,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="273" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="273">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -7979,7 +7835,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f2e21c15-ebb2-4b91-aa1d-8161437f2be5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dfbb5beb-2a44-5b9d-8f18-e81386c1e1c2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8009,7 +7865,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="274" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="274">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8017,7 +7873,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9e03a359-33b8-48fb-95db-40b5a0083d94}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e95ad6c4-4ad2-5a1d-b0df-4f0ebdb6117d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8047,7 +7903,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="275" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="275">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8055,7 +7911,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e34290ae-6c18-42f7-81db-b2a664f77749}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9c23f8e2-eacd-5dc7-9a5a-8a46f1d5fd3d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8085,7 +7941,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="276" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="276">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8093,7 +7949,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c4ccc379-4057-4022-a12a-d49dd681360c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{0a0333ae-4418-51ef-8cfa-ff42f920dc53}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8123,7 +7979,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="277" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="277">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8131,7 +7987,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fc469018-5b0c-4ed2-bdf6-af03be549e1b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bd50aecc-fd75-57b0-8e34-334c092b06e6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8161,7 +8017,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="278" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="278">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8169,7 +8025,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b8d16da8-4a3a-4d0c-acdf-d908665b31a3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4dcf54e3-2b35-5db2-9348-5f2012968de2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8199,7 +8055,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="279" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="279">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8207,7 +8063,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{41058787-abfb-4626-9c98-4b759ce1a367}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8a25725f-803d-575b-8caf-1483fb37effb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8237,7 +8093,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="28" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="28">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8245,7 +8101,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c91809f1-537b-4c20-87ba-cc20b6174dc2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9175fd60-7a26-511d-882b-88f7d29321db}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8275,7 +8131,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="280" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="280">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8283,7 +8139,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a366631c-73da-42d0-b682-4bd4c37a650e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c2940645-2677-5fd5-ac8e-2c1403e213d1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8313,7 +8169,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="281" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="281">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8321,7 +8177,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{87c08e23-6683-4acd-95c2-fedb785f3e03}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{78714459-f1fa-5a7d-a7a4-24f4fa359e2f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8351,7 +8207,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="282" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="282">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8359,7 +8215,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8010abcc-bac6-4ac2-a0ec-274b2f0af000}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3911634c-f5cb-5b43-9d25-8b3f3a355110}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8389,7 +8245,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="283" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="283">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8397,7 +8253,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{63e93e6f-2bc7-4829-b5ea-973e265a21b8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e48f8e66-c8aa-5e05-b1fa-3cc3f3cca668}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8427,7 +8283,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="284" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="284">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8435,7 +8291,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5f7d1ec1-cea8-487d-8c57-a1839b1b15b7}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1bb9ecd0-0a74-5194-ab06-89593301244d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8465,7 +8321,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="285" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="285">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8473,7 +8329,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e4ad8d22-aff7-4e32-9bcd-ffaf431aec69}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b85bf4f0-c99d-5011-86c0-5488de6d3c3e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8503,7 +8359,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="286" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="286">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8511,7 +8367,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ba542865-f09e-4919-956e-7286a46eb813}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{69174a90-8f05-529e-ad7d-1c40ec2e2b0c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8541,7 +8397,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="287" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="287">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8549,7 +8405,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f5fcce31-4287-4c7b-b6b6-9eefba222f3c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{689dd486-a166-5303-b68d-5b26ff38b825}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8579,7 +8435,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="288" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="288">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8587,7 +8443,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{359fa4b1-44df-4543-9f39-fde2e97ff8a8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{61d41037-c625-5d9f-8832-b7ef409f341a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8617,7 +8473,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="289" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="289">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8625,7 +8481,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{aa903a02-c559-45f0-862d-122f0323bde0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9e8cec11-58a8-543c-a422-e2094039b808}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8655,7 +8511,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="29" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="29">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8663,7 +8519,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{70eb0d62-4fdd-44a0-adf5-10bc0e765dff}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8a52c91d-3e0b-5784-8915-da18c7ce4d10}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8693,7 +8549,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="290" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="290">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8701,7 +8557,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bb8d9f0d-2875-4a15-9aef-60959a026ddc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e804e3f1-5784-54cf-9057-9c0eb24f7449}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8731,7 +8587,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="291" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="291">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8739,7 +8595,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a137b771-313f-45a9-9aac-b9e1a2162740}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e4799ed7-2d23-5384-bff9-bd556794d762}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8769,7 +8625,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="292" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="292">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8777,7 +8633,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2aa51a2d-1458-4e51-a82d-98be2a0eeba1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d522ccbd-4f9f-5c6a-8bcf-e92c3f95ade9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8807,7 +8663,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="293" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="293">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8815,7 +8671,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c22a84e7-5688-4d28-b763-35cb9203a501}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6364ffb8-7422-5fd3-8814-da3d1c4f99b9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8845,7 +8701,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="294" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="294">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8853,7 +8709,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4eb409bb-5e69-4016-94f3-da9fa6cd4638}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e33744a0-0fae-54f7-afa9-70b51fb9d338}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8883,7 +8739,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="295" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="295">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8891,7 +8747,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{41764f2b-9dca-462e-9ba7-8c087b7dbe8a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{da03ba75-fa4c-5fda-8533-fe0a033294e5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8921,7 +8777,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="296" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="296">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8929,7 +8785,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{466590b0-0ad6-41b1-94d6-71ab49f62ccc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{884c21f5-c4e8-578b-8770-401099181573}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8959,7 +8815,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="297" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="297">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -8967,7 +8823,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{80fd0bbd-3c4f-4bf7-bf8a-b042931646dd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{df8b246f-2404-5d5a-b6e6-4c6a583611da}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -8997,7 +8853,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="298" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="298">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9005,7 +8861,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cc08f5bf-b094-4e30-be55-fe26daf88fb8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7c60cdd2-99a4-5585-8f4e-10afa35e6194}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9035,7 +8891,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="299" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="299">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9043,7 +8899,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{72fb17c1-9472-4249-a653-0b13488122c9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f99d5de2-2e76-513d-b8c7-4ebbe66c9117}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9073,7 +8929,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="3" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="3">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9081,7 +8937,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9e373e24-bf2d-4c24-8878-2665b6287950}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{972a25cb-a30f-5674-b2de-5ed589ed644c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9111,7 +8967,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="30" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="30">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9119,7 +8975,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{744a0ba5-a5da-43e6-a30f-62b4ae83cb94}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5511ee32-a905-5645-a1fd-185e45c8c0ac}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9149,7 +9005,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="300" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="300">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9157,7 +9013,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b07bfce1-e69f-4bdf-b79f-67cb226392c2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7ffc3484-972f-5069-b944-d24de416da7a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9187,7 +9043,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="301" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="301">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9195,7 +9051,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{22f7f507-7de5-42f7-8d65-67ee2ab97998}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{eaf5ca8a-8019-5596-858a-b847979b776f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9225,7 +9081,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="302" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="302">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9233,7 +9089,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{35529456-4307-4169-9bad-c2cac534f31a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{552a1698-3aa8-5671-91a5-566fcc7511f1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9263,7 +9119,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="303" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="303">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9271,7 +9127,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d9f1a44e-2bb2-4f16-86a0-f3560d347edf}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{87d1fe88-d99f-574e-a4a8-4b58c133baf3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9301,7 +9157,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="304" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="304">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9309,7 +9165,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d1a2828d-3f55-4ef8-82af-6b48f41aef49}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cfe69335-d10c-5703-9273-75c1b3be78c1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9339,7 +9195,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="305" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="305">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9347,7 +9203,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2d74622a-a684-4063-b434-f856928722f0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f5958a25-af20-5e94-a996-0ed9a891b6d0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9377,7 +9233,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="306" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="306">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9385,7 +9241,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ad7201cb-853e-4b29-96f0-666b792bc1ea}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ac5778a6-d8f5-5bc2-9e41-a0fe69ca9f86}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9415,7 +9271,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="307" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="307">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9423,7 +9279,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3733e772-7b9c-4e48-b35b-2680000ddfc6}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6948d878-e8d3-57e4-b9b2-63a9f0f55048}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9453,7 +9309,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="308" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="308">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9461,7 +9317,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{04b7db6c-5115-4004-9260-c86c8b0429ff}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2e97813a-7d46-5c2a-9d3d-fc3d3355779d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9491,7 +9347,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="309" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="309">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9499,7 +9355,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8c44b3d7-8f4b-49b7-8697-adc6c91271a3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f2cccc63-f7f8-554d-bde3-2de2b7bfd982}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9529,7 +9385,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="31" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="31">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9537,7 +9393,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{101ee080-d82f-40af-b022-62718e465f31}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{aca30307-dbb0-590d-a7a3-bc298b4e375f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9567,7 +9423,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="310" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="310">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9575,7 +9431,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e2ab0656-ba45-41ab-84f9-44ba92d262e8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{557897cb-6029-5583-87dc-ce481e271636}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9605,7 +9461,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="311" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="311">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9613,7 +9469,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{35be6ad1-d67f-4c3e-9029-2962b6ad5a52}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e957d947-fdcd-5bb5-9fca-279c0f94816d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9643,7 +9499,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="312" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="312">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9651,7 +9507,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{322da4ee-1b65-4cfa-afe5-3c242bfd73ab}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b020530b-0e50-5a60-a06b-a4e87c8f0c2c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9681,7 +9537,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="313" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="313">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9689,7 +9545,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{705225d6-57de-4dc9-bde6-dfc05bbc0a84}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d337913c-8a24-5d90-b9bb-23b91d441d8f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9719,7 +9575,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="314" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="314">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9727,7 +9583,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8b4f64f8-cdcf-4cc0-a033-aefc8d21302f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{eaaac32f-3b75-5d37-96b4-226969428810}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9757,7 +9613,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="315" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="315">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9765,7 +9621,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fdb051b7-e1a9-4290-99b7-2efc1f38ed7f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bc05c79f-20ad-5bab-b4de-1340a6b5efca}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9795,7 +9651,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="316" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="316">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9803,7 +9659,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{21eb2932-c085-4a2a-8a0e-d7d1267be534}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a97dfe47-19b4-5066-92eb-9f7675e5ee4d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9833,7 +9689,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="317" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="317">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9841,7 +9697,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bf79d8b5-afb4-4b36-8c73-3dabebef8dfb}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{16870242-63b1-5425-bf09-be6dcb422af7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9871,7 +9727,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="318" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="318">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9879,7 +9735,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{24657507-a198-4d44-8629-d6864643ed0f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2bd01b07-2d22-5fcb-882f-3db567978095}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9909,7 +9765,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="319" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="319">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9917,7 +9773,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{29e7ddbc-509d-4b15-a1cf-1072ff09f3a1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9faa50e7-3f84-588d-9061-c14745873ddc}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9947,7 +9803,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="32" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="32">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9955,7 +9811,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3400fb02-4d0e-4627-ac0d-0842b07c202b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{617daae6-3fea-5901-9aea-3e749a1af04d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -9985,7 +9841,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="320" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="320">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -9993,7 +9849,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e16c987c-4dfa-48fc-8867-84ad3b2e5372}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3fff94ba-0f68-550d-ba84-2d2b07fb1950}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10023,7 +9879,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="321" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="321">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10031,7 +9887,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{964734d8-c956-439f-bc47-448c4ae8432b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f39d8d8b-b309-597a-8ac1-2f708f468e64}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10061,7 +9917,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="322" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="322">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10069,7 +9925,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d9c9b782-892e-4ca0-8dec-c337a5767684}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4c4af211-a3ba-5b14-90df-de52bf4030f4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10099,7 +9955,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="323" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="323">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10107,7 +9963,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4d7b8a48-c382-4158-b070-40814e85dd92}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e2ebe4d8-24e0-5073-8408-acfde2a22fb5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10137,7 +9993,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="324" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="324">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10145,7 +10001,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d12ae0ab-b0c8-43f3-8a0e-953128d6e9f9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c78905bd-1559-59d7-bbc3-0759501538ee}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10175,7 +10031,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="325" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="325">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10183,7 +10039,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{86ff4ec7-95e8-4fd7-88a1-4daf450c1c63}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f147a27f-b616-556a-a17a-e4b0297b439d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10213,7 +10069,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="326" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="326">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10221,7 +10077,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{eaed2c92-037b-47b1-a80d-c179bc4f2d96}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{66154153-13a0-5ffb-8085-c10597262d0c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10251,7 +10107,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="327" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="327">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10259,7 +10115,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4b1de022-7801-4fd8-8d2b-d92096bc9960}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d6f27506-2aff-5194-90d0-f6c440341d1a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10289,7 +10145,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="328" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="328">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10297,7 +10153,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ea684e35-cf64-4c49-9393-670c404d5b7a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a437ec25-dece-509b-9dbe-1e689e852c78}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10327,7 +10183,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="329" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="329">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10335,7 +10191,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4fc8098c-fe5f-4b08-a42b-d7898ff8866c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1026104c-8c29-5298-9bd1-58f7aa92ed23}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10365,7 +10221,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="33" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="33">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10373,7 +10229,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2f577dbf-83b6-498f-8834-3d46560abd88}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ff842a09-f03d-5aa7-b854-60be1c9fdef3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10403,7 +10259,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="330" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="330">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10411,7 +10267,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a84db5ca-ac31-4fb0-b18c-4ca1f159d01a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6525dc04-0ce0-5e28-9c5f-785df3ff9137}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10441,7 +10297,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="331" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="331">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10449,7 +10305,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5c4858d0-7731-4c6a-8bc1-16cc5e845baa}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a09158c6-bfe6-52c2-a941-38765c2fdc78}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10479,7 +10335,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="332" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="332">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10487,7 +10343,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{be6a4ece-50ba-4eab-9708-e37d19b045ce}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{13bc859c-ebd6-5c7b-8e65-9575c2e93aae}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10517,7 +10373,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="333" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="333">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10525,7 +10381,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{6b4f5c6b-4d63-4d22-a1a6-dddf088c3f1c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c283ec0c-d2d1-5ce1-8df8-3c872be463d8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10555,7 +10411,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="334" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="334">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10563,7 +10419,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8f3fda78-25aa-4d15-b6fb-036aae6c400a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a842b59b-bb2d-527b-9077-0a3b307cb193}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10593,7 +10449,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="335" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="335">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10601,7 +10457,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1b1ed6e8-1209-46fd-b8df-878051309f46}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{75ccadd7-6393-5464-892f-207d1d71d64b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10637,7 +10493,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="336" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="336">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10645,7 +10501,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a9c9e398-c054-436c-9bc1-d818972463a9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{219c49a9-8b33-59d3-a36e-11247f952279}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10681,7 +10537,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="337" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="337">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10689,7 +10545,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3c6b74c7-7c4b-45a1-b7ed-ffc3ed786bac}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b7b8f4b5-1ae7-557e-a654-e3daf2276ef8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10725,7 +10581,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="338" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="338">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10733,7 +10589,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1d74f393-9473-4e96-a74f-95dd56183116}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9976c746-4254-5bb9-b173-6c3ce28a76ea}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10769,7 +10625,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="339" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="339">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10777,7 +10633,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3311e3c9-d86a-465e-a19e-5ef49fc1d34e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1fdc3a7b-ebf4-5e6d-88b9-45260a222806}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10813,7 +10669,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="34" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="34">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10821,7 +10677,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7765c704-824d-4088-a5fe-5ce608cd1784}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d0d6db08-df7a-59df-8e94-f95267b491b8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10851,7 +10707,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="340" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="340">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10859,7 +10715,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{407d5f5f-6914-4f3f-86ed-930b39a40a11}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{88052dc0-49bf-5dba-abdb-869b288c0c84}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10895,7 +10751,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="341" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="341">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10903,7 +10759,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{33e29c61-5204-4e50-ad90-ae6e81487283}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7cf8b35b-e342-526a-b365-511868f0a1f6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10939,7 +10795,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="342" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="342">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10947,7 +10803,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9706d821-4be1-4da0-bdf5-bf7ed868b1f2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c2ffe0f7-7586-5d59-b2c7-e725fce616df}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -10983,7 +10839,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="343" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="343">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -10991,7 +10847,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0d1c388f-5beb-44a8-8100-294680e4e0dd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{22b2984d-10b6-5a04-9997-6b7678d1953f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11027,7 +10883,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="344" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="344">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11035,7 +10891,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{76c11799-0eac-4d90-ac9f-11cc4f902a37}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d0a15e29-d60d-5265-95fc-5a38abd314aa}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11071,7 +10927,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="345" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="345">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11079,7 +10935,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fcf97d96-b5d6-42e4-a9a0-452c547201a4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a5086a66-8dda-5c07-b8c2-83012547ef94}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11115,7 +10971,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="346" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="346">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11123,7 +10979,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5eff18c6-1175-4411-a4a8-8606fe826939}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3ed0d534-ad07-5cf1-ab6b-99e8d5d2e5b1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11159,7 +11015,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="347" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="347">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11167,7 +11023,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fdd7e717-e212-499e-9a2e-9a46b8d235f8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{284d5a22-9854-5525-af95-d9ce91699d41}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11203,7 +11059,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="348" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="348">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11211,7 +11067,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a6375cec-317a-4e9b-b8b0-1e24e0e1f487}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e13e6e09-3d9b-58e5-9895-188daafafaa9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11247,7 +11103,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="349" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="349">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11255,7 +11111,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{de035bac-0523-4b67-b71d-e522846c30cf}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9c3e1180-aa67-5008-a44c-e418a7af6eb7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11291,7 +11147,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="35" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="35">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11299,7 +11155,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{300bfa86-b423-411f-ae5b-8a1be8de431c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6261cc3f-8ae7-5232-9a83-4cc45122abe9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11329,7 +11185,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="350" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="350">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11337,7 +11193,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2bbbcd3a-44d6-44cc-87bb-de03b448833e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{419c4f40-ac50-566c-903b-42555ea04109}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11373,7 +11229,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="351" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="351">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11381,7 +11237,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f2421355-c403-4cfb-a9e1-0c9a9be42bc2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c817646c-d9ad-5020-97bc-ad2dab728598}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11417,7 +11273,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="352" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="352">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11425,7 +11281,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1cacf97a-2be2-42ca-8fc6-48f13d510c0b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{919461ba-8f7b-5e71-8491-62561e5429eb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11461,7 +11317,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="353" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="353">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11469,7 +11325,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4088bbcf-cb0a-4544-b31d-978daa887d5b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{486e2a34-b826-5c14-af54-066c11e13de7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11505,7 +11361,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="354" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="354">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11513,7 +11369,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cadb1c70-bd95-46a8-8da8-7d5f61ba0914}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{04bfe758-b64a-5bf7-95f2-141b30df74db}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11549,7 +11405,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="355" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="355">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11557,7 +11413,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bb32105b-3e18-4805-9ed4-d6acee38bb00}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a42fcc26-7f8f-5646-801f-d3b45eb00e7a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11593,7 +11449,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="356" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="356">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11601,7 +11457,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a9354502-baea-41a5-a8b2-fd38ff9421df}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fa4d0fb7-68c2-5ed3-ae8a-16459d860765}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11637,7 +11493,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="357" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="357">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11645,7 +11501,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{26db7a09-7103-4e40-841a-c765f3ee8924}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fc135418-c47f-5e27-a5f0-acb9758622a4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11681,7 +11537,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="358" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="358">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11689,7 +11545,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e1c6a2c6-0792-4411-9c9f-807012134718}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{0082094f-e805-5f82-89c6-06759b7316ef}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11725,7 +11581,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="359" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="359">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11733,7 +11589,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0ce90bfb-4861-4077-adf6-d82c7f3c33a1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6d52f590-311e-5a5b-8379-e394cc66bfe5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11769,7 +11625,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="36" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="36">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11777,7 +11633,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ce06c06e-c143-49b5-bd07-0e606d60519b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3f2df25f-a14e-507f-a78f-6772b162dffc}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11807,7 +11663,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="360" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="360">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11815,7 +11671,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3bb40d61-ee3a-4779-9c21-cefa239e69ec}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{95350568-f27d-5ddb-9d27-a53129e41368}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11851,7 +11707,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="361" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="361">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11859,7 +11715,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f42d46a8-47c1-405d-a6eb-3d917d33bc7b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9b99f5c4-20d2-56a7-93e0-c881b24c2287}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11895,7 +11751,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="362" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="362">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11903,7 +11759,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{eb0385ba-5b79-48dc-9cc6-2f95982f45c8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a90e8bdd-3fa0-5c9a-81e9-3505024c70ae}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11939,7 +11795,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="363" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="363">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11947,7 +11803,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1b3f55ca-0d99-44d2-9f48-bc53d28a86e4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9c3e8365-bd21-5925-8436-faf1501b37fb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -11983,7 +11839,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="364" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="364">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -11991,7 +11847,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3e193ecc-3976-417f-a5da-91f912a31099}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b98d85ac-594e-52fa-8acb-7c460d9024ef}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12027,7 +11883,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="365" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="365">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12035,7 +11891,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{613b01f5-3412-4fb1-b3fc-9ac421d5b1aa}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ffa8dae7-0898-596a-bd8d-4dd8a144cc0d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12071,7 +11927,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="366" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="366">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12079,7 +11935,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3f0feb08-853c-452c-80de-cd3d926fda6b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{da66797e-f0b3-538f-a116-6340b4c2208c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12115,7 +11971,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="367" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="367">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12123,7 +11979,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{43e5e409-c730-438c-9671-5723b140f9bf}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a026912c-8641-59a9-ae77-5d2c37e4c6f5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12159,7 +12015,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="368" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="368">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12167,7 +12023,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3cd0f7ef-2c93-45b4-88bf-b453370c8e7d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ce2ff2bd-65e7-5ff2-99a4-9079e8cdeec3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12203,7 +12059,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="369" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="369">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12211,7 +12067,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5dbeeeed-e2a3-4878-b421-e9beb3240746}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d1059ec6-7784-5b98-a572-263faa5739ec}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12247,7 +12103,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="37" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="37">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12255,7 +12111,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{adfd87ee-8ea6-4066-a9ba-2ffcd81124e8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4b14e07f-87dc-553d-87c8-268a193ef378}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12285,7 +12141,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="370" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="370">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12293,7 +12149,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3ea2a314-dac9-4f61-a7e5-a7ae2c5dba68}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{069457d6-708f-597b-bbc7-7908fe70d1ae}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12329,7 +12185,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="371" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="371">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12337,7 +12193,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{16962b8f-e394-4bcf-b74a-37ba3c228822}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{696053f9-49d0-50b8-a454-14f2bb58bf55}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12373,7 +12229,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="372" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="372">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12381,7 +12237,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{aaf40386-0551-4273-84b7-8c32a6ea1482}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{09657fe1-ead6-588e-968f-71d442538d58}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12417,7 +12273,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="373" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="373">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12425,7 +12281,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{72e64fcd-ce5c-45a5-88df-b77dfb0b30a0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5faf501d-8b26-5078-89b6-e53e6640bd22}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12461,7 +12317,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="374" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="374">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12469,7 +12325,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5d9fee15-764a-4f5a-b6a1-e123485b3415}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7c2e5528-d610-5104-a788-ba2f5fb03a9e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12505,7 +12361,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="375" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="375">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12513,7 +12369,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{822df8e8-3e2c-40d1-9fc1-a8330dbf97e5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{97427362-0299-5c5c-becb-9fa47b0392cf}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12549,7 +12405,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="376" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="376">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12557,7 +12413,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{295b15be-0d41-46b6-af00-360c745f4e55}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ddbc95e7-d70a-50e0-aa5e-509053840843}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12593,7 +12449,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="377" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="377">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12601,7 +12457,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{96a5ae58-20c7-48e5-8444-8c0b4f5a3eda}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a5f9f5e4-babb-5c5f-95e1-20a9ee96897b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12637,7 +12493,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="378" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="378">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12645,7 +12501,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f86fd256-d9fe-4ab3-86f9-afee8c7fe578}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5f9a4e3a-fb89-5a6a-94b0-a52602be2862}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12681,7 +12537,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="379" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="379">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12689,7 +12545,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8e50f863-d519-4f50-a8c1-0a67e4037471}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b5dab7a7-ea8d-5ba2-909e-740dcb27d40e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12725,7 +12581,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="38" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="38">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12733,7 +12589,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7c4dfc51-bcd0-49dd-8f1a-1cbf268431d8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b823b9b7-dd8d-554f-bebf-dfa88d7425e4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12763,7 +12619,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="380" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="380">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12771,7 +12627,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e7f6f81d-635f-462b-b5f0-ffcd91c134a5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5e693ddb-3981-5c53-9412-940dc1dc3834}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12807,7 +12663,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="381" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="381">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12815,7 +12671,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a952f4da-3185-4d3b-b3f1-ebd040976e6e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f047f047-6bbb-56ab-ac80-c4df7e19016b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12851,7 +12707,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="382" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="382">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12859,7 +12715,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{14c0d1c3-8313-4687-b8df-18af421a2e3d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8cdbbba2-7fbb-59c0-87ef-83e373718d69}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12895,7 +12751,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="383" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="383">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12903,7 +12759,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{6219e531-aa9c-4be0-acb8-34941688d22d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5b77629e-5669-5790-8b5b-7ab5cb7ed8d3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12939,7 +12795,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="384" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="384">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12947,7 +12803,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{793d6a72-b1d1-4bda-bd13-73aa620ef474}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{678f675c-a73b-5f39-9345-65d8102ac02d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -12983,7 +12839,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="385" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="385">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -12991,7 +12847,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ca97c7db-0ee0-45c3-adf7-ce73d29b1cd3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fd69f476-67b2-50cb-b0a8-d839ee3cdd59}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13027,7 +12883,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="386" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="386">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13035,7 +12891,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ac9a5bdd-3c11-4d27-af00-e44619121e01}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{bd6c847b-ca0a-5f0e-b68f-f12d91929efe}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13071,7 +12927,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="387" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="387">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13079,7 +12935,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bc803e3b-3fa7-42ac-9a97-d6ad854e981b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9d62b930-6bec-5fd2-bf14-ce4fd32c30af}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13115,7 +12971,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="388" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="388">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13123,7 +12979,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{495b8e1c-96ab-4d45-aa56-0df76eaf770f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{805985a0-fd37-5801-a6d0-c665d08fb46f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13159,7 +13015,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="389" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="389">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13167,7 +13023,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{64c5111f-c258-48ce-b105-b115e4a0bb4b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b5341753-1ac4-5807-874d-feb31a32c254}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13203,7 +13059,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="39" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="39">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13211,7 +13067,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ca856116-8aac-4283-83d6-943a44ce507e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{77b5e9b1-4e0b-5ce0-91da-263c937ce6d2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13241,7 +13097,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="390" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="390">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13249,7 +13105,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{da3a87ad-8a35-442d-803f-eb3cd9f041a5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{05dd88f8-8742-5004-b252-4951044686c4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13285,7 +13141,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="391" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="391">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13293,7 +13149,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{80e43952-4b01-4ff5-8891-d82cd68f2aa4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6ff4ed92-43a0-58b2-9c1a-0ec8dc1ef229}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13329,7 +13185,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="392" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="392">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13337,7 +13193,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3ff889a4-bfdd-4742-8960-f1282fb1ac5d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c81a5fbe-28dc-5ad4-908b-167600fc37b0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13373,7 +13229,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="393" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="393">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13381,7 +13237,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7fc542b5-d865-4c15-a599-f706afd3ca4b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fa13864f-f769-59fc-af05-42989e7779bd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13417,7 +13273,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="394" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="394">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13425,7 +13281,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{47169485-2c6b-4228-affb-eeb7c612a2ae}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f96e941b-79a7-58f8-9d6b-0db280150f92}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13461,7 +13317,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="395" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="395">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13469,7 +13325,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{70790d4f-815c-4983-b1c1-6049e1e77891}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ff8e77c6-eceb-5b0c-a428-81a89a35668d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13505,7 +13361,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="396" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="396">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13513,7 +13369,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9e2a9e3c-47ec-4038-9db4-7fb0c301eeac}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8c97576b-cc95-5b26-bbf2-0a973c9b3081}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13549,7 +13405,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="397" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="397">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13557,7 +13413,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{5320e92d-56ed-4e57-8e60-6f1c41995958}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f0e117b5-bba9-5df0-864e-b46a2b1405c5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13593,7 +13449,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="398" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="398">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13601,7 +13457,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f18679de-e485-491d-b832-c5523143946b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e3b79f37-fdc0-5b2c-b787-5092b71f43d3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13637,7 +13493,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="399" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="399">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13645,7 +13501,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b6213fae-6eb6-4483-b15c-7234cea681f1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4b8c5378-ede8-5eb1-ac7f-b4450b75b353}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13681,7 +13537,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="4" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="4">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13689,7 +13545,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{631d7d0d-49e2-4808-9198-800e22ba1f0e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{92226dd5-1b28-533b-bcce-2e17ba864cac}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13719,7 +13575,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="40" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="40">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13727,7 +13583,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{459efb47-fe15-4577-aac8-53e2248dc5d7}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{448d1718-a3c6-5488-a29c-e96332dd879d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13757,7 +13613,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="400" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="400">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13765,7 +13621,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{93781759-6d47-46f7-ba50-1246b53b0d71}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{70dc2fa6-fb69-5918-a733-51baf516634e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13801,7 +13657,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="401" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="401">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13809,7 +13665,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1ed20efb-2cb7-4a9f-8b4a-d388058a2f1f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{781fcb5a-524b-52fc-91e2-6dd0bf53c655}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13845,7 +13701,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="402" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="402">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13853,7 +13709,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4f45a499-9f41-4c67-8f17-42096b66e802}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ca9b2846-8c16-597d-bc1f-6a2d087819b2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13889,7 +13745,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="403" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="403">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13897,7 +13753,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{93b53476-e465-4e44-b5ab-4104bd16c469}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f19fc5a3-ba2a-5bb3-82bd-0489d9abfa38}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13933,7 +13789,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="404" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="404">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13941,7 +13797,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{392ca1c9-607d-4421-b74e-90caf5b9c23c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{11dbee8c-4f15-56cb-9533-e783fb88ed98}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -13977,7 +13833,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="405" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="405">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -13985,7 +13841,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9d02f809-056e-414c-9db8-a264e161d144}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7683dae5-85b8-5a3f-9927-8a6354ec43d9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14021,7 +13877,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="406" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="406">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14029,7 +13885,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{55733c2d-8d7f-47f3-9cfc-6d36e40cb95d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f6c2b288-8be2-5966-a769-d2477bb34c7a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14065,7 +13921,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="407" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="407">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14073,7 +13929,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c66c5d6f-e338-4dce-b7d7-29bd0196ec83}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{95348908-2e84-5e23-9600-1f30b91715f7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14109,7 +13965,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="408" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="408">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14117,7 +13973,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d01fdad8-9a1b-48e1-b650-195bfbc82d87}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d0708c94-7b0f-5de4-b7cb-028a459db79f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14153,7 +14009,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="409" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="409">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14161,7 +14017,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{75f886a2-1ebb-462b-b536-5196c020cd70}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5d394f88-c675-5722-9470-61ea79b1a160}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14197,7 +14053,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="41" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="41">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14205,7 +14061,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{249550f3-16af-4eb7-80ab-e1e2321c58dd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9d36f22a-1b8c-53eb-9746-1120ce0a4ee4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14235,7 +14091,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="410" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="410">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14243,7 +14099,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{023fe953-7673-4ef8-9e64-652edf0477d2}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{92261031-94ee-5ef0-8b05-23c5a1bed3cf}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14279,7 +14135,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="411" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="411">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14287,7 +14143,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f8dd3cf0-ef0c-442b-b076-5123c7ce561b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{311574ef-3b26-5142-ba21-139a68e4b219}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14323,7 +14179,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="412" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="412">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14331,7 +14187,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f12c4dd4-57ba-456e-950a-d95b3c1d0857}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{62ec12b4-d81a-52ef-88da-fb8ce5e935c8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14367,7 +14223,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="413" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="413">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14375,7 +14231,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8f88eb88-a44b-4fe0-aa91-1478d68a1431}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9af6ccde-cf9d-5adf-9b33-d26dd301dde4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14411,7 +14267,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="414" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="414">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14419,7 +14275,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d7d1c2fc-59d0-463e-89da-9b9219eee9b9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a10da1b8-3c79-5912-86d5-b192d3f0c94d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14455,7 +14311,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="415" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="415">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14463,7 +14319,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d9ad7ed7-a0eb-4050-9b99-de0bd0cc0e48}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{247461a6-3593-5302-9a91-f9d52fe26569}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14499,7 +14355,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="416" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="416">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14507,7 +14363,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f3bd8689-8854-4a97-bff3-e771f65091ab}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{535edd11-31ca-50e9-a3a3-3ae06509903f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14543,7 +14399,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="417" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="417">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14551,7 +14407,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cceda336-9c56-4136-b33c-96882f7d7f14}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{34adc965-7353-5705-9795-a0446a45a105}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14587,7 +14443,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="418" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="418">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14595,7 +14451,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9abb328b-129b-43f9-abec-a2fb36b19c74}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e1b34982-036a-5052-b6c2-963c84e8cce3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14631,7 +14487,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="419" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="419">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14639,7 +14495,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{13d4118b-36d3-4e27-b646-d6948c5c516b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b834facd-3cb6-5c81-b62c-d710cfb10553}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14675,7 +14531,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="42" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="42">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14683,7 +14539,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{883c83ac-03e7-457b-a8bc-598f734b6aac}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a08c2a3f-373c-5c61-a204-19c3bad87071}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14713,7 +14569,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="420" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="420">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14721,7 +14577,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f179e396-6fbb-49a4-9b8d-d82124ccf1e0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5d1f8538-2837-548b-9b58-c3e2731ed854}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14757,7 +14613,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="421" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="421">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14765,7 +14621,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{72393982-1fb7-4db0-8246-560d3784f205}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2d7f9349-0023-5059-85b0-e6b54dbcb221}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14801,7 +14657,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="422" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="422">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14809,7 +14665,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4568efe7-78d3-4b0e-b8c5-95db3f3ee2aa}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{74bd0915-ac46-5c9d-a6b2-c9737c31b2e1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14845,7 +14701,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="423" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="423">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14853,7 +14709,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8c57eed1-91d2-40ad-b37e-20ea229526e8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{48c40f90-2e0e-5db0-afe2-e7389212bd28}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14889,7 +14745,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="424" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="424">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14897,7 +14753,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f20bb703-5971-459a-a3c4-6695bc058322}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3f38b50a-b241-5718-aadd-15708e2d5690}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14933,7 +14789,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="425" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="425">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14941,7 +14797,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d436a586-a704-469e-8a3e-54ef012b253d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{41c0fe93-e1d9-5618-a205-72675fd46d84}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -14977,7 +14833,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="426" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="426">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -14985,7 +14841,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fa991579-bd44-46dd-808c-5be82fd368b1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d6ba3a81-e6f8-5904-a9a2-ffedd5ec4f54}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15015,7 +14871,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="427" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="427">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15023,7 +14879,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{35504485-ccfb-4e31-a7eb-f33d0430f268}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d4191623-045e-58ac-a2ff-8bbb5f0ec275}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15053,7 +14909,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="428" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="428">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15061,7 +14917,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f0e178e5-18af-4fde-800b-81d53cc49817}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{28674651-9626-5cc8-bc19-5366683714ef}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15091,7 +14947,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="429" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="429">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15099,7 +14955,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e734b125-4dc3-4d05-a16a-566844b01e23}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c8e3e831-e478-588d-a1ea-56fdff3accbe}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15129,7 +14985,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="43" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="43">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15137,7 +14993,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{39bce46e-4f8f-4d5f-88da-c6674448261c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{75dc2769-30e3-5514-930f-7755dd68d689}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15167,7 +15023,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="430" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="430">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15175,7 +15031,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{79c98984-9ab9-4d22-bbbc-81ab0f206919}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c00b34eb-f4d0-551e-b61e-662257bd1c15}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15205,7 +15061,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="431" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="431">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15213,7 +15069,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{c568d6ed-30ee-4f2a-a531-440bcba8ccd0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{b084b7e4-819d-5d24-ae3d-a0bbf125987e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15243,7 +15099,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="432" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="432">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15251,7 +15107,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3cb7402b-45da-4bcd-9b81-4b081a3a1d23}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d0a95598-4b62-513a-b306-45b7dde8845d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15281,7 +15137,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="433" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="433">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15289,7 +15145,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1b85aa7e-fffa-4fe1-9a9a-729ca19b5e79}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{673cfcb5-715f-5b7d-ac32-91ad5c7a6f95}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15319,7 +15175,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="434" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="434">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15327,7 +15183,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a6535578-a485-494e-ab21-7b04a47e98d5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{47d3a7a4-274d-5ed8-993e-220135389dc1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15357,7 +15213,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="435" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="435">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15365,7 +15221,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e14b582d-367a-4ef5-a7da-a80b5206d240}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e5b94c70-4338-560f-b4d3-095195d40a33}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15395,7 +15251,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="436" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="436">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15403,7 +15259,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{685b1c1a-0251-44b9-8376-9198dd9aa841}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7fc9f242-3c7b-518b-8eeb-2da99c5438d1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15433,7 +15289,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="437" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="437">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15441,7 +15297,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e2306d62-777d-42ff-b3ae-a3f99a7a7f2e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1ed1e55f-bed2-5fd2-bc0e-412a6a5fda71}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15471,7 +15327,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="438" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="438">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15479,7 +15335,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4e783d07-75da-44c2-b0f7-d70066692d03}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d9c2a1dc-6aeb-5c07-89dc-9bea16014474}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15509,7 +15365,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="439" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="439">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15517,7 +15373,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{347428c6-6506-42e1-b2ac-3dd9c9242666}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1c29d007-f6a3-52e7-af52-74c39b221d21}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15547,7 +15403,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="44" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="44">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15555,7 +15411,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7a9266ed-8aa3-4d8c-8aac-11cd867ae167}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cf8fb016-9380-5b15-ba9b-67499d8c4a34}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15585,7 +15441,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="440" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="440">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15593,7 +15449,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e4301908-96f7-461c-a601-8600817e666c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{72e11ece-364c-55ef-bc57-27c29d40aa87}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15623,7 +15479,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="441" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="441">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15631,7 +15487,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b8ea2e87-1d71-477d-9412-0da86b5dfb9f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ced27ef5-2bf3-5e56-b3ab-8cfa150c2872}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15661,7 +15517,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="442" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="442">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15669,7 +15525,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{9dcae1e8-1ed7-48b6-ace8-117ae33b3866}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{235f6f56-dfdf-51b8-a5f3-eae6d1a5235b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15699,7 +15555,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="443" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="443">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15707,7 +15563,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{260dff63-f7bf-44dc-83d6-a54d2a93a6c8}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fae6a841-889b-5ce6-88b5-cc7b38394a28}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15737,7 +15593,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="444" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="444">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15745,7 +15601,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cb0c64a2-e2f8-4b0c-9d91-0b50bef99a3a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7a611e6d-54c8-5a30-8610-1a4002fe638b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15775,7 +15631,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="445" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="445">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15783,7 +15639,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1eeb53e9-e201-45ae-b516-c7078b89ec38}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8a9b9a15-4b0a-5153-88f9-b27167dfd6bb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15813,7 +15669,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="446" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="446">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15821,7 +15677,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{820684f3-ea2c-47ed-9b40-ac2bbc13f514}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2e45ed23-b715-5905-9624-b7095e03fa53}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15851,7 +15707,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="447" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="447">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15859,7 +15715,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b509b1f3-3b63-4b17-bdf8-ea58f485f944}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fbb0457c-8ff9-5904-b361-d01760ac63c6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15889,7 +15745,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="448" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="448">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15897,7 +15753,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{598a1943-85cd-4cdc-9bb1-17e4fc540d07}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8a8981c6-3834-5de3-bbcc-150b993b1ff2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15927,7 +15783,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="449" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="449">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15935,7 +15791,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8d2a5268-f457-41c7-8cd1-130cfe2ab045}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4d46c002-a532-51a1-8342-d6663c0dee3f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -15965,7 +15821,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="45" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="45">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -15973,7 +15829,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{dcbc1fdb-7827-4dc1-b3d2-d3486901abbd}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3d320502-a2d0-52aa-aa51-089e84342ffa}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16003,7 +15859,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="450" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="450">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16011,7 +15867,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{cffd8b09-7c35-4869-873f-d9c3b8e399ff}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{23b436a6-6657-59d7-a90a-d70b85d9ace2}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16041,7 +15897,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="46" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="46">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16049,7 +15905,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8c3cdec0-6d46-4a04-896f-de93e57cb79c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dfc2084a-760d-5bf5-85ba-d4a9f67f8ce8}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16079,7 +15935,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="47" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="47">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16087,7 +15943,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8307ae7d-528c-4737-a926-9dc885386ef9}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dc08997a-9acb-5213-9d3d-e94be737eb06}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16117,7 +15973,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="48" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="48">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16125,7 +15981,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{336e0761-1473-4919-8075-bbcece60dc36}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d199bdf1-cf16-559c-81ca-8d865a83cc31}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16155,7 +16011,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="49" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="49">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16163,7 +16019,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1f45d3e5-f90c-429f-a79c-6f3dd5d9c693}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{45ded83b-880c-5460-afb3-42418b9761cb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16193,7 +16049,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="5" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="5">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16201,7 +16057,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{00321853-49cd-4868-a56e-7fcee92b3537}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{004c6c3e-7b1f-5ece-b389-68eca10ea377}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16231,7 +16087,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="50" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="50">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16239,7 +16095,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fa0cb95d-4c5d-4912-b260-e884e062ba33}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{fbdafc54-c8b9-5b2f-b6df-ad566b308570}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16269,7 +16125,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="51" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="51">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16277,7 +16133,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{337da7c6-cc0e-4ae1-98cc-9d8c7e732304}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{cad25799-af83-584f-9f65-4be552d4460c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16307,7 +16163,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="52" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="52">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16315,7 +16171,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7c30e588-5c61-4d18-9990-f1e99e6d0587}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{5a36d07c-ee66-554c-b3e9-5a97598602dd}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16345,7 +16201,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="53" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="53">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16353,7 +16209,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ef2cf482-18e3-42ff-a6df-556492056db3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8f68cf6f-209c-56ba-9826-1ef1b0d148c0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16383,7 +16239,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="54" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="54">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16391,7 +16247,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fa6d62e6-c36b-40d5-9705-3307f3fd3f53}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{f664aac7-c7bf-5d23-a35e-d20da98a1dc1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16421,7 +16277,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="55" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="55">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16429,7 +16285,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{8cd4c0c1-6bc3-4c8b-a403-7bf7d7f24a59}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3890e966-ff6e-5b43-ad2d-2b3cd97b7268}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16459,7 +16315,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="56" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="56">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16467,7 +16323,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b4e4def5-ac1c-4c07-8dcc-275e1450a55e}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d9920bdf-4e50-5ead-babf-50b839242ee9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16497,7 +16353,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="57" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="57">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16505,7 +16361,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{4ed75ee5-f268-4267-8dc7-9dbf626f5de1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{574c2df0-4e11-5cd1-a045-fbeca7b962a6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16535,7 +16391,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="58" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="58">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16543,7 +16399,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{56f048b2-103f-4bfb-8945-81310486b7cf}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2d156518-ae16-5171-9df9-e0183751b5a1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16573,7 +16429,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="59" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="59">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16581,7 +16437,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1e336287-b1f9-4710-9462-b362df27e598}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{93369472-38ef-5f7f-b023-707e6a1b2de7}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16611,7 +16467,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="6" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="6">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16619,7 +16475,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{edc1159d-baf0-4ebc-a727-e97959e5e6f5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3b5e7f8e-2f5b-5fc7-a651-cc6d6e81f16e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16649,7 +16505,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="60" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="60">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16657,7 +16513,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{57049471-2e0c-4b90-9ff6-689f38e47737}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{66a80f55-1571-5ad9-9218-68a81926703f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16687,7 +16543,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="61" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="61">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16695,7 +16551,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{089f9f52-d021-4ac9-8efd-d720eb344b2f}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6e1d8e4f-12c8-5de8-a404-8eb7eedc23c0}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16725,7 +16581,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="62" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="62">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16733,7 +16589,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{e4495618-d3c4-44ff-8a1d-892bd4b8f9a0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e0d41bf7-bf04-561e-a498-b4a4609bae55}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16763,7 +16619,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="63" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="63">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16771,7 +16627,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{127e3bd2-7be7-4c04-a7c7-9c841dfa5a2b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2c864c33-d80b-53a1-b198-ca3a51191766}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16801,7 +16657,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="64" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="64">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16809,7 +16665,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b317b65e-b7cc-425a-be10-37c81251af05}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{00c8f3a9-e685-57d1-8012-a3c48f5f09aa}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16839,7 +16695,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="65" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="65">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16847,7 +16703,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2a05d7b5-edb2-46a2-9437-9126b90dbbe1}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a96486be-20be-57bd-8275-7572f18d93f1}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16877,7 +16733,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="66" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="66">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16885,7 +16741,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ec80150e-f779-4c5d-83bb-50f0dde0534a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{2f1b6c98-49a0-52f2-8be3-d6cf03dbac80}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16915,7 +16771,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="67" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="67">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16923,7 +16779,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{bb0ec34c-e5f6-4c07-9b76-286a8cec8103}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7c5a25be-ee3c-5ef4-ae32-96e990531ed4}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16953,7 +16809,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="68" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="68">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16961,7 +16817,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{f47e0cee-faa9-4a10-a26b-6f724fae28d0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{0ecb8a53-a582-5298-a684-8dda286c7e4d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -16991,7 +16847,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="69" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="69">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -16999,7 +16855,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7071bb6c-efa9-4ee6-9ed2-f089cb0b87dc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{812a63ca-5616-5b6e-a1a7-70dc04d71044}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17029,7 +16885,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="7" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="7">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17037,7 +16893,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1f85be7e-a94f-4c97-9f65-d4ee05f1d5e3}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{c19cc76b-3c8c-5052-9dcc-494a796e3150}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17067,7 +16923,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="70" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="70">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17075,7 +16931,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fe280348-d806-404f-8f14-c7a05969ebf4}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1503c44b-af9e-5108-9e81-f0f6749d50fe}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17105,7 +16961,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="71" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="71">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17113,7 +16969,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{39399a62-bcd7-49a7-903f-080a310d9494}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a1d449a9-81c7-58d0-85e6-c6b3e00b5186}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17143,7 +16999,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="72" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="72">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17151,7 +17007,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1a3ba65f-5568-49a5-a43f-8fe01068a446}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{94a4b8c9-8b21-53fa-8ed9-f9799066848d}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17181,7 +17037,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="73" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="73">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17189,7 +17045,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{fc2ebd81-a642-4018-bbbc-2ee20c3aa965}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9128fe8f-26cb-58e4-b950-ee51e9fdcf44}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17219,7 +17075,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="74" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="74">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17227,7 +17083,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0735942e-57b2-4daf-ad66-f46d9b10cf80}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{933b2441-e5db-5164-b206-00efcbcecda6}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17257,7 +17113,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="75" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="75">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17265,7 +17121,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{39fcfae8-5f1d-45b8-9b71-1bcf23469955}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{82c89bbd-100d-5fc2-8f84-2093458d7875}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17295,7 +17151,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="76" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="76">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17303,7 +17159,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{08ee6c44-29d6-4606-9152-ea11e7f16491}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{8d93fea6-f684-5c55-a9d5-0100a217b657}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17333,7 +17189,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="77" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="77">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17341,7 +17197,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0921800b-e4f3-49a1-9c89-a56dcfe29811}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{7f48308c-382f-56ea-b72f-686f7cfa6401}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17371,7 +17227,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="78" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="78">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17379,7 +17235,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{35158ccb-af91-4c4f-9576-6fad1b5d6378}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{81be74aa-3b86-5c5e-ac72-1fd901750abb}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17409,7 +17265,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="79" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="79">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17417,7 +17273,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{0273979a-6428-4afd-9823-660af38c501b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{84af31c3-7c51-542f-8b66-8e378be128a3}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17447,7 +17303,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="8" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="8">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17455,7 +17311,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3f2a6055-0a90-4169-b936-cc4a9822cb7d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{83ebba3c-8199-5f93-94e1-5b7eb927ecec}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17485,7 +17341,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="80" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="80">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17493,7 +17349,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{6259eb7e-4bbc-4d39-81aa-f150a6dfd6fc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{e5c4910b-7789-5356-a965-5a9549cf0cae}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17523,7 +17379,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="81" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="81">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17531,7 +17387,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a6dea778-96c6-491c-9a42-8e1860f31e45}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6dd2dccb-4957-59d4-859c-fe22beb2f5e9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17561,7 +17417,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="82" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="82">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17569,7 +17425,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ff5067ab-a84b-49bc-be8e-91ceb6630309}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3dd9da2b-c774-531c-9bea-55d4d940aa2b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17599,7 +17455,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="83" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="83">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17607,7 +17463,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b92a2cf4-ec08-4764-a468-95d5d4ca7c37}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{a16c8e65-2b72-5bcd-a7bd-26e98b97d271}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17637,7 +17493,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="84" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="84">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17645,7 +17501,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{90364484-2204-4943-b44f-4c09d3a3afdc}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ac2d6b48-87c7-54f8-8177-55bde9ee6ab9}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17675,7 +17531,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="85" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="85">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17683,7 +17539,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{aca0ad81-fa19-494c-b267-7aed9f4e23d6}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{43770f4a-f0cb-5537-af64-69a6497f42d5}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17713,7 +17569,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="86" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="86">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17721,7 +17577,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{1327aaa4-ae05-42f1-89d0-af6264918d7a}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{3eb949c2-87ea-50fd-af31-e38afd10ff2b}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17751,7 +17607,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="87" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="87">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17759,7 +17615,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{81b12639-2b01-4357-abc9-d01d9f195add}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{78caac24-3aa5-545d-b905-31ae8430c861}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17789,7 +17645,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="88" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="88">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17797,7 +17653,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7a81680c-cded-46c2-a1b9-50b9bcff211d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{69012b9e-2060-5750-8e24-bd4b6371d40e}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17827,7 +17683,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="89" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="89">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17835,7 +17691,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7124a222-1256-431d-8186-7b93503fc76c}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{4526df1d-a18d-5f05-b33c-20d59eb1852c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17865,7 +17721,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="9" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="9">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17873,7 +17729,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{785a3c00-3f35-4341-8395-bf834dfc26c0}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{ebe5ffc0-ec22-5368-ae6a-b91a8121281c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17903,7 +17759,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="90" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="90">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17911,7 +17767,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{d31fda77-718b-4317-9cd2-916e61bda8ba}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{02555088-77dd-5a63-872b-bd7b3345c22c}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17941,7 +17797,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="91" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="91">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17949,7 +17805,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{a381b746-30d8-48e9-a943-6d1a0e4edc42}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{16a6c99e-e060-54a6-89b4-252b8f92e185}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -17979,7 +17835,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="92" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="92">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -17987,7 +17843,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{3aa8f78a-d6e4-464c-9b4a-c2984f222f13}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{d50b602d-7d34-5167-b1f3-c4549002977a}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18017,7 +17873,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="93" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="93">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18025,7 +17881,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2870ba8f-3c1a-4da6-8705-647c4030a6cf}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1558120e-5074-5151-9003-1b3d9cc5ddac}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18055,7 +17911,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="94" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="94">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18063,7 +17919,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{b458436c-8093-455c-bfa6-e738d881b9e5}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{9937f67f-7728-5e67-9b2e-a4cdded4b52f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18093,7 +17949,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="95" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="95">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18101,7 +17957,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2f556004-b7c0-4b59-96e7-ea8da3717b55}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{415da0c6-cd0e-5250-b067-95fbfe44fa02}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18131,7 +17987,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="96" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="96">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18139,7 +17995,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{ba41cc1e-b6f4-4cab-8389-284f653c140d}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{6e9f0f3d-acb0-581a-9135-5e98c58e2bee}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18169,7 +18025,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="97" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="97">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18177,7 +18033,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{2cee625b-8931-4e7f-a634-f77298b3a544}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{dccca85a-435a-5871-8c83-723d5a62e024}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18207,7 +18063,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="98" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="98">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18215,7 +18071,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{7326d290-ce4d-493c-9e54-6e8f04fe6bfe}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{1b71a757-6b2d-5888-8eb6-a8b7f0521027}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18245,7 +18101,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="marker" is_animated="0" frame_rate="10" name="99" clip_to_extent="1" alpha="1">
+      <symbol type="marker" force_rhr="0" clip_to_extent="1" frame_rate="10" alpha="1" is_animated="0" name="99">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -18253,7 +18109,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" class="SvgMarker" id="{45ce3b60-20ad-4e63-b844-960fc85c1d1b}" pass="0">
+        <layer class="SvgMarker" enabled="1" id="{134158a4-c775-528d-94e5-6828c5fa0c6f}" locked="0" pass="0">
           <Option type="Map">
             <Option type="QString" name="angle" value="0"/>
             <Option type="QString" name="color" value="0,0,0,255"/>
@@ -18290,67 +18146,7 @@
   <selection mode="Default">
     <selectionColor invalid="1"/>
   </selection>
-  <customproperties>
-    <Option/>
-  </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
-  <layerOpacity>1</layerOpacity>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-    <activeChecks type="StringList">
-      <Option type="QString" value=""/>
-    </activeChecks>
-    <checkConfiguration/>
-  </geometryOptions>
-  <legend type="default-vector" showLabelLegend="0"/>
-  <referencedLayers/>
-  <fieldConfiguration>
-    <field name="ref" configurationFlags="NoFlag">
-      <editWidget type="">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-  </fieldConfiguration>
-  <aliases>
-    <alias field="ref" name="" index="0"/>
-  </aliases>
-  <splitPolicies>
-    <policy field="ref" policy="Duplicate"/>
-  </splitPolicies>
-  <defaults>
-    <default field="ref" expression="" applyOnUpdate="0"/>
-  </defaults>
-  <constraints>
-    <constraint unique_strength="0" notnull_strength="0" field="ref" constraints="0" exp_strength="0"/>
-  </constraints>
-  <constraintExpressions>
-    <constraint desc="" exp="" field="ref"/>
-  </constraintExpressions>
-  <expressionfields/>
-  <attributeactions/>
-  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-    <columns/>
-  </attributetableconfig>
-  <conditionalstyles>
-    <rowstyles/>
-    <fieldstyles/>
-  </conditionalstyles>
-  <storedexpressions/>
-  <editform tolerant="1"></editform>
-  <editforminit/>
-  <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[]]></editforminitcode>
-  <featformsuppress>0</featformsuppress>
-  <editorlayout>generatedlayout</editorlayout>
-  <editable/>
-  <labelOnTop/>
-  <reuseLastValue/>
-  <dataDefinedFieldProperties/>
-  <widgets/>
-  <previewExpression></previewExpression>
-  <mapTip enabled="1"></mapTip>
   <layerGeometryType>0</layerGeometryType>
 </qgis>

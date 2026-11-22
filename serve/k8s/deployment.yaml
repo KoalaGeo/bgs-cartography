@@ -16,7 +16,7 @@ spec:
         seccompProfile: { type: RuntimeDefault }
       containers:
         - name: nginx
-          image: ghcr.io/koalageo/bgs-cartography:latest   # set by kustomization.yaml
+          image: ghcr.io/OWNER/REPO:latest   # set by kustomization.yaml
           ports: [{ name: http, containerPort: 8080 }]
           securityContext:
             allowPrivilegeEscalation: false
