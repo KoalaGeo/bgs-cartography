@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BGS Cartographic Symbols – MapLibre demo</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+<style>
+  :root { --ink:#1d2327; --muted:#5b666d; --line:#d9dfe2; --accent:#00695c; --bg:#f7f8f6; --side:360px; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; font:14px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--ink); }
+  #app { display:flex; height:100%; }
+  aside { width:var(--side); flex:none; display:flex; flex-direction:column; border-right:1px solid var(--line); background:var(--bg); min-height:0; }
+  header { padding:14px 16px 10px; border-bottom:1px solid var(--line); }
+  h1 { font-size:17px; margin:0 0 4px; letter-spacing:.01em; }
+  header p { margin:0; color:var(--muted); font-size:12.5px; }
+  .toggles { display:flex; flex-wrap:wrap; gap:4px 12px; padding:8px 16px; border-bottom:1px solid var(--line); font-size:13px; }
+  .toggles label { display:flex; gap:5px; align-items:center; cursor:pointer; }
+  .tabs { display:flex; border-bottom:1px solid var(--line); }
+  .tabs button { flex:1; padding:9px 4px; border:0; background:none; font:inherit; font-size:13px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; }
+  .tabs button[aria-selected=true] { color:var(--ink); border-bottom-color:var(--accent); font-weight:600; }
+  .search { padding:8px 16px; border-bottom:1px solid var(--line); }
+  .search input { width:100%; padding:7px 9px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
+  #list { overflow:auto; flex:1; min-height:0; }
+  .grp { position:sticky; top:0; background:#eef1ee; padding:5px 16px; font-size:11.5px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); border-bottom:1px solid var(--line); }
+  .item { display:grid; grid-template-columns:72px 1fr; gap:10px; align-items:center; padding:6px 16px; border-bottom:1px solid #eceff0; cursor:pointer; }
+  .item:hover, .item.sel { background:#e4efec; }
+  .item .pv { height:34px; display:flex; align-items:center; justify-content:center; background:#fff; border:1px solid #e3e7e8; border-radius:4px; overflow:hidden; }
+  .item .pv img { max-width:66px; max-height:28px; }
+  .item.sym .pv img { zoom:2.4; max-width:28px; max-height:12px; } /* SVGs are at true BGS size (mm) */
+  .item.orn .pv { height:44px; } .item.orn .pv img { max-width:72px; max-height:44px; }
+  .item .t { font-size:13px; } .item .r { font-family:ui-monospace, Menlo, Consolas, monospace; font-size:11.5px; color:var(--muted); }
+  .flag { font-size:10.5px; color:#9a5b00; }
+  footer { padding:8px 16px; border-top:1px solid var(--line); font-size:11.5px; color:var(--muted); }
+  footer a { color:var(--accent); }
+  #map { flex:1; }
+  .maplibregl-popup-content { font-size:13px; max-width:280px; }
+  .maplibregl-popup-content .r { font-family:ui-monospace, Menlo, Consolas, monospace; color:var(--muted); font-size:12px; }
+  .maplibregl-popup-content .note { color:var(--muted); font-size:11.5px; margin-top:4px; }
+  @media (max-width: 760px) {
+    #app { flex-direction:column-reverse; } aside { width:100%; height:50%; } #map { height:50%; }
+    header { padding:10px 16px 6px; } header p { display:none; } /* leave room for the list */
+    .toggles, .search { padding-top:6px; padding-bottom:6px; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <aside>
+    <header>
+      <h1>BGS Cartographic Symbols</h1>
+      <p>Every point symbol, area ornament and line style from BGS Research Report RR/01/01 (v3), drawn on a <strong>made-up</strong> island. None of the geology here is real.</p>
+    </header>
+    <div class="toggles">
+      <label><input type="checkbox" id="tg-geo" checked> Ornaments</label>
+      <label><input type="checkbox" id="tg-lines" checked> Line styles</label>
+      <label><input type="checkbox" id="tg-sym" checked> Symbols</label>
+      <label><input type="checkbox" id="tg-osm"> OSM basemap</label>
+    </div>
+    <div class="tabs" role="tablist">
+      <button role="tab" data-tab="symbols" aria-selected="true">Symbols <span id="n-symbols"></span></button>
+      <button role="tab" data-tab="ornaments" aria-selected="false">Ornaments <span id="n-ornaments"></span></button>
+      <button role="tab" data-tab="lines" aria-selected="false">Lines <span id="n-lines"></span></button>
+    </div>
+    <div class="search"><input id="q" type="search" placeholder="Filter by description or reference name…" autocomplete="off"></div>
+    <div id="list" role="list"></div>
+    <footer>Click an entry to find it on the map. Source: Mawer C H, 2002. <em>Cartographic standard geological symbol index, version 3.</em> BGS Research Report RR/01/01. · <a href="index.json">index.json</a><span id="repo-wrap"> · <a id="repo-link" href="#">Repository</a></span></footer>
+  </aside>
+  <div id="map" aria-label="Map of a fictional island showing BGS symbology"></div>
+</div>
+<script>
+// Asset locations: relative to this page (the Pages workflow copies the repo folders next to it)
+const BASE = new URL('.', location.href).href;
+// Link back to the repository: the GitHub and GitLab Pages jobs write its URL to site.json
+// (tools/assemble_site.sh). Without it (e.g. a local preview) the link is hidden.
+fetch('site.json').then(r => r.ok ? r.json() : Promise.reject())
+  .then(s => { if (!/^https?:\/\//.test(s.repository)) throw 0; document.getElementById('repo-link').href = s.repository; })
+  .catch(() => document.getElementById('repo-wrap').remove());
+const SPRITE = new URL('sprites/bgs-symbology', BASE).href;
+const ASSET = { symbols: r => `symbols/svg/${r}.svg`, ornaments: r => `ornaments/swatch/${r}.svg`, lines: r => `lines/swatch/${r}.svg` };
+
+const zoomScale = base => ['interpolate', ['exponential', 2], ['zoom'], 8, ['*', base, 0.35], 11, base, 14, ['*', base, 2]];
+
+const map = new maplibregl.Map({
+  container: 'map',
+  hash: true,
+  style: {
+    version: 8,
+    sprite: SPRITE,
+    sources: {
+      osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, maxzoom: 19,
+             attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' },
+      island: { type: 'geojson', data: 'data/island.geojson' },
+      geology: { type: 'geojson', data: 'data/geology.geojson', promoteId: 'ref' },
+      lines: { type: 'geojson', data: 'data/lines.geojson', promoteId: 'id' },
+      symbols: { type: 'geojson', data: 'data/symbols.geojson', promoteId: 'ref' },
+      sel: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } }
+    },
+    layers: [
+      { id: 'sea', type: 'background', paint: { 'background-color': '#dfeaf0' } },
+      { id: 'osm', type: 'raster', source: 'osm', layout: { visibility: 'none' }, paint: { 'raster-opacity': 0.55, 'raster-saturation': -0.8 } },
+      { id: 'island', type: 'fill', source: 'island', paint: { 'fill-color': '#fbfaf5' } },
+      { id: 'geo-fill', type: 'fill', source: 'geology', paint: { 'fill-color': ['get', 'fill'] } },
+      { id: 'geo-pattern', type: 'fill', source: 'geology', paint: { 'fill-pattern': ['get', 'pattern'], 'fill-opacity': ['interpolate', ['linear'], ['zoom'], 10, 1, 12, 0.45] } },
+      { id: 'geo-line', type: 'line', source: 'geology', paint: { 'line-color': '#6d6a60', 'line-width': 0.6 } },
+      { id: 'coast', type: 'line', source: 'island', paint: { 'line-color': '#5a7d8c', 'line-width': 1.4 } },
+      { id: 'lines', type: 'line', source: 'lines', layout: { 'line-cap': 'butt', 'line-join': 'round' },
+        paint: { 'line-pattern': ['get', 'pattern'], 'line-width': zoomScale(['get', 'width']) } },
+      { id: 'symbols', type: 'symbol', source: 'symbols',
+        layout: { 'icon-image': ['get', 'icon'], 'icon-rotate': ['get', 'rotation'], 'icon-rotation-alignment': 'map',
+                  'icon-allow-overlap': true, 'icon-ignore-placement': true, 'icon-size': zoomScale(1) } },
+      { id: 'sel-fill', type: 'line', source: 'sel', filter: ['==', ['geometry-type'], 'Polygon'], paint: { 'line-color': '#e65100', 'line-width': 3 } },
+      { id: 'sel-line', type: 'line', source: 'sel', filter: ['==', ['geometry-type'], 'LineString'], paint: { 'line-color': '#e65100', 'line-width': 14, 'line-opacity': 0.25 } },
+      { id: 'sel-pt', type: 'circle', source: 'sel', filter: ['==', ['geometry-type'], 'Point'],
+        paint: { 'circle-radius': 18, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': '#e65100', 'circle-stroke-width': 2.5 } }
+    ]
+  },
+  center: [-7.2, 50.85], zoom: 9
+});
+map.addControl(new maplibregl.NavigationControl(), 'top-right');
+map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
+
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+let DATA = {}, CAT = null, tab = 'symbols', popup = null;
+
+Promise.all(['island', 'geology', 'lines', 'symbols'].map(n => fetch(`data/${n}.geojson`).then(r => r.json())))
+  .then(([island, geology, lines, symbols]) => {
+    DATA = { island, ornaments: geology, lines, symbols };
+    const b = new maplibregl.LngLatBounds();
+    island.features[0].geometry.coordinates[0].forEach(c => b.extend(c));
+    if (!location.hash) map.fitBounds(b, { padding: 30, duration: 0 });
+  });
+fetch('data/catalogue.json').then(r => r.json()).then(c => { CAT = c; renderList(); });
+
+function featureFor(kind, id) {
+  const fc = DATA[kind]; if (!fc) return null;
+  return fc.features.find(f => (f.properties.ref ?? f.properties.id) === id);
+}
+function bboxOf(geom) {
+  const b = new maplibregl.LngLatBounds();
+  const walk = c => typeof c[0] === 'number' ? b.extend(c) : c.forEach(walk);
+  walk(geom.coordinates); return b;
+}
+function popupHtml(p) {
+  if (p.kind === 'symbol') return `<strong>${esc(p.description)}</strong><div class="r">${esc(p.ref)}</div>
+      <div>${esc(p.classification)}${p.subclassification ? ' › ' + esc(p.subclassification) : ''}</div>
+      ${p.made_up_dip != null ? `<div class="note">Made-up dip ${p.made_up_dip}°, strike rotation ${p.rotation}°</div>` : ''}`;
+  if (p.kind === 'ornament') return `<strong>${esc(p.description)}</strong><div class="r">${esc(p.ref)}</div>
+      <div class="note">${esc(p.unit)}${p.seamless ? '' : ' · tile is a cropped swatch (visible seams)'}</div>`;
+  return `<strong>${esc(p.description)}</strong><div class="r">${esc(p.id)}</div>
+      <div class="note">line-pattern width ${p.width}px at zoom 11${p.seamless ? '' : ' · tile repeats the whole swatch'}</div>`;
+}
+function select(kind, id, fly = true) {
+  const f = featureFor(kind, id); if (!f) return;
+  map.getSource('sel').setData({ type: 'FeatureCollection', features: [f] });
+  const b = bboxOf(f.geometry), c = b.getCenter();
+  if (fly) {
+    if (f.geometry.type === 'Point') map.flyTo({ center: c, zoom: Math.max(map.getZoom(), 12.5) });
+    else map.fitBounds(b, { padding: 80, maxZoom: 12.5 });
+  }
+  popup?.remove();
+  popup = new maplibregl.Popup({ offset: 14 }).setLngLat(c).setHTML(popupHtml(f.properties)).addTo(map);
+  document.querySelectorAll('.item.sel').forEach(e => e.classList.remove('sel'));
+  document.querySelector(`.item[data-id="${CSS.escape(id)}"]`)?.classList.add('sel');
+}
+
+function renderList() {
+  if (!CAT) return;
+  ['symbols', 'ornaments', 'lines'].forEach(k => document.getElementById('n-' + k).textContent = `(${CAT[k].length})`);
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const rows = CAT[tab].filter(x => !q || (x.d + ' ' + (x.ref ?? x.id)).toLowerCase().includes(q));
+  const html = []; let last = null;
+  for (const x of rows) {
+    const id = x.ref ?? x.id;
+    if (tab === 'symbols') {
+      const g = x.c + (x.s ? ' › ' + x.s : '');
+      if (g !== last) { html.push(`<div class="grp">${esc(g)}</div>`); last = g; }
+    }
+    const flag = x.seamless === false ? `<div class="flag">${tab === 'lines' ? 'repeats whole swatch' : 'not seamless'}</div>` : '';
+    html.push(`<div class="item ${{ ornaments: 'orn', symbols: 'sym', lines: 'lin' }[tab]}" role="listitem" tabindex="0" data-id="${esc(id)}">
+      <div class="pv"><img loading="lazy" alt="" src="${esc(ASSET[tab](id))}"></div>
+      <div><div class="t">${esc(x.d)}</div>${tab !== 'lines' ? `<div class="r">${esc(id)}</div>` : ''}${flag}</div></div>`);
+  }
+  const list = document.getElementById('list');
+  list.innerHTML = html.join('') || '<div style="padding:16px;color:#5b666d">No matches.</div>';
+  list.scrollTop = 0;
+}
+document.getElementById('list').addEventListener('click', e => {
+  const it = e.target.closest('.item'); if (it) select(tab, it.dataset.id);
+});
+document.getElementById('list').addEventListener('keydown', e => {
+  const it = e.target.closest('.item'); if (it && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); select(tab, it.dataset.id); }
+});
+document.getElementById('q').addEventListener('input', renderList);
+document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => {
+  tab = b.dataset.tab;
+  document.querySelectorAll('.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
+  renderList();
+}));
+
+const vis = (ids, on) => ids.forEach(id => map.setLayoutProperty(id, 'visibility', on ? 'visible' : 'none'));
+document.getElementById('tg-geo').onchange = e => vis(['geo-fill', 'geo-pattern', 'geo-line'], e.target.checked);
+document.getElementById('tg-lines').onchange = e => vis(['lines'], e.target.checked);
+document.getElementById('tg-sym').onchange = e => vis(['symbols'], e.target.checked);
+document.getElementById('tg-osm').onchange = e => vis(['osm'], e.target.checked);
+
+const KIND_TAB = { symbol: 'symbols', ornament: 'ornaments', line: 'lines' };
+map.on('click', e => {
+  const f = map.queryRenderedFeatures(e.point, { layers: ['symbols', 'lines', 'geo-fill'] })[0];
+  if (!f) return;
+  const p = f.properties, kind = KIND_TAB[p.kind];
+  if (kind !== tab) document.querySelector(`.tabs button[data-tab="${kind}"]`).click();
+  document.getElementById('q').value = ''; renderList();
+  select(kind, p.ref ?? p.id, false);
+  document.querySelector('.item.sel')?.scrollIntoView({ block: 'center' });
+});
+['symbols', 'lines', 'geo-fill'].forEach(l => {
+  map.on('mouseenter', l, () => map.getCanvas().style.cursor = 'pointer');
+  map.on('mouseleave', l, () => map.getCanvas().style.cursor = '');
+});
+</script>
+</body>
+</html>

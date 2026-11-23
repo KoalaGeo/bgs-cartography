@@ -1,0 +1,25 @@
+# GitLab Pages for the BGS symbology (the GitLab counterpart of .github/workflows/pages.yml).
+#
+# Publishes the MapLibre demo, sprites, SVGs, catalogues and styles at <pages URL>/v3/.
+# Nothing here names a host: the absolute URLs written into the published SLDs, QGIS linked
+# library and index.json come from CI_PAGES_URL, so the same file works on any GitLab instance,
+# in any group, with or without Pages unique domains or a custom domain.
+#
+# Optional CI/CD variable: PYTHON_IMAGE, the image to run in (any image with Python 3 and bash);
+# point it at an internal registry mirror if Docker Hub is blocked.
+
+variables:
+  PYTHON_IMAGE: python:3.12-slim
+
+pages:
+  image: $PYTHON_IMAGE
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  variables:
+    REPO_URL: $CI_PROJECT_URL
+  script:
+    - python3 tools/make_web_styles.py . --base-url "${CI_PAGES_URL%/}/v3"
+    - tools/assemble_site.sh public
+  artifacts:
+    paths:
+      - public

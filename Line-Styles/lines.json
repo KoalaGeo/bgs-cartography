@@ -1,0 +1,2307 @@
+[
+ {
+  "id": "aeromagnetic_bouguer_anomaly",
+  "description": "Aeromagnetic/Bouguer anomaly",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.995,
+   8.6
+  ],
+  "period_pt": 8.995,
+  "mismatch": 0.032,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   12,
+   12
+  ]
+ },
+ {
+  "id": "axial_plane_trace_of_major_anticline",
+  "description": "Axial plane trace of major anticline",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   67.586,
+   12.0
+  ],
+  "period_pt": 67.586,
+  "mismatch": 0.061,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   90,
+   16
+  ]
+ },
+ {
+  "id": "axial_plane_traces_of_closely_spaced_anticline_syncline_pair",
+  "description": "Axial plane traces of closely spaced anticline/ syncline pair",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.0,
+   18.7
+  ],
+  "period_pt": 97.0,
+  "mismatch": 0.957,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   129,
+   26
+  ]
+ },
+ {
+  "id": "axial_plane_trace_of_major_antiform",
+  "description": "Axial plane trace of major antiform",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   67.584,
+   11.8
+  ],
+  "period_pt": 67.584,
+  "mismatch": 0.023,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   90,
+   16
+  ]
+ },
+ {
+  "id": "axial_plane_traces_of_closely_spaced_major_antiform_synform_pair",
+  "description": "Axial plane traces of closely spaced major antiform/ synform pair",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.0,
+   17.2
+  ],
+  "period_pt": 97.0,
+  "mismatch": 0.566,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   129,
+   24
+  ]
+ },
+ {
+  "id": "axial_plane_trace_of_major_reclined_or_vertical_fold",
+  "description": "Axial plane trace of major reclined or vertical fold",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   67.6,
+   5.6
+  ],
+  "period_pt": 67.6,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   90,
+   8
+  ]
+ },
+ {
+  "id": "axial_plane_trace_of_major_recumbant_fold",
+  "description": "Axial plane trace of major recumbant fold",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   67.572,
+   6.2
+  ],
+  "period_pt": 67.572,
+  "mismatch": 0.043,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   90,
+   8
+  ]
+ },
+ {
+  "id": "axial_plane_trace_of_major_syncline",
+  "description": "Axial plane trace of major syncline",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   67.589,
+   10.8
+  ],
+  "period_pt": 67.589,
+  "mismatch": 0.055,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   90,
+   14
+  ]
+ },
+ {
+  "id": "axial_plane_trace_of_major_synform",
+  "description": "Axial plane trace of major synform",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   67.589,
+   10.2
+  ],
+  "period_pt": 67.589,
+  "mismatch": 0.013,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   90,
+   14
+  ]
+ },
+ {
+  "id": "axis_of_large_scale_glacial_flute",
+  "description": "Axis of large-scale glacial flute",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.99,
+   5.0
+  ],
+  "period_pt": 15.99,
+  "mismatch": 0.013,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   21,
+   8
+  ]
+ },
+ {
+  "id": "axis_of_large_scale_glacial_gouge",
+  "description": "Axis of large-scale glacial gouge",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   16.112,
+   5.6
+  ],
+  "period_pt": 16.112,
+  "mismatch": 0.041,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   21,
+   8
+  ]
+ },
+ {
+  "id": "backfeature_marking_former_coastline_arrowheads_denote_uphill_side",
+  "description": "Backfeature marking former coastline, arrowheads denote uphill side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   96.8,
+   7.4
+  ],
+  "period_pt": 96.8,
+  "mismatch": 0.207,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   129,
+   10
+  ]
+ },
+ {
+  "id": "backfeature_marking_former_lake_margin_arrowheads_denote_uphill_side",
+  "description": "Backfeature marking former lake margin, arrowheads denote uphill side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   96.8,
+   7.4
+  ],
+  "period_pt": 96.8,
+  "mismatch": 1.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   129,
+   10
+  ]
+ },
+ {
+  "id": "backfeature_of_terrace_margin_arrowheads_denote_uphill_side",
+  "description": "Backfeature of terrace margin, arrowheads denote uphill side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   96.8,
+   6.6
+  ],
+  "period_pt": 96.8,
+  "mismatch": 1.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   129,
+   10
+  ]
+ },
+ {
+  "id": "base_of_lava_flow",
+  "description": "Base of lava flow",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   6.413,
+   7.8
+  ],
+  "period_pt": 6.413,
+  "mismatch": 0.057,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   9,
+   10
+  ]
+ },
+ {
+  "id": "buried_channel_or_valley_margin",
+  "description": "Buried channel or valley margin",
+  "colours": [
+   "#000000",
+   "#0091d6"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.699,
+   19.1
+  ],
+  "period_pt": 25.699,
+  "mismatch": 0.022,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   34,
+   26
+  ]
+ },
+ {
+  "id": "buried_cliffline_crossmarks_on_beach_side",
+  "description": "Buried cliffline, crossmarks on beach side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   6.414,
+   8.6
+  ],
+  "period_pt": 6.414,
+  "mismatch": 0.052,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   9,
+   12
+  ]
+ },
+ {
+  "id": "cliffline_crossmarks_on_beach_side",
+  "description": "Cliffline, crossmarks on beach side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   6.414,
+   8.6
+  ],
+  "period_pt": 6.414,
+  "mismatch": 0.052,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   9,
+   12
+  ]
+ },
+ {
+  "id": "cementstone",
+  "description": "Cementstone",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   23.824,
+   5.0
+  ],
+  "period_pt": 23.824,
+  "mismatch": 0.05,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   32,
+   8
+  ]
+ },
+ {
+  "id": "coal_inferred",
+  "description": "Coal, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.702,
+   2.6
+  ],
+  "period_pt": 7.702,
+  "mismatch": 0.001,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   10,
+   4
+  ]
+ },
+ {
+  "id": "coal_observed",
+  "description": "Coal, observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": true,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.0,
+   2.6
+  ],
+  "period_pt": 8.0,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "coal_sub_triassic",
+  "description": "Coal, sub-Triassic",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   9.629,
+   2.6
+  ],
+  "period_pt": 9.629,
+  "mismatch": 0.013,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   13,
+   4
+  ]
+ },
+ {
+  "id": "coal_seam_contour",
+  "description": "Coal seam contour",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   20.562,
+   2.2
+  ],
+  "period_pt": 20.562,
+  "mismatch": 0.022,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   27,
+   4
+  ]
+ },
+ {
+  "id": "coal_seam_washout",
+  "description": "Coal seam, washout",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.697,
+   9.7
+  ],
+  "period_pt": 25.697,
+  "mismatch": 0.024,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 51
+  },
+  "sprite_px": [
+   34,
+   14
+  ]
+ },
+ {
+  "id": "crestline_of_elongate_mound",
+  "description": "Crestline of elongate mound",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   46.2,
+   3.8
+  ],
+  "period_pt": 46.2,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   62,
+   6
+  ]
+ },
+ {
+  "id": "crestline_of_esker_blue_orange_or_magenta",
+  "description": "Crestline of esker (blue, orange or magenta)",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   28.102,
+   7.2
+  ],
+  "period_pt": 28.102,
+  "mismatch": 0.016,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   37,
+   10
+  ]
+ },
+ {
+  "id": "crestline_of_linear_feature",
+  "description": "Crestline of linear feature",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   36.99,
+   2.4
+  ],
+  "period_pt": 36.99,
+  "mismatch": 0.001,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   49,
+   4
+  ]
+ },
+ {
+  "id": "drumlin_or_dune_line_at_base_of_mound",
+  "description": "Drumlin or dune line at base of mound",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.269,
+   2.8
+  ],
+  "period_pt": 19.269,
+  "mismatch": 0.014,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   4
+  ]
+ },
+ {
+  "id": "fault_brecciation_zone_inferred",
+  "description": "Fault brecciation zone, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.17,
+   16.0
+  ],
+  "period_pt": 15.17,
+  "mismatch": 0.063,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   20,
+   22
+  ]
+ },
+ {
+  "id": "fault_brecciation_zone_observed",
+  "description": "Fault brecciation zone, observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.171,
+   16.0
+  ],
+  "period_pt": 15.171,
+  "mismatch": 0.093,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   20,
+   22
+  ]
+ },
+ {
+  "id": "fault_thrust_conjectural",
+  "description": "Fault, thrust conjectural",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   30.2,
+   11.2
+  ],
+  "period_pt": 30.2,
+  "mismatch": 0.035,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   40,
+   16
+  ]
+ },
+ {
+  "id": "fault_thrust_observed",
+  "description": "Fault, thrust observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   30.195,
+   9.6
+  ],
+  "period_pt": 30.195,
+  "mismatch": 0.009,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   40,
+   14
+  ]
+ },
+ {
+  "id": "incrop_of_fault_at_unconformity_sub_triassic",
+  "description": "Incrop of fault at unconformity (sub-Triassic)",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.2,
+   7.6
+  ],
+  "period_pt": 97.2,
+  "mismatch": 1.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   130,
+   10
+  ]
+ },
+ {
+  "id": "fault_normal_inferred",
+  "description": "Fault, normal inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.2,
+   9.4
+  ],
+  "period_pt": 97.2,
+  "mismatch": 1.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   130,
+   14
+  ]
+ },
+ {
+  "id": "fault_normal_observed",
+  "description": "Fault, normal observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.2,
+   7.6
+  ],
+  "period_pt": 97.2,
+  "mismatch": 1.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   130,
+   10
+  ]
+ },
+ {
+  "id": "fault_reverse",
+  "description": "Fault, reverse",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.2,
+   13.4
+  ],
+  "period_pt": 97.2,
+  "mismatch": 0.733,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   130,
+   18
+  ]
+ },
+ {
+  "id": "fault_shearing_zone_inferred",
+  "description": "Fault shearing zone, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.099,
+   13.4
+  ],
+  "period_pt": 15.099,
+  "mismatch": 0.038,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   20,
+   18
+  ]
+ },
+ {
+  "id": "fault_shearing_zone_observed",
+  "description": "Fault shearing zone, observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.099,
+   12.6
+  ],
+  "period_pt": 15.099,
+  "mismatch": 0.069,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   20,
+   18
+  ]
+ },
+ {
+  "id": "fault_strike_slip",
+  "description": "Fault, strike-slip",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   97.2,
+   7.6
+  ],
+  "period_pt": 97.2,
+  "mismatch": 0.436,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   130,
+   10
+  ]
+ },
+ {
+  "id": "fault_thrust_or_slide_inferred",
+  "description": "Fault, thrust or slide, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   30.196,
+   9.6
+  ],
+  "period_pt": 30.196,
+  "mismatch": 0.002,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   40,
+   14
+  ]
+ },
+ {
+  "id": "fossil_horizon_algal_band",
+  "description": "Fossil horizon, algal band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.279,
+   7.2
+  ],
+  "period_pt": 19.279,
+  "mismatch": 0.077,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   10
+  ]
+ },
+ {
+  "id": "fossil_horizon_brachiopod_band",
+  "description": "Fossil horizon, brachiopod band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   19.282,
+   6.0
+  ],
+  "period_pt": 19.282,
+  "mismatch": 0.113,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   8
+  ]
+ },
+ {
+  "id": "fossil_horizon_coral_band",
+  "description": "Fossil horizon, coral band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.284,
+   6.4
+  ],
+  "period_pt": 19.284,
+  "mismatch": 0.027,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   10
+  ]
+ },
+ {
+  "id": "fossil_horizon_eustheria_band",
+  "description": "Fossil horizon, eustheria band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.271,
+   6.0
+  ],
+  "period_pt": 19.271,
+  "mismatch": 0.028,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   8
+  ]
+ },
+ {
+  "id": "fossil_horizon_lingula_band",
+  "description": "Fossil horizon, lingula band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.284,
+   6.4
+  ],
+  "period_pt": 19.284,
+  "mismatch": 0.022,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   10
+  ]
+ },
+ {
+  "id": "fossil_horizon_planolites_band",
+  "description": "Fossil horizon, planolites band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.277,
+   6.0
+  ],
+  "period_pt": 19.277,
+  "mismatch": 0.031,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   26,
+   8
+  ]
+ },
+ {
+  "id": "geological_boundary_artificial",
+  "description": "Geological boundary, artificial",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   10.267,
+   2.6
+  ],
+  "period_pt": 10.267,
+  "mismatch": 0.017,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   14,
+   4
+  ]
+ },
+ {
+  "id": "geological_boundary_drift",
+  "description": "Geological boundary, drift",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   10.26,
+   2.4
+  ],
+  "period_pt": 10.26,
+  "mismatch": 0.016,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 52
+  },
+  "sprite_px": [
+   14,
+   4
+  ]
+ },
+ {
+  "id": "geological_boundary_mass_movement",
+  "description": "Geological boundary, mass movement",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   10.261,
+   2.6
+  ],
+  "period_pt": 10.261,
+  "mismatch": 0.017,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   14,
+   4
+  ]
+ },
+ {
+  "id": "geological_boundary_solid_inferred",
+  "description": "Geological boundary, solid inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.702,
+   2.6
+  ],
+  "period_pt": 7.702,
+  "mismatch": 0.001,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   10,
+   4
+  ]
+ },
+ {
+  "id": "geological_boundary_solid_intrusive",
+  "description": "Geological boundary, solid intrusive",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.705,
+   2.8
+  ],
+  "period_pt": 7.705,
+  "mismatch": 0.002,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   10,
+   4
+  ]
+ },
+ {
+  "id": "geological_boundary_solid_intrusive_observed",
+  "description": "Geological boundary, solid intrusive observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": true,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.0,
+   2.6
+  ],
+  "period_pt": 8.0,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "geological_boundary_solid_observed",
+  "description": "Geological boundary, solid observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": true,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.0,
+   2.6
+  ],
+  "period_pt": 8.0,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "glacial_meltwater_or_overflow_channel_centre_line",
+  "description": "Glacial meltwater or overflow channel, centre line",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   99.9,
+   8.6
+  ],
+  "period_pt": 99.9,
+  "mismatch": 0.662,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   133,
+   12
+  ]
+ },
+ {
+  "id": "glacial_meltwater_channel_margins",
+  "description": "Glacial meltwater channel margins",
+  "colours": [
+   "#0091d6"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.696,
+   10.8
+  ],
+  "period_pt": 25.696,
+  "mismatch": 0.034,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   34,
+   14
+  ]
+ },
+ {
+  "id": "hydrothermal",
+  "description": "Hydrothermal",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.695,
+   14.6
+  ],
+  "period_pt": 25.695,
+  "mismatch": 0.029,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   34,
+   20
+  ]
+ },
+ {
+  "id": "igneous_cutting_margin_crossmarks_on_side_of_younger_rock_inferred",
+  "description": "Igneous cutting margin, crossmarks on side of younger rock, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.705,
+   8.6
+  ],
+  "period_pt": 7.705,
+  "mismatch": 0.021,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   10,
+   12
+  ]
+ },
+ {
+  "id": "igneous_cutting_margin_observed",
+  "description": "Igneous cutting margin, observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.698,
+   8.6
+  ],
+  "period_pt": 25.698,
+  "mismatch": 0.018,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   34,
+   12
+  ]
+ },
+ {
+  "id": "igneous_plutons",
+  "description": "Igneous plutons",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.021,
+   2.4
+  ],
+  "period_pt": 8.021,
+  "mismatch": 0.008,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "incrop_of_coal",
+  "description": "Incrop of coal",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   9.627,
+   2.6
+  ],
+  "period_pt": 9.627,
+  "mismatch": 0.012,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   13,
+   4
+  ]
+ },
+ {
+  "id": "incrop_of_marine_band",
+  "description": "Incrop of marine band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   38.612,
+   5.2
+  ],
+  "period_pt": 38.612,
+  "mismatch": 0.015,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   51,
+   8
+  ]
+ },
+ {
+  "id": "ironstone_inferred",
+  "description": "Ironstone, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.705,
+   2.8
+  ],
+  "period_pt": 7.705,
+  "mismatch": 0.002,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   10,
+   4
+  ]
+ },
+ {
+  "id": "ironstone_observed",
+  "description": "Ironstone, observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": true,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.0,
+   3.0
+  ],
+  "period_pt": 8.0,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "kettle_hole",
+  "description": "Kettle hole",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.274,
+   3.0
+  ],
+  "period_pt": 19.274,
+  "mismatch": 0.016,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   26,
+   4
+  ]
+ },
+ {
+  "id": "limit_of_diorite_grandiorite",
+  "description": "Limit of diorite / grandiorite",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   19.329,
+   11.3
+  ],
+  "period_pt": 19.329,
+  "mismatch": 0.068,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   26,
+   16
+  ]
+ },
+ {
+  "id": "limit_of_glacial_advance_gosforth_oscillation_limit",
+  "description": "Limit of glacial advance, Gosforth oscillation limit",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   16.066,
+   12.8
+  ],
+  "period_pt": 16.066,
+  "mismatch": 0.051,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   21,
+   18
+  ]
+ },
+ {
+  "id": "limit_of_glacial_advance_scottish_readvance_limit",
+  "description": "Limit of glacial advance, Scottish readvance limit",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   16.066,
+   12.2
+  ],
+  "period_pt": 16.066,
+  "mismatch": 0.047,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   21,
+   16
+  ]
+ },
+ {
+  "id": "limit_of_granite_pegmatite_vein_complex_within_area_of_veining",
+  "description": "Limit of granite / pegmatite vein complex, x \u03c0 within area of veining",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   38.536,
+   14.6
+  ],
+  "period_pt": 38.536,
+  "mismatch": 0.078,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   51,
+   20
+  ]
+ },
+ {
+  "id": "limit_of_granite_vein_complex",
+  "description": "Limit of granite vein complex",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.697,
+   14.0
+  ],
+  "period_pt": 25.697,
+  "mismatch": 0.026,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   34,
+   20
+  ]
+ },
+ {
+  "id": "limit_of_migmatisation_towards_migmatites",
+  "description": "Limit of migmatisation, \u2227 towards migmatites",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.698,
+   11.4
+  ],
+  "period_pt": 25.698,
+  "mismatch": 0.023,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   34,
+   16
+  ]
+ },
+ {
+  "id": "limit_of_transgressive_pegmatite_veins_within_areas_of_veins",
+  "description": "Limit of transgressive pegmatite veins, \u03c0 within areas of veins",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.697,
+   14.4
+  ],
+  "period_pt": 25.697,
+  "mismatch": 0.017,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   34,
+   20
+  ]
+ },
+ {
+  "id": "lineament_probably_fracture_related",
+  "description": "Lineament, probably fracture related",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.099,
+   3.2
+  ],
+  "period_pt": 15.099,
+  "mismatch": 0.002,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 53
+  },
+  "sprite_px": [
+   20,
+   4
+  ]
+ },
+ {
+  "id": "line_of_split_coal_seam_ornament_on_split_side",
+  "description": "Line of split coal seam, ornament on split side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.698,
+   15.0
+  ],
+  "period_pt": 25.698,
+  "mismatch": 0.026,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   34,
+   20
+  ]
+ },
+ {
+  "id": "magnetic_layer_or_boundary",
+  "description": "Magnetic layer or boundary",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   34.18,
+   5.6
+  ],
+  "period_pt": 34.18,
+  "mismatch": 0.04,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   46,
+   8
+  ]
+ },
+ {
+  "id": "man_made_deposit_boundary",
+  "description": "Man made deposit boundary",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   10.26,
+   2.2
+  ],
+  "period_pt": 10.26,
+  "mismatch": 0.016,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   14,
+   4
+  ]
+ },
+ {
+  "id": "marine_band",
+  "description": "Marine band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   22.804,
+   5.6
+  ],
+  "period_pt": 22.804,
+  "mismatch": 0.009,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   30,
+   8
+  ]
+ },
+ {
+  "id": "marked_break_in_slope_arrowheads_denote_uphill_side",
+  "description": "Marked break in slope, arrowheads denote uphill side",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   32.239,
+   5.6
+  ],
+  "period_pt": 32.239,
+  "mismatch": 0.028,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   43,
+   8
+  ]
+ },
+ {
+  "id": "mass_movement_boundary",
+  "description": "Mass Movement boundary",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   10.26,
+   2.2
+  ],
+  "period_pt": 10.26,
+  "mismatch": 0.016,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   14,
+   4
+  ]
+ },
+ {
+  "id": "metamorphic_aureole_towards_intrusion",
+  "description": "Metamorphic aureole, + towards intrusion",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.7,
+   10.8
+  ],
+  "period_pt": 25.7,
+  "mismatch": 0.025,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   34,
+   14
+  ]
+ },
+ {
+  "id": "metamorphic_zone_boundary_with_mineral_or_zone_number",
+  "description": "Metamorphic zone boundary with mineral or zone number",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   93.4,
+   6.6
+  ],
+  "period_pt": 93.4,
+  "mismatch": 0.38,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   125,
+   10
+  ]
+ },
+ {
+  "id": "mineral_vein_with_name_of_mineral",
+  "description": "Mineral vein, with name of mineral",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": false,
+  "solid": false,
+  "repeat_method": "full swatch",
+  "tile_pt": [
+   94.1,
+   6.0
+  ],
+  "period_pt": 94.1,
+  "mismatch": 0.424,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   125,
+   8
+  ]
+ },
+ {
+  "id": "mining_area_subsurface",
+  "description": "Mining area, subsurface",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   16.194,
+   8.8
+  ],
+  "period_pt": 16.194,
+  "mismatch": 0.04,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   22,
+   12
+  ]
+ },
+ {
+  "id": "mussel_band",
+  "description": "Mussel band",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   20.883,
+   4.8
+  ],
+  "period_pt": 20.883,
+  "mismatch": 0.015,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   28,
+   6
+  ]
+ },
+ {
+  "id": "oil_shale_inferred",
+  "description": "Oil-shale, inferred",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.705,
+   2.8
+  ],
+  "period_pt": 7.705,
+  "mismatch": 0.002,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   10,
+   4
+  ]
+ },
+ {
+  "id": "oil_shale_observed",
+  "description": "Oil-shale, observed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": true,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   8.0,
+   3.0
+  ],
+  "period_pt": 8.0,
+  "mismatch": 0.0,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "outer_edge_of_terrace",
+  "description": "Outer edge of terrace",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   48.196,
+   7.2
+  ],
+  "period_pt": 48.196,
+  "mismatch": 0.032,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   64,
+   10
+  ]
+ },
+ {
+  "id": "quarry",
+  "description": "Quarry",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   24.093,
+   5.6
+  ],
+  "period_pt": 24.093,
+  "mismatch": 0.051,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   32,
+   8
+  ]
+ },
+ {
+  "id": "sandstone_bed",
+  "description": "Sandstone bed",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   23.82,
+   4.8
+  ],
+  "period_pt": 23.82,
+  "mismatch": 0.031,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   32,
+   6
+  ]
+ },
+ {
+  "id": "subsidence_hollow_drift_not_corresponding",
+  "description": "Subsidence hollow, drift (not corresponding)",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   25.698,
+   5.4
+  ],
+  "period_pt": 25.698,
+  "mismatch": 0.012,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   34,
+   8
+  ]
+ },
+ {
+  "id": "subsidence_hollow_corresponding_to_drift_boundary",
+  "description": "Subsidence hollow, corresponding to drift boundary",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   10.287,
+   9.0
+  ],
+  "period_pt": 10.287,
+  "mismatch": 0.025,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   14,
+   12
+  ]
+ },
+ {
+  "id": "subsidence_hollow_solid_not_corresponding",
+  "description": "Subsidence hollow, solid (not corresponding)",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   7.704,
+   7.2
+  ],
+  "period_pt": 7.704,
+  "mismatch": 0.027,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   10,
+   10
+  ]
+ },
+ {
+  "id": "subsidence_hollow_corresponding_to_solid_boundary",
+  "description": "Subsidence hollow, corresponding to solid boundary",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   15.41,
+   12.4
+  ],
+  "period_pt": 15.41,
+  "mismatch": 0.018,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   21,
+   18
+  ]
+ },
+ {
+  "id": "tonstein",
+  "description": "Tonstein",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   16.7,
+   5.6
+  ],
+  "period_pt": 16.7,
+  "mismatch": 0.001,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   22,
+   8
+  ]
+ },
+ {
+  "id": "trace_of_lower_hinge_of_major_monocline",
+  "description": "Trace of lower hinge of major monocline",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   64.227,
+   7.6
+  ],
+  "period_pt": 64.227,
+  "mismatch": 0.038,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   86,
+   10
+  ]
+ },
+ {
+  "id": "trace_of_upper_hinge_of_major_monocline",
+  "description": "Trace of upper hinge of major monocline",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "decoration spacing",
+  "tile_pt": [
+   64.231,
+   8.8
+  ],
+  "period_pt": 64.231,
+  "mismatch": 0.098,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   86,
+   12
+  ]
+ },
+ {
+  "id": "unconformity_marginalia_only",
+  "description": "Unconformity ( marginalia only )",
+  "colours": [
+   "#000000"
+  ],
+  "seamless": true,
+  "solid": false,
+  "repeat_method": "autocorrelation",
+  "tile_pt": [
+   16.701,
+   5.2
+  ],
+  "period_pt": 16.701,
+  "mismatch": 0.003,
+  "source": {
+   "document": "BGS RR/01/01 v3",
+   "pdf_page": 54
+  },
+  "sprite_px": [
+   22,
+   8
+  ]
+ }
+]
